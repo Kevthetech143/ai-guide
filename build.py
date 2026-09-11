@@ -37,6 +37,18 @@ CATEGORY_NAMES = {
     "code": "Code", "search": "Search", "music": "Music", "agents": "Agents",
 }
 
+# Home-page tile order: (category, 3-6 word plain hint).
+TILE_ORDER = [
+    ("chat", "ask questions, write things"),
+    ("image", "make pictures from words"),
+    ("video", "make videos from words"),
+    ("voice", "turn text into speech"),
+    ("music", "make songs from words"),
+    ("code", "help writing computer code"),
+    ("search", "answers by looking things up"),
+    ("agents", "does multi-step jobs alone"),
+]
+
 
 def esc(s):
     return html.escape(str(s), quote=True)
@@ -52,25 +64,31 @@ def tmpl(name):
         return Template(f.read())
 
 
-def page(title, meta_description, body, style_prefix, home_href):
+def page(title, meta_description, body, style_prefix, home_href,
+         show_back_link=True):
+    topnav = ""
+    if show_back_link:
+        topnav = ('<nav class="topnav"><a href="%s">&larr; All AIs</a></nav>'
+                  % esc(home_href))
     return tmpl("base.html").substitute(
         title=esc(title),
         meta_description=esc(meta_description),
         body=body,
         style_prefix=style_prefix,
         home_href=home_href,
+        topnav=topnav,
         updated=UPDATED,
     )
 
 
-def card(provider, style_depth):
-    """Render a provider card. style_depth: 0 on home, 1 on category page."""
+def card(provider, href_prefix):
+    """Render a provider card. href_prefix: path prefix to dist/p/ from the page."""
     p = provider
     free_badge = "Free" if p["free_tier"] else "Paid"
     skill_badge = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}[p["skill_level"]]
     open_badge = "Open" if p["open_weights"] else "Closed"
     local_badge = ' <span class="badge">Runs on your computer</span>' if p["runs_on_your_computer"] else ""
-    card_href = ("p/%s.html" % p["id"]) if style_depth == 0 else ("../p/%s.html" % p["id"])
+    card_href = "%s%s.html" % (href_prefix, p["id"])
     return tmpl("card.html").substitute(
         card_href=card_href,
         name=esc(p["name"]),
@@ -92,6 +110,15 @@ def write(path, text):
         f.write(text)
 
 
+def filtered_page(providers, title, meta_description, intro_html,
+                  href_prefix, style_prefix, home_href):
+    """A filtered provider list page (used by the start-here picker)."""
+    cards = "\n".join(card(p, href_prefix) for p in providers)
+    body = intro_html + "\n" + cards
+    return page(title, meta_description, body, style_prefix, home_href,
+                show_back_link=True)
+
+
 def build():
     providers = load_providers()
     categories = sorted({c for p in providers for c in p["categories"]})
@@ -102,21 +129,24 @@ def build():
     os.makedirs(DIST)
     shutil.copytree(STATIC, os.path.join(DIST, "static"))
 
-    # home page
+    # home page: tiles in fixed order with plain hints; no back link to self
     tiles = "\n".join(
-        '<a class="tile" href="%s/index.html">%s</a>' % (c, esc(CATEGORY_NAMES.get(c, c.title())))
-        for c in categories
+        '<a class="tile" href="%s/index.html">'
+        '<span class="tile-name">%s</span>'
+        '<span class="tile-hint">%s</span></a>' % (
+            c, esc(CATEGORY_NAMES.get(c, c.title())), esc(hint))
+        for c, hint in TILE_ORDER if c in categories
     )
-    cards = "\n".join(card(p, 0) for p in providers)
+    cards = "\n".join(card(p, "p/") for p in providers)
     body = tmpl("home.html").substitute(tiles=tiles, cards=cards)
     write(os.path.join(DIST, "index.html"),
           page("Which AI should I use? - AI Guide",
                "A plain-language guide to picking an AI: what it costs, how hard it is, and where to get it.",
-               body, ".", "index.html"))
+               body, ".", "index.html", show_back_link=False))
 
     # category pages
     for c in categories:
-        cards = "\n".join(card(p, 1) for p in providers if c in p["categories"])
+        cards = "\n".join(card(p, "../p/") for p in providers if c in p["categories"])
         body = tmpl("category.html").substitute(
             category_name=esc(CATEGORY_NAMES.get(c, c.title())),
             category_blurb=esc(CATEGORY_BLURBS.get(c, "")),
@@ -152,10 +182,80 @@ def build():
                    "%s by %s: %s" % (p["name"], p["company"], p["good_for"]),
                    body, "..", "../index.html"))
 
+    # start-here picker (no JavaScript required: plain links to built lists)
+    start_urls = []
+
+    def start_write(rel, title, meta_description, intro_html, plist,
+                    href_prefix, style_prefix, home_href):
+        html_out = filtered_page(plist, title, meta_description, intro_html,
+                                 href_prefix, style_prefix, home_href)
+        write(os.path.join(DIST, "start", rel), html_out)
+        start_urls.append(BASE_URL + "start/" + rel)
+
+    cat_links = "\n".join(
+        '<a class="biglink" href="%s/">%s AIs<span class="hint">%s</span></a>' % (
+            c, esc(CATEGORY_NAMES.get(c, c.title())), esc(hint))
+        for c, hint in TILE_ORDER if c in categories
+    )
+    picker_body = (
+        "<h1>Start here</h1>\n"
+        '<p class="subtitle">Three quick questions. Tap an answer to see a short list.</p>\n'
+        "<h2>1. What do you want to make?</h2>\n" + cat_links + "\n"
+        "<h2>2. Free or paid?</h2>\n"
+        '<a class="biglink" href="free/">Free ones<span class="hint">costs nothing to try</span></a>\n'
+        '<a class="biglink" href="paid/">Paid ones<span class="hint">needs a subscription</span></a>\n'
+        "<h2>3. Runs on my computer?</h2>\n"
+        '<a class="biglink" href="local/">Runs on my computer<span class="hint">private, nothing sent to the cloud</span></a>\n'
+    )
+    write(os.path.join(DIST, "start", "index.html"),
+          page("Start here - AI Guide",
+               "Answer three quick questions and get a short plain-language list of AIs that fit.",
+               picker_body, "..", "../index.html", show_back_link=True))
+    start_urls.append(BASE_URL + "start/index.html")
+
+    free_ps = [p for p in providers if p["free_tier"]]
+    paid_ps = [p for p in providers if not p["free_tier"]]
+    local_ps = [p for p in providers if p["runs_on_your_computer"]]
+    start_write("free/index.html", "Free AIs - AI Guide",
+                "Plain-language list of AIs you can try for free.",
+                "<h1>Free AIs</h1>\n", free_ps, "../../p/", "../..", "../../index.html")
+    start_write("paid/index.html", "Paid AIs - AI Guide",
+                "Plain-language list of AIs that need a paid plan.",
+                "<h1>Paid AIs</h1>\n", paid_ps, "../../p/", "../..", "../../index.html")
+    start_write("local/index.html", "AIs that run on your computer - AI Guide",
+                "Plain-language list of AIs that run on your own computer.",
+                "<h1>Runs on your computer</h1>\n"
+                '<p class="subtitle">Private: nothing you type is sent to the cloud.</p>\n',
+                local_ps, "../../p/", "../..", "../../index.html")
+
+    for c in categories:
+        cname = CATEGORY_NAMES.get(c, c.title())
+        cat_ps = [p for p in providers if c in p["categories"]]
+        free_c = [p for p in cat_ps if p["free_tier"]]
+        paid_c = [p for p in cat_ps if not p["free_tier"]]
+        intro = ("<h1>%s AIs</h1>\n" % esc(cname)
+                 + '<p class="subtitle">%s</p>\n' % esc(CATEGORY_BLURBS.get(c, ""))
+                 + '<p><a class="biglink" href="../%s-free/">Free %s AIs</a></p>\n'
+                 % (c, esc(cname))
+                 + '<p><a class="biglink" href="../%s-paid/">Paid %s AIs</a></p>\n'
+                 % (c, esc(cname)))
+        start_write("%s/index.html" % c, "%s AIs - start here - AI Guide" % cname,
+                    "Plain-language %s AI picks, filtered for you." % c,
+                    intro, cat_ps, "../../p/", "../..", "../../index.html")
+        start_write("%s-free/index.html" % c, "Free %s AIs - AI Guide" % cname,
+                    "Plain-language list of free %s AIs." % c,
+                    "<h1>Free %s AIs</h1>\n" % esc(cname),
+                    free_c, "../../p/", "../..", "../../index.html")
+        start_write("%s-paid/index.html" % c, "Paid %s AIs - AI Guide" % cname,
+                    "Plain-language list of paid %s AIs." % c,
+                    "<h1>Paid %s AIs</h1>\n" % esc(cname),
+                    paid_c, "../../p/", "../..", "../../index.html")
+
     # sitemap.xml
     urls = [BASE_URL, BASE_URL + "index.html"]
     urls += [BASE_URL + c + "/" for c in categories]
     urls += [BASE_URL + "p/%s.html" % p["id"] for p in providers]
+    urls += start_urls
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "".join("  <url><loc>%s</loc></url>\n" % u for u in urls)
@@ -165,7 +265,8 @@ def build():
     # robots.txt
     write(os.path.join(DIST, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % BASE_URL)
 
-    print("Built %d providers, %d categories -> %s" % (len(providers), len(categories), DIST))
+    print("Built %d providers, %d categories, %d start pages -> %s"
+          % (len(providers), len(categories), len(start_urls), DIST))
 
 
 if __name__ == "__main__":

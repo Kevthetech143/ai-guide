@@ -1,15 +1,23 @@
 :root { color-scheme: light; }
 * { box-sizing: border-box; }
-body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 1.15rem; line-height: 1.6; margin: 0; color: #1a1a1a; background: #fff; }
-main { max-width: 44rem; margin: 0 auto; padding: 1rem; }
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 1.15rem; line-height: 1.65; margin: 0; color: #111; background: #fff; }
+a { color: #0b46c4; }
+main { max-width: 720px; margin: 0 auto; padding: 1rem; }
 h1 { font-size: 2rem; line-height: 1.2; margin: 0.5rem 0; }
 h2 { font-size: 1.4rem; }
 .hero { background: #f4f6ff; border-radius: 1rem; padding: 1.5rem; margin-bottom: 1.5rem; }
-.topnav { max-width: 44rem; margin: 0 auto; padding: 1rem; }
+.sitehead { max-width: 720px; margin: 0 auto; padding: 1rem 1rem 0; }
+.sitehead a { font-size: 1.5rem; font-weight: bold; color: #111; text-decoration: none; }
+.topnav { max-width: 720px; margin: 0 auto; padding: 1rem; }
 .topnav a { font-weight: bold; }
-.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr)); gap: 0.75rem; margin: 1rem 0 2rem; }
-.tile { display: block; background: #eef3ff; border-radius: 0.75rem; padding: 1rem; text-align: center; font-weight: bold; text-decoration: none; color: #1a1a1a; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: 0.75rem; margin: 1rem 0 2rem; }
+.tile { display: flex; flex-direction: column; justify-content: center; min-height: 5rem; background: #eef3ff; border-radius: 0.75rem; padding: 1.25rem 1rem; text-align: center; text-decoration: none; color: #111; }
 .tile:hover { background: #dbe6ff; }
+.tile-name { font-weight: bold; font-size: 1.2rem; }
+.tile-hint { font-size: 1rem; color: #444; margin-top: 0.25rem; }
+.biglink { display: block; background: #eef3ff; border-radius: 0.75rem; padding: 1.25rem 1rem; margin: 0.75rem 0; font-size: 1.25rem; font-weight: bold; text-decoration: none; color: #111; min-height: 3.5rem; }
+.biglink:hover { background: #dbe6ff; }
+.biglink .hint { display: block; font-weight: normal; font-size: 1rem; color: #444; margin-top: 0.25rem; }
 .card { border: 1px solid #ddd; border-radius: 0.75rem; padding: 1rem; margin: 1rem 0; }
 .card h2 { margin-top: 0; }
 .badges .badge { display: inline-block; background: #eee; border-radius: 999px; padding: 0.2rem 0.7rem; margin-right: 0.3rem; font-size: 0.95rem; }
@@ -18,6 +26,6 @@ h2 { font-size: 1.4rem; }
 .price { font-weight: bold; }
 .checked { color: #777; font-size: 0.95rem; }
 .official { font-weight: bold; }
-footer { max-width: 44rem; margin: 2rem auto 0; padding: 1rem; border-top: 1px solid #ddd; color: #666; font-size: 0.95rem; }
+footer { max-width: 720px; margin: 2rem auto 0; padding: 1rem; border-top: 1px solid #ddd; color: #666; font-size: 0.95rem; }
 .subtitle { color: #555; }
 @media (max-width: 30rem) { body { font-size: 1.2rem; } h1 { font-size: 1.7rem; } }

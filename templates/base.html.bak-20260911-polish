@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="$style_prefix/static/style.css">
 </head>
 <body>
-<header class="sitehead"><a href="$home_href">AI Guide</a></header>
-$topnav
+<nav class="topnav"><a href="$home_href">&larr; All AIs</a></nav>
 <main>
 $body
 </main>

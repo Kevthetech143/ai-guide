@@ -1,0 +1,518 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "company": "OpenAI",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$20/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for chatting, writing, homework help, planning trips, and turning word descriptions into pictures.",
+    "watch_out": "The free plan is limited and can show ads; the Plus plan costs $20 a month.",
+    "link": "https://openai.com/chatgpt/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "company": "Anthropic",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$17/month (billed annually; $20 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for writing help, summarizing long documents, answering coding questions, and thinking ideas through carefully.",
+    "watch_out": "The free plan runs out of messages fast on busy days; the Pro plan costs $20 a month when billed monthly.",
+    "link": "https://www.anthropic.com/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "company": "Google",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$19.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for quick answers, help inside Google apps like Gmail and Docs, and looking things up on the web.",
+    "watch_out": "The free version has usage limits, and the paid AI Pro plan costs $19.99 a month.",
+    "link": "https://one.google.com/intl/en_sg/about/google-ai-plans/",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "company": "xAI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free with limits",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for fun chats, quick questions, seeing what's happening on X right now, and making pictures from words.",
+    "watch_out": "The free version only lets you ask so much each day, and you need an X account to sign in.",
+    "link": "https://x.ai/grok",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "company": "Perplexity AI",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$17/month (billed annually; $20 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for looking things up and getting answers that show exactly which websites the facts came from.",
+    "watch_out": "The free plan only gives you a few deep searches each day; unlimited searches cost $20 a month.",
+    "link": "https://www.perplexity.ai/pro",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "llama",
+    "name": "Llama",
+    "company": "Meta",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Free, powerful AI you can download and run on your own computer or through Meta's own apps.",
+    "watch_out": "You have to set it up yourself or use someone else's app to talk to it.",
+    "link": "https://ai.meta.com/blog/meta-llama-3-1-ai-responsibility/",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "company": "Mistral AI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A fast, free chatbot made in Europe that answers questions, searches the web, and even makes images.",
+    "watch_out": "The free plan has daily limits, and paid plans start at $14.99 a month.",
+    "link": "https://mistral.ai/products/vibe/",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen",
+    "company": "Alibaba",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI chat assistant that is strong in many languages and can also generate images.",
+    "watch_out": "Running its biggest versions on your own computer needs serious hardware.",
+    "link": "https://qwen.ai/",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "company": "Midjourney",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Beautiful AI pictures and art that look great, made by typing a simple description.",
+    "watch_out": "There is no free plan and your pictures are public unless you pay more.",
+    "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "company": "Stability AI",
+    "categories": [
+      "image"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Free AI picture-making that runs on your own computer with no subscription and no picture limits.",
+    "watch_out": "You have to install it yourself and your computer needs a good graphics card.",
+    "link": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "flux",
+    "name": "Flux",
+    "company": "Black Forest Labs",
+    "categories": [
+      "image"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free (open weights); usage-based API pricing",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "It makes very detailed pictures from a short written description, like posters, art, or product mockups.",
+    "watch_out": "Setting it up on your own computer takes some technical steps and a strong graphics card.",
+    "link": "https://bfl.ai",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "company": "ElevenLabs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$5/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns your written words into natural-sounding spoken audio, great for videos, podcasts, or audiobooks.",
+    "watch_out": "The free plan is small, so you will hit the monthly limit quickly if you make lots of audio.",
+    "link": "https://elevenlabs.io/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "company": "Suno",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns a few words about a style or theme into a full song with music and singing.",
+    "watch_out": "Songs made on the free plan cannot be used for business or sold.",
+    "link": "https://suno.com/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "company": "Runway",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (billed annually; $15 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns your words or photos into short video clips for ads, social posts, or creative projects.",
+    "watch_out": "You spend credits for each second of video, so longer videos use them up fast.",
+    "link": "https://runway.com/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "company": "Anysphere",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$20/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "It is an app where an AI assistant helps you write, fix, and explain code right in your editor.",
+    "watch_out": "The free plan only includes a small number of AI requests each month.",
+    "link": "https://cursor.com/pricing",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "OpenAI",
+    "free_tier": true,
+    "good_for": "It turns spoken audio into written text, great for transcribing meetings, lectures, or video subtitles. It understands dozens of languages.",
+    "id": "whisper",
+    "last_checked": "2026-09-11",
+    "link": "https://github.com/openai/whisper",
+    "name": "Whisper",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "You have to install it yourself with some command-line steps, and it needs a decent computer to run well."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "OpenAI",
+    "free_tier": true,
+    "good_for": "It turns your written descriptions into short, realistic-looking video clips, even with matching sound.",
+    "id": "sora",
+    "last_checked": "2026-09-11",
+    "link": "https://sora.com",
+    "name": "Sora",
+    "open_weights": false,
+    "price_from": "$20/month (ChatGPT Plus; free with daily limits)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Free users only get a limited number of clips each day, and longer videos without watermarks need a paid plan."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Google",
+    "free_tier": false,
+    "good_for": "Google's top video maker; it turns words or photos into sharp, cinematic video clips, even with matching sound.",
+    "id": "veo",
+    "last_checked": "2026-09-11",
+    "link": "https://deepmind.google",
+    "name": "Veo",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "There is no simple monthly price; you pay per second of video, so costs add up fast."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Pika Labs",
+    "free_tier": true,
+    "good_for": "It turns your words or photos into short, fun video clips with playful effects like melting or exploding objects.",
+    "id": "pika",
+    "last_checked": "2026-09-11",
+    "link": "https://pika.art",
+    "name": "Pika",
+    "open_weights": false,
+    "price_from": "$8/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan gives you only a few short clips a month, and free clips carry a watermark."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Kuaishou",
+    "free_tier": true,
+    "good_for": "It turns words or photos into smooth, realistic-looking video clips, and you get free credits every day.",
+    "id": "kling",
+    "last_checked": "2026-09-11",
+    "link": "https://kling.kuaishou.com",
+    "name": "Kling",
+    "open_weights": false,
+    "price_from": "$10/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free daily credits only cover short clips, and longer or watermark-free videos need a paid plan."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Udio",
+    "free_tier": true,
+    "good_for": "It turns a short description into a full song with music, singing, and lyrics that you can tweak and extend.",
+    "id": "udio",
+    "last_checked": "2026-09-11",
+    "link": "https://www.udio.com",
+    "name": "Udio",
+    "open_weights": false,
+    "price_from": "$10/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Songs made on the free plan are public and cannot be used for business."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Manus",
+    "free_tier": true,
+    "good_for": "An AI helper that does multi-step jobs for you on its own, like researching a topic and building a report or a website.",
+    "id": "manus",
+    "last_checked": "2026-09-11",
+    "link": "https://manus.im",
+    "name": "Manus",
+    "open_weights": false,
+    "price_from": "$20/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It spends credits on every task, so long jobs can burn through your plan quickly; always double-check its work."
+  },
+  {
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "company": "Cognition",
+    "free_tier": true,
+    "good_for": "An AI software engineer that can plan, write, and test code for whole projects on its own in the cloud.",
+    "id": "devin",
+    "last_checked": "2026-09-11",
+    "link": "https://devin.ai",
+    "name": "Devin",
+    "open_weights": false,
+    "price_from": "$20/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It charges for the computer time it uses, so a big job can cost more than the $20 starting price."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "GitHub",
+    "free_tier": true,
+    "good_for": "It suggests code as you type right inside your editor, and it can explain code and help fix bugs.",
+    "id": "github-copilot",
+    "last_checked": "2026-09-11",
+    "link": "https://github.com/features/copilot",
+    "name": "GitHub Copilot",
+    "open_weights": false,
+    "price_from": "$10/month",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "The free plan only includes a limited number of completions and chats each month."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Anthropic",
+    "free_tier": false,
+    "good_for": "An AI coding helper that works in your terminal; it can read your whole project, make changes, and run tests.",
+    "id": "claude-code",
+    "last_checked": "2026-09-11",
+    "link": "https://www.anthropic.com/pricing",
+    "name": "Claude Code",
+    "open_weights": false,
+    "price_from": "$17/month (billed annually; $20 monthly)",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "There is no free access, and usage limits mean heavy coding days can hit the cap."
+  },
+  {
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "company": "Replit",
+    "free_tier": true,
+    "good_for": "You describe an app in plain words and its AI agent builds it and puts it on the web, all in your browser.",
+    "id": "replit",
+    "last_checked": "2026-09-11",
+    "link": "https://replit.com",
+    "name": "Replit",
+    "open_weights": false,
+    "price_from": "$20/month (billed annually; $25 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only includes small daily AI credits, and extra AI usage costs more."
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Google",
+    "free_tier": true,
+    "good_for": "A smarter way to Google: it gives full AI answers with links, and you can ask follow-up questions.",
+    "id": "google-ai-mode",
+    "last_checked": "2026-09-11",
+    "link": "https://www.google.com/aimode",
+    "name": "Google AI Mode",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "It is built into Google Search, so you need to be signed in to a Google account to use it."
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "You.com",
+    "free_tier": true,
+    "good_for": "A private search engine that answers questions with AI and shows exactly which websites the facts came from.",
+    "id": "you-com",
+    "last_checked": "2026-09-11",
+    "link": "https://you.com",
+    "name": "You.com",
+    "open_weights": false,
+    "price_from": "$15/month (billed annually; $20 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free version limits how many AI searches you can do each day."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Ollama",
+    "free_tier": true,
+    "good_for": "A free app that downloads AI models like Llama and DeepSeek and runs them on your own computer, with no internet needed after setup.",
+    "id": "ollama",
+    "last_checked": "2026-09-11",
+    "link": "https://ollama.com",
+    "name": "Ollama",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "You type commands to use it, and the bigger models need lots of computer memory."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "DeepSeek",
+    "free_tier": true,
+    "good_for": "A free AI chat assistant that is strong at math, coding, and careful step-by-step thinking.",
+    "id": "deepseek",
+    "last_checked": "2026-09-11",
+    "link": "https://chat.deepseek.com/",
+    "name": "DeepSeek",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Your chats are stored on servers in China, so do not share private details with it."
+  }
+]

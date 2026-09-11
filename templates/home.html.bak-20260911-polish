@@ -1,7 +1,6 @@
 <section class="hero">
 <h1>Which AI should I use?</h1>
 <p>Pick what you want to do. Every card is plain English: what it costs, how hard it is, and where to get it.</p>
-<p><a class="biglink" href="start/index.html">Start here: answer 3 quick questions</a></p>
 </section>
 <nav class="tiles" aria-label="Categories">
 $tiles
