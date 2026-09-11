@@ -514,5 +514,260 @@
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "Your chats are stored on servers in China, so do not share private details with it."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Ideogram",
+    "free_tier": true,
+    "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
+    "id": "ideogram",
+    "last_checked": "2026-09-11",
+    "link": "https://ideogram.ai",
+    "name": "Ideogram",
+    "open_weights": true,
+    "price_from": "$8/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Pictures you make on the free plan are public for everyone to see, and you can't keep them private without paying."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Leonardo.ai",
+    "free_tier": true,
+    "good_for": "Great for game art, character designs, and keeping the same art style across many pictures.",
+    "id": "leonardo",
+    "last_checked": "2026-09-11",
+    "link": "https://www.leonardo.ai/pricing",
+    "name": "Leonardo AI",
+    "open_weights": false,
+    "price_from": "$12/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It runs on tokens instead of a simple price, so free users only get 150 tokens a day, and keeping pictures private needs a paid plan."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Adobe",
+    "free_tier": true,
+    "good_for": "Great for business-ready pictures that are safe to use commercially, since it is trained on licensed content.",
+    "id": "adobe-firefly",
+    "last_checked": "2026-09-11",
+    "link": "https://www.adobe.com/products/firefly/plans.html",
+    "name": "Adobe Firefly",
+    "open_weights": false,
+    "price_from": "$9.99/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only gives 25 credits a month, and unused credits do not roll over to the next month."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Canva",
+    "free_tier": true,
+    "good_for": "Great for making social media posts, flyers, and presentations with AI help, right inside an easy drag-and-drop design tool.",
+    "id": "canva-ai",
+    "last_checked": "2026-09-11",
+    "link": "https://www.canva.com/pricing/",
+    "name": "Canva AI (Magic Studio)",
+    "open_weights": false,
+    "price_from": "$15/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only gives a small number of AI uses each month, and Canva prices change by country, so check the pricing page for your own price."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "HeyGen",
+    "free_tier": true,
+    "good_for": "Turns your written text into a video with a realistic AI talking person, so you can make studio-quality videos without a camera, actors, or editing skills.",
+    "id": "heygen",
+    "last_checked": "2026-09-11",
+    "link": "https://www.heygen.com/pricing",
+    "name": "HeyGen",
+    "open_weights": false,
+    "price_from": "$29/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "You pay with credits and each video costs credits, so making lots of videos can get expensive; the free plan also only gives 3 videos a month and adds a watermark."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Luma AI",
+    "free_tier": false,
+    "good_for": "It turns a written description or a photo into a realistic short video clip, like making a still photo move or describing a scene and watching it come to life.",
+    "id": "luma",
+    "last_checked": "2026-09-11",
+    "link": "https://lumalabs.ai/learning-hub/dream-machine-support-pricing-information",
+    "name": "Luma Dream Machine",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Clips are short (about 5 to 10 seconds each), and the pricing page lists paid plans only, so you likely need to pay before you can create anything."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "MiniMax",
+    "free_tier": true,
+    "good_for": "It turns your words or photos into short AI videos in just a few clicks.",
+    "id": "hailuo",
+    "last_checked": "2026-09-11",
+    "link": "https://hailuoai.video",
+    "name": "Hailuo AI",
+    "open_weights": false,
+    "price_from": "$14.99/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free version puts a watermark on your videos, and clips are short — only about 6 to 10 seconds each."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Murf AI",
+    "free_tier": true,
+    "good_for": "Murf is best at turning typed scripts into natural-sounding voiceovers for videos, podcasts, and presentations.",
+    "id": "murf",
+    "last_checked": "2026-09-11",
+    "link": "https://murf.ai/pricing",
+    "name": "Murf AI",
+    "open_weights": false,
+    "price_from": "$19/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "PlayAI",
+    "free_tier": false,
+    "good_for": "It turns your written text into realistic spoken audio using over 600 voices in 142 languages and accents.",
+    "id": "playht",
+    "last_checked": "2026-09-11",
+    "link": "https://play.ht/pricing",
+    "name": "PlayAI (formerly PlayHT)",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "It is priced by how much audio you make, so heavy use or voice cloning can get expensive fast."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Microsoft",
+    "free_tier": true,
+    "good_for": "You can ask it questions, write emails, and make pictures using plain words — no training needed, and the basic chat is free.",
+    "id": "microsoft-copilot",
+    "last_checked": "2026-09-11",
+    "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise",
+    "name": "Microsoft Copilot",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free version has usage limits, and paid plan prices change often, so check Microsoft's site for the current price."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Meta",
+    "free_tier": true,
+    "good_for": "It's free and already lives inside WhatsApp, Instagram, and Messenger, so you can ask it things right where you already chat with people.",
+    "id": "meta-ai",
+    "last_checked": "2026-09-11",
+    "link": "https://www.meta.ai/",
+    "name": "Meta AI",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Your conversations may be used to train Meta's AI models unless you opt out, so avoid sharing private details with it."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Zapier",
+    "free_tier": true,
+    "good_for": "It connects your apps and does boring tasks for you — like saving email attachments to Google Drive — without writing any code, and an AI helper builds the workflows from a plain sentence.",
+    "id": "zapier-ai",
+    "last_checked": "2026-09-11",
+    "link": "https://zapier.com/blog/zapier-pricing/",
+    "name": "Zapier AI",
+    "open_weights": false,
+    "price_from": "$19.99/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan covers only 100 tasks a month and caps workflows at two steps, so costs rise quickly as you automate more."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "n8n",
+    "free_tier": true,
+    "good_for": "It lets you build powerful step-by-step automations across hundreds of apps, and the free Community edition runs on your own machine with no limits on executions.",
+    "id": "n8n",
+    "last_checked": "2026-09-11",
+    "link": "https://n8n.io/pricing/",
+    "name": "n8n",
+    "open_weights": false,
+    "price_from": "Check site",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It's built for technical users, so the first setup can feel hard if you've never made a workflow before."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Google",
+    "free_tier": true,
+    "good_for": "It's a free, openly available AI model from Google (built with the same research as Gemini) that developers can download, customize, and build with.",
+    "id": "gemma",
+    "last_checked": "2026-09-11",
+    "link": "https://ai.google.dev/gemma/docs",
+    "name": "Gemma",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "hard",
+    "watch_out": "Gemma is a raw model, not an app — you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "LM Studio",
+    "free_tier": true,
+    "good_for": "It's a free desktop app that runs AI models right on your computer, so everything stays private and nothing you type is sent to the cloud.",
+    "id": "lm-studio",
+    "last_checked": "2026-09-11",
+    "link": "https://lmstudio.ai/",
+    "name": "LM Studio",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "You need a fairly strong computer (at least 8GB of memory, 16GB recommended), and downloading a good model can take a while."
   }
 ]

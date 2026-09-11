@@ -33,3 +33,21 @@
 - You.com (you-com): https://you.com
 - Ollama (ollama): https://ollama.com
 - DeepSeek (deepseek): https://chat.deepseek.com/
+
+# ai-guide-003b sources (checked 2026-09-11)
+
+- Ideogram (ideogram): https://ideogram.ai
+- Leonardo AI (leonardo): https://www.leonardo.ai/pricing
+- Adobe Firefly (adobe-firefly): https://www.adobe.com/products/firefly/plans.html
+- Canva AI (Magic Studio) (canva-ai): https://www.canva.com/pricing/
+- HeyGen (heygen): https://www.heygen.com/pricing
+- Luma Dream Machine (luma): https://lumalabs.ai/learning-hub/dream-machine-support-pricing-information
+- Hailuo AI (hailuo): https://hailuoai.video
+- Murf AI (murf): https://murf.ai/pricing
+- PlayAI (formerly PlayHT) (playht): https://play.ht/pricing
+- Microsoft Copilot (microsoft-copilot): https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise
+- Meta AI (meta-ai): https://www.meta.ai/
+- Zapier AI (zapier-ai): https://zapier.com/blog/zapier-pricing/
+- n8n (n8n): https://n8n.io/pricing/
+- Gemma (gemma): https://ai.google.dev/gemma/docs
+- LM Studio (lm-studio): https://lmstudio.ai/
