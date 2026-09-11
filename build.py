@@ -119,6 +119,18 @@ def page(title, meta_description, body, style_prefix, home_href,
     )
 
 
+def badges(p):
+    """Badge spans with semantic classes for the redesigned templates."""
+    free_txt = "Free" if p["free_tier"] else "Paid"
+    free_cls = "badge-free" if p["free_tier"] else "badge-paid"
+    skill_txt = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}[p["skill_level"]]
+    open_txt = "Open" if p["open_weights"] else "Closed"
+    open_cls = "badge-open" if p["open_weights"] else ""
+    local = ' <span class="badge">Runs on your computer</span>' if p["runs_on_your_computer"] else ""
+    return ('<span class="badge %s">%s</span> <span class="badge">%s</span> '
+            '<span class="badge %s">%s</span>%s' % (free_cls, free_txt, skill_txt, open_cls, open_txt, local))
+
+
 def card(provider, href_prefix):
     """Render a provider card. href_prefix: path prefix to dist/p/ from the page."""
     p = provider
@@ -130,10 +142,8 @@ def card(provider, href_prefix):
     return tmpl("card.html").substitute(
         card_href=card_href,
         name=esc(p["name"]),
-        free_badge=free_badge,
+        badges=badges(p),
         skill_badge=skill_badge,
-        open_badge=open_badge,
-        local_badge=local_badge,
         good_for=esc(p["good_for"]),
         price_from=esc(p["price_from"]),
         watch_out=esc(p["watch_out"]),
@@ -182,7 +192,8 @@ def build():
     )
     cards = "\n".join(card(p, "p/") for p in providers)
     body = tmpl("home.html").substitute(tiles=tiles, cards=cards,
-                                        questions=question_links)
+                                        questions=question_links,
+                                        provider_count=len(providers))
     write(os.path.join(DIST, "index.html"),
           page("Which AI should I use? - AI Guide",
                "A plain-language guide to picking an AI: what it costs, how hard it is, and where to get it.",
@@ -193,6 +204,7 @@ def build():
     for c in categories:
         cards = "\n".join(card(p, "../p/") for p in providers if c in p["categories"])
         body = tmpl("category.html").substitute(
+            category_kicker="Category",
             category_name=esc(CATEGORY_NAMES.get(c, c.title())),
             category_blurb=esc(CATEGORY_BLURBS.get(c, "")),
             cards=cards,
@@ -212,10 +224,8 @@ def build():
         body = tmpl("provider.html").substitute(
             name=esc(p["name"]),
             company=esc(p["company"]),
-            free_badge=free_badge,
+            badges=badges(p),
             skill_badge=skill_badge,
-            open_badge=open_badge,
-            local_badge=local_badge,
             good_for=esc(p["good_for"]),
             price_from=esc(p["price_from"]),
             watch_out=esc(p["watch_out"]),

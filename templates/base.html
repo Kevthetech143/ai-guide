@@ -13,11 +13,13 @@
 <link rel="stylesheet" href="$style_prefix/static/style.css">
 </head>
 <body>
-<header class="sitehead"><a href="$home_href">AI Guide</a></header>
-$topnav
+<header class="sitehead"><div class="sitehead-inner">
+<a class="brand" href="$home_href">AI Guide<span class="tagline">plain answers for real people</span></a>
+</div></header>
+<div class="crumbwrap"><div class="sitehead-inner">$topnav</div></div>
 <main>
 $body
 </main>
-<footer>Updated $updated. Simple plain-language guide &mdash; no tracking, no sign-ups.</footer>
+<footer><div class="footer-inner">Updated $updated. A plain-language guide &mdash; no tracking, no sign-ups, no jargon without an explanation.</div></footer>
 </body>
 </html>
