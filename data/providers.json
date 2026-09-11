@@ -769,5 +769,266 @@
     "runs_on_your_computer": true,
     "skill_level": "medium",
     "watch_out": "You need a fairly strong computer (at least 8GB of memory, 16GB recommended), and downloading a good model can take a while."
+  },
+  {
+    "id": "character-ai",
+    "name": "Character AI",
+    "company": "Character AI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$9.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for chatting and roleplaying with fun characters you pick or create yourself - story heroes, historical figures, and helpful personas.",
+    "watch_out": "The free plan has daily limits, and the characters sometimes make things up; the paid plan costs $9.99 a month.",
+    "link": "https://character.ai",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "poe",
+    "name": "Poe",
+    "company": "Quora",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$19.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for trying many different AI models in one app - GPT, Claude, Llama, and more - and comparing their answers side by side.",
+    "watch_out": "The free plan limits how much you can chat each day; the paid plan costs $19.99 a month.",
+    "link": "https://poe.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "duckduckgo-ai-chat",
+    "name": "DuckDuckGo AI Chat",
+    "company": "DuckDuckGo",
+    "categories": [
+      "chat",
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for asking questions in private - it does not track you, and you can switch between models like GPT, Claude, and Llama.",
+    "watch_out": "Chats are anonymous, so they are not saved when you leave the page.",
+    "link": "https://duck.ai",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "codex",
+    "name": "OpenAI Codex",
+    "company": "OpenAI",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month (with ChatGPT Plus)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Great for programmers: it works inside your terminal, writes new features, fixes bugs, and runs your tests for you.",
+    "watch_out": "It is a tool for people who code, not beginners; you need a paid ChatGPT plan to use it.",
+    "link": "https://openai.com/codex",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "company": "Cognition",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$15/month",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "An AI code editor that understands your whole project and can change many files at once, with you watching each step.",
+    "watch_out": "The free plan gives you a limited number of AI prompts each month; the Pro plan costs $15 a month.",
+    "link": "https://windsurf.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "company": "Lovable",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$25/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for non-programmers: describe the app or website you want in plain words and it builds a working version for you.",
+    "watch_out": "The free plan only gives you a few builds each day, and big projects use up credits fast; the Pro plan costs $25 a month.",
+    "link": "https://lovable.dev",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "company": "Otter.ai",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Check site",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Joins your meetings and writes down what everyone says, so you get notes and summaries without typing a word.",
+    "watch_out": "The free plan only covers a limited number of meeting minutes, and it needs access to join your calls.",
+    "link": "https://otter.ai",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "company": "Descript",
+    "categories": [
+      "voice",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$16/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for editing podcasts and videos by editing the written transcript - delete a sentence and it is gone from the recording, like editing a document.",
+    "watch_out": "The free plan only includes about one hour of editing a month; paid plans start at $16 a month when billed yearly.",
+    "link": "https://www.descript.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "company": "Google",
+    "categories": [
+      "search",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for studying: upload your documents and ask it questions, or turn them into a podcast-style audio chat between two AI hosts.",
+    "watch_out": "It only answers from the documents you upload, so weak sources mean weak answers.",
+    "link": "https://notebooklm.google.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "photoshop-generative-fill",
+    "name": "Photoshop (generative fill)",
+    "company": "Adobe",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$9.99/month (with Photoshop)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Inside Photoshop, add or remove anything in a photo with a text prompt - the AI fills in the rest to match.",
+    "watch_out": "You need a paid Photoshop or Creative Cloud plan, and it takes some practice to use well.",
+    "link": "https://www.adobe.com/products/photoshop.html",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "removebg",
+    "name": "Remove.bg",
+    "company": "Kaleido AI",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Check site",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Removes the background from any photo in seconds with one click - great for product shots and profile pictures.",
+    "watch_out": "Free downloads are limited and smaller; full-quality images need credits or a plan.",
+    "link": "https://www.remove.bg",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "capcut-ai",
+    "name": "CapCut AI",
+    "company": "ByteDance",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A free video editor from the maker of TikTok with AI captions, background removal, and text-to-speech built right in.",
+    "watch_out": "Some features and cloud storage need the paid Pro plan; it is best for short videos, not full movies.",
+    "link": "https://www.capcut.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "openai-agent",
+    "name": "ChatGPT agent",
+    "company": "OpenAI",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month (with ChatGPT Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for multi-step online chores: it browses the web, fills out forms, compares prices, and finishes tasks for you.",
+    "watch_out": "It needs a paid ChatGPT plan, and you should check its work before it books or buys anything.",
+    "link": "https://openai.com",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "perplexity-comet",
+    "name": "Perplexity Comet",
+    "company": "Perplexity AI",
+    "categories": [
+      "agents",
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A web browser with an AI assistant built in that can summarize pages, compare products, and do small tasks for you.",
+    "watch_out": "It collects your browsing history to target ads, and the advanced agent features need a paid plan.",
+    "link": "https://www.perplexity.ai",
+    "last_checked": "2026-09-11"
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "company": "Moonshot AI",
+    "categories": [
+      "chat",
+      "search"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A free chatbot that handles very long documents and searches the web, with open models you can also run yourself.",
+    "watch_out": "It is made by a Chinese company, so think carefully about what personal details you share.",
+    "link": "https://www.kimi.com",
+    "last_checked": "2026-09-11"
   }
 ]

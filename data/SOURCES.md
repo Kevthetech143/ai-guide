@@ -51,3 +51,20 @@
 - n8n (n8n): https://n8n.io/pricing/
 - Gemma (gemma): https://ai.google.dev/gemma/docs
 - LM Studio (lm-studio): https://lmstudio.ai/
+# ai-guide-003c sources (checked 2026-09-11)
+
+- Character AI (character-ai): https://character.ai
+- Poe (poe): https://poe.com
+- DuckDuckGo AI Chat (duckduckgo-ai-chat): https://duck.ai
+- OpenAI Codex (codex): https://openai.com/codex
+- Windsurf (windsurf): https://windsurf.com
+- Lovable (lovable): https://lovable.dev
+- Otter.ai (otter): https://otter.ai
+- Descript (descript): https://www.descript.com
+- NotebookLM (notebooklm): https://notebooklm.google.com
+- Photoshop (generative fill) (photoshop-generative-fill): https://www.adobe.com/products/photoshop.html
+- Remove.bg (removebg): https://www.remove.bg
+- CapCut AI (capcut-ai): https://www.capcut.com
+- ChatGPT agent (openai-agent): https://openai.com
+- Perplexity Comet (perplexity-comet): https://www.perplexity.ai
+- Kimi (kimi): https://www.kimi.com
