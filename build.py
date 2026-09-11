@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Static-site builder for the plain-language AI-provider guide.
 
-Reads data/providers.json + templates/, writes dist/.
+Reads data/providers.json + data/questions.json + templates/, writes dist/.
 STDLIB ONLY - no pip needed.
 
 Usage: python3 build.py
@@ -15,6 +15,7 @@ from string import Template
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data", "providers.json")
+QUESTIONS = os.path.join(ROOT, "data", "questions.json")
 TEMPLATES = os.path.join(ROOT, "templates")
 STATIC = os.path.join(ROOT, "static")
 DIST = os.path.join(ROOT, "dist")
@@ -59,13 +60,47 @@ def load_providers():
         return json.load(f)
 
 
+def load_questions():
+    with open(QUESTIONS, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def question_matches(provider, rule):
+    """A provider matches a filter rule if every condition holds.
+
+    Rule keys: "categories" (list; provider matches if any listed category
+    is in the provider's categories), or a provider field name compared
+    for exact equality (e.g. "free_tier": true).
+    """
+    for key, want in rule.items():
+        if key == "categories":
+            if not any(c in provider.get("categories", []) for c in want):
+                return False
+        elif provider.get(key) != want:
+            return False
+    return True
+
+
 def tmpl(name):
     with open(os.path.join(TEMPLATES, name), encoding="utf-8") as f:
         return Template(f.read())
 
 
+
+def seo_meta_desc(name, company, good_for):
+    """Meta description for a provider page, always under 155 chars
+    measured after HTML escaping (as it appears in the <meta> tag)."""
+    base = "%s by %s: " % (name, company)
+    gf = good_for
+    budget = 154 - len(esc(base)) - len(esc("..."))
+    while len(esc(gf)) > budget and gf:
+        gf = gf[:-1]
+    gf = gf.rstrip()
+    return base + gf + ("..." if gf != good_for else "")
+
+
 def page(title, meta_description, body, style_prefix, home_href,
-         show_back_link=True):
+         show_back_link=True, canonical=None):
     topnav = ""
     if show_back_link:
         topnav = ('<nav class="topnav"><a href="%s">&larr; All AIs</a></nav>'
@@ -78,6 +113,9 @@ def page(title, meta_description, body, style_prefix, home_href,
         home_href=home_href,
         topnav=topnav,
         updated=UPDATED,
+        canonical=esc(canonical or BASE_URL),
+        og_title=esc(title),
+        og_description=esc(meta_description),
     )
 
 
@@ -111,16 +149,17 @@ def write(path, text):
 
 
 def filtered_page(providers, title, meta_description, intro_html,
-                  href_prefix, style_prefix, home_href):
+                  href_prefix, style_prefix, home_href, canonical):
     """A filtered provider list page (used by the start-here picker)."""
     cards = "\n".join(card(p, href_prefix) for p in providers)
     body = intro_html + "\n" + cards
     return page(title, meta_description, body, style_prefix, home_href,
-                show_back_link=True)
+                show_back_link=True, canonical=canonical)
 
 
 def build():
     providers = load_providers()
+    questions = load_questions()
     categories = sorted({c for p in providers for c in p["categories"]})
 
     # fresh dist
@@ -137,12 +176,18 @@ def build():
             c, esc(CATEGORY_NAMES.get(c, c.title())), esc(hint))
         for c, hint in TILE_ORDER if c in categories
     )
+    question_links = "\n".join(
+        '<a class="biglink" href="best/%s/">%s</a>' % (q["slug"], esc(q["title"]))
+        for q in questions
+    )
     cards = "\n".join(card(p, "p/") for p in providers)
-    body = tmpl("home.html").substitute(tiles=tiles, cards=cards)
+    body = tmpl("home.html").substitute(tiles=tiles, cards=cards,
+                                        questions=question_links)
     write(os.path.join(DIST, "index.html"),
           page("Which AI should I use? - AI Guide",
                "A plain-language guide to picking an AI: what it costs, how hard it is, and where to get it.",
-               body, ".", "index.html", show_back_link=False))
+               body, ".", "index.html", show_back_link=False,
+               canonical=BASE_URL))
 
     # category pages
     for c in categories:
@@ -155,7 +200,8 @@ def build():
         write(os.path.join(DIST, c, "index.html"),
               page("%s AIs - AI Guide" % CATEGORY_NAMES.get(c, c.title()),
                    "Plain-language %s AI picks: costs, difficulty, and official links." % c,
-                   body, "..", "../index.html"))
+                   body, "..", "../index.html",
+                   canonical=BASE_URL + c + "/"))
 
     # provider pages
     for p in providers:
@@ -177,20 +223,24 @@ def build():
             link=esc(p["link"]),
             last_checked=esc(p["last_checked"]),
         )
+        meta_desc = seo_meta_desc(p["name"], p["company"], p["good_for"])
         write(os.path.join(DIST, "p", "%s.html" % p["id"]),
               page("%s - AI Guide" % p["name"],
-                   "%s by %s: %s" % (p["name"], p["company"], p["good_for"]),
-                   body, "..", "../index.html"))
+                   meta_desc,
+                   body, "..", "../index.html",
+                   canonical=BASE_URL + "p/%s.html" % p["id"]))
 
     # start-here picker (no JavaScript required: plain links to built lists)
     start_urls = []
 
     def start_write(rel, title, meta_description, intro_html, plist,
                     href_prefix, style_prefix, home_href):
+        canonical = BASE_URL + "start/" + rel
         html_out = filtered_page(plist, title, meta_description, intro_html,
-                                 href_prefix, style_prefix, home_href)
+                                 href_prefix, style_prefix, home_href,
+                                 canonical=canonical)
         write(os.path.join(DIST, "start", rel), html_out)
-        start_urls.append(BASE_URL + "start/" + rel)
+        start_urls.append(canonical)
 
     cat_links = "\n".join(
         '<a class="biglink" href="%s/">%s AIs<span class="hint">%s</span></a>' % (
@@ -210,7 +260,8 @@ def build():
     write(os.path.join(DIST, "start", "index.html"),
           page("Start here - AI Guide",
                "Answer three quick questions and get a short plain-language list of AIs that fit.",
-               picker_body, "..", "../index.html", show_back_link=True))
+               picker_body, "..", "../index.html", show_back_link=True,
+               canonical=BASE_URL + "start/index.html"))
     start_urls.append(BASE_URL + "start/index.html")
 
     free_ps = [p for p in providers if p["free_tier"]]
@@ -251,11 +302,30 @@ def build():
                     "<h1>Paid %s AIs</h1>\n" % esc(cname),
                     paid_c, "../../p/", "../..", "../../index.html")
 
+    # SEO question pages: data-driven from data/questions.json
+    best_urls = []
+    for q in questions:
+        slug = q["slug"]
+        matched = [p for p in providers if question_matches(p, q["filter"])]
+        cards = "\n".join(card(p, "../../p/") for p in matched)
+        body = ("<h1>%s</h1>\n" % esc(q["title"])
+                + '<p class="subtitle">%s</p>\n' % esc(q["intro"])
+                + cards + "\n"
+                + '<p class="method">How we picked: %s</p>\n' % esc(q["how_picked"])
+                + '<p class="checked">Last checked %s</p>\n' % UPDATED)
+        canonical = BASE_URL + "best/%s/" % slug
+        write(os.path.join(DIST, "best", slug, "index.html"),
+              page(q["seo_title"], q["meta_description"], body, "../..",
+                   "../../index.html", canonical=canonical))
+        best_urls.append(canonical)
+    print("Built %d SEO question pages" % len(best_urls))
+
     # sitemap.xml
     urls = [BASE_URL, BASE_URL + "index.html"]
     urls += [BASE_URL + c + "/" for c in categories]
     urls += [BASE_URL + "p/%s.html" % p["id"] for p in providers]
     urls += start_urls
+    urls += best_urls
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "".join("  <url><loc>%s</loc></url>\n" % u for u in urls)
@@ -265,8 +335,8 @@ def build():
     # robots.txt
     write(os.path.join(DIST, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n" % BASE_URL)
 
-    print("Built %d providers, %d categories, %d start pages -> %s"
-          % (len(providers), len(categories), len(start_urls), DIST))
+    print("Built %d providers, %d categories, %d start pages, %d question pages -> %s"
+          % (len(providers), len(categories), len(start_urls), len(best_urls), DIST))
 
 
 if __name__ == "__main__":
