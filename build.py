@@ -49,11 +49,10 @@ CATEGORY_NAMES = {
 }
 
 # Labels used in the start-here picker flow (plain words, not category jargon).
-START_LABELS = {"agents": "Task helpers"}
-
-
+# One plain name for every category on every surface (round-4 fix:
+# home tiles, picker, category h1s/titles, /all/ headings — no "X AIs").
 def start_label(c):
-    return START_LABELS.get(c, "%s AIs" % CATEGORY_NAMES.get(c, c.title()))
+    return CATEGORY_NAMES.get(c, c.title())
 
 
 # One-line chip legend shown above the first card on every list page
@@ -61,6 +60,8 @@ def start_label(c):
 LEGEND_HTML = ('<p class="legend">Badges, in plain words: '
                '<strong>Open source</strong> &mdash; anyone can download and inspect how it works. '
                '<strong>Company-made</strong> &mdash; a company runs it for you. '
+               '<strong>Free</strong> &mdash; you can use the main features without paying. '
+               '<strong>Paid</strong> &mdash; you need to pay, usually a monthly plan. '
                '<strong>Runs on your computer</strong> &mdash; it runs on your own device, nothing sent to the cloud. '
                '<strong>Easy / Medium / Hard</strong> &mdash; how tricky it is to set up and use.</p>')
 
@@ -186,6 +187,11 @@ def price_line(p):
         if p["free_tier"]:
             return "Free to try; check the provider's site for paid plans"
         return "No monthly price listed \u2014 check the provider's site"
+    # Round-5 fix: scrub developer jargon out of price rows ("open weights",
+    # "usage-based API pricing") — plain words, same facts, never data/.
+    pf = (pf.replace("(open weights)", "")
+            .replace("usage-based API pricing", "pay-per-use options"))
+    pf = " ".join(pf.split()).replace(" ;", ";")
     if p["free_tier"] and "free" not in pf.lower():
         return "Free tier available; paid plans from " + esc(pf)
     return esc(pf)
@@ -259,7 +265,11 @@ def build():
     # "Task helpers" name on every surface via start_label).
     for c in categories:
         label = start_label(c)
-        cards = "\n".join(card(p, "../p/") for p in providers if c in p["categories"])
+        # Round-5 fix: free-first order on category pages — a 60-year-old
+        # hunting for free should not scroll past the paid ones.
+        cat_ps = sorted((p for p in providers if c in p["categories"]),
+                       key=lambda p: (not p["free_tier"], p["name"]))
+        cards = "\n".join(card(p, "../p/") for p in cat_ps)
         body = tmpl("category.html").substitute(
             category_kicker="Category",
             category_name=esc(label),
