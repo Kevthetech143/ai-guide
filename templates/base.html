@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#FBFAF6">
 <title>$title</title>
 <meta name="description" content="$meta_description">
 <link rel="canonical" href="$canonical">
@@ -13,13 +14,15 @@
 <link rel="stylesheet" href="$style_prefix/static/style.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="sitehead"><div class="sitehead-inner">
 <a class="brand" href="$home_href">AI Guide<span class="tagline">plain answers for real people</span></a>
+<nav class="site-nav" aria-label="Site"><a href="$start_href"$start_current>Start here</a></nav>
 </div></header>
-<div class="crumbwrap"><div class="sitehead-inner">$topnav</div></div>
-<main>
+$topnav
+<main id="main">
 $body
 </main>
-<footer><div class="footer-inner">Updated $updated. A plain-language guide &mdash; no tracking, no sign-ups, no jargon without an explanation.</div></footer>
+<footer><div class="footer-inner">Updated $updated. A plain-language guide &mdash; no tracking, no sign-ups, no jargon without an explanation. $about_link.</div></footer>
 </body>
 </html>

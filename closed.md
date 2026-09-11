@@ -1,0 +1,2 @@
+- 2026-09-11 006a worker reaped after ACK but delivered all files; verified + deployed redesign v2 (files landed, no close = verify and move on)
+- ops/redesign-*.png — local screenshots of v2 before polish

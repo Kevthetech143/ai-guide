@@ -1,4 +1,4 @@
-/* AI Guide — redesign 2026-09-11 (ai-guide-006a). Static, no external requests. */
+/* AI Guide — redesign 2026-09-11 (ai-guide-006a), polish round 1 (ai-guide-006b). Static, no external requests. */
 :root {
   color-scheme: light;
   --paper: #FBFAF6;
@@ -22,11 +22,20 @@ body {
   font-size: 1.125rem; line-height: 1.7; margin: 0;
   color: var(--ink); background: var(--paper);
 }
-a { color: var(--link); text-underline-offset: 0.15em; }
+a { color: var(--link); text-underline-offset: 0.15em; touch-action: manipulation; }
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
+/* Skip link: invisible until keyboard-focused */
+.skip { position: absolute; left: -9999px; top: 0; background: var(--teal); color: #fff; padding: 0.75rem 1.25rem; z-index: 100; border-radius: 0 0 0.5rem 0; font-weight: 700; }
+.skip:focus-visible { left: 0; color: #fff; }
 main, .sitehead-inner, .footer-inner { max-width: 44rem; margin: 0 auto; padding-left: 1.25rem; padding-right: 1.25rem; }
 main { padding-bottom: 3rem; }
+
+/* Restrained motion (emilkowalski-motion): quick state feedback only, transform/opacity/color.
+   The prefers-reduced-motion block at the end disables all of it. */
+a, .tile, .biglink, .btn, .start-card, .badge {
+  transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
 
 /* Header */
 .sitehead { border-bottom: 3px solid var(--teal); background: var(--paper); }
@@ -34,16 +43,22 @@ main { padding-bottom: 3rem; }
 .brand { font-size: 1.375rem; font-weight: 800; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
 .brand:hover { color: var(--teal-deep); }
 .tagline { display: block; font-size: 0.95rem; color: var(--muted); font-weight: 400; margin-top: 0.1rem; }
+.site-nav { margin-top: 0.35rem; }
+.site-nav a { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 700; color: var(--teal-deep); text-decoration: none; }
+.site-nav a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+.site-nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; }
 .topnav { padding: 0.9rem 0 0; font-size: 1rem; }
 .topnav a { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 600; color: var(--ink); text-decoration: none; }
 .topnav a:hover { color: var(--teal-deep); text-decoration: underline; }
 
 /* Type */
-h1 { font-size: clamp(2rem, 6vw, 2.5rem); line-height: 1.15; letter-spacing: -0.015em; margin: 2rem 0 0.75rem; font-weight: 800; }
-h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weight: 750; }
+h1 { font-size: clamp(2rem, 6vw, 2.5rem); line-height: 1.15; letter-spacing: -0.015em; margin: 2rem 0 0.75rem; font-weight: 800; text-wrap: balance; }
+h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weight: 750; text-wrap: balance; }
 .kicker { font-size: 0.95rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); margin: 2.5rem 0 0.5rem; }
 .subtitle, .lede { color: var(--muted); font-size: 1.2rem; line-height: 1.6; }
 .lede { max-width: 34rem; }
+.freshness { color: var(--muted); font-size: 1rem; margin: 0.25rem 0 0; }
+.legend { font-size: 1rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 1rem; margin: 1.5rem 0 0.5rem; }
 
 /* Hero */
 .hero h1 { font-size: clamp(2.5rem, 9vw, 3.75rem); line-height: 1.05; letter-spacing: -0.02em; margin: 0.5rem 0 1rem; }
@@ -53,11 +68,13 @@ h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weigh
   padding: 1.25rem 1.25rem; margin: 1.5rem 0 0.5rem; text-decoration: none;
   min-height: 44px; box-shadow: 0 2px 10px rgb(14 107 92 / 0.25);
 }
-.start-card:hover { background: var(--teal-deep); color: #fff; }
+.start-card:hover { background: var(--teal-deep); color: #fff; transform: translateY(-1px); }
 .start-card strong { display: block; font-size: 1.25rem; font-weight: 750; }
 .start-card .hint { display: block; font-weight: 400; font-size: 1rem; opacity: 0.92; margin-top: 0.25rem; }
 
-/* Category index (numbered editorial list, not a tile grid) */
+/* Category index (numbered editorial list, not a tile grid).
+   Explicit grid placement: number | text | arrow. (Round-1 fix: the two text
+   spans used to auto-place into the wrong columns and the arrow wrapped.) */
 .catindex { margin: 1rem 0 0; padding: 0; border-top: 1px solid var(--line); counter-reset: cat; }
 .tile {
   display: grid; grid-template-columns: 3rem 1fr auto; align-items: center; gap: 0.75rem;
@@ -67,21 +84,25 @@ h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weigh
 .tile::before {
   counter-increment: cat; content: "0" counter(cat);
   font-size: 0.95rem; font-weight: 700; color: var(--teal); font-variant-numeric: tabular-nums;
+  grid-column: 1; grid-row: 1 / span 2;
 }
 .tile:hover { background: rgb(14 107 92 / 0.06); }
-.tile::after { content: "\2192"; color: var(--teal); font-weight: 700; font-size: 1.25rem; }
-.tile-name { font-weight: 700; font-size: 1.15rem; display: block; }
-.tile-hint { font-size: 1rem; color: var(--muted); display: block; }
+.tile::after { content: "\2192"; color: var(--teal); font-weight: 700; font-size: 1.25rem; grid-column: 3; grid-row: 1 / span 2; white-space: nowrap; }
+.tile-name { font-weight: 700; font-size: 1.15rem; display: block; grid-column: 2; grid-row: 1; }
+.tile-hint { font-size: 1rem; color: var(--muted); display: block; grid-column: 2; grid-row: 2; }
 
-/* Big question links */
+/* Big question links.
+   .biglink-label keeps label+hint as ONE flex item so the arrow stays right
+   and the label never wraps weirdly. (Round-1 fix.) */
 .biglink {
   display: flex; justify-content: space-between; align-items: center; gap: 1rem;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.1rem 1.25rem; margin: 0.75rem 0; font-size: 1.15rem; font-weight: 650;
   text-decoration: none; color: var(--ink); min-height: 56px;
 }
-.biglink:hover { border-color: var(--teal); box-shadow: 0 2px 8px rgb(28 26 23 / 0.08); }
-.biglink::after { content: "\2192"; color: var(--teal); font-weight: 700; }
+.biglink:hover { border-color: var(--teal); box-shadow: 0 2px 8px rgb(28 26 23 / 0.08); transform: translateY(-1px); }
+.biglink-label { flex: 1 1 auto; min-width: 0; }
+.biglink::after { content: "\2192"; color: var(--teal); font-weight: 700; flex: 0 0 auto; white-space: nowrap; }
 .biglink .hint { display: block; font-weight: 400; font-size: 1rem; color: var(--muted); margin-top: 0.2rem; }
 
 /* Provider cards */
@@ -130,7 +151,12 @@ footer { border-top: 1px solid var(--line); margin-top: 1rem; }
 
 /* Section spacing on home */
 .home-section { margin-top: 2.5rem; }
-.count { color: var(--muted); font-size: 1rem; font-weight: 400; }
+
+/* Jump list + back-to-top on the /all/ page */
+.jump { margin: 1rem 0 0; font-size: 1rem; color: var(--muted); }
+.jump a { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 600; }
+.top { margin-top: 2.5rem; }
+.top a { display: inline-block; min-height: 44px; line-height: 44px; font-weight: 600; }
 
 @media (max-width: 34rem) {
   body { font-size: 1.1rem; }
