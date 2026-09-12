@@ -1,1 +1,323 @@
-[{"filter":{"categories":["chat"],"free_tier":true},"how_picked":"we listed chat AIs that have a free tier, so you can start using any of them today for nothing.","intro":"ChatGPT, Claude, Gemini, and Meta AI all have free versions that are genuinely useful. For everyday questions, writing help, and brainstorming, you don't need to pay a cent.","meta_description":"Plain-language guide to the best free AI chatbots: ChatGPT, Claude, Gemini and more, with costs and official links.","seo_title":"Best free AI chatbot - AI Guide","slug":"best-free-ai-chatbot","title":"What's the best free AI chatbot?"},{"filter":{"categories":["image"]},"how_picked":"we listed AIs whose job is turning your words into pictures.","intro":"Type a description, get a picture. Midjourney makes gorgeous art, while Stable Diffusion and Flux are free and can even run privately on your own computer.","meta_description":"Which AI makes the best pictures? Plain-English picks from free tools to paid ones, with costs and official links.","seo_title":"Best AI for making pictures - AI Guide","slug":"best-ai-for-making-pictures","title":"What's the best AI for making pictures?"},{"filter":{"categories":["video"]},"how_picked":"we listed AIs that make or edit video, all rated easy or medium for a beginner to try.","intro":"Runway, Sora, Pika, and Kling turn text into short videos, and HeyGen can put a realistic presenter on screen for you. Most are free to try, with paid plans for longer or sharper videos.","meta_description":"Which AI makes the best videos? Simple picks like Runway, Pika and Sora, with what they cost and where to get them.","seo_title":"Best AI for making videos - AI Guide","slug":"best-ai-for-making-videos","title":"What's the best AI for making videos?"},{"filter":{"categories":["voice"]},"how_picked":"we listed AIs that turn text into speech, starting with the easiest ones.","intro":"ElevenLabs has the most natural-sounding AI voices around, and Murf AI is great for narration. Both have free tiers so you can hear them before spending anything.","meta_description":"Which AI voice generator sounds most natural? Plain-English picks like ElevenLabs and Murf AI, with costs and links.","seo_title":"Best AI voice generator - AI Guide","slug":"best-ai-voice-generator","title":"What's the best AI voice generator?"},{"filter":{"categories":["music"]},"how_picked":"we listed AIs that make songs from your words, all with a free tier.","intro":"Suno and Udio turn your words into full songs in seconds — lyrics, instruments, the lot. Both let you try for free, which is all you need to see if it's fun for you.","meta_description":"Which AI makes the best music? Suno and Udio turn words into songs. Plain-English picks, costs, and links.","seo_title":"Best AI for making music - AI Guide","slug":"best-ai-for-making-music","title":"What's the best AI for making music?"},{"filter":{"categories":["code"]},"how_picked":"we listed AIs that help you write computer code, free or easy to try first.","intro":"GitHub Copilot and Cursor sit next to you while you type and suggest the code. Copilot is free for many users, and Cursor's free tier is generous for trying it out.","meta_description":"Which AI writes code best? Plain-English picks like GitHub Copilot and Cursor, with costs and official links.","seo_title":"Best AI for writing code - AI Guide","slug":"best-ai-for-writing-code","title":"What's the best AI for writing code?"},{"filter":{"runs_on_your_computer":true},"how_picked":"we listed AIs that run on your own computer, so nothing you type is sent to the cloud.","intro":"Yes — Llama, Mistral, Stable Diffusion, and LM Studio run entirely on your own machine. Nothing you type leaves your home, but they need a reasonably powerful computer and a bit of setup.","meta_description":"Which AIs run on your own computer? Llama, Stable Diffusion and more keep your data private. Plain-English guide.","seo_title":"AI that runs on my own computer - AI Guide","slug":"ai-that-runs-on-my-own-computer","title":"Is there an AI that runs on my own computer?"},{"filter":{"categories":["image"],"free_tier":true},"how_picked":"we listed AIs that make pictures from words and cost nothing to try.","intro":"Adobe Firefly, Canva AI, Stable Diffusion, Flux, and Ideogram all make pictures from words for free. For the easiest start, try Canva AI or Adobe Firefly — no setup needed.","meta_description":"Which free AI image generator is best? Plain-English picks from Adobe Firefly to Stable Diffusion, with links.","seo_title":"Free AI image generator - AI Guide","slug":"free-ai-image-generator","title":"What's a good free AI image generator?"},{"filter":{"categories":["search"]},"how_picked":"we listed AIs that answer questions by looking things up, all free to use.","intro":"Yes. Perplexity, Google AI Mode, and You.com answer questions by looking things up and showing their sources. They're free, and they feel like search with a smart assistant on top.","meta_description":"Is there an AI search engine? Perplexity, Google AI Mode and You.com answer with sources. Plain-English guide.","seo_title":"AI search engine - AI Guide","slug":"ai-search-engine","title":"Is there an AI search engine?"},{"filter":{"skill_level":"easy"},"how_picked":"we listed AIs rated Easy, so everything here is simple to try with no setup.","intro":"Start with ChatGPT, Claude, Gemini, or Meta AI — all free, all rated Easy, all just a website. You type a question, you get an answer. No setup, no jargon.","meta_description":"Which AI is best for beginners? Free, easy picks like ChatGPT and Claude. Plain-English guide with links.","seo_title":"Best AI for beginners - AI Guide","slug":"best-ai-for-beginners","title":"What's the best AI for a beginner?"},{"filter":{"open_weights":true},"how_picked":"we listed AIs with open weights — free to download, with code anyone can inspect.","intro":"Llama, Mistral, Qwen, Stable Diffusion, Flux, Whisper, and Gemma are free to download and use, with code anyone can inspect. They're the reason AI can run privately on your own computer.","meta_description":"Which open-source AIs can you download? Llama, Mistral, Stable Diffusion and more. Plain-English guide.","seo_title":"Open-source AI you can download - AI Guide","slug":"open-source-ai-you-can-download","title":"What open-source AI can I download?"},{"filter":{"categories":["chat"],"free_tier":true,"skill_level":"easy"},"how_picked":"we listed free, easy chat AIs — ideal for homework help and studying.","intro":"ChatGPT, Claude, Gemini, and Meta AI are free and easy, perfect for homework help and study notes. They're great helpers, but always double-check important facts — AI can get things wrong.","meta_description":"Which AI is best for students? Free, easy picks for homework and studying. Plain-English guide with links.","seo_title":"Best AI for students - AI Guide","slug":"ai-for-students","title":"Which AI is best for students?"}]
+[
+  {
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "we listed chat AIs that have a free tier, so you can start using any of them today for nothing.",
+    "intro": "ChatGPT, Claude, Gemini, and Meta AI all have free versions that are genuinely useful. For everyday questions, writing help, and brainstorming, you don't need to pay a cent.",
+    "meta_description": "Plain-language guide to the best free AI chatbots: ChatGPT, Claude, Gemini and more, with costs and official links.",
+    "seo_title": "Best free AI chatbot - AI Guide",
+    "slug": "best-free-ai-chatbot",
+    "title": "What's the best free AI chatbot?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "image"
+      ]
+    },
+    "how_picked": "we listed AIs whose job is turning your words into pictures.",
+    "intro": "Type a description, get a picture. Midjourney makes gorgeous art, while Stable Diffusion and Flux are free and can even run privately on your own computer.",
+    "meta_description": "Which AI makes the best pictures? Plain-English picks from free tools to paid ones, with costs and official links.",
+    "seo_title": "Best AI for making pictures - AI Guide",
+    "slug": "best-ai-for-making-pictures",
+    "title": "What's the best AI for making pictures?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "video"
+      ]
+    },
+    "how_picked": "we listed AIs that make or edit video, all rated easy or medium for a beginner to try.",
+    "intro": "Runway, Sora, Pika, and Kling turn text into short videos, and HeyGen can put a realistic presenter on screen for you. Most are free to try, with paid plans for longer or sharper videos.",
+    "meta_description": "Which AI makes the best videos? Simple picks like Runway, Pika and Sora, with what they cost and where to get them.",
+    "seo_title": "Best AI for making videos - AI Guide",
+    "slug": "best-ai-for-making-videos",
+    "title": "What's the best AI for making videos?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "voice"
+      ]
+    },
+    "how_picked": "we listed AIs that turn text into speech, starting with the easiest ones.",
+    "intro": "ElevenLabs has the most natural-sounding AI voices around, and Murf AI is great for narration. Both have free tiers so you can hear them before spending anything.",
+    "meta_description": "Which AI voice generator sounds most natural? Plain-English picks like ElevenLabs and Murf AI, with costs and links.",
+    "seo_title": "Best AI voice generator - AI Guide",
+    "slug": "best-ai-voice-generator",
+    "title": "What's the best AI voice generator?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "music"
+      ]
+    },
+    "how_picked": "we listed AIs that make songs from your words, all with a free tier.",
+    "intro": "Suno and Udio turn your words into full songs in seconds — lyrics, instruments, the lot. Both let you try for free, which is all you need to see if it's fun for you.",
+    "meta_description": "Which AI makes the best music? Suno and Udio turn words into songs. Plain-English picks, costs, and links.",
+    "seo_title": "Best AI for making music - AI Guide",
+    "slug": "best-ai-for-making-music",
+    "title": "What's the best AI for making music?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "code"
+      ]
+    },
+    "how_picked": "we listed AIs that help you write computer code, free or easy to try first.",
+    "intro": "GitHub Copilot and Cursor sit next to you while you type and suggest the code. Copilot is free for many users, and Cursor's free tier is generous for trying it out.",
+    "meta_description": "Which AI writes code best? Plain-English picks like GitHub Copilot and Cursor, with costs and official links.",
+    "seo_title": "Best AI for writing code - AI Guide",
+    "slug": "best-ai-for-writing-code",
+    "title": "What's the best AI for writing code?"
+  },
+  {
+    "filter": {
+      "runs_on_your_computer": true
+    },
+    "how_picked": "we listed AIs that run on your own computer, so nothing you type is sent to the cloud.",
+    "intro": "Yes — Llama, Mistral, Stable Diffusion, and LM Studio run entirely on your own machine. Nothing you type leaves your home, but they need a reasonably powerful computer and a bit of setup.",
+    "meta_description": "Which AIs run on your own computer? Llama, Stable Diffusion and more keep your data private. Plain-English guide.",
+    "seo_title": "AI that runs on my own computer - AI Guide",
+    "slug": "ai-that-runs-on-my-own-computer",
+    "title": "Is there an AI that runs on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "we listed AIs that make pictures from words and cost nothing to try.",
+    "intro": "Adobe Firefly, Canva AI, Stable Diffusion, Flux, and Ideogram all make pictures from words for free. For the easiest start, try Canva AI or Adobe Firefly — no setup needed.",
+    "meta_description": "Which free AI image generator is best? Plain-English picks from Adobe Firefly to Stable Diffusion, with links.",
+    "seo_title": "Free AI image generator - AI Guide",
+    "slug": "free-ai-image-generator",
+    "title": "What's a good free AI image generator?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "search"
+      ]
+    },
+    "how_picked": "we listed AIs that answer questions by looking things up, all free to use.",
+    "intro": "Yes. Perplexity, Google AI Mode, and You.com answer questions by looking things up and showing their sources. They're free, and they feel like search with a smart assistant on top.",
+    "meta_description": "Is there an AI search engine? Perplexity, Google AI Mode and You.com answer with sources. Plain-English guide.",
+    "seo_title": "AI search engine - AI Guide",
+    "slug": "ai-search-engine",
+    "title": "Is there an AI search engine?"
+  },
+  {
+    "filter": {
+      "skill_level": "easy"
+    },
+    "how_picked": "we listed AIs rated Easy, so everything here is simple to try with no setup.",
+    "intro": "Start with ChatGPT, Claude, Gemini, or Meta AI — all free, all rated Easy, all just a website. You type a question, you get an answer. No setup, no jargon.",
+    "meta_description": "Which AI is best for beginners? Free, easy picks like ChatGPT and Claude. Plain-English guide with links.",
+    "seo_title": "Best AI for beginners - AI Guide",
+    "slug": "best-ai-for-beginners",
+    "title": "What's the best AI for a beginner?"
+  },
+  {
+    "filter": {
+      "open_weights": true
+    },
+    "how_picked": "we listed AIs with open weights — free to download, with code anyone can inspect.",
+    "intro": "Llama, Mistral, Qwen, Stable Diffusion, Flux, Whisper, and Gemma are free to download and use, with code anyone can inspect. They're the reason AI can run privately on your own computer.",
+    "meta_description": "Which open-source AIs can you download? Llama, Mistral, Stable Diffusion and more. Plain-English guide.",
+    "seo_title": "Open-source AI you can download - AI Guide",
+    "slug": "open-source-ai-you-can-download",
+    "title": "What open-source AI can I download?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "free_tier": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "we listed free, easy chat AIs — ideal for homework help and studying.",
+    "intro": "ChatGPT, Claude, Gemini, and Meta AI are free and easy, perfect for homework help and study notes. They're great helpers, but always double-check important facts — AI can get things wrong.",
+    "meta_description": "Which AI is best for students? Free, easy picks for homework and studying. Plain-English guide with links.",
+    "seo_title": "Best AI for students - AI Guide",
+    "slug": "ai-for-students",
+    "title": "Which AI is best for students?"
+  },
+  {
+    "slug": "free-ai-video-generator",
+    "title": "Which AI video generator is free?",
+    "intro": "Runway, Pika, Kling, and CapCut AI all let you make short videos from a text description without paying. The free plans give you a limited number of videos each month, which is plenty to try it out.",
+    "filter": {
+      "categories": [
+        "video"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed video AIs with a free tier, so you can generate your first videos without paying.",
+    "seo_title": "Free AI video generator - AI Guide",
+    "meta_description": "The best free AI video generators compared in plain language: Runway, Pika, Kling, Sora and more, with free limits explained."
+  },
+  {
+    "slug": "ai-that-can-talk-to-me",
+    "title": "Which AI can actually talk to me?",
+    "intro": "ElevenLabs, Murf AI, and PlayAI turn typed text into spoken voice that sounds close to a real person. Some chatbots can also talk out loud and listen to your voice, so it feels like a phone call.",
+    "filter": {
+      "categories": [
+        "voice"
+      ]
+    },
+    "how_picked": "We listed every voice AI in the guide, from text-to-speech voices to talking chatbots.",
+    "seo_title": "AI that can talk to me - AI Guide",
+    "meta_description": "AI tools that talk out loud, in plain language: ElevenLabs, Murf AI, PlayAI and talking chatbots, with prices and links."
+  },
+  {
+    "slug": "free-ai-voice-generator",
+    "title": "What's the best free AI voice generator?",
+    "intro": "ElevenLabs, Murf AI, and NotebookLM all have free plans that turn your writing into spoken audio. Free plans cap how many minutes you get each month, but they are enough for short projects.",
+    "filter": {
+      "categories": [
+        "voice"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed voice AIs with a free tier, so you can create your first audio for nothing.",
+    "seo_title": "Best free AI voice generator - AI Guide",
+    "meta_description": "The best free AI voice generators in plain language: ElevenLabs, Murf AI, NotebookLM and more, with free limits and links."
+  },
+  {
+    "slug": "ai-for-homework-help",
+    "title": "Which AI is best for homework help?",
+    "intro": "ChatGPT, Claude, and Perplexity can explain hard topics step by step, help you outline essays, and check your work. Perplexity and NotebookLM also cite their sources, which helps when you need to show where an answer came from.",
+    "filter": {
+      "categories": [
+        "chat",
+        "search"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed free chatbots and AI search tools that explain, tutor, and show their sources.",
+    "seo_title": "Best AI for homework help - AI Guide",
+    "meta_description": "The best AI tools for homework in plain language: ChatGPT, Claude, Perplexity and NotebookLM, with costs and official links."
+  },
+  {
+    "slug": "ai-for-making-logos",
+    "title": "Which AI makes the best logos?",
+    "intro": "Ideogram is unusually good at putting readable words inside a design, which is exactly what a logo needs. Adobe Firefly and Canva AI also have free plans that work well for quick logo ideas and mockups.",
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "free_tier": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed easy image AIs with a free tier that handle text and simple graphics well.",
+    "seo_title": "AI logo maker: best picks - AI Guide",
+    "meta_description": "The best AI logo makers in plain language: Ideogram, Adobe Firefly and Canva AI, with free plans and official links."
+  },
+  {
+    "slug": "ai-for-editing-photos",
+    "title": "Which AI can edit my photos?",
+    "intro": "Adobe Firefly and Canva AI can change backgrounds, remove objects, and restyle your pictures with a text prompt. Remove.bg does one job brilliantly: cutting a person or product out of its background in seconds.",
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed image AIs with a free tier that edit, retouch, or cut out parts of your photos.",
+    "seo_title": "Best AI photo editor - AI Guide",
+    "meta_description": "The best AI photo editors in plain language: Adobe Firefly, Canva AI, Remove.bg and more, with free plans and links."
+  },
+  {
+    "slug": "ai-for-small-business",
+    "title": "What's the best AI for a small business?",
+    "intro": "Zapier AI connects your apps so routine tasks run themselves, like answering common questions or filing form entries. Cursor and Manus can draft documents, summarize data, and help you build simple tools without hiring a developer.",
+    "filter": {
+      "categories": [
+        "agents"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed AI agents with a free tier that automate routine work and connect to business tools.",
+    "seo_title": "Best AI for small business - AI Guide",
+    "meta_description": "The best AI tools for small business in plain language: Zapier AI, Manus, Cursor and more, with free plans and links."
+  },
+  {
+    "slug": "ai-that-does-tasks-for-me",
+    "title": "Which AI can do tasks for me automatically?",
+    "intro": "AI agents go beyond chatting: ChatGPT, Claude, and Manus can browse the web, fill in forms, and complete multi-step jobs for you. You describe the outcome you want, and the agent works through the steps on its own.",
+    "filter": {
+      "categories": [
+        "agents"
+      ],
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed AI agents rated easy to use, so you can hand off tasks without learning anything technical.",
+    "seo_title": "AI that does tasks for you - AI Guide",
+    "meta_description": "AI agents that do tasks for you, explained plainly: ChatGPT, Claude, Manus and more, with prices and official links."
+  },
+  {
+    "slug": "best-paid-ai-worth-the-money",
+    "title": "Which paid AI is actually worth the money?",
+    "intro": "If you make images every day, Midjourney's image quality is the reason professionals pay for it. ChatGPT Plus unlocks the ChatGPT agent and Sora video, and Claude Code pays for itself if coding is part of your job.",
+    "filter": {
+      "free_tier": false
+    },
+    "how_picked": "We listed AIs with no free tier, so you can see what the money buys before you pay.",
+    "seo_title": "Paid AI worth the money - AI Guide",
+    "meta_description": "Which paid AIs are worth it, in plain language: Midjourney, ChatGPT Plus, Claude Code and more, with prices and links."
+  },
+  {
+    "slug": "ai-for-making-a-podcast",
+    "title": "Which AI is best for making a podcast?",
+    "intro": "Descript edits audio by editing a written transcript, which feels like editing a document instead of sound waves. NotebookLM can turn your notes into a lively two-host discussion, and ElevenLabs gives you natural narration voices.",
+    "filter": {
+      "categories": [
+        "voice"
+      ],
+      "free_tier": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed easy voice AIs with a free tier that cover recording, editing, and narration.",
+    "seo_title": "Best AI for podcasts - AI Guide",
+    "meta_description": "The best AI tools for podcasts in plain language: Descript, NotebookLM, ElevenLabs and more, with free plans and links."
+  },
+  {
+    "slug": "ai-that-builds-websites",
+    "title": "Which AI can build a website for me?",
+    "intro": "Lovable and Replit turn a plain-English description into a working website you can publish. Cursor and GitHub Copilot are stronger if you want to see and tweak the code yourself.",
+    "filter": {
+      "categories": [
+        "code"
+      ],
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed coding AIs rated easy, so you can build a site without learning to program first.",
+    "seo_title": "AI website builder: best picks - AI Guide",
+    "meta_description": "The best AI website builders in plain language: Lovable, Replit, Cursor and more, with free plans and official links."
+  },
+  {
+    "slug": "ai-that-writes-code-for-free",
+    "title": "Which AI writes code for free?",
+    "intro": "GitHub Copilot and Replit have free plans that write code from your descriptions and fix errors for you. Cursor's free tier is generous too, and it is one of the easiest ways to start.",
+    "filter": {
+      "categories": [
+        "code"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed coding AIs with a free tier, so you can generate your first programs without paying.",
+    "seo_title": "Free AI code writer - AI Guide",
+    "meta_description": "The best free AI coding tools in plain language: GitHub Copilot, Replit, Cursor and more, with free limits and links."
+  }
+]
