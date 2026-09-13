@@ -547,7 +547,7 @@
     "price_from": "$12/month",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "It runs on tokens instead of a simple price, so free users only get 150 tokens a day, and keeping pictures private needs a paid plan."
+    "watch_out": "It uses a credit system instead of a simple price, so free users only get 150 credits a day, and keeping pictures private needs a paid plan."
   },
   {
     "categories": [

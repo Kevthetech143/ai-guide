@@ -22,9 +22,13 @@ body {
   font-size: 1.125rem; line-height: 1.7; margin: 0;
   color: var(--ink); background: var(--paper);
 }
-a { color: var(--link); text-underline-offset: 0.15em; touch-action: manipulation; }
+a { color: var(--link); text-underline-offset: 0.15em; touch-action: manipulation; -webkit-tap-highlight-color: rgb(14 107 92 / 0.18); }
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
+/* audit-009: smooth focus-ring fade (restrained, matches motion language) */
+:focus-visible { transition: outline-color 160ms ease; }
+/* audit-009: jump-list anchors (e.g. /all/ category jump links) don't slam into the viewport top */
+h2[id] { scroll-margin-top: 1rem; }
 /* Skip link: invisible until keyboard-focused */
 .skip { position: absolute; left: -9999px; top: 0; background: var(--teal); color: #fff; padding: 0.75rem 1.25rem; z-index: 100; border-radius: 0 0 0.5rem 0; font-weight: 700; }
 .skip:focus-visible { left: 0; color: #fff; }
@@ -33,9 +37,14 @@ main { padding-bottom: 3rem; }
 
 /* Restrained motion (emilkowalski-motion): quick state feedback only, transform/opacity/color.
    The prefers-reduced-motion block at the end disables all of it. */
-a, .tile, .biglink, .btn, .start-card, .badge {
+a, .tile, .biglink, .btn, .start-card, .badge, .card {
   transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
+/* motion-009: card hover lift (transform/opacity-safe, no layout shift) */
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(28 26 23 / 0.10); }
+/* motion-009: page-enter fade for main content (opacity only; killed by reduced-motion) */
+main { animation: page-in 240ms ease-out; }
+@keyframes page-in { from { opacity: 0; } }
 
 /* Header */
 .sitehead { border-bottom: 3px solid var(--teal); background: var(--paper); }
@@ -58,6 +67,16 @@ h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weigh
 .lede { max-width: 34rem; }
 .freshness { color: var(--muted); font-size: 1rem; margin: 0.25rem 0 0; }
 .legend { font-size: 1rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 1rem; margin: 1.5rem 0 0.5rem; }
+/* polish-009: empty-state for filtered lists with zero providers
+   (e.g. start/chat-paid, start/music-paid, start/search-paid). The legend is
+   the last element in main only when no cards were built, so this fires
+   exclusively on empty lists. CSS-only: build.py is frozen for this task. */
+main > .legend:last-child::after {
+  content: "Nothing on this list yet. Try the free list, or browse everything from All AIs.";
+  display: block; margin-top: 1.5rem; padding: 1.25rem;
+  background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius);
+  color: var(--muted); font-size: 1.05rem;
+}
 
 /* Hero */
 .hero h1 { font-size: clamp(2.5rem, 9vw, 3.75rem); line-height: 1.05; letter-spacing: -0.02em; margin: 0.25rem 0 0.75rem; }
@@ -109,7 +128,9 @@ h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weigh
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.25rem; margin: 1rem 0;
 }
-.card h2 { margin: 0 0 0.5rem; font-size: 1.35rem; }
+.card h2 { margin: 0 0 0.5rem; font-size: 1.35rem; overflow-wrap: break-word; }
+/* polish-009: long provider names wrap instead of overflowing on narrow screens */
+.provider-head h1 { overflow-wrap: break-word; }
 .card h2 a { color: var(--ink); text-decoration: none; }
 .card h2 a:hover { color: var(--teal-deep); text-decoration: underline; }
 .badges { margin: 0 0 0.75rem; }
@@ -125,7 +146,7 @@ h2 { font-size: 1.375rem; line-height: 1.3; margin: 2.5rem 0 0.75rem; font-weigh
 .facts .k { font-weight: 700; }
 .watch { color: var(--muted); font-size: 1rem; margin: 0.5rem 0; }
 .watch::before { content: "Heads up: "; font-weight: 700; color: var(--amber); }
-.card-links { margin: 0.9rem 0 0.25rem; }
+.card-links { margin: 1rem 0 0.5rem; }
 .btn {
   display: inline-block; min-height: 44px; line-height: 44px; padding: 0 1.4rem;
   background: var(--teal); color: #fff; font-weight: 700; text-decoration: none; border-radius: 999px;
