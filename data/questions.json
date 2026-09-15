@@ -319,5 +319,174 @@
     "how_picked": "We listed coding AIs with a free tier, so you can generate your first programs without paying.",
     "seo_title": "Free AI code writer - AI Guide",
     "meta_description": "The best free AI coding tools in plain language: GitHub Copilot, Replit, Cursor and more, with free limits and links."
+  },
+  {
+    "slug": "ai-for-writing-emails",
+    "title": "What is the best AI for writing emails?",
+    "intro": "ChatGPT, Claude, and Gemini can draft polite emails in seconds — you give them a few rough points, and they turn them into a finished message. Microsoft Copilot can do it right inside Outlook if you use that. All of them have free versions.",
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed chat AIs with a free tier, since any of them can draft emails for you at no cost.",
+    "seo_title": "Best AI for writing emails - AI Guide",
+    "meta_description": "Plain-language picks for the best AI email writers: ChatGPT, Claude, Gemini and more, all free to start."
+  },
+  {
+    "slug": "ai-for-job-hunting-and-resumes",
+    "title": "Can AI help with job hunting and resumes?",
+    "intro": "Yes — ChatGPT, Claude, and Gemini can rewrite your resume bullet points, draft cover letters, and help you practice interview answers. Paste in the job posting and your experience, and tell it what to improve.",
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed chat AIs with a free tier, so you can polish your resume and cover letters without paying.",
+    "seo_title": "AI for job hunting and resumes - AI Guide",
+    "meta_description": "Use free AI chatbots to write resumes, cover letters, and interview prep: ChatGPT, Claude, Gemini and more."
+  },
+  {
+    "slug": "ai-for-planning-a-trip",
+    "title": "Can AI help me plan a trip?",
+    "intro": "Perplexity and Google AI Mode search the live web, so they can check current prices, hours, and reviews while they build your itinerary. ChatGPT and Gemini are great at the day-by-day planning once you tell them your budget and interests.",
+    "filter": {
+      "categories": [
+        "chat",
+        "search"
+      ]
+    },
+    "how_picked": "We listed chat and AI search tools, so you get both the planning and the up-to-date facts.",
+    "seo_title": "AI for planning a trip - AI Guide",
+    "meta_description": "Plan trips with AI: Perplexity, ChatGPT, and Gemini build itineraries with live prices, hours, and reviews."
+  },
+  {
+    "slug": "ai-for-learning-a-language",
+    "title": "What is the best AI for learning a language?",
+    "intro": "ChatGPT, Gemini, and Meta AI make patient conversation partners — they can chat with you in Spanish, French, or dozens of other languages and correct your mistakes. Character AI lets you role-play everyday situations, like ordering food.",
+    "filter": {
+      "categories": [
+        "chat",
+        "voice"
+      ]
+    },
+    "how_picked": "We listed chat and voice AIs you can actually talk with, so you get speaking practice, not just flashcards.",
+    "seo_title": "Best AI for learning a language - AI Guide",
+    "meta_description": "Practice a language with AI conversation: ChatGPT, Gemini, and Character AI chat with you and fix your mistakes."
+  },
+  {
+    "slug": "ai-that-reads-documents-for-me",
+    "title": "Is there an AI that can read documents for me?",
+    "intro": "NotebookLM lets you upload PDFs and documents, then answers your questions about them in plain words. Perplexity and Google AI Mode can summarize long articles and web pages from a link.",
+    "filter": {
+      "categories": [
+        "search",
+        "voice"
+      ]
+    },
+    "how_picked": "We listed search and voice AIs that can take in long documents and give you back the short version.",
+    "seo_title": "AI that reads documents for me - AI Guide",
+    "meta_description": "AI tools that read documents for you: NotebookLM answers questions about your PDFs; Perplexity summarizes articles."
+  },
+  {
+    "slug": "ai-for-making-a-presentation",
+    "title": "What is the best AI for making a presentation?",
+    "intro": "ChatGPT, Claude, and Gemini can write your outline and speaker notes from a few bullet points. Canva AI can then turn that text into designed slides you can edit.",
+    "filter": {
+      "categories": [
+        "chat",
+        "image"
+      ]
+    },
+    "how_picked": "We listed chat AIs to write your slides and image AIs to design them.",
+    "seo_title": "Best AI for making a presentation - AI Guide",
+    "meta_description": "Make presentations with AI: ChatGPT, Claude, and Gemini write your slides; Canva AI designs them for you."
+  },
+  {
+    "slug": "ai-for-social-media-posts",
+    "title": "Can AI help me write social media posts?",
+    "intro": "ChatGPT, Claude, and Gemini can draft captions and hashtags in your tone — just tell them the topic and the platform. Midjourney and Adobe Firefly can make the images to go with them, and CapCut AI can edit short videos.",
+    "filter": {
+      "categories": [
+        "chat",
+        "image",
+        "video"
+      ]
+    },
+    "how_picked": "We listed chat, image, and video AIs, so you can make the words, the pictures, and the clips.",
+    "seo_title": "AI for social media posts - AI Guide",
+    "meta_description": "Write social posts with AI: ChatGPT and Claude draft captions; Midjourney and CapCut AI make images and video."
+  },
+  {
+    "slug": "ai-for-recipes-and-meal-plans",
+    "title": "Can AI help with recipes and meal plans?",
+    "intro": "ChatGPT, Gemini, and Microsoft Copilot can build a week of dinners from what is already in your fridge, with a shopping list included. Tell them your diet — vegetarian, low-carb, picky kids — and they adjust.",
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed easy-to-use chat AIs, so planning dinner takes minutes even if you are new to AI.",
+    "seo_title": "AI for recipes and meal plans - AI Guide",
+    "meta_description": "Get recipes and weekly meal plans from AI: ChatGPT, Gemini, and Copilot plan dinners from what is in your fridge."
+  },
+  {
+    "slug": "ai-for-older-adults",
+    "title": "What is the best AI for older adults?",
+    "intro": "ChatGPT, Gemini, and Meta AI are free, easy to talk to, and patient — you can ask anything in plain words, as many times as you like. They can explain things simply, help with letters, and answer everyday questions.",
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "skill_level": "easy",
+      "free_tier": true
+    },
+    "how_picked": "We listed chat AIs that are marked easy to use and free, so there is nothing to figure out or pay for first.",
+    "seo_title": "Best AI for older adults - AI Guide",
+    "meta_description": "Simple, free AI for older adults: ChatGPT, Gemini, and Meta AI answer questions in plain words, no tech skills needed."
+  },
+  {
+    "slug": "ai-for-meeting-notes",
+    "title": "Is there an AI that takes meeting notes?",
+    "intro": "Otter.ai and Descript can listen to a meeting or call and turn it into written notes with a summary. Whisper can transcribe any recording you upload, so you get every word as text.",
+    "filter": {
+      "categories": [
+        "voice"
+      ],
+      "free_tier": true
+    },
+    "how_picked": "We listed voice AIs with a free tier that turn spoken meetings into written notes.",
+    "seo_title": "AI for meeting notes - AI Guide",
+    "meta_description": "AI meeting notes: Otter.ai and Descript transcribe your calls into summaries; Whisper turns recordings into text."
+  },
+  {
+    "slug": "ai-for-my-phone",
+    "title": "What is the best AI for my phone?",
+    "intro": "ChatGPT, Claude, Gemini, Meta AI, and Microsoft Copilot all have free phone apps that work just like the website. You can type or talk to them, and even use your camera to ask about what you see.",
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed easy chat AIs with free phone apps, so you can use AI anywhere.",
+    "seo_title": "Best AI for my phone - AI Guide",
+    "meta_description": "The best AI apps for your phone: ChatGPT, Claude, Gemini, Meta AI, and Copilot all have free, easy apps."
+  },
+  {
+    "slug": "ai-that-writes-like-me",
+    "title": "Is there an AI that writes like me?",
+    "intro": "ChatGPT, Claude, and Gemini can copy your writing style — paste in a few samples of your writing and ask them to match your tone. Character AI can even stay in character as someone you describe.",
+    "filter": {
+      "categories": [
+        "chat"
+      ]
+    },
+    "how_picked": "We listed chat AIs you can show your own writing to, so their replies sound like you.",
+    "seo_title": "AI that writes like me - AI Guide",
+    "meta_description": "AI that writes in your voice: ChatGPT, Claude, and Gemini copy your style from samples you paste in."
   }
 ]
