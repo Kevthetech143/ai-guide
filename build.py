@@ -9,6 +9,7 @@ Usage: python3 build.py
 import html
 import json
 import os
+import re
 import shutil
 from datetime import date
 from string import Template
@@ -83,6 +84,90 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
+# Build date baked into sitemap <lastmod> (brief: YYYY-MM-DD).
+BUILD_DATE = "2026-09-16"
+
+
+def ld_block(schema_obj):
+    """One <script type="application/ld+json"> block. json.dumps does all
+    escaping, so a quote or unicode char in a blurb cannot break the page."""
+    return ('<script type="application/ld+json">\n%s\n</script>'
+            % json.dumps(schema_obj, ensure_ascii=False, indent=2))
+
+
+def offer_from_price(price_from):
+    """Offer from a provider's price_from, or None when there is no real
+    dollar amount (\"Free\", \"Check site\", open-weights-only, etc.).
+    Never invents a price; the regex only reads what data/ provides."""
+    if "free" == price_from.strip().lower():
+        return None
+    m = re.search(r"\$(\d+(?:\.\d{1,2})?)", price_from)
+    if not m:
+        return None
+    return {"@type": "Offer", "price": m.group(1), "priceCurrency": "USD"}
+
+
+def software_app_schema(p):
+    """SoftwareApplication for a provider page: real fields only. No rating,
+    review count, or author — we have no such data and fake schema risks a
+    penalty. Offers omitted unless price_from is a real dollar amount."""
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": p["name"],
+        "applicationCategory": CATEGORY_NAMES.get(p["categories"][0], p["categories"][0].title()),
+        "description": p["good_for"],
+    }
+    offer = offer_from_price(p["price_from"])
+    if offer is not None:
+        schema["offers"] = offer
+    return schema
+
+
+def faq_page_schema(question, matched, matched_urls):
+    """FAQPage (one Question, acceptedAnswer = the page's intro text) plus an
+    ItemList of the matched provider cards in display order. @graph keeps both
+    schema types in the single ld+json block each page gets."""
+    return {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "FAQPage",
+                "mainEntity": [{
+                    "@type": "Question",
+                    "name": question["title"],
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": question["intro"],
+                    },
+                }],
+            },
+            {
+                "@type": "ItemList",
+                "name": question["title"],
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": i + 1,
+                        "name": p["name"],
+                        "url": matched_urls[i],
+                    }
+                    for i, p in enumerate(matched)
+                ],
+            },
+        ],
+    }
+
+
+def website_schema():
+    return {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI Guide",
+        "url": BASE_URL,
+    }
+
+
 def load_providers():
     with open(DATA, encoding="utf-8") as f:
         return json.load(f)
@@ -129,7 +214,7 @@ def seo_meta_desc(name, company, good_for):
 
 def page(title, meta_description, body, style_prefix, home_href,
          show_back_link=True, canonical=None, is_start_page=False,
-         is_about_page=False):
+         is_about_page=False, json_ld=None):
     # Breadcrumb now points at the real /all/ everything page (round-2 fix:
     # the old "All AIs" crumb pointed at a home page with no list).
     all_href = home_href.replace("index.html", "all/index.html")
@@ -159,6 +244,7 @@ def page(title, meta_description, body, style_prefix, home_href,
         canonical=esc(canonical or BASE_URL),
         og_title=esc(title),
         og_description=esc(meta_description),
+        json_ld=ld_block(json_ld) if json_ld is not None else "",
     )
 
 
@@ -259,7 +345,7 @@ def build():
           page("Which AI should I use? - AI Guide",
                "A plain-language guide to picking an AI: what it costs, how hard it is, and where to get it.",
                body, ".", "index.html", show_back_link=False,
-               canonical=BASE_URL))
+               canonical=BASE_URL, json_ld=website_schema()))
 
     # category pages (round-2 fix: the "Agents" category wears the
     # "Task helpers" name on every surface via start_label).
@@ -302,14 +388,18 @@ def build():
               page("%s - AI Guide" % p["name"],
                    meta_desc,
                    body, "..", "../index.html",
-                   canonical=BASE_URL + "p/%s.html" % p["id"]))
+                   canonical=BASE_URL + "p/%s.html" % p["id"],
+                   json_ld=software_app_schema(p)))
 
     # start-here picker (no JavaScript required: plain links to built lists)
     start_urls = []
 
     def start_write(rel, title, meta_description, intro_html, plist,
                     href_prefix, style_prefix, home_href):
-        canonical = BASE_URL + "start/" + rel
+        # SEO fix (2026-09-16): canonical uses the trailing-slash page URL,
+        # not the /index.html file URL — the /index.html form is duplicate
+        # content and must not appear in the sitemap either.
+        canonical = (BASE_URL + "start/" + rel).replace("/index.html", "/")
         html_out = filtered_page(plist, title, meta_description, intro_html,
                                  href_prefix, style_prefix, home_href,
                                  canonical=canonical)
@@ -337,8 +427,8 @@ def build():
           page("Start here - AI Guide",
                "Pick what you want to do, then narrow by free or paid \u2014 a short plain-language list of AIs that fit.",
                picker_body, "..", "../index.html", show_back_link=True,
-               canonical=BASE_URL + "start/index.html", is_start_page=True))
-    start_urls.append(BASE_URL + "start/index.html")
+               canonical=BASE_URL + "start/", is_start_page=True))
+    start_urls.append(BASE_URL + "start/")
 
     free_ps = [p for p in providers if p["free_tier"]]
     paid_ps = [p for p in providers if not p["free_tier"]]
@@ -426,19 +516,28 @@ def build():
         canonical = BASE_URL + "best/%s/" % slug
         write(os.path.join(DIST, "best", slug, "index.html"),
               page(q["seo_title"], q["meta_description"], body, "../..",
-                   "../../index.html", canonical=canonical))
+                   "../../index.html", canonical=canonical,
+                   json_ld=faq_page_schema(
+                       q, matched,
+                       [BASE_URL + "p/%s.html" % p["id"] for p in matched])))
         best_urls.append(canonical)
     print("Built %d SEO question pages" % len(best_urls))
 
-    # sitemap.xml
-    urls = [BASE_URL, BASE_URL + "index.html"]
+    # sitemap.xml (2026-09-16 SEO fix: each page exactly once, using the
+    # canonical URL form from the <link rel="canonical"> tag — the old
+    # BASE_URL+"index.html" twin is gone — and a <lastmod> on every entry).
+    urls = [BASE_URL]
     urls += [BASE_URL + c + "/" for c in categories]
     urls += [BASE_URL + "p/%s.html" % p["id"] for p in providers]
     urls += start_urls
     urls += best_urls
+    assert len(urls) == len(set(urls)), "sitemap would contain duplicate <loc>"
+    assert not any(u.endswith("/index.html") for u in urls), \
+        "sitemap would contain an /index.html twin"
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-               + "".join("  <url><loc>%s</loc></url>\n" % u for u in urls)
+               + "".join("  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n"
+                         % (u, BUILD_DATE) for u in urls)
                + "</urlset>\n")
     write(os.path.join(DIST, "sitemap.xml"), sitemap)
 
