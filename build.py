@@ -85,7 +85,53 @@ def esc(s):
 
 
 # Build date baked into sitemap <lastmod> (brief: YYYY-MM-DD).
-BUILD_DATE = "2026-09-16"
+BUILD_DATE = "2026-09-17"
+
+
+# The locked how-we-review source text may contain exactly one absolute URL
+# (the GitHub issues page); it becomes a real <a href> in the rendered page.
+ISSUES_URL = "https://github.com/Kevthetech143/ai-guide/issues"
+
+
+def link_issues(s):
+    """Escape s for HTML, then wrap the issues URL in a real anchor.
+
+    esc() leaves the URL untouched (no special chars), so the replace
+    still finds it after escaping.
+    """
+    link = '<a href="%s">%s</a>' % (ISSUES_URL, ISSUES_URL)
+    return esc(s).replace(ISSUES_URL, link)
+
+
+def md_trust(text):
+    """Tiny stdlib markdown -> HTML for the locked how-we-review text.
+
+    Supports: `# ` -> h1, `## ` -> h2, blank-line separated paragraphs
+    (wrapped source lines joined with a space), and the issues URL ->
+    <a href>. No other markdown features; all other text is escaped.
+    """
+    out = []
+    para = []
+
+    def flush():
+        if para:
+            out.append("<p>%s</p>" % link_issues(" ".join(para)))
+            del para[:]
+
+    for line in text.splitlines():
+        s = line.strip()
+        if not s:
+            flush()
+        elif s.startswith("# "):
+            flush()
+            out.append("<h1>%s</h1>" % link_issues(s[2:]))
+        elif s.startswith("## "):
+            flush()
+            out.append("<h2>%s</h2>" % link_issues(s[3:]))
+        else:
+            para.append(s)
+    flush()
+    return "\n".join(out)
 
 
 def ld_block(schema_obj):
@@ -214,7 +260,7 @@ def seo_meta_desc(name, company, good_for):
 
 def page(title, meta_description, body, style_prefix, home_href,
          show_back_link=True, canonical=None, is_start_page=False,
-         is_about_page=False, json_ld=None):
+         is_about_page=False, is_review_page=False, json_ld=None):
     # Breadcrumb now points at the real /all/ everything page (round-2 fix:
     # the old "All AIs" crumb pointed at a home page with no list).
     all_href = home_href.replace("index.html", "all/index.html")
@@ -228,8 +274,20 @@ def page(title, meta_description, body, style_prefix, home_href,
     about_href = home_href.replace("index.html", "about/index.html")
     start_current = ' aria-current="page"' if is_start_page else ""
     # The about page must not link to itself in the footer (round-2 cut).
-    about_link = ("How this guide works" if is_about_page
-                  else '<a href="%s">How this guide works</a>' % esc(about_href))
+    # The how-we-review page is a footer sibling: same rule, no self-link,
+    # so it names only "How this guide works" as a real link.
+    if is_about_page:
+        about_bit = "How this guide works"
+    else:
+        about_bit = '<a href="%s">How this guide works</a>' % esc(about_href)
+    review_href = home_href.replace("index.html",
+                                    "about/how-we-review/index.html")
+    if is_review_page:
+        review_bit = ""
+    else:
+        review_bit = (' &middot; <a href="%s">How we review</a>'
+                      % esc(review_href))
+    about_link = about_bit + review_bit
     return tmpl("base.html").substitute(
         title=esc(title),
         meta_description=esc(meta_description),
@@ -476,6 +534,21 @@ def build():
                about_body, "..", "../index.html",
                canonical=BASE_URL + "about/", is_about_page=True))
     start_urls.append(BASE_URL + "about/")
+
+    # How-we-review page: the locked trust text (data/how-we-review.md),
+    # converted with md_trust. Two levels down, so style_prefix="../.."
+    # and home_href="../../index.html". Kept as an /about/ sibling, not a
+    # replacement for "How this guide works". No JSON-LD invented.
+    review_src = os.path.join(ROOT, "data", "how-we-review.md")
+    with open(review_src, encoding="utf-8") as fh:
+        review_body = md_trust(fh.read())
+    write(os.path.join(DIST, "about", "how-we-review", "index.html"),
+          page("How we review - AI Guide",
+               "How this plain-language AI guide is kept current: weekly checks, no ads, no paid listings, and how to report a mistake.",
+               review_body, "../..", "../../index.html",
+               canonical=BASE_URL + "about/how-we-review/",
+               is_review_page=True))
+    start_urls.append(BASE_URL + "about/how-we-review/")
 
     # The real "everything" destination (round-2 fix): the escape hatches and
     # every "All AIs" breadcrumb point here, so the promise is true.
