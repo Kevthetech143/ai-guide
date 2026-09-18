@@ -85,7 +85,40 @@ def esc(s):
 
 
 # Build date baked into sitemap <lastmod> (brief: YYYY-MM-DD).
-BUILD_DATE = "2026-09-17"
+BUILD_DATE = "2026-09-18"
+BUILD_D = date.fromisoformat(BUILD_DATE)
+OVERDUE_DAYS = 7
+
+
+def _newest_last_checked():
+    """Newest last_checked across all 60 providers (freshness-015; data-only)."""
+    with open(DATA, encoding="utf-8") as f:
+        return max(p["last_checked"] for p in json.load(f))
+
+
+# Last full review = the newest last_checked across providers. Never claims
+# "checked today" (freshness-015).
+LAST_FULL_REVIEW = _newest_last_checked()
+
+
+def is_overdue(p):
+    """A card is overdue when its last_checked is 7+ days before BUILD_DATE."""
+    return (BUILD_D - date.fromisoformat(p["last_checked"])).days >= OVERDUE_DAYS
+
+
+def overdue_line(p):
+    """Visible 'Needs a new check' line for overdue cards; empty otherwise."""
+    if is_overdue(p):
+        return '<p class="stale">Needs a new check</p>'
+    return ""
+
+
+REVIEW_STAMP = '<p class="review-stamp">Last full review: %s</p>' % LAST_FULL_REVIEW
+
+
+def stamp_review(body):
+    """Insert the 'Last full review' line directly under the page's h1 (freshness-015)."""
+    return body.replace("</h1>", "</h1>\n" + REVIEW_STAMP, 1)
 
 
 # The locked how-we-review source text may contain exactly one absolute URL
@@ -355,6 +388,7 @@ def card(provider, href_prefix):
         watch_out=esc(p["watch_out"]),
         link=esc(p["link"]),
         last_checked=esc(p["last_checked"]),
+        stale_line=overdue_line(p),
     )
 
 
@@ -368,7 +402,7 @@ def filtered_page(providers, title, meta_description, intro_html,
                   href_prefix, style_prefix, home_href, canonical):
     """A filtered provider list page (used by the start-here picker)."""
     cards = "\n".join(card(p, href_prefix) for p in providers)
-    body = intro_html + "\n" + LEGEND_HTML + "\n" + cards
+    body = stamp_review(intro_html + "\n" + LEGEND_HTML + "\n" + cards)
     return page(title, meta_description, body, style_prefix, home_href,
                 show_back_link=True, canonical=canonical)
 
@@ -398,7 +432,7 @@ def build():
         '<a class="biglink" href="best/%s/"><span class="biglink-label">%s</span></a>' % (q["slug"], esc(q["title"]))
         for q in questions
     )
-    body = tmpl("home.html").substitute(tiles=tiles, questions=question_links)
+    body = stamp_review(tmpl("home.html").substitute(tiles=tiles, questions=question_links))
     write(os.path.join(DIST, "index.html"),
           page("Which AI should I use? - AI Guide",
                "A plain-language guide to picking an AI: what it costs, how hard it is, and where to get it.",
@@ -414,13 +448,13 @@ def build():
         cat_ps = sorted((p for p in providers if c in p["categories"]),
                        key=lambda p: (not p["free_tier"], p["name"]))
         cards = "\n".join(card(p, "../p/") for p in cat_ps)
-        body = tmpl("category.html").substitute(
+        body = stamp_review(tmpl("category.html").substitute(
             category_kicker="Category",
             category_name=esc(label),
             freshness=esc(freshness_line()),
             category_blurb=esc(CATEGORY_BLURBS.get(c, "")),
             cards=LEGEND_HTML + "\n" + cards,
-        )
+        ))
         write(os.path.join(DIST, c, "index.html"),
               page("%s - AI Guide" % label,
                    "Plain-language %s picks: costs, difficulty, and official links." % label.lower(),
@@ -440,6 +474,7 @@ def build():
             categories_text=esc(", ".join(CATEGORY_NAMES.get(c, c.title()) for c in p["categories"])),
             link=esc(p["link"]),
             last_checked=esc(p["last_checked"]),
+            stale_line=overdue_line(p),
         )
         meta_desc = seo_meta_desc(p["name"], p["company"], p["good_for"])
         write(os.path.join(DIST, "p", "%s.html" % p["id"]),
@@ -469,7 +504,7 @@ def build():
             c, esc(start_label(c)), esc(hint))
         for c, hint in TILE_ORDER if c in categories
     )
-    picker_body = (
+    picker_body = stamp_review((
         "<h1>Start here</h1>\n"
         '<p class="subtitle">Tap what you want to do first &mdash; then narrow by free or paid.</p>\n'
         "<h2>1. What do you want to do?</h2>\n" + cat_links + "\n"
@@ -480,7 +515,7 @@ def build():
         "<h2>3. Runs on my computer?</h2>\n"
         '<a class="biglink" href="local/"><span class="biglink-label">Runs on my computer<span class="hint">private, nothing sent to the cloud</span></span></a>\n'
         '<a class="biglink" href="../all/"><span class="biglink-label">Either is fine &mdash; show everything<span class="hint">the full list</span></span></a>\n'
-    )
+    ))
     write(os.path.join(DIST, "start", "index.html"),
           page("Start here - AI Guide",
                "Pick what you want to do, then narrow by free or paid \u2014 a short plain-language list of AIs that fit.",
@@ -561,12 +596,12 @@ def build():
         cards_html = "\n".join(card(p, "../p/") for p in cat_ps)
         all_sections.append('<h2 id="%s">%s</h2>\n%s' % (c, esc(start_label(c)), cards_html))
         jump_links.append('<a href="#%s">%s</a>' % (c, esc(start_label(c))))
-    all_body = ("<h1>All AIs</h1>\n"
+    all_body = stamp_review(("<h1>All AIs</h1>\n"
                 '<p class="subtitle">Every provider in this guide, in one list.</p>\n'
                 '<nav class="jump" aria-label="Jump to a category">%s</nav>\n'
                 % " &middot; ".join(jump_links)
                 + LEGEND_HTML + "\n" + "\n".join(all_sections)
-                + '\n<p class="top"><a href="#">Back to top</a></p>\n')
+                + '\n<p class="top"><a href="#">Back to top</a></p>\n'))
     write(os.path.join(DIST, "all", "index.html"),
           page("All AIs - AI Guide",
                "The complete plain-language list of every AI provider in this guide: costs, difficulty, and official links.",
@@ -580,12 +615,12 @@ def build():
         slug = q["slug"]
         matched = [p for p in providers if question_matches(p, q["filter"])]
         cards = "\n".join(card(p, "../../p/") for p in matched)
-        body = ("<h1>%s</h1>\n" % esc(q["title"])
+        body = stamp_review(("<h1>%s</h1>\n" % esc(q["title"])
                 + '<p class="subtitle">%s</p>\n' % esc(q["intro"])
                 + LEGEND_HTML + "\n"
                 + cards + "\n"
                 + '<p class="method">How we picked: %s</p>\n' % esc(q["how_picked"])
-                + '<p class="checked">Last checked %s</p>\n' % UPDATED)
+                + '<p class="checked">Last checked %s</p>\n' % UPDATED))
         canonical = BASE_URL + "best/%s/" % slug
         write(os.path.join(DIST, "best", slug, "index.html"),
               page(q["seo_title"], q["meta_description"], body, "../..",

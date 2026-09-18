@@ -186,3 +186,14 @@ footer { border-top: 1px solid var(--line); margin-top: 1rem; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* freshness-015 (ai-guide-015): review-recency lines — readable on desktop and
+   phone, real visual treatment (contrast + responsive rule), not class-only. */
+.review-stamp { font-size: 1rem; color: var(--ink); margin: 0.25rem 0 0; }
+.stale { font-size: 1rem; font-weight: 700; color: var(--ink); background: #FFF6E8;
+  border: 2px solid var(--amber); border-radius: var(--radius);
+  padding: 0.5rem 0.75rem; margin: 0.75rem 0 0; }
+@media (max-width: 40rem) {
+  .review-stamp { font-size: 1rem; line-height: 1.5; }
+  .stale { font-size: 1rem; line-height: 1.5; padding: 0.625rem 0.875rem; }
+}
