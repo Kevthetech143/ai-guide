@@ -1489,5 +1489,295 @@
     "runs_on_your_computer": false,
     "skill_level": "medium",
     "watch_out": "Everything is metered in Actions and credits, so real usage costs can climb past the base plan, and the builder still takes genuine setup effort."
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "company": "Copy.ai",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$24/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Writing marketing copy, emails, and social posts fast with AI that follows your brand voice.",
+    "watch_out": "The $24/month Chat plan is billed once a year ($288 up front); month to month costs $29.",
+    "link": "https://www.copy.ai/prices",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "soundful",
+    "name": "Soundful",
+    "company": "Soundful",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$9.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating royalty-free background music for videos, streams, and social posts.",
+    "watch_out": "The $9.99/month Plus plan is billed monthly; the cheaper $4.99 rate needs a full year paid upfront, and downloads reset each month.",
+    "link": "https://soundful.com/pricing/",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "getimg-ai",
+    "name": "Getimg.ai",
+    "company": "Getimg.ai",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$8/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating and editing AI images for art, thumbnails, and design mockups.",
+    "watch_out": "The $8/month Entry plan is billed yearly ($96 upfront), plan credits do not roll over, and API access costs extra.",
+    "link": "https://getimg.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "augment-code",
+    "name": "Augment Code",
+    "company": "Augment Code",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Getting AI help writing and understanding code right inside your code editor.",
+    "watch_out": "The $20/month plan is a usage allowance across their AI models, so heavy coding sessions can burn through it.",
+    "link": "https://www.augmentcode.com/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "gumloop",
+    "name": "Gumloop",
+    "company": "Gumloop",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$37/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Building no-code AI automations that scrape sites, process data, and run on a schedule.",
+    "watch_out": "Pro starts at $37/month and usage is credit-based, so large workflows can cost more than the base price.",
+    "link": "https://www.gumloop.com/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "company": "Kagi",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$5/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Ad-free web search with better results and no tracking.",
+    "watch_out": "The $5/month Starter plan limits how many searches you get; heavy searching needs a pricier plan.",
+    "link": "https://kagi.com/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "kits-ai",
+    "name": "Kits AI",
+    "company": "Kits AI",
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Training AI voices to sing or speak for your music tracks.",
+    "watch_out": "The cheapest paid plan is Starter at $10 a month, and it limits how many custom voices you can train.",
+    "link": "https://kits.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "listnr",
+    "name": "Listnr",
+    "company": "Listnr",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$19/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turning text into natural voiceovers for videos and podcasts.",
+    "watch_out": "The $19/month plan caps you at 20,000 credits, which is roughly 2 hours of audio a month.",
+    "link": "https://listnr.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "ltx-studio",
+    "name": "LTX Studio",
+    "company": "Lightricks",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Directing AI-generated video scenes with real camera-style controls.",
+    "watch_out": "The $12/month price needs yearly billing and is currently shown as a limited-time offer, and the plan caps you at 8,000 credits a month.",
+    "link": "https://ltx.io/studio/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "dzine-ai",
+    "name": "Dzine.ai",
+    "company": "Dzine.ai",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Editing photos and generating design images with simple text prompts.",
+    "watch_out": "The $8.99/month plan is credit-based, and extra top-up credits cost more on top.",
+    "link": "https://www.dzine.ai/pricing/",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "cartesia",
+    "name": "Cartesia",
+    "company": "Cartesia",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$5/month",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Adding ultra-fast, natural AI voices to apps and products.",
+    "watch_out": "The $5/month Pro plan bundles 100K credits a month; go over the included credits and you pay for more.",
+    "link": "https://cartesia.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "company": "Fireflies.ai",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Auto-transcribing meetings and getting AI summaries without taking notes.",
+    "watch_out": "The $10/month price needs yearly billing, and the plan covers a set number of transcription minutes per month.",
+    "link": "https://fireflies.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "krisp",
+    "name": "Krisp",
+    "company": "Krisp",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Removing background noise from your calls and meetings.",
+    "watch_out": "The $8/month price needs yearly billing ($16 month-to-month), and it is priced per user.",
+    "link": "https://krisp.ai/pricing/",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "reclaim-ai",
+    "name": "Reclaim.ai",
+    "company": "Reclaim.ai",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Auto-scheduling your workday, habits, and meetings around your priorities.",
+    "watch_out": "The $10 Starter price needs yearly billing and is per seat; month to month it is $12 each, so costs add up as your team grows.",
+    "link": "https://reclaim.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "jasper-ai",
+    "name": "Jasper",
+    "company": "Jasper",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$59/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Writing on-brand marketing content with an AI trained on your style.",
+    "watch_out": "The $59/month Pro price needs yearly billing; month-to-month is $69, and it is built for teams rather than casual use.",
+    "link": "https://www.jasper.ai/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "company": "Rytr",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$7.50/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Writing short marketing copy and emails on a tight budget.",
+    "watch_out": "The $7.50 Unlimited plan needs yearly billing, so you pay about $90 up front rather than month to month.",
+    "link": "https://rytr.me/pricing",
+    "last_checked": "2026-09-20"
+  },
+  {
+    "id": "fathom-ai",
+    "name": "Fathom",
+    "company": "Fathom",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$16/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Recording video calls with free transcripts and AI summaries.",
+    "watch_out": "The cheapest plan one person can buy is Premium at $16 a month on yearly billing ($20 month to month); the Team price advertised as $15 needs at least 2 users.",
+    "link": "https://www.fathom.ai/pricing",
+    "last_checked": "2026-09-20"
   }
 ]
