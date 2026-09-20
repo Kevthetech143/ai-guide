@@ -1,0 +1,461 @@
+[
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Tabnine",
+    "free_tier": false,
+    "good_for": "An AI assistant inside your code editor that suggests code and answers questions about your own codebase.",
+    "id": "tabnine",
+    "last_checked": "2026-09-19",
+    "link": "https://www.tabnine.com/pricing/",
+    "name": "Tabnine",
+    "open_weights": false,
+    "price_from": "$39/user/month (annual)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "The advertised price is the annual plan; no free individual tier is listed on the pricing page."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Amazon",
+    "free_tier": true,
+    "good_for": "Amazon's AI coding helper that suggests code and answers questions inside your editor or the AWS console.",
+    "id": "amazon-q-developer",
+    "last_checked": "2026-09-19",
+    "link": "https://aws.amazon.com/q/developer/pricing/",
+    "name": "Amazon Q Developer",
+    "open_weights": false,
+    "price_from": "$19/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "The paid Pro subscription can start billing once you use certain AI features, not at sign-in, so it can surprise you with a charge."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Aider",
+    "free_tier": true,
+    "good_for": "Talk to an AI in your computer's terminal and it writes and edits your code files for you.",
+    "id": "aider",
+    "last_checked": "2026-09-19",
+    "link": "https://aider.chat/",
+    "name": "Aider",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "The tool itself is free, but you still pay the AI provider (like Anthropic or OpenAI) for each use, so costs depend on how much you use it."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Bolt",
+    "free_tier": true,
+    "good_for": "Describe the website or app you want in plain words and it builds it for you right in your browser.",
+    "id": "bolt-new",
+    "last_checked": "2026-09-19",
+    "link": "https://bolt.new/pricing",
+    "name": "Bolt.new",
+    "open_weights": false,
+    "price_from": "$25/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Everything runs on tokens, so a big or complicated project can burn through your monthly allowance quickly."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Playground AI",
+    "free_tier": true,
+    "good_for": "Type a description and it creates images for you, with lots of ready-made style templates to start from.",
+    "id": "playground-ai",
+    "last_checked": "2026-09-19",
+    "link": "https://playgroundai.com/design/pricing",
+    "name": "Playground AI",
+    "open_weights": false,
+    "price_from": "$15/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan is slow and limited to a few images every few hours, and the premium models use monthly credits."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Hugging Face",
+    "free_tier": true,
+    "good_for": "Chatting with free open-source AI models without paying anything.",
+    "id": "huggingchat",
+    "last_checked": "2026-09-19",
+    "link": "https://huggingface.co/chat",
+    "name": "HuggingChat",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Answer quality and uptime vary by model, and there is no paid tier if you ever want priority access."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Writesonic",
+    "free_tier": true,
+    "good_for": "Drafting marketing content and pulling live web data inside one chat window.",
+    "id": "chatsonic",
+    "last_checked": "2026-09-19",
+    "link": "https://writesonic.com/chat",
+    "name": "ChatSonic",
+    "open_weights": false,
+    "price_from": "$16/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "It is now folded into Writesonic's marketing platform, and the $16/month price is billed annually."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Inflection AI",
+    "free_tier": true,
+    "good_for": "Talking through ideas or worries with a friendly, conversational AI.",
+    "id": "pi-ai",
+    "last_checked": "2026-09-19",
+    "link": "https://pi.ai/",
+    "name": "Pi by Inflection",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "It has no paid tier with extra features, and it cannot browse the live web or perform tasks for you."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Speechify",
+    "free_tier": true,
+    "good_for": "Listening to articles, documents, and books read aloud in natural-sounding voices.",
+    "id": "speechify",
+    "last_checked": "2026-09-19",
+    "link": "https://speechify.com/pricing/",
+    "name": "Speechify",
+    "open_weights": false,
+    "price_from": "$29/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan's voices sound robotic, and the natural-voice Premium plan costs $29/month."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "WellSaid Labs",
+    "free_tier": true,
+    "good_for": "Turning scripts into studio-quality voiceovers for videos and presentations.",
+    "id": "wellsaid-labs",
+    "last_checked": "2026-09-19",
+    "link": "https://www.wellsaid.io/ai-voice-pricing",
+    "name": "WellSaid Labs",
+    "open_weights": false,
+    "price_from": "$10/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "You pay for downloaded minutes of finished audio, so long projects get expensive quickly."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "InVideo",
+    "free_tier": true,
+    "good_for": "Turn a text prompt into a finished video with stock footage and AI voiceover without editing anything yourself.",
+    "id": "invideo",
+    "last_checked": "2026-09-19",
+    "link": "https://invideo.io/pricing/",
+    "name": "InVideo",
+    "open_weights": false,
+    "price_from": "$20/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Paid plans run on credits that do not roll over, and costs are hard to predict because every AI model burns credits at a different rate."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "OpusClip",
+    "free_tier": true,
+    "good_for": "Turn a long video or podcast into short vertical clips with captions for TikTok, Reels, and Shorts.",
+    "id": "opus-clip",
+    "last_checked": "2026-09-19",
+    "link": "https://www.opus.pro/pricing",
+    "name": "Opus Clip",
+    "open_weights": false,
+    "price_from": "$15/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "You pay per minute of video you upload, not per clip you get, so long source videos burn through the plan fast."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Pictory",
+    "free_tier": false,
+    "good_for": "Turn a blog post, script, or long recording into a captioned video with stock footage matched to your words.",
+    "id": "pictory",
+    "last_checked": "2026-09-19",
+    "link": "https://pictory.ai/pricing",
+    "name": "Pictory",
+    "open_weights": false,
+    "price_from": "$25/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Exports top out at 1080p, there is no ongoing free plan (14-day trial only), and unused video minutes do not roll over."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Synthesia",
+    "free_tier": true,
+    "good_for": "Type a script and get a video of a lifelike AI presenter saying it, in over 160 languages.",
+    "id": "synthesia",
+    "last_checked": "2026-09-19",
+    "link": "https://www.synthesia.io/pricing",
+    "name": "Synthesia",
+    "open_weights": false,
+    "price_from": "$29/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The $29 Starter plan covers only about 120 minutes of finished video for the whole year, so steady publishing means a bigger plan."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Colossyan",
+    "free_tier": true,
+    "good_for": "Type a script and get a training-style video narrated by an AI avatar, with quizzes and course exports.",
+    "id": "colossyan",
+    "last_checked": "2026-09-19",
+    "link": "https://www.colossyan.com/pricing",
+    "name": "Colossyan",
+    "open_weights": false,
+    "price_from": "$59/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The paid plan starts at $59/month, one of the priciest entries here, and it is built for training videos rather than creative content."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "AIVA Technologies",
+    "free_tier": true,
+    "good_for": "Create original songs in over 250 styles in seconds, even with no music training.",
+    "id": "aiva",
+    "last_checked": "2026-09-19",
+    "link": "https://www.aiva.ai/pricing",
+    "name": "AIVA",
+    "open_weights": false,
+    "price_from": "€11/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free and Standard plans keep copyright with AIVA and limit commercial use; only the Pro plan transfers full ownership to you."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Mubert",
+    "free_tier": true,
+    "good_for": "Generate royalty-free background music from a text prompt for videos, podcasts, and apps.",
+    "id": "mubert",
+    "last_checked": "2026-09-19",
+    "link": "https://mubert.com/render/pricing",
+    "name": "Mubert",
+    "open_weights": false,
+    "price_from": "$11.69/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan adds an audible watermark and requires attribution, and tracks can't be released on Spotify or registered with Content ID."
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Elicit",
+    "free_tier": true,
+    "good_for": "Ask a research question and get structured evidence tables pulled from over 138 million academic papers.",
+    "id": "elicit",
+    "last_checked": "2026-09-19",
+    "link": "https://elicit.com/pricing",
+    "name": "Elicit",
+    "open_weights": false,
+    "price_from": "$11/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Elicit works on usage limits, so heavy extraction runs can burn through your monthly allowance faster than expected."
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Scite",
+    "free_tier": true,
+    "good_for": "Check whether scientific papers are supported or contradicted by later research, with AI-written summaries.",
+    "id": "scite",
+    "last_checked": "2026-09-19",
+    "link": "https://scite.ai/pricing",
+    "name": "Scite",
+    "open_weights": false,
+    "price_from": "$20/month (billed yearly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only covers the basic research connector, not the full platform; real literature-review work starts at the paid Basic plan."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Vapi",
+    "free_tier": true,
+    "good_for": "Build an AI voice assistant that answers and makes real phone calls for your business.",
+    "id": "vapi",
+    "last_checked": "2026-09-19",
+    "link": "https://vapi.ai/pricing",
+    "name": "Vapi",
+    "open_weights": false,
+    "price_from": "$29/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "The headline per-minute fee only covers Vapi's own charge — the AI model, voice, and phone line each add separate costs on top."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Lindy",
+    "free_tier": false,
+    "good_for": "An AI teammate that handles your email, calendar, meetings, and routine office work when you tell it what to do.",
+    "id": "lindy",
+    "last_checked": "2026-09-19",
+    "link": "https://www.lindy.ai/pricing",
+    "name": "Lindy",
+    "open_weights": false,
+    "price_from": "$29.99/user/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Everything runs on credits, so heavy or complex tasks can burn through your monthly allowance faster than the plan price suggests."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Typebot",
+    "free_tier": true,
+    "good_for": "Build chatbots and conversational forms for your website by dragging and dropping blocks, no coding needed.",
+    "id": "typebot",
+    "last_checked": "2026-09-19",
+    "link": "https://typebot.com/pricing",
+    "name": "Typebot",
+    "open_weights": false,
+    "price_from": "$39/month",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Chat limits count every new conversation, so a busy site can burn through the free 200 chats a month quickly."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Botpress",
+    "free_tier": true,
+    "good_for": "Build an AI chatbot or support agent for your website, WhatsApp, or Slack that answers questions and can do real tasks.",
+    "id": "botpress",
+    "last_checked": "2026-09-19",
+    "link": "https://botpress.com/pricing",
+    "name": "Botpress",
+    "open_weights": false,
+    "price_from": "$150/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "Plan prices don't include AI usage and extra conversation packs, which are billed on top and can add up fast."
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Narakeet",
+    "free_tier": true,
+    "good_for": "Turns a written script into a spoken voiceover or narrated video in hundreds of voices and languages.",
+    "id": "narakeet",
+    "last_checked": "2026-09-19",
+    "link": "https://www.narakeet.com/docs/pricing/",
+    "name": "Narakeet",
+    "open_weights": false,
+    "price_from": "$6 (one-time, 30 minutes)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Free accounts cannot be used for commercial projects, and every full build (including re-doing one) eats your paid minutes."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Kapwing",
+    "free_tier": true,
+    "good_for": "Edits videos in a web browser with AI tools for subtitles, voiceovers, resizing, and background removal.",
+    "id": "kapwing",
+    "last_checked": "2026-09-19",
+    "link": "https://www.kapwing.com/pricing",
+    "name": "Kapwing",
+    "open_weights": false,
+    "price_from": "$16/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Free exports carry a Kapwing watermark and are limited to short 720p clips, and the AI features run on a limited monthly credit allowance."
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Wisecut",
+    "free_tier": true,
+    "good_for": "Automatically cuts silences, adds subtitles and background music, and turns long videos into short clips.",
+    "id": "wisecut",
+    "last_checked": "2026-09-19",
+    "link": "https://wisecut.ai/pricing",
+    "name": "Wisecut",
+    "open_weights": false,
+    "price_from": "US$23.25/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only exports at 360p, and paid plans run on a monthly credit balance that long videos can burn through quickly."
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Relevance AI",
+    "free_tier": true,
+    "good_for": "Builds no-code AI agents that can do multi-step work across apps, like sales research or lead follow-up.",
+    "id": "relevance-ai",
+    "last_checked": "2026-09-19",
+    "link": "https://relevanceai.com/docs/get-started/pricing",
+    "name": "Relevance AI",
+    "open_weights": false,
+    "price_from": "$19/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "Everything is metered in Actions and credits, so real usage costs can climb past the base plan, and the builder still takes genuine setup effort."
+  }
+]
