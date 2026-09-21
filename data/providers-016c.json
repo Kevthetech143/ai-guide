@@ -1,0 +1,190 @@
+[
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Soundraw",
+    "free_tier": true,
+    "good_for": "It turns a genre, mood, and length you pick into an original royalty-free track - the AI is trained only on music their own producers write and record, and every download comes with a worldwide, perpetual license.",
+    "id": "soundraw",
+    "last_checked": "2026-09-21",
+    "link": "https://soundraw.io/#pricing-section",
+    "name": "Soundraw",
+    "open_weights": false,
+    "price_from": "$16.99/month ($11.04/month billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The cheapest Creator plan only downloads MP3s. WAV files and separate instrument stems need the Artist Pro plan - Artist Starter is MP3-only too."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "OmniSale GMBH",
+    "free_tier": true,
+    "good_for": "It splits any song into vocals, drums, bass, and other stems in seconds, and cleans up noisy recordings - with desktop, phone, and DAW apps.",
+    "id": "lalal-ai",
+    "last_checked": "2026-09-21",
+    "link": "https://www.lalal.ai/pricing/",
+    "name": "LALAL.AI",
+    "open_weights": false,
+    "price_from": "$7.50/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Paid plans give unlimited relaxed-queue minutes but only a fixed monthly amount of fast-queue minutes (90 on Lite, 250 on Pro); the VST plugin and local desktop processing are Pro-only."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Google",
+    "free_tier": true,
+    "good_for": "Chat with an AI co-producer to make full songs with vocals, then publish and share them - the free plan tops up credits daily with no credit card required.",
+    "id": "flow-music",
+    "last_checked": "2026-09-21",
+    "link": "https://www.flowmusic.app/pricing",
+    "name": "Flow Music",
+    "open_weights": false,
+    "price_from": "$6/month (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The $6 price needs yearly billing; the page defaults to the yearly toggle, so month-to-month costs more. The free plan's daily credit top-ups are small."
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Meta",
+    "free_tier": true,
+    "good_for": "Meta's open music-generation model you can download and run on your own computer - describe a style and it composes a matching track.",
+    "id": "musicgen",
+    "last_checked": "2026-09-21",
+    "link": "https://huggingface.co/facebook/musicgen-small",
+    "name": "MusicGen",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "It is a raw model, not an app - running it locally takes some coding, and the CC-BY-NC license on the weights rules out commercial use."
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Exa Labs, Inc.",
+    "free_tier": true,
+    "good_for": "A search engine built for AI apps and agents - it returns clean webpage text and highlights instead of ad-filled results pages.",
+    "id": "exa",
+    "last_checked": "2026-09-21",
+    "link": "https://exa.ai/pricing",
+    "name": "Exa",
+    "open_weights": false,
+    "price_from": "$7 per 1,000 searches (API)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "This is a developer API, not a search box - you write code to call it. You can start free: $20 of credits at sign-up plus $10 monthly, no card required."
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "TabbyML, Inc.",
+    "free_tier": true,
+    "good_for": "An open-source AI coding assistant that runs on your own servers or computer - code completion, in-editor chat, and answers grounded in your codebase, all kept private.",
+    "id": "tabby",
+    "last_checked": "2026-09-21",
+    "link": "https://www.tabbyml.com/pricing",
+    "name": "Tabby",
+    "open_weights": true,
+    "price_from": "$19/month per seat (Team; Community free)",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "The paid Team plan is priced per person ($19 a seat), and the free Community plan covers up to 5 users."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Nomic",
+    "free_tier": true,
+    "good_for": "A free desktop app that downloads open AI models and chats with them entirely on your computer - nothing you type ever leaves your machine.",
+    "id": "gpt4all",
+    "last_checked": "2026-09-21",
+    "link": "https://www.nomic.ai/gpt4all",
+    "name": "GPT4All",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "It is built for developers, teams, and AI power users rather than total beginners - expect to pick and configure your own models."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Jan",
+    "free_tier": true,
+    "good_for": "A free, open-source desktop app that runs AI chat models on your computer - like ChatGPT, but your conversations stay private on your machine.",
+    "id": "jan",
+    "last_checked": "2026-09-21",
+    "link": "https://www.jan.ai/",
+    "name": "Jan",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "Bigger models are large downloads, and the online-model options connect to your own accounts with those providers."
+  },
+  {
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "company": "AnythingLLM",
+    "free_tier": true,
+    "good_for": "A free, open-source desktop app that turns your own documents into a private AI assistant - chat with your files and get meeting summaries, all on your device with no accounts or API keys.",
+    "id": "anythingllm",
+    "last_checked": "2026-09-21",
+    "link": "https://anythingllm.com/",
+    "name": "AnythingLLM",
+    "open_weights": true,
+    "price_from": "Free to run yourself (team cloud from $50/month)",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "The desktop app that runs on your own computer is free. Their hosted team version starts at $50 a month."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Comfy Org",
+    "free_tier": true,
+    "good_for": "The open standard for serious AI image and video work - connect models and processing steps as visible nodes on a canvas for total control over every step.",
+    "id": "comfyui",
+    "last_checked": "2026-09-21",
+    "link": "https://comfy.org/",
+    "name": "ComfyUI",
+    "open_weights": true,
+    "price_from": "Free to run yourself (cloud from $16/month billed annually)",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "Free on your own computer, but their hosted Comfy Cloud starts at $16 a month on yearly billing. The node-canvas workflow takes real learning - start from a community template."
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "DiffusionBee",
+    "free_tier": true,
+    "good_for": "The easiest way to run Stable Diffusion on a Mac - text-to-image, generative fill, upscaling, and video tools in one free app that works fully offline.",
+    "id": "diffusionbee",
+    "last_checked": "2026-09-21",
+    "link": "https://diffusionbee.com/",
+    "name": "DiffusionBee",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Mac only, and Apple silicon is recommended - Intel Macs work but generate images much more slowly."
+  }
+]
