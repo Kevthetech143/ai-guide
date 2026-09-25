@@ -521,7 +521,7 @@
     ],
     "company": "Ideogram",
     "free_tier": true,
-    "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
+    "good_for": "Great for making logos, posters, and designs that include words \u2014 it spells text inside pictures better than most other tools.",
     "id": "ideogram",
     "last_checked": "2026-09-14",
     "link": "https://ideogram.ai",
@@ -632,7 +632,7 @@
     "price_from": "$14.99/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free version puts a watermark on your videos, and clips are short — only about 6 to 10 seconds each."
+    "watch_out": "The free version puts a watermark on your videos, and clips are short \u2014 only about 6 to 10 seconds each."
   },
   {
     "categories": [
@@ -649,7 +649,7 @@
     "price_from": "$19/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan."
+    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial \u2014 downloads and commercial rights need a paid plan."
   },
   {
     "categories": [
@@ -674,7 +674,7 @@
     ],
     "company": "Microsoft",
     "free_tier": true,
-    "good_for": "You can ask it questions, write emails, and make pictures using plain words — no training needed, and the basic chat is free.",
+    "good_for": "You can ask it questions, write emails, and make pictures using plain words \u2014 no training needed, and the basic chat is free.",
     "id": "microsoft-copilot",
     "last_checked": "2026-09-14",
     "link": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/right-copilot-plan-for-you",
@@ -708,7 +708,7 @@
     ],
     "company": "Zapier",
     "free_tier": true,
-    "good_for": "It connects your apps and does boring tasks for you — like saving email attachments to Google Drive — without writing any code, and an AI helper builds the workflows from a plain sentence.",
+    "good_for": "It connects your apps and does boring tasks for you \u2014 like saving email attachments to Google Drive \u2014 without writing any code, and an AI helper builds the workflows from a plain sentence.",
     "id": "zapier-ai",
     "last_checked": "2026-09-14",
     "link": "https://zapier.com/pricing",
@@ -751,7 +751,7 @@
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "hard",
-    "watch_out": "Gemma is a raw model, not an app — you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
+    "watch_out": "Gemma is a raw model, not an app \u2014 you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
   },
   {
     "categories": [
@@ -1298,7 +1298,7 @@
     "link": "https://www.aiva.ai/pricing",
     "name": "AIVA",
     "open_weights": false,
-    "price_from": "€11/month (billed annually)",
+    "price_from": "\u20ac11/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "The free and Standard plans keep copyright with AIVA and limit commercial use; only the Pro plan transfers full ownership to you."
@@ -1369,7 +1369,7 @@
     "price_from": "$29/month",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "The headline per-minute fee only covers Vapi's own charge — the AI model, voice, and phone line each add separate costs on top."
+    "watch_out": "The headline per-minute fee only covers Vapi's own charge \u2014 the AI model, voice, and phone line each add separate costs on top."
   },
   {
     "categories": [
@@ -1967,5 +1967,110 @@
     "runs_on_your_computer": true,
     "skill_level": "easy",
     "watch_out": "Mac only, and Apple silicon is recommended - Intel Macs work but generate images much more slowly."
+  },
+  {
+    "id": "vocal-remover",
+    "name": "Vocal Remover",
+    "company": "VocalRemover.org",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (up to 10 minutes of audio a day); membership US$12.95/month or US$99/year",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Splitting a song into karaoke (no vocals) and acapella (isolated vocals) tracks; also key, BPM, pitch and cutter tools",
+    "watch_out": "The newer, better version is for paying members; free use is capped at 10 minutes of audio a day and 8-minute files",
+    "link": "https://vocalremover.org",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "company": "Tavily",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Researcher plan); paid from $0.008/credit (Pay As You Go) or $30/month (Project)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Search API built for AI agents \u2014 fast results with source citations",
+    "watch_out": "API only, no consumer search page; usage-based pricing needs monitoring",
+    "link": "https://www.tavily.com/",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "goose",
+    "name": "goose",
+    "company": "Agentic AI Foundation",
+    "categories": [
+      "agents",
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free, open-source AI assistant on your own computer (desktop app or command line) that does tasks for you - coding, research, writing and automation",
+    "watch_out": "You connect your own AI model (an API key or an existing Claude, ChatGPT or Gemini subscription), and that model's costs are separate",
+    "link": "https://goose-docs.ai",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo",
+    "company": "Qodo",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$30/month (Pro Team; extra credit packs $0.012/credit)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Agentic AI code review on pull requests \u2014 rules system, pre-PR checks, analytics",
+    "watch_out": "$30/month buys 2,500 credits (about 18 reviews a month); about 36 reviews costs $60/month. 14-day free trial; free only for open-source projects",
+    "link": "https://www.qodo.ai",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "pieces",
+    "name": "Pieces",
+    "company": "Pieces",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$18.99 per user/month (Pro, billed monthly; 25% off billed yearly)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An app that quietly remembers what you work on across your computer so you can ask AI about it later - recaps, meeting prep, finding past work",
+    "watch_out": "No free plan (the 7-day trial needs a card); it captures what is on your screen every 2 seconds by default, so check its privacy settings",
+    "link": "https://pieces.app",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "company": "Replicate",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "Pay as you go per model - e.g. $0.025 per image (flux-dev), $0.04 per image (flux-1.1-pro)",
+    "skill_level": "hard",
+    "runs_on_your_computer": false,
+    "good_for": "Trying thousands of AI models (images, video, speech, music, chat) from one account, in a browser playground or through code",
+    "watch_out": "Built for developers and billed per use - every run costs money, with no flat monthly plan",
+    "link": "https://replicate.com",
+    "last_checked": "2026-09-22"
   }
 ]
