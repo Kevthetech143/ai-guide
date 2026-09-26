@@ -1,0 +1,157 @@
+[
+  {
+    "id": "mureka-ai",
+    "name": "Mureka",
+    "company": "Mureka",
+    "categories": [
+      "music",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Pro; $8/month billed yearly at $96)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating original songs, background music, soundscapes and AI music videos from text prompts",
+    "watch_out": "Free plan: 4 songs a day on the free model; Pro: up to 500 songs a month with MP3 downloads only (WAV and stems need Premier, $30/month)",
+    "link": "https://www.mureka.ai/subscribe",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "loudly",
+    "name": "Loudly",
+    "company": "Loudly",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Personal; $8/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "AI text-to-music with commercial licensing and distribution to Spotify, Apple Music and YouTube Music",
+    "watch_out": "Personal: 2,500 credits/month; free plan is non-commercial with 1 download per day",
+    "link": "https://www.loudly.com/music/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "boomy",
+    "name": "Boomy",
+    "company": "Boomy Corporation",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$14.99/month (Creator list price; the page currently shows a 33% discount)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Making and releasing original AI songs with full commercial rights, even with no music experience",
+    "watch_out": "Free plan: 25 song saves, no downloads, no commercial use; Creator includes 25 WAV downloads per month",
+    "link": "https://boomy.com/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "stable-audio",
+    "name": "Stable Audio",
+    "company": "Stability AI",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$12/month (Solo)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating royalty-free tracks with the Stable Audio web app and DAW plugin",
+    "watch_out": "Solo: 660 credits/month; credits reset monthly and do not roll over",
+    "link": "https://stableaudio.com/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "iask-ai",
+    "name": "iAsk",
+    "company": "Ai Search Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$9.95/month (iAsk Pro)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "AI search with an AI writer, instant summarizer and document analysis",
+    "watch_out": "Pro: 300 daily Pro searches; free tier has limited ads and uses the non-Pro model",
+    "link": "https://iask.ai/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "recraft-ai",
+    "name": "Recraft",
+    "company": "Recraft",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (Basic; $10/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating and editing images with multiple AI models (Flux, GPT Image, Nano Banana); video generation on Pro",
+    "watch_out": "Basic: 1,000 credits/month; free-plan images are public with no commercial use",
+    "link": "https://www.recraft.ai/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "company": "Vercel",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$30/user/month (Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating complete web apps and UIs from text prompts, deployed to Vercel",
+    "watch_out": "Plus is priced per user; free plan limited to 7 messages per day",
+    "link": "https://v0.app/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "warp-dev",
+    "name": "Warp",
+    "company": "Warp",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$20/month (Build)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "AI-assisted coding in a modern terminal with Warp Agent",
+    "watch_out": "Build: 1,500 credits ($20 of agent usage at API rates); extra usage is pay-as-you-go",
+    "link": "https://www.warp.dev/pricing",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "zed-editor",
+    "name": "Zed",
+    "company": "Zed Industries",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Pro)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A fast code editor with AI edit predictions and token-based AI features",
+    "watch_out": "Pro includes $5 of tokens; usage beyond that bills at API list price +10%",
+    "link": "https://zed.dev/pricing",
+    "last_checked": "2026-09-26"
+  }
+]
