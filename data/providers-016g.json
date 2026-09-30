@@ -1,0 +1,122 @@
+[
+  {
+    "id": "brainfm",
+    "name": "Brain.fm",
+    "company": "Brain.FM, Inc.",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$14.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "AI-generated functional music for focus, relaxation, and sleep",
+    "watch_out": "No free tier — only a free trial; a paid subscription is required after the trial",
+    "link": "https://www.brain.fm/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "ecrett-music",
+    "name": "Ecrett Music",
+    "company": "ecrett music",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$7.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Royalty-free AI-generated music for videos and commercial projects",
+    "watch_out": "The cheaper $4.99/month Individual rate requires annual billing; monthly billing is $7.99/month",
+    "link": "https://ecrettmusic.com/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "fadr",
+    "name": "Fadr",
+    "company": "Fadr",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Splitting songs into stems (vocals, drums, bass, melody) and AI-powered remixing",
+    "watch_out": "Promo banners on the site advertise discounts — the price quoted is the standing list price, not a promo; no separate legal company name shown on the footer",
+    "link": "https://fadr.com/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "company": "Onyx",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20 per user/month (billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "AI search across a team's documents, email, and apps, self-hosted or in Onyx cloud",
+    "watch_out": "The $20/user/month rate is annual billing; enterprise pricing is custom and only a free trial (no free tier) is offered",
+    "link": "https://onyx.app/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "company": "Cline Bot Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free for individuals (pay only for AI inference usage)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Autonomous AI coding agent inside VS Code that plans, writes, and edits code",
+    "watch_out": "No subscription, but every AI action consumes inference credits you pay for — or bring your own model API keys",
+    "link": "https://cline.bot/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "company": "OpenHands",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (paid cloud also offered; price not listed on site)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Open-source AI software-development agents you run locally or self-host",
+    "watch_out": "Only the free local/self-hosted tier has a listed price — the paid cloud plan's price is not shown on the pricing page",
+    "link": "https://www.openhands.dev/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "komo",
+    "name": "Komo",
+    "company": "Komo",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free ($0 forever plan; paid credit plans also offered, prices not shown on page)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Everyday AI search with premium models, deep research, and people search",
+    "watch_out": "Paid tiers are usage-based credits whose prices are not in the static page — only the $0 free plan price is shown; no separate legal company name shown on the footer",
+    "link": "https://komo.ai/",
+    "last_checked": "2026-09-30"
+  }
+]

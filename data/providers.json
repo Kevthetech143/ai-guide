@@ -521,7 +521,7 @@
     ],
     "company": "Ideogram",
     "free_tier": true,
-    "good_for": "Great for making logos, posters, and designs that include words \u2014 it spells text inside pictures better than most other tools.",
+    "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
     "id": "ideogram",
     "last_checked": "2026-09-14",
     "link": "https://ideogram.ai",
@@ -632,7 +632,7 @@
     "price_from": "$14.99/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free version puts a watermark on your videos, and clips are short \u2014 only about 6 to 10 seconds each."
+    "watch_out": "The free version puts a watermark on your videos, and clips are short — only about 6 to 10 seconds each."
   },
   {
     "categories": [
@@ -649,7 +649,7 @@
     "price_from": "$19/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial \u2014 downloads and commercial rights need a paid plan."
+    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan."
   },
   {
     "categories": [
@@ -674,7 +674,7 @@
     ],
     "company": "Microsoft",
     "free_tier": true,
-    "good_for": "You can ask it questions, write emails, and make pictures using plain words \u2014 no training needed, and the basic chat is free.",
+    "good_for": "You can ask it questions, write emails, and make pictures using plain words — no training needed, and the basic chat is free.",
     "id": "microsoft-copilot",
     "last_checked": "2026-09-14",
     "link": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/right-copilot-plan-for-you",
@@ -708,7 +708,7 @@
     ],
     "company": "Zapier",
     "free_tier": true,
-    "good_for": "It connects your apps and does boring tasks for you \u2014 like saving email attachments to Google Drive \u2014 without writing any code, and an AI helper builds the workflows from a plain sentence.",
+    "good_for": "It connects your apps and does boring tasks for you — like saving email attachments to Google Drive — without writing any code, and an AI helper builds the workflows from a plain sentence.",
     "id": "zapier-ai",
     "last_checked": "2026-09-14",
     "link": "https://zapier.com/pricing",
@@ -751,7 +751,7 @@
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "hard",
-    "watch_out": "Gemma is a raw model, not an app \u2014 you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
+    "watch_out": "Gemma is a raw model, not an app — you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
   },
   {
     "categories": [
@@ -1298,7 +1298,7 @@
     "link": "https://www.aiva.ai/pricing",
     "name": "AIVA",
     "open_weights": false,
-    "price_from": "\u20ac11/month (billed annually)",
+    "price_from": "€11/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "The free and Standard plans keep copyright with AIVA and limit commercial use; only the Pro plan transfers full ownership to you."
@@ -1369,7 +1369,7 @@
     "price_from": "$29/month",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "The headline per-minute fee only covers Vapi's own charge \u2014 the AI model, voice, and phone line each add separate costs on top."
+    "watch_out": "The headline per-minute fee only covers Vapi's own charge — the AI model, voice, and phone line each add separate costs on top."
   },
   {
     "categories": [
@@ -1997,7 +1997,7 @@
     "price_from": "Free (Researcher plan); paid from $0.008/credit (Pay As You Go) or $30/month (Project)",
     "skill_level": "medium",
     "runs_on_your_computer": false,
-    "good_for": "Search API built for AI agents \u2014 fast results with source citations",
+    "good_for": "Search API built for AI agents — fast results with source citations",
     "watch_out": "API only, no consumer search page; usage-based pricing needs monitoring",
     "link": "https://www.tavily.com/",
     "last_checked": "2026-09-22"
@@ -2033,7 +2033,7 @@
     "price_from": "$30/month (Pro Team; extra credit packs $0.012/credit)",
     "skill_level": "medium",
     "runs_on_your_computer": false,
-    "good_for": "Agentic AI code review on pull requests \u2014 rules system, pre-PR checks, analytics",
+    "good_for": "Agentic AI code review on pull requests — rules system, pre-PR checks, analytics",
     "watch_out": "$30/month buys 2,500 credits (about 18 reviews a month); about 36 reviews costs $60/month. 14-day free trial; free only for open-source projects",
     "link": "https://www.qodo.ai",
     "last_checked": "2026-09-22"
@@ -2278,7 +2278,7 @@
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Academic literature only \u2014 it is not a general web search engine."
+    "watch_out": "Academic literature only — it is not a general web search engine."
   },
   {
     "categories": [
@@ -2378,7 +2378,7 @@
     "link": "https://www.retellai.com/pricing",
     "name": "Retell AI",
     "open_weights": false,
-    "price_from": "$0.07\u2013$0.31/minute (Pay-as-you-go Voice AI)",
+    "price_from": "$0.07–$0.31/minute (Pay-as-you-go Voice AI)",
     "runs_on_your_computer": false,
     "skill_level": "medium",
     "watch_out": "Made for businesses building phone-answering bots. The real cost per minute depends on the parts you pick: Retell's voice engine is $0.055/minute, plus the AI model and the voice (Retell's own voices add $0.015/minute)."
@@ -2518,5 +2518,108 @@
     "runs_on_your_computer": true,
     "skill_level": "easy",
     "watch_out": "Commercial use limited to orgs under $1M USD annual revenue."
+  },
+  {
+    "id": "ecrett-music",
+    "name": "Ecrett Music",
+    "company": "SOUNDRAW Inc.",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$7.99/month (Individual), or $4.99/month billed annually",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Making simple background music for videos, games and podcasts: pick a scene, mood and style, and its AI makes a new tune you can use without paying extra each time",
+    "watch_out": "The free plan only downloads preview music, which you may not publish or use to make money. To use tracks in your videos you need Individual ($7.99/month). The music is meant to go inside videos, games or podcasts, not to be sold or shared as songs on their own",
+    "link": "https://ecrettmusic.com/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "fadr",
+    "name": "Fadr",
+    "company": "Pebble LLC",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Fadr Plus), or $100/year",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Using AI to pull a song apart into separate tracks (vocals, drums, bass, melody) and remix it, even with no music experience",
+    "watch_out": "The free plan splits songs into the main parts and gives MP3 downloads only. Finer splits (like single drums), higher-quality WAV files and the add-ons for music software need Fadr Plus",
+    "link": "https://fadr.com/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "company": "DanswerAI, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (Onyx cloud $20 per user/month, billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "AI chat and search across a team's work files and apps (like Slack, Google Drive and Confluence), in Onyx's cloud or installed on your own server",
+    "watch_out": "Made for teams at work. The $20 per person price is only offered with yearly billing. The free version means installing it yourself on a computer or server you manage, which takes technical skill",
+    "link": "https://onyx.app/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "cline",
+    "name": "Cline",
+    "company": "Cline Bot Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free app (you pay for the AI as you use it, or ClinePass $9.99/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An AI helper that plans, writes and changes code for you, inside the VS Code code editor, in a command window, or in a new desktop app (still in testing)",
+    "watch_out": "The app is free, but the AI it uses is not: you buy AI credits as you go, connect your own paid account from a company like OpenAI or Anthropic, or subscribe to ClinePass ($9.99/month). Made for people who write code",
+    "link": "https://cline.bot/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "company": "All Hands AI",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (you pay for the AI at cost or use your own key; Enterprise plan for companies is custom-priced)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Open-source AI helpers that write and fix software for you, either installed free on your own computer or used on the OpenHands website",
+    "watch_out": "Built for software developers. The free website plan allows 1 user and 10 conversations a day. Either way you pay for the AI itself, at cost through OpenHands or with your own paid account from an AI company",
+    "link": "https://www.openhands.dev/",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "komo",
+    "name": "Komo",
+    "company": "Komo AI",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Komo Pro $20/month, or $17/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Asking questions and getting AI answers with links to the sources; paid plans add deep research and top AI models",
+    "watch_out": "The free plan gives 25 credits a day and only Komo's fast and budget AI models. Deep research, people search and top models like GPT, Claude and Gemini need Komo Pro ($20/month for 2,000 credits)",
+    "link": "https://komo.ai/",
+    "last_checked": "2026-09-30"
   }
 ]
