@@ -2621,5 +2621,248 @@
     "watch_out": "The free plan gives 25 credits a day and only Komo's fast and budget AI models. Deep research, people search and top models like GPT, Claude and Gemini need Komo Pro ($20/month for 2,000 credits)",
     "link": "https://komo.ai/",
     "last_checked": "2026-09-30"
+  },
+  {
+    "id": "kilo-code",
+    "name": "Kilo Code",
+    "company": "Anaconda, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (AI model usage is billed separately; Teams plan $15/user/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An AI coding helper you add to VS Code or JetBrains, or run in the terminal. It can use free models, models on your own computer, or your own keys from other AI companies.",
+    "watch_out": "The tool itself is free, but the AI models it talks to cost money unless you pick the free or local ones.",
+    "link": "https://kilo.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "company": "Anomaly Innovations, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (free models included; OpenCode Go from $10/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open source AI coding helper for the terminal, a desktop app or your code editor. Connect almost any AI model, including ones on your own computer.",
+    "watch_out": "Some of the free models are listed as available for a limited time. The $10/month Go plan has request limits every 5 hours and every month, set per model.",
+    "link": "https://opencode.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "kiro",
+    "name": "Kiro",
+    "company": "Amazon Web Services, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (50 credits); Pro $20/month",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A downloadable AI coding editor and command-line tool from Amazon that works as a coding agent on your projects.",
+    "watch_out": "The free plan gives 50 credits and only some AI models, with rate limits. On the paid plans, extra credits cost $0.04 each.",
+    "link": "https://kiro.dev/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "jetbrains-ai",
+    "name": "JetBrains AI",
+    "company": "JetBrains s.r.o.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (3 AI Credits per 30 days); AI Pro $10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "AI chat, code suggestions and a coding helper built into JetBrains code editors such as IntelliJ IDEA and PyCharm.",
+    "watch_out": "You need a JetBrains code editor installed to use it. The free plan has only 3 AI Credits per 30 days, and AI Pro has 10.",
+    "link": "https://www.jetbrains.com/ai-ides/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "zencoder",
+    "name": "Zencoder",
+    "company": "For Good AI Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$45/user/month (Pro plan, billed monthly; 7-day Pro trial, no free plan)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An AI coding helper that plugs into popular code editors and works with models from OpenAI, Anthropic and Google, or your own keys.",
+    "watch_out": "There is no free plan, only a 7-day trial. Pro includes 30,000 credits a month, and extra credits are sold as top-ups.",
+    "link": "https://zencoder.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "hedra",
+    "name": "Hedra",
+    "company": "Hedra Inc.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "Basic $20/month (billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Makes AI video, images and talking avatars from a prompt, in a web studio with an AI assistant.",
+    "watch_out": "There is no free plan in the price table, and making videos uses paid credits. Basic gives 2,000 credits a month with slower generations; faster generation starts at $50/month on the Pro plan.",
+    "link": "https://www.hedra.com/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "veed",
+    "name": "VEED",
+    "company": "Veed Limited",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to start; Creator $25/month (billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A web video editor with AI subtitles, AI voices, avatars and video generation, so you can edit and polish clips in one place.",
+    "watch_out": "The Creator plan includes 500 credits a month for the AI tools. Pro costs $45/month for 2,500 credits. Paying yearly is cheaper.",
+    "link": "https://www.veed.io/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "fliki",
+    "name": "Fliki",
+    "company": "Nine Thirty Five LLC",
+    "categories": [
+      "video",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Standard plan $28/month, billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turns a script, blog post or slides into a video with a realistic AI voice, stock footage and music.",
+    "watch_out": "The free plan makes 720p videos with a Fliki watermark and gives only 3 credits a month. Standard gives 180 credits a month.",
+    "link": "https://fliki.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "lumen5",
+    "name": "Lumen5",
+    "company": "Lumen5 Technologies Ltd",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Basic plan $29/month, billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turns a blog post, link or script into a short social video with AI help. Built mainly for business use.",
+    "watch_out": "The free plan allows 5 videos a month, up to 2 minutes each, with a Lumen5 branded outro. The Basic plan removes the branding.",
+    "link": "https://lumen5.com/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "scira",
+    "name": "Scira",
+    "company": "Scira AI",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (3 searches a day); Pro $15/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI search engine that answers with sources from the web, Reddit, X, YouTube and academic papers. The code is open source.",
+    "watch_out": "The free plan allows only 3 searches a day. Pro has unlimited searches, but some top models have monthly or weekly caps.",
+    "link": "https://scira.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "paperguide",
+    "name": "Paperguide",
+    "company": "Keevs Health Inc",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (2,000 AI credits a month); Plus $19/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI research helper that finds papers, answers questions about them with citations and helps write literature reviews.",
+    "watch_out": "The free plan gives 2,000 AI credits a month, with limited AI searches and a limited reference manager. Plus gives 12,500 credits.",
+    "link": "https://paperguide.ai/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "ace-step",
+    "name": "ACE-Step",
+    "company": "ACE Studio and StepFun",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to download and run yourself",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open music model that makes full songs from a text description and lyrics on your own computer, with a simple web screen to use it.",
+    "watch_out": "Setup is technical: you install it with Python, or use the ready-made download for Windows or Mac. It runs best with a strong graphics card and can be slow without one.",
+    "link": "https://github.com/ace-step/ACE-Step-1.5",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "ultimate-vocal-remover",
+    "name": "Ultimate Vocal Remover",
+    "company": "Anjok07 and aufr33",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free (donations welcome)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free desktop app for Windows, Mac and Linux that splits a song into vocals and instruments using AI models, for karaoke tracks and remixing.",
+    "watch_out": "Splitting runs on your own computer, so it can be slow without a good graphics card. You download the AI models you want to use.",
+    "link": "https://ultimatevocalremover.com/",
+    "last_checked": "2026-10-05"
+  },
+  {
+    "id": "spleeter",
+    "name": "Spleeter",
+    "company": "Deezer SA",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free tool from Deezer that splits a song into 2, 4 or 5 parts such as vocals, drums and bass, using ready-trained AI models.",
+    "watch_out": "It is a Python command-line tool with no app window, so it suits people comfortable installing software.",
+    "link": "https://github.com/deezer/spleeter",
+    "last_checked": "2026-10-05"
   }
 ]
