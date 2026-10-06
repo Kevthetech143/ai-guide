@@ -1,0 +1,344 @@
+[
+  {
+    "id": "yue",
+    "name": "YuE2",
+    "company": "Multimodal Art Projection (M-A-P)",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open music model that turns your lyrics and a style description into a full song with vocals and backing music. The model files are free to download and run on your own computer.",
+    "watch_out": "Running it yourself needs a Linux computer with an NVIDIA graphics card with 24 GB of memory. Companies need a separate commercial license for the model files.",
+    "link": "https://github.com/multimodal-art-projection/YuE",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "diffrhythm-2",
+    "name": "DiffRhythm 2",
+    "company": "ASLP Lab",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself (free online demo available)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open model that writes full-length songs with vocals that follow your lyrics. The model files are free to download and run on your own computer.",
+    "watch_out": "Running it yourself takes command-line steps and Python, so it suits technical users. You can try it free in your web browser on its Hugging Face demo page.",
+    "link": "https://github.com/ASLP-lab/DiffRhythm2",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "stemroller",
+    "name": "StemRoller",
+    "company": "StemRoller developers (stemrollerapp on GitHub)",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (donations welcome)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "Type a song name and it splits the song into vocals, drums, bass and everything else, plus an instrumental. Handy for making karaoke tracks.",
+    "watch_out": "Splitting a song takes several minutes. You download the app and it runs on your own computer.",
+    "link": "https://www.stemroller.com/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "jammable",
+    "name": "Jammable",
+    "company": "Jammable Limited",
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$8.99/month (no free plan)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make AI cover songs: pick a voice from a library of 100,000+ voices, add your track and it sings it in that voice. It also has a voice changer and text to speech.",
+    "watch_out": "There is no free plan; the cheapest plan is Basic at $8.99 a month. Many voices imitate real singers and characters, so check you are allowed to share what you make.",
+    "link": "https://www.jammable.com/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "wispr-flow",
+    "name": "Wispr Flow",
+    "company": "Wispr AI, Inc.",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $15/month, or $12/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Speak instead of typing: press a key, talk, and your words are typed into any app. Works on Mac, Windows, iPhone and Android in 100+ languages.",
+    "watch_out": "The free plan is capped at 2,000 words a week on a computer and 1,000 words a week on a phone. Pro removes the cap.",
+    "link": "https://wisprflow.ai/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "kokoro-tts",
+    "name": "Kokoro",
+    "company": "hexgrad",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A small, fast open text-to-speech model that reads text aloud in a natural voice. Light enough to run on an ordinary computer.",
+    "watch_out": "It is a model, not an app, so you need some Python skills or a tool built on top of it. Check the model page for which languages and voices it covers.",
+    "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "piper-tts",
+    "name": "Piper",
+    "company": "Open Home Foundation",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A fast text-to-speech engine that runs fully on your own computer, with many free downloadable voices. Good for reading text aloud without sending it to the cloud.",
+    "watch_out": "You install it from the command line, so it suits technical users. The project says it is looking for new maintainers.",
+    "link": "https://github.com/OHF-Voice/piper1-gpl",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "f5-tts",
+    "name": "F5-TTS",
+    "company": "SWivid with the X-LANCE, SII and PCL labs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open text-to-speech model that can copy the sound of a voice from a short sample recording. Runs on your own computer.",
+    "watch_out": "The code is MIT licensed but the voice model files are licensed for non-commercial use only. Only copy voices you have permission to use. Setup needs Python.",
+    "link": "https://github.com/SWivid/F5-TTS",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "dia2",
+    "name": "Dia2",
+    "company": "Nari Labs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open model that turns a script with two speakers into natural-sounding spoken dialogue, and can start speaking before the whole text is in.",
+    "watch_out": "It only supports English and up to 2 minutes of audio at a time. Voices change from one try to the next unless you give it a voice sample. Setup needs a command line, and the guide is written for computers with an NVIDIA graphics card.",
+    "link": "https://github.com/nari-labs/dia2",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "buzz",
+    "name": "Buzz",
+    "company": "Chidi Williams and Buzz contributors",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that turns audio and video into text, and translates it, entirely on your own computer using OpenAI's Whisper. Nothing has to be uploaded.",
+    "watch_out": "The latest Mac version needs an Apple silicon Mac (the last Intel Mac version is 1.4.5). The Windows installer is not signed, so you will see a warning when you install it.",
+    "link": "https://github.com/chidiwilliams/buzz",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "vibe",
+    "name": "Vibe",
+    "company": "thewh1teagle and Vibe contributors",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that transcribes audio and video files into text on your own device, with subtitles export and speaker labels. Works on Mac, Windows and Linux.",
+    "watch_out": "Transcription speed depends on your computer. Optional summaries use the Claude API or Ollama, which you set up separately.",
+    "link": "https://github.com/thewh1teagle/vibe",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "handy",
+    "name": "Handy",
+    "company": "CJ Pais and Handy contributors",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (donations welcome)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free dictation app: hold a shortcut key, speak, and your words are typed into whatever text box you are using. It works on your own computer without sending audio to the cloud.",
+    "watch_out": "It does one thing: turns your speech into text in the box you are typing in.",
+    "link": "https://handy.computer/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "liner",
+    "name": "Liner",
+    "company": "Liner Corp.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $17.99/month, or $14.99/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI research helper that searches the web and academic papers, and writes answers with sources. Also has deep research reports and file uploads.",
+    "watch_out": "The free plan shows ads in answers and gives 100 credits a day and 1 file upload a day. A deep research request costs 40 credits.",
+    "link": "https://liner.com/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "undermind",
+    "name": "Undermind",
+    "company": "Undermind AI, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $20/month for academic users, $75/month for industry users)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A search tool for scientific papers: you describe your research, it reads hundreds of papers and builds a report with citations you can trace back to the source.",
+    "watch_out": "Pro costs $20 a month for academic users but $75 a month for industry users; paying yearly lowers the academic price to $16 a month. The free plan has standard usage limits; Pro raises them 10 times.",
+    "link": "https://www.undermind.ai/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "pixelcut",
+    "name": "Pixelcut",
+    "company": "Pixelcut Inc",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $10/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Remove backgrounds, erase objects, upscale photos and generate new backgrounds with AI, in a simple editor.",
+    "watch_out": "On the free plan background removal and upscaling are limited. Pro includes 600 AI credits a month, and the stronger AI models spend those credits.",
+    "link": "https://www.pixelcut.ai/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "draw-things",
+    "name": "Draw Things",
+    "company": "Draw Things, Inc.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Draw Things+ $8.99/month for more cloud power)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free image-making app for iPhone, iPad and Mac that creates pictures from text on your own device, offline. It can also train your own custom styles on the device.",
+    "watch_out": "It is built for Apple devices. Cloud compute needs a free account, and higher cloud limits and custom style uploads need Draw Things+ at $8.99 a month.",
+    "link": "https://drawthings.ai/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "swarmui",
+    "name": "SwarmUI",
+    "company": "Alex \"mcmonkey\" Goodwin (mcmonkeyprojects)",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A web page you run on your own computer for making AI images and video with models like Stable Diffusion and Flux. Gives you a lot of control.",
+    "watch_out": "It is aimed at people comfortable installing software and picking models. Each model you download has its own license.",
+    "link": "https://github.com/mcmonkeyprojects/SwarmUI",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "easy-diffusion",
+    "name": "Easy Diffusion",
+    "company": "cmdr2 and contributors",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A one-click installer that sets up Stable Diffusion on your own computer, with a friendly page for making pictures from text or from another image.",
+    "watch_out": "It needs at least 8 GB of memory and 25 GB of free disk space. It can use an NVIDIA, AMD or Apple graphics chip, or run more slowly without one. The license forbids sharing images that break laws or cause harm.",
+    "link": "https://easydiffusion.github.io/",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "krita-ai-diffusion",
+    "name": "Krita AI Diffusion",
+    "company": "Acly and contributors (online service: Cosmic Interstice UG)",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (online service: token packs from €10, one-time)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free plugin for the Krita painting app that adds AI image generation, inpainting and outpainting inside your drawing. Runs on your own hardware.",
+    "watch_out": "You need to install Krita first and then set up the plugin. Running it on your own computer needs a strong graphics card with at least 6 GB of graphics memory, or it gets very slow. The online service needs no graphics card, but you pay for tokens after the free ones run out.",
+    "link": "https://github.com/Acly/krita-ai-diffusion",
+    "last_checked": "2026-10-06"
+  },
+  {
+    "id": "typecast",
+    "name": "Typecast",
+    "company": "Neosapience, Inc.",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Basic $5/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Type or paste a script and pick an AI voice to read it aloud, with video export. Voice generation and playback are free; you spend credits when you download.",
+    "watch_out": "The free plan allows about 5 minutes of audio downloads in total and requires you to credit Typecast on what you download. Basic includes about 35 minutes of downloads each month.",
+    "link": "https://typecast.ai/",
+    "last_checked": "2026-10-06"
+  }
+]
