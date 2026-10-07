@@ -1,0 +1,226 @@
+[
+  {
+    "id": "msty",
+    "name": "Msty Studio",
+    "company": "CloudStack, LLC",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Aurum $149/year, billed annually; lifetime license $349 one-time)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A desktop app for chatting with AI models, either ones that run on your own computer or online ones, with personas, saved knowledge and prompt tools in one workspace.",
+    "watch_out": "The free plan marks some features as limited, including persona chats, crew conversations and knowledge stacks. Msty Studio Web and the advanced features need the paid Aurum plan.",
+    "link": "https://msty.ai/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "company": "Open WebUI, Inc.",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (Enterprise plans are by quote)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free chat app for AI that you install yourself and use in your web browser. It works with AI models on your own computer (through Ollama) or online ones, and adds document chat, web search, voice and image tools.",
+    "watch_out": "You install it yourself with a typed command (pip) or Docker, then connect an AI model. Business licenses, for rebranding and dedicated support, are sold only to companies.",
+    "link": "https://openwebui.com/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "brave-leo",
+    "name": "Brave Leo",
+    "company": "Brave Software, Inc.",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Leo Premium $14.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI assistant built into the Brave browser. Ask it questions, or have it summarize the web page, document or PDF you are looking at.",
+    "watch_out": "Leo only comes with the Brave browser. Leo Premium adds more models and higher rate limits than the free version.",
+    "link": "https://brave.com/leo/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "lumo",
+    "name": "Lumo",
+    "company": "Proton AG",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Lumo Plus $12.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A private AI chat assistant from Proton, the email and privacy company. You can try it without an account, and a free account lets you keep your chat history.",
+    "watch_out": "The free plan limits use of the Max model, messages and chat history, and image generations, and allows 1 project. Lumo Plus raises those limits.",
+    "link": "https://proton.me/lumo",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "antigravity",
+    "name": "Google Antigravity",
+    "company": "Google LLC",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Individual plan $0/month; paid Google AI plans add higher limits)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A downloadable app where AI agents build software for you. You describe what you want, and you can run several agents at once on different projects.",
+    "watch_out": "The free Individual plan has basic weekly rate limits, so heavy users will hit the cap. Higher limits come with the paid Google AI Pro and Ultra plans.",
+    "link": "https://antigravity.google/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "morphic",
+    "name": "Morphic",
+    "company": "Shironel",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI search engine that gives a complete answer with its sources instead of a list of links. Use it on its website, or run your own copy, because the code is open source.",
+    "watch_out": "Running your own copy takes technical setup with Docker plus at least one AI provider key (OpenAI, Anthropic or Google, for example), and paid keys have their own costs.",
+    "link": "https://chat.morphic.sh/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "audimee",
+    "name": "Audimee",
+    "company": "Audimee AB",
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter $12/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn a vocal recording into a different singing voice, split a song into vocals and instruments, and make harmonies. It is aimed at music makers.",
+    "watch_out": "The free plan gives 15 minutes of conversions, MP3 downloads only and personal use only, with no harmony maker, and you cannot save your conversions. Starter includes 1 hour of conversions a month.",
+    "link": "https://audimee.com/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "submagic",
+    "name": "Submagic",
+    "company": "TURBO STUDIO S.A.S.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$19/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Upload a short video and it adds captions automatically, plus free extra clips and sound, and lets you cut the video by editing its text.",
+    "watch_out": "The $19/month Starter plan includes 45 credits (about 15 videos) a month and videos up to 2 minutes long. Automatic removal of silences and bad takes needs Pro ($39/month).",
+    "link": "https://www.submagic.co/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "company": "ShengShu AI HK Limited",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Standard $10/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make short AI videos from text, from a photo, or from reference pictures of a character or object.",
+    "watch_out": "The free plan is limited, for example 10 saved references a month. Standard includes 800 credits a month, which the page says covers up to 200 videos.",
+    "link": "https://www.vidu.com/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "basic-pitch",
+    "name": "Basic Pitch",
+    "company": "Spotify AB",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "Drop in a recording of one instrument, or sing into your microphone, and get a MIDI file back that you can edit in music software. It is a free tool from Spotify.",
+    "watch_out": "The online tool takes a recording of a single instrument or your singing, and gives you a MIDI file to clean up, not finished sheet music. There is also a version for programmers that you install with pip.",
+    "link": "https://basicpitch.spotify.com/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "crush",
+    "name": "Crush",
+    "company": "Charmbracelet, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free app (optional Hyper model service: free 100 credits/month, or $20/month)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI coding helper that runs in your terminal, the text window where you type commands. You choose which AI model powers it, and you can keep several work sessions for each project.",
+    "watch_out": "It works only by typing in a terminal window, so it suits people comfortable with the command line. You need a model: the Hyper service from the same company (100 free credits a month), or your own key from a provider like Anthropic, OpenAI or Gemini.",
+    "link": "https://github.com/charmbracelet/crush",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "musicgpt",
+    "name": "MusicGPT",
+    "company": "MusicGPT Ltd",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus $11.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Type a description and get a full song, or make sound effects and spoken audio.",
+    "watch_out": "The free plan gives 500 credits a month, and each download costs 50 credits. Plus includes 5,000 credits a month, 100 songs a month and unlimited free downloads; remix, edit and spoken audio (text to speech) come with Pro ($21.99/month).",
+    "link": "https://musicgpt.com/",
+    "last_checked": "2026-10-07"
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "company": "Determinist Ltd",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (cloud Pro $50/month, 7-day free trial)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Build a team of AI helpers for research, content and sales work by describing the job in plain English. They can run on a schedule. A free version you set up and run yourself is also available.",
+    "watch_out": "The cloud Pro plan needs a card to start the 7-day trial, then costs $50/month, and scheduled runs spend from a credit wallet with a cap you set for each helper. The free version you run yourself needs Docker setup and your own AI model keys.",
+    "link": "https://agpt.co/",
+    "last_checked": "2026-10-07"
+  }
+]
