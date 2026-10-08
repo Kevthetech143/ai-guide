@@ -1,0 +1,400 @@
+[
+  {
+    "id": "stability-matrix",
+    "name": "Stability Matrix",
+    "company": "Lykos, LLC",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (optional supporter plans from $5/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that installs and manages popular AI image tools such as ComfyUI, Fooocus and Forge with one click, and lets you browse and download models from CivitAI and Hugging Face.",
+    "watch_out": "It sets up other image tools rather than being one itself, and you download the image models separately. Paid supporter plans add cloud extras and early builds; the $5/month Supporter plan includes 1,000 credits.",
+    "link": "https://lykos.ai/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "dyad",
+    "name": "Dyad",
+    "company": "Dyad Tech, Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro plan $20/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free desktop app that turns a plain-English description into a working web app on your own computer, using the AI model you choose. No sign-up is needed to download it.",
+    "watch_out": "You bring your own AI access, such as an API key (a paid access code from an AI company), a ChatGPT subscription or a free local model. The free plan's built-in agent mode is limited to 20 messages a day; the fuller Pro Agent mode with its own AI credits comes with Pro at $20/month.",
+    "link": "https://www.dyad.sh/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "clipdrop",
+    "name": "Clipdrop",
+    "company": "Init ML",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $15/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Free web tools to remove backgrounds, erase unwanted objects, upscale pictures 2x, relight photos and remove text.",
+    "watch_out": "The free plan allows 20 uses per 24 hours on background removal, upscaling, cleanup and relight, and 50 on text remover. Text-to-image, extending photos (Uncrop) and background replacement need Pro at $15/month, which also adds high-resolution output and 16x upscaling.",
+    "link": "https://clipdrop.co/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "pixlr",
+    "name": "Pixlr",
+    "company": "Pixlr Pte. Ltd.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$2.49/month (Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Edit photos and make AI images in your web browser. The Plus plan removes ads, allows unlimited saves and includes 80 AI credits each month.",
+    "watch_out": "Plus's 80 monthly credits cover about 80 fast AI images or about 16 higher-quality ones. Unlimited fast image generations (fair use applies) need the Ultra plan, which starts at $24.99/month.",
+    "link": "https://pixlr.com/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "domoai",
+    "name": "DomoAI",
+    "company": "DomoAI Pte. Ltd.",
+    "categories": [
+      "video",
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$13/month (Basic)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn text or pictures into short AI videos and images. The Basic plan includes character-to-video, talking avatars, 4K video upscaling and watermark-free results.",
+    "watch_out": "Basic includes 600 credits a month, which the page says is about 85 videos or 150 images. Unlimited \"Relax\" generations on supported models start with the Standard plan at $42/month.",
+    "link": "https://www.domoai.app/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific",
+    "company": "Magnific AI, S.L.U.",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month (Premium; $14.50/month billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "One subscription for AI image, video, music and voice generation with many leading models, pro editing tools, a shared canvas for workflows called Spaces, and a stock library with a commercial AI license.",
+    "watch_out": "Monthly Premium includes 20,000 credits a month. Unlimited generations need Premium+ at $45/month ($33.75/month billed annually). Prices exclude VAT and local taxes.",
+    "link": "https://www.magnific.com/pricing",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "viggle",
+    "name": "Viggle",
+    "company": "WarpEngine Canada Inc.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $9.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Swap any character into trending clips, or turn a phone video into motion for your own character, to make memes and short social videos. The free plan includes 5 videos a day.",
+    "watch_out": "Free allows one video at a time and keeps your files for 7 days. Pro at $9.99/month adds 80 credits a month, no watermark and permanent storage; access to all models needs the Live plan at $19.99/month.",
+    "link": "https://viggle.ai/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "d-id",
+    "name": "D-ID",
+    "company": "De-Identification Ltd. and De-Identification Inc.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$5.9/month (Lite)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make talking videos from a photo or one of 100+ stock avatars by typing a script. Lite includes 10 minutes of video a month and fast processing.",
+    "watch_out": "Lite videos carry a D-ID watermark, and the commercial use license starts on Pro at $29/month. A free 14-day trial gives 3 minutes of video.",
+    "link": "https://www.d-id.com/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "researchrabbit",
+    "name": "ResearchRabbit",
+    "company": "Litmap Limited",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (ResearchRabbit+ $12.50/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Find research papers related to ones you already like. The free plan has unlimited searches across 310+ million articles and unlimited collections you can share.",
+    "watch_out": "Free allows up to 50 seed articles. Up to 300 seed articles, advanced search controls and multiple projects need ResearchRabbit+ at $12.50/month ($10/month on the annual plan).",
+    "link": "https://www.researchrabbit.ai/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "wan-2-2",
+    "name": "Wan2.2",
+    "company": "Team Wan",
+    "categories": [
+      "video"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself (the hosted Wan site has paid plans from $10/month)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Open-source AI video models from the Wan team that make video from a text prompt or a picture, which you can run on your own computer.",
+    "watch_out": "The README says its main commands need a GPU with at least 80GB of video memory, while the smaller 5B model can run on a GPU with at least 24GB (such as an RTX 4090). Setup is done from the command line.",
+    "link": "https://github.com/Wan-Video/Wan2.2",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "ltx-2",
+    "name": "LTX-2",
+    "company": "Lightricks",
+    "categories": [
+      "video"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself (hosted LTX Studio from $15/month)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Lightricks' downloadable AI video models (the newest is LTX-2.5) that make video with synchronized sound from text or pictures, and also work inside the free ComfyUI tool.",
+    "watch_out": "Setup is done from the command line and the model download is roughly 66 GiB. You must accept the model terms on Hugging Face to download it. The model is free for companies with under $10M in revenue; bigger companies need a commercial license.",
+    "link": "https://github.com/Lightricks/LTX-2",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "local-deep-research",
+    "name": "Local Deep Research",
+    "company": "LearningCircuit and contributors",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source research assistant you run yourself: it searches the web and your own documents with the AI model you choose, then writes a report with citations.",
+    "watch_out": "Setup means installing Docker (a free tool that runs apps in sealed boxes) and pasting a command from the README, which also starts a local AI model and a private search tool. Web searches still go out to the internet, and if you connect a cloud AI model instead of a local one, your questions go to that provider.",
+    "link": "https://github.com/LearningCircuit/local-deep-research",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "stockimg-ai",
+    "name": "Stockimg AI",
+    "company": "Stockimg AI, Inc.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$12/month (Starter)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generate logos, posters, illustrations, wallpapers and stock-style pictures from a text description. Starter also includes AI background removal and 4x upscaling.",
+    "watch_out": "Starter includes 300 credits a month. Unlimited credits need the Ultra plan at $48/month.",
+    "link": "https://stockimg.ai/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "mage-space",
+    "name": "Mage",
+    "company": "Ollano Inc.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$10/month (Basic)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make AI images in your browser with unlimited generations on base models such as Stable Diffusion and Flux 2, plus add-on styles (LoRAs) and inpainting (redrawing part of a picture).",
+    "watch_out": "Basic includes 500 Gems a month and 2x speed. Unlimited video generation and ControlNet (pose and layout control) need Pro at $30/month.",
+    "link": "https://www.mage.space/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "magenta-realtime",
+    "name": "Magenta RealTime 2",
+    "company": "Google LLC",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free music model you play like an instrument on your Mac: hold a note or chord and it generates a matching ensemble, or type a description to make a playable sound. It comes as standalone apps and a plugin for music software.",
+    "watch_out": "Real-time playing needs an Apple Silicon Mac. The small model runs on any, including MacBook Air; the larger one needs an M3 Pro or M2 Max or better. Model files download on first launch (about 450MB small, 2.5GB base).",
+    "link": "https://magenta.withgoogle.com/mrt2",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "bolt-diy",
+    "name": "bolt.diy",
+    "company": "StackBlitz, Inc. and bolt.diy contributors",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source AI coding workspace where you pick the AI model for each prompt, from 21+ providers, and build complete web apps in your browser.",
+    "watch_out": "You add your own AI provider keys (paid access codes from AI companies) or a local model. The README offers ready-made desktop installers, or a developer setup with Node.js and pnpm or Docker. One part it relies on (WebContainers) has separate commercial terms for large business use.",
+    "link": "https://github.com/stackblitz-labs/bolt.diy",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "sd-next",
+    "name": "SD.Next",
+    "company": "Vladimir Mandic and contributors",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free, open-source web interface for AI image and video generation on your own computer. It supports many models, which you pick from a list and it downloads automatically.",
+    "watch_out": "Windows users can use the all-in-one installer and launcher; on other systems you install it from the terminal with git and a launch script. The README lists support for Nvidia, AMD, Intel Arc, Apple M1/M2 and CPU-only setups, so check its install guide for your hardware.",
+    "link": "https://github.com/vladmandic/sdnext",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "wangp",
+    "name": "WanGP",
+    "company": "DeepBeepMeep",
+    "categories": [
+      "video",
+      "image",
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run on your own computer",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "One free local app for AI video, image and music with models such as Wan 2.2, LTX-2, Qwen Image, Flux and ACE-Step, using a browser interface.",
+    "watch_out": "Its site says some models run on as little as 6 GB of video memory; others need more. The license lets you use it free but not sell WanGP itself or offer it as a paid hosted service.",
+    "link": "https://wangp.ai/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "klangio",
+    "name": "Klangio",
+    "company": "Klangio GmbH",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $19.99/month, or $8.33/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn recordings into sheet music: upload audio or a YouTube link and get notes, tabs or MIDI. The free plan transcribes demos of up to 20 seconds.",
+    "watch_out": "Pro allows 50 transcriptions a month of up to 15 minutes each, with PDF, MIDI, Guitar Pro and MusicXML downloads. The Ultimate plan ($29.99/month, or $12.50/month billed annually) adds the plugin for music software and every transcription mode.",
+    "link": "https://klang.io/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "google-flow",
+    "name": "Google Flow",
+    "company": "Google LLC",
+    "categories": [
+      "video",
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (paid plans from $4.99/month via Google AI Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Google's AI studio for making videos and images: text to video, frames to video and image generation with models such as Veo and Nano Banana, free to try with a Google account.",
+    "watch_out": "You must be 18 or older. The free plan gives 50 credits a day. 1080p video upscaling and higher limits start with Google AI Plus at $4.99/month; prices vary by market.",
+    "link": "https://flow.google.com/about",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "scenario",
+    "name": "Scenario",
+    "company": "Scenario Inc.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter $15/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A workspace for making game, product and brand art with 65+ AI models. The free tier gives 50 credits a day with no credit card; Starter includes 1,500 credits a month and private generations.",
+    "watch_out": "Training your own custom models, unlimited relaxed generations and the priority queue need Pro at $45/month.",
+    "link": "https://www.scenario.com/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "base44",
+    "name": "Base44",
+    "company": "Wix.com Ltd.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter $20/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Describe the app you want in plain language and Base44 builds it with a database, sign-in and a visual editor. The free plan allows up to 5 apps.",
+    "watch_out": "Free includes 25 message credits a month. Starter at $20/month gives 100 message credits and lets you connect your own domain.",
+    "link": "https://base44.com/",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "screenpipe",
+    "name": "screenpipe",
+    "company": "Negentropy Labs, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Basic $25/month for full history)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Keeps your screen, audio and meetings on your own computer so you can search what you saw or heard, and share chosen context with AI tools such as Claude.",
+    "watch_out": "It records your screen and audio, so think about what is on screen. The free plan searches recent work only; searching your full history needs Basic at $25/month.",
+    "link": "https://screenpipe.com/",
+    "last_checked": "2026-10-08"
+  }
+]
