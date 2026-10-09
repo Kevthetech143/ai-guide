@@ -3828,5 +3828,160 @@
     "watch_out": "It records your screen and audio, so think about what is on screen. The free plan searches recent work only; searching your full history needs Basic at $25/month.",
     "link": "https://screenpipe.com/",
     "last_checked": "2026-10-08"
+  },
+  {
+    "id": "taskade",
+    "name": "Taskade",
+    "company": "Taskcade Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro plan $20/month, or $10/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Describe what you want and get an app, an AI agent or an automated workflow in one workspace. The free plan lets you clone community apps and has desktop and mobile apps.",
+    "watch_out": "The free plan covers 2 team members, up to 3 apps and 1 AI agent. Unlimited apps, agents and automations need the Pro plan at $20/month on monthly billing.",
+    "link": "https://www.taskade.com/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "chatbox",
+    "name": "Chatbox AI",
+    "company": "Mediocre, LLC",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Lite plan $3.99/month, or $3.50/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "One app on desktop, mobile and the web for chatting with GPT, Claude, Gemini, Grok, DeepSeek and more, either with your own API keys (paid access codes from the AI companies) or with Chatbox's own plans.",
+    "watch_out": "The free plan gives 10,000 compute points a day, standard models only, and Work Mode (the agent feature) as a trial only. The advanced models need the Pro plan at $19.99/month on monthly billing; Lite at $3.99/month gives a bigger point allowance.",
+    "link": "https://chatboxai.app/en",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "lobehub",
+    "name": "LobeHub",
+    "company": "LobeHub LLC",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter plan $12.9/month, or $9.9/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "Chat with many AI models and organise your own team of AI agents in one place. The free plan refreshes its credits every month, and there are desktop apps for Mac, Windows and Linux plus iPhone and Android apps.",
+    "watch_out": "The free plan has 500,000 credits a month, about 70 messages on the GLM-5.3-Flash model, and 15 MB of file storage. Models such as GPT-6 Astra and Claude Opus 5.5 need a paid plan, starting with Starter at $12.9/month on monthly billing.",
+    "link": "https://lobehub.com/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "mindstudio",
+    "name": "MindStudio",
+    "company": "GoMeta, Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Individual plan $20/month plus usage)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Build and run your own AI agents, with 200+ AI models available through MindStudio so you do not need your own API keys.",
+    "watch_out": "The free plan allows one agent and 1,000 runs a month. Unlimited agents and runs need the Individual plan at $20/month on monthly billing, and both plans add usage charges on top.",
+    "link": "https://www.mindstudio.ai/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "fellou",
+    "name": "Fellou",
+    "company": "ASI X Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus plan $19/month, or $16/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A web browser with an AI agent built in that carries out online jobs for you, such as research, comparing prices and putting together reports, and can run scheduled tasks.",
+    "watch_out": "The free plan gives a one-time bonus of 1,000 Sparks (the browser's task credits), about 4 tasks, and 2 scheduled tasks. Plus at $19/month on monthly billing gives 2,000 Sparks a month, about 8 tasks. Actual use varies with how complex the task is.",
+    "link": "https://fellou.ai/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "wondercraft",
+    "name": "Wondercraft",
+    "company": "Wondercraft, Inc.",
+    "categories": [
+      "video",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Creator plan $25/month, or $21/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI video studio that brings AI video, avatar, image, voice and sound tools together in guided steps for making business-ready videos. No credit card is needed to start.",
+    "watch_out": "The free plan gives 150 credits, limited access to the AI models and exports up to 720p. No watermark and full commercial rights start with Creator at $25/month on monthly billing, which includes 1,000 credits.",
+    "link": "https://www.wondercraft.ai/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "company": "Nous Research, Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Nous Portal Plus plan $20/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source personal AI agent you install on a Mac, Windows or Linux computer and talk to from Telegram, Discord, Slack, WhatsApp, Signal or email. It remembers your projects, runs scheduled tasks and can browse the web.",
+    "watch_out": "The free Nous Portal plan includes free AI models only and $0 of monthly credits. Access to 200+ models and hosted tools starts with the Plus plan at $20/month.",
+    "link": "https://hermes-agent.nousresearch.com/",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "rork",
+    "name": "Rork",
+    "company": "Rork, Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Rork Pro plan $20/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Describe the app you want and Rork designs it for you by chat. The free plan lets you explore app designs; turning a design into a working iPhone, Android or web app needs a paid plan.",
+    "watch_out": "The free plan is design-only, with 35 design credits a month and at most 5 a day. Build mode, which turns designs into working iPhone, Android and web apps, plus private projects and 100 credits a month, needs Rork Pro at $20/month; Rork Max for iOS, iPad and Apple Watch apps costs $200/month. No yearly discount is offered.",
+    "link": "https://rork.com/pricing",
+    "last_checked": "2026-10-09"
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "company": "OpenClaw Foundation",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (no subscription and no paid hosted version)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source AI assistant you run on your own Mac, Windows or Linux computer and message from WhatsApp, Telegram or other chat apps. It can organise your inbox, send emails and manage your calendar.",
+    "watch_out": "You bring the AI model it uses (hosted, subscription-backed or local), and any model charges are separate. It acts for you on your own computer, so connect only the accounts you are happy for it to use.",
+    "link": "https://openclaw.ai/",
+    "last_checked": "2026-10-09"
   }
 ]
