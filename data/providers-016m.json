@@ -1,0 +1,88 @@
+[
+  {
+    "id": "anara",
+    "name": "Anara",
+    "company": "Anara Labs, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus plan $10/month, or $8/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Search the scientific literature, then ask questions across your own uploaded papers and files and get answers that point to the exact passage they came from.",
+    "watch_out": "The free plan has limited AI usage and uploads (20MB or 120 pages per upload). Deep Search for multi-step research needs the Max 5x plan at $100/month on monthly billing.",
+    "link": "https://anara.com/",
+    "last_checked": "2026-10-10"
+  },
+  {
+    "id": "brave-search",
+    "name": "Brave Search (Ask Brave)",
+    "company": "Brave Software, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (ad-free Search Premium $3/month, or $2.50/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A private search engine built on its own index. It puts AI answers that cite their sources at the top of results, and Ask Brave gives a chat-style answer with supporting websites and videos, then lets you ask follow-up questions.",
+    "watch_out": "Free searches show private ads. Search Premium, the paid ad-free option, is only available in the Brave browser.",
+    "link": "https://search.brave.com/",
+    "last_checked": "2026-10-10"
+  },
+  {
+    "id": "ecosia",
+    "name": "Ecosia",
+    "company": "Ecosia GmbH",
+    "categories": [
+      "search",
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (AI Chat Starter plan $7.99/month, Pro plan $14.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A search engine that uses all its profits for climate action and has an AI Chat tab next to web results. Ecosia says its small AI models give accurate answers from reliable sources and that your chats are never used to train AI models.",
+    "watch_out": "You can try AI Chat without signing in, but the free plan's full features need a free Ecosia account and have daily limits on file uploads and Think longer mode. Unlimited AI Chat messages need the Starter plan at $7.99/month.",
+    "link": "https://www.ecosia.org/",
+    "last_checked": "2026-10-10"
+  },
+  {
+    "id": "qwant",
+    "name": "Qwant",
+    "company": "QWANT",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A French search engine hosted in Europe that says it does not store your search history. For some factual questions its AI shows a short Flash Answer with source links above the results, and with a free Qwant account a Summary feature condenses a web page in one click.",
+    "watch_out": "Qwant says its AI features are free and unlimited. The Flash Answer only appears for certain factual searches, not every search, and may not be switched on in every region or language yet. Qwant says the AI can be wrong, so check the sources it cites.",
+    "link": "https://www.qwant.com/",
+    "last_checked": "2026-10-10"
+  },
+  {
+    "id": "reddit-ai-search",
+    "name": "Reddit AI search",
+    "company": "Reddit, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Reddit Premium $5.99/month raises the daily limit)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Ask a question in plain words and get an AI summary of what people on Reddit say, with in-line links to the original posts and comments.",
+    "watch_out": "Logged-out users can ask 10 questions a week and logged-in users 50 a day; Reddit Premium at $5.99/month allows 100 a day. It only draws on Reddit posts and comments, which Reddit says are not checked, so double-check anything important. It works in English anywhere, and in Spanish, Portuguese, Italian, French and German.",
+    "link": "https://www.reddit.com/answers/",
+    "last_checked": "2026-10-10"
+  }
+]
