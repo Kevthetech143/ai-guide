@@ -488,5 +488,187 @@
     "how_picked": "We listed chat AIs you can show your own writing to, so their replies sound like you.",
     "seo_title": "AI that writes like me - AI Guide",
     "meta_description": "AI that writes in your voice: ChatGPT, Claude, and Gemini copy your style from samples you paste in."
+  },
+  {
+    "filter": {
+      "categories": [
+        "music"
+      ],
+      "free_tier": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed music AIs that have a free tier and are rated easy to use, so you can make a song today without paying.",
+    "intro": "Suno and Udio turn a short description into a full song with singing. Mubert and Soundful make background music for videos, streams, and podcasts. Every tool here has a free tier, so you can try one before you pay.",
+    "meta_description": "Free AI music makers in plain language: Suno, Udio, Mubert and more turn a short description into a song. Costs and official links.",
+    "seo_title": "Free AI music maker - AI Guide",
+    "slug": "free-ai-music-maker",
+    "title": "Is there a free AI that makes music?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "music"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed music AIs that run on your own computer instead of on a website.",
+    "intro": "MusicGen and ACE-Step make songs from a text description and run on your own computer. Ultimate Vocal Remover and StemRoller split a song into vocals and instruments. Many of these need some setup, so check each card first.",
+    "meta_description": "Which AI music tools run on your own computer? MusicGen, ACE-Step and more, explained in plain English with costs and official links.",
+    "seo_title": "AI music generator on my computer - AI Guide",
+    "slug": "ai-music-generator-on-my-computer",
+    "title": "Can I make AI music on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "voice"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed voice AIs that run on your own computer, so you can use them without a website.",
+    "intro": "Kokoro and Piper turn written text into spoken words (called text-to-speech) and run on your own computer. Orpheus TTS can add feelings like laughing or sighing, and Dia2 turns a two-person script into spoken dialogue. Whisper and Buzz go the other way and turn recordings into text.",
+    "meta_description": "AI voice tools that run on your own computer: Kokoro and Piper read text aloud, Whisper and Buzz type what you say. Plain-English picks with links.",
+    "seo_title": "AI voice tools on my computer - AI Guide",
+    "slug": "ai-text-to-speech-on-my-computer",
+    "title": "Which AI voice tools run on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "video"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed video AIs that run on your own computer instead of on a website.",
+    "intro": "Wan2.2 and LTX-2 are downloadable video models that make clips from a text description or a picture. SwarmUI, SD.Next, and WanGP are free apps that give those models a web page you can click through. All of these are rated medium or hard to set up, so check each card before you start.",
+    "meta_description": "AI video makers that run on your own computer: Wan2.2, LTX-2, SwarmUI and more. Plain-English guide with costs and official links.",
+    "seo_title": "AI video maker on my computer - AI Guide",
+    "slug": "ai-video-maker-on-my-computer",
+    "title": "Can I make AI videos on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "video"
+      ],
+      "free_tier": false
+    },
+    "how_picked": "We listed video AIs with no free tier, so you can see the price before you sign up.",
+    "intro": "Veo and Luma Dream Machine turn words or a photo into realistic video clips. Pictory turns a blog post or script into a captioned video, and D-ID makes a talking video from a photo and a typed script. None of them has a free plan, so expect to pay from day one.",
+    "meta_description": "AI video makers with no free plan: Veo, Luma Dream Machine, Pictory, D-ID and more. What they do and cost, in plain English.",
+    "seo_title": "Paid AI video makers - AI Guide",
+    "slug": "paid-ai-video-generator",
+    "title": "Which AI video makers are paid only?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed picture AIs rated easy to use, so you can start without any setup or training.",
+    "intro": "Midjourney, Ideogram, and Adobe Firefly turn a short description into a picture, and Canva AI works inside a simple drag-and-drop design tool. Remove.bg and Photoroom help with photo jobs like removing a background.",
+    "meta_description": "The easiest AI picture makers: Midjourney, Ideogram, Adobe Firefly, Canva AI and more. Plain-English picks with costs and links.",
+    "seo_title": "Easiest AI picture maker - AI Guide",
+    "slug": "easiest-ai-image-generator",
+    "title": "What's the easiest AI for making pictures?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed picture AIs that run on your own computer or device instead of on a website.",
+    "intro": "Stable Diffusion and Flux make pictures from a written description and can run on your own computer. DiffusionBee is a simple Stable Diffusion app for Mac, and Draw Things makes pictures on an iPhone, iPad, or Mac without the internet. Fooocus offers simple text-to-picture on your own machine.",
+    "meta_description": "AI picture makers that run on your own computer: Stable Diffusion, Flux, DiffusionBee and more. Plain-English guide with links.",
+    "seo_title": "AI picture maker on my computer - AI Guide",
+    "slug": "ai-image-generator-on-my-computer",
+    "title": "Can I make AI pictures on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "image"
+      ],
+      "free_tier": false
+    },
+    "how_picked": "We listed picture AIs with no free tier, so you can see the price before you commit.",
+    "intro": "Midjourney makes beautiful art from a typed description. Photoshop's generative fill adds or removes things in a photo from a text prompt, and Topaz Photo sharpens and cleans up photos. Magnific bundles image, video, music, and voice tools in one subscription. None of them has a free plan, so expect to pay from day one.",
+    "meta_description": "AI picture makers with no free plan: Midjourney, Photoshop generative fill, Topaz Photo and more. Costs and links in plain English.",
+    "seo_title": "Paid AI picture makers - AI Guide",
+    "slug": "paid-ai-image-generator",
+    "title": "Which AI picture makers are paid only?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "chat"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed chat AIs that run on your own computer instead of on a website.",
+    "intro": "LM Studio, GPT4All, and Jan are desktop apps that let you chat with an AI on your own computer. Ollama downloads models like Llama and runs them for you, and AnythingLLM lets you chat with your own documents. Chatting on your own machine takes a bit more setup than a website.",
+    "meta_description": "Chat with AI on your own computer: LM Studio, GPT4All, Jan, Ollama and more. Plain-English picks with costs and official links.",
+    "seo_title": "AI chatbot on my computer - AI Guide",
+    "slug": "ai-chatbot-on-my-computer",
+    "title": "Can I chat with an AI on my own computer?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "code"
+      ],
+      "runs_on_your_computer": true
+    },
+    "how_picked": "We listed coding AIs that you install and use on your own computer.",
+    "intro": "Cursor and GitHub Copilot help you write, fix, and explain code inside a code editor, the program where code is written. Aider and Claude Code work in your computer's terminal, a text window where you type commands. Dyad is a free desktop app that turns a plain-English description into a working web app.",
+    "meta_description": "AI coding helpers you install on your computer: Cursor, GitHub Copilot, Aider, Dyad and more. Plain-English guide with links.",
+    "seo_title": "AI coding helper for my computer - AI Guide",
+    "slug": "ai-coding-helper-on-my-computer",
+    "title": "Which AI coding helper can I install on my computer?"
+  },
+  {
+    "filter": {
+      "price_from": "Free"
+    },
+    "how_picked": "We listed every AI whose lowest price is Free, with no paid plan needed to start.",
+    "intro": "Meta AI, Google AI Mode, DeepSeek, and NotebookLM are all listed with a price of Free. So are downloadable tools like Stable Diffusion, Whisper, and Llama that run on your own computer.",
+    "meta_description": "Which AI tools are completely free? Meta AI, Google AI Mode, DeepSeek, NotebookLM, Stable Diffusion and more, with official links.",
+    "seo_title": "Completely free AI tools - AI Guide",
+    "slug": "completely-free-ai-tools",
+    "title": "Which AI tools are completely free?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "music"
+      ],
+      "runs_on_your_computer": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed music AIs that are rated easy to use and run on your own computer.",
+    "intro": "Ultimate Vocal Remover and StemRoller split a song into vocals, drums, bass, and instruments, which is handy for karaoke tracks. Basic Pitch turns a recording of one instrument, or your singing, into a MIDI file, a note file you can edit in music software.",
+    "meta_description": "Can AI remove vocals from a song? Ultimate Vocal Remover and StemRoller split songs into parts. Plain-English guide with links.",
+    "seo_title": "AI that removes vocals from a song - AI Guide",
+    "slug": "ai-that-takes-vocals-out-of-a-song",
+    "title": "Can AI take the vocals out of a song?"
+  },
+  {
+    "filter": {
+      "categories": [
+        "voice"
+      ],
+      "runs_on_your_computer": true,
+      "skill_level": "easy"
+    },
+    "how_picked": "We listed voice AIs that are rated easy to use and run on your own computer.",
+    "intro": "Handy is a free app: hold a key, speak, and your words are typed into whatever box you are using. Buzz and Vibe are free apps that turn audio and video files into written text on your own computer. Fish Audio goes the other way and reads text out loud.",
+    "meta_description": "AI that turns speech into typed text on your computer: Handy, Buzz and Vibe. Plain-English picks with costs and links.",
+    "seo_title": "AI that types what I say - AI Guide",
+    "slug": "ai-that-types-what-i-say",
+    "title": "Is there an AI that types what I say?"
   }
 ]
