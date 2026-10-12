@@ -261,16 +261,28 @@ def question_matches(provider, rule):
     """A provider matches a filter rule if every condition holds.
 
     Rule keys: "categories" (list; provider matches if any listed category
-    is in the provider's categories), or a provider field name compared
-    for exact equality (e.g. "free_tier": true).
+    is in the provider's categories), "ids" (list; provider matches only if
+    its "id" is in the list), or a provider field name compared for exact
+    equality (e.g. "free_tier": true).
     """
     for key, want in rule.items():
         if key == "categories":
             if not any(c in provider.get("categories", []) for c in want):
                 return False
+        elif key == "ids":
+            if provider.get("id") not in want:
+                return False
         elif provider.get(key) != want:
             return False
     return True
+
+
+def check_rule_ids(providers, rule):
+    """Raise ValueError if an "ids" rule lists an id not in providers."""
+    known = {p["id"] for p in providers}
+    for pid in rule.get("ids", []):
+        if pid not in known:
+            raise ValueError("unknown provider id in question filter: %r" % pid)
 
 
 def tmpl(name):
@@ -613,6 +625,7 @@ def build():
     best_urls = []
     for q in questions:
         slug = q["slug"]
+        check_rule_ids(providers, q["filter"])
         matched = [p for p in providers if question_matches(p, q["filter"])]
         cards = "\n".join(card(p, "../../p/") for p in matched)
         body = stamp_review(("<h1>%s</h1>\n" % esc(q["title"])
