@@ -670,5 +670,322 @@
     "seo_title": "AI that types what I say - AI Guide",
     "slug": "ai-that-types-what-i-say",
     "title": "Is there an AI that types what I say?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "heygen",
+        "synthesia",
+        "colossyan",
+        "d-id",
+        "hedra"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they turn a script or photo into a video of a talking person.",
+    "intro": "Synthesia turns a typed script into a video of a lifelike AI presenter, and HeyGen does it without a camera, actors, or editing skills. D-ID can also start from a photo, and Colossyan is built for training videos.",
+    "meta_description": "Type a script and an AI presenter says it on video. HeyGen, Synthesia, D-ID and more, with plain-English notes and links.",
+    "seo_title": "AI that makes a talking person video - AI Guide",
+    "slug": "ai-talking-avatar-video-maker",
+    "title": "Can AI make a video of a talking person from my script?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "opus-clip",
+        "capcut-ai",
+        "submagic",
+        "wisecut",
+        "lumen5",
+        "viggle"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they make or cut short videos for social media.",
+    "intro": "Opus Clip turns a long video or podcast into short vertical clips with captions for TikTok, Reels, and Shorts. CapCut AI is a free editor from the maker of TikTok, and Submagic adds captions to a short video you already filmed.",
+    "meta_description": "Make short videos for TikTok and Reels with AI: Opus Clip, CapCut AI, Submagic and more, with plain-English notes and links.",
+    "seo_title": "AI for short videos (TikTok, Reels) - AI Guide",
+    "slug": "ai-for-short-videos-tiktok-reels",
+    "title": "Can AI help me make short videos for TikTok and Reels?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "removebg",
+        "photoroom",
+        "pixelcut",
+        "clipdrop",
+        "stockimg-ai"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they remove or replace the background in a photo.",
+    "intro": "Remove.bg removes the background from a photo in seconds with one click. Photoroom, Pixelcut, and Clipdrop can do it too, and Clipdrop's free plan allows 20 uses per 24 hours.",
+    "meta_description": "Remove the background from a photo with AI in seconds. Remove.bg, Photoroom, Pixelcut and Clipdrop, with plain-English notes.",
+    "seo_title": "AI that removes photo backgrounds - AI Guide",
+    "slug": "ai-that-removes-photo-backgrounds",
+    "title": "Can AI remove the background from a photo?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "runway",
+        "pika",
+        "kling",
+        "luma",
+        "hailuo",
+        "veo",
+        "vidu",
+        "domoai"
+      ]
+    },
+    "how_picked": "We hand-picked video tools whose own descriptions say they can start from a photo or picture.",
+    "intro": "Luma Dream Machine can make a still photo move, and Runway, Pika, Kling, and Hailuo AI turn a photo or a written prompt into a short clip. Several of them limit clips to about 10 seconds, and some free plans add a watermark.",
+    "meta_description": "Bring a photo to life with AI. Luma Dream Machine, Runway, Pika, Kling and more turn a picture into a short video clip.",
+    "seo_title": "AI that turns a photo into a video - AI Guide",
+    "slug": "ai-that-turns-a-photo-into-a-video",
+    "title": "Can AI turn a photo into a video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "duckduckgo-ai-chat",
+        "lumo",
+        "ecosia",
+        "qwant",
+        "andi",
+        "you-com",
+        "brave-search",
+        "lm-studio",
+        "jan",
+        "gpt4all"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they are private, do not track you, or keep what you type on your own computer.",
+    "intro": "DuckDuckGo AI Chat does not track you, and Lumo is a private chat assistant from Proton. LM Studio, Jan, and GPT4All run on your own computer, so what you type stays there. Ecosia says your chats are never used to train AI models.",
+    "meta_description": "AI chat and search that keep what you type private: DuckDuckGo AI Chat, Lumo, LM Studio, Jan and more, with plain-English notes.",
+    "seo_title": "Private AI chat and search - AI Guide",
+    "slug": "ai-that-keeps-what-i-type-private",
+    "title": "Which AI tools keep what I type private?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "botpress",
+        "typebot",
+        "vapi",
+        "retell-ai"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they answer customers on a website or by phone.",
+    "intro": "Botpress and Typebot let you build a chatbot for your website, and Typebot needs no coding. Vapi and Retell AI answer real phone calls for your business, but both charge extra for the AI model and the voice on top of the headline price. Only Typebot is rated easy to set up; the other three take more work.",
+    "meta_description": "AI that answers customer questions on your website or phone line: Botpress, Typebot, Vapi and Retell AI, with plain-English notes.",
+    "seo_title": "AI that answers customers for me - AI Guide",
+    "slug": "ai-that-answers-my-customers",
+    "title": "Can AI answer my customers' questions for me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "openai-agent",
+        "perplexity-comet",
+        "fellou",
+        "hermes-agent"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they browse the web or live inside a browser and do online jobs.",
+    "intro": "ChatGPT agent browses the web, fills out forms, and compares prices for you, but it needs a paid ChatGPT plan. Fellou and Perplexity Comet are web browsers with an AI assistant built in that does online jobs for you, though Comet collects your browsing history to target ads. Hermes Agent is one you install yourself, and with any of them, check the work before they book or buy anything.",
+    "meta_description": "AI that uses the web for you: Fellou, Perplexity Comet, ChatGPT agent and Hermes Agent, with plain-English notes and links.",
+    "seo_title": "AI that browses websites for me - AI Guide",
+    "slug": "ai-that-browses-websites-for-me",
+    "title": "Can AI browse websites for me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "suno",
+        "udio",
+        "flow-music",
+        "mureka-ai",
+        "musicgpt",
+        "boomy",
+        "ace-studio"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they make full songs with singing or lyrics.",
+    "intro": "Suno and Udio turn a few words into a full song with singing, and Udio's songs come with lyrics you can tweak. Flow Music lets you chat with an AI co-producer to make full songs with vocals, and Mureka and MusicGPT also make songs from typed words. Songs made on the free plans of Suno and Udio cannot be used for business.",
+    "meta_description": "Make a full song with singing and lyrics using AI: Suno, Udio, Flow Music and more, with plain-English notes and links.",
+    "seo_title": "AI that writes and sings a song - AI Guide",
+    "slug": "ai-that-writes-a-song-with-lyrics",
+    "title": "Can AI write and sing a song for me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "whisper",
+        "buzz",
+        "vibe",
+        "sonix"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they turn recorded audio or video files into written text.",
+    "intro": "Sonix transcribes audio in 54+ languages and lets you edit the text in your browser. Buzz and Vibe are free apps that turn audio and video files into text on your own computer. Whisper does this too, but you have to install it yourself with command-line steps.",
+    "meta_description": "Turn an interview or audio file into text with AI: Sonix, Buzz, Vibe and Whisper, with plain-English notes and links.",
+    "seo_title": "AI that transcribes an audio file - AI Guide",
+    "slug": "ai-that-transcribes-an-audio-file",
+    "title": "Can AI turn an interview or audio file into text?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "canva-ai",
+        "ideogram",
+        "stockimg-ai",
+        "flux"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they make flyers or posters.",
+    "intro": "Canva AI makes flyers inside an easy drag-and-drop design tool, and Stockimg AI generates posters from typed words. Ideogram spells text inside pictures better than most other tools, which helps when a poster has words on it. Flux can make poster-style pictures too, but setting it up on your own computer takes technical steps and a strong graphics card.",
+    "meta_description": "Design a flyer or poster with AI: Canva AI, Ideogram, Stockimg AI and Flux, with plain-English notes and links.",
+    "seo_title": "AI for designing a flyer or poster - AI Guide",
+    "slug": "ai-for-designing-a-flyer-or-poster",
+    "title": "Can AI help me design a flyer or poster?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "elicit",
+        "semantic-scholar",
+        "consensus",
+        "paperguide",
+        "undermind",
+        "researchrabbit",
+        "anara",
+        "scite"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they search or summarize scientific papers.",
+    "intro": "Semantic Scholar is a free AI search across scientific papers, with a one-line summary of each. Consensus answers from peer-reviewed papers, and Elicit builds evidence tables from over 138 million academic papers. Semantic Scholar covers academic papers only, so it is not a general web search.",
+    "meta_description": "AI tools that find and explain scientific papers: Semantic Scholar, Consensus, Elicit and more, with plain-English notes and links.",
+    "seo_title": "AI that finds scientific papers - AI Guide",
+    "slug": "ai-for-finding-scientific-papers",
+    "title": "Is there an AI that finds scientific papers?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "topaz-photo",
+        "upscayl",
+        "clipdrop",
+        "pixelcut"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they upscale or sharpen photos.",
+    "intro": "Topaz Photo can remove noise, sharpen, upscale, and recover faces in photos. Upscayl is a free desktop app for upscaling, but many laptop graphics chips do not work with it. Clipdrop's free web tools can upscale pictures 2x.",
+    "meta_description": "Enlarge and sharpen a small photo with AI: Topaz Photo, Upscayl, Clipdrop and Pixelcut, with plain-English notes and links.",
+    "seo_title": "AI that makes a photo bigger and sharper - AI Guide",
+    "slug": "ai-that-makes-a-small-photo-bigger",
+    "title": "Can AI make a small photo bigger and sharper?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "mubert",
+        "soundful",
+        "soundraw",
+        "ecrett-music",
+        "stable-audio",
+        "loudly",
+        "mureka-ai"
+      ]
+    },
+    "how_picked": "We hand-picked music tools whose own descriptions say they make background or royalty-free music.",
+    "intro": "Mubert and Soundful make royalty-free background music for videos. Ecrett Music lets you pick a scene, mood, and style. Check the free plans first: Mubert's adds an audible watermark and asks for credit, and Ecrett Music's free plan only downloads previews you may not publish.",
+    "meta_description": "Make royalty-free background music for videos with AI: Mubert, Soundful, Soundraw and more, with plain-English notes.",
+    "seo_title": "AI background music for videos - AI Guide",
+    "slug": "ai-background-music-for-my-videos",
+    "title": "Can AI make background music for my videos?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "fish-audio",
+        "playht",
+        "hume-ai",
+        "ace-studio",
+        "orpheus-tts",
+        "f5-tts"
+      ]
+    },
+    "how_picked": "We hand-picked voice tools whose own descriptions say they clone or copy a voice.",
+    "intro": "Fish Audio can copy a voice from as little as 10 seconds of audio. Hume AI and PlayAI also mention voice cloning, while Orpheus TTS and F5-TTS run on your own computer and need Python, a programming tool. Only copy voices you have permission to use.",
+    "meta_description": "AI that copies a voice from a short sample: Fish Audio, Hume AI, PlayAI and more, with plain-English notes and links.",
+    "seo_title": "AI voice cloning - AI Guide",
+    "slug": "ai-that-copies-a-voice",
+    "title": "Can AI copy a voice?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "lindy",
+        "reclaim-ai",
+        "openclaw"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they manage your calendar or schedule.",
+    "intro": "Reclaim.ai schedules your workday, habits, and meetings around your priorities. Lindy handles your email, calendar, and meetings when you tell it what to do. OpenClaw runs on your own computer and can organise your inbox, send emails, and manage your calendar, so connect only accounts you are happy for it to use.",
+    "meta_description": "AI that handles your calendar and schedule: Reclaim.ai, Lindy and OpenClaw, with plain-English notes and links.",
+    "seo_title": "AI that manages my calendar - AI Guide",
+    "slug": "ai-that-manages-my-calendar",
+    "title": "Can AI manage my calendar and schedule?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "perplexity",
+        "manus",
+        "liner",
+        "komo",
+        "fellou",
+        "gpt-researcher",
+        "local-deep-research"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they do deep research or write reports.",
+    "intro": "Manus researches a topic on its own and builds a report, but its own listing says to double-check its work. Liner and Komo both offer deep research, and Komo's needs a paid plan. GPT Researcher and Local Deep Research write cited reports, but you set them up yourself.",
+    "meta_description": "AI that researches a topic and writes a cited report: Manus, Liner, Komo and more, with plain-English notes and links.",
+    "seo_title": "AI deep research and reports - AI Guide",
+    "slug": "ai-that-researches-a-topic-and-writes-a-report",
+    "title": "Can AI research a topic and write a report for me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "pictory",
+        "fliki",
+        "lumen5",
+        "invideo",
+        "narakeet"
+      ]
+    },
+    "how_picked": "We hand-picked video tools whose own descriptions say they turn a script or blog post into a video.",
+    "intro": "Pictory turns a blog post, script, or long recording into a captioned video with stock footage matched to your words. Fliki and Lumen5 also turn a blog post into a video, and InVideo makes a finished video from a text prompt. Pictory has no ongoing free plan, only a 14-day trial.",
+    "meta_description": "Turn a blog post or script into a video with AI: Pictory, Fliki, Lumen5 and InVideo, with plain-English notes and links.",
+    "seo_title": "AI that turns a blog post into a video - AI Guide",
+    "slug": "ai-that-turns-a-blog-post-into-a-video",
+    "title": "Can AI turn my blog post or script into a video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "copy-ai",
+        "jasper-ai",
+        "rytr",
+        "chatsonic"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they write marketing copy.",
+    "intro": "Copy.ai writes marketing copy, emails, and social posts in your brand voice. Jasper writes on-brand marketing content but is built for teams rather than casual use. Rytr is a budget pick for short marketing copy and emails, and ChatSonic now lives inside Writesonic's marketing platform.",
+    "meta_description": "AI that writes marketing copy and emails: Copy.ai, Jasper, Rytr and ChatSonic, with plain-English notes and links.",
+    "seo_title": "AI that writes marketing copy - AI Guide",
+    "slug": "ai-for-writing-marketing-copy",
+    "title": "Is there an AI that writes marketing copy?"
   }
 ]
