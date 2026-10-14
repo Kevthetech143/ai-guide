@@ -255,7 +255,7 @@
   {
     "slug": "ai-that-does-tasks-for-me",
     "title": "Which AI can do tasks for me automatically?",
-    "intro": "AI agents go beyond chatting: ChatGPT, Claude, and Manus can browse the web, fill in forms, and complete multi-step jobs for you. You describe the outcome you want, and the agent works through the steps on its own.",
+    "intro": "AI agents go beyond chatting: ChatGPT agent and Fellou can browse the web and carry out online chores like comparing prices. Zapier AI and Lindy take care of routine jobs such as saving email attachments or handling your calendar. You describe the outcome you want, and the agent works through the steps on its own.",
     "filter": {
       "categories": [
         "agents"
@@ -269,7 +269,7 @@
   {
     "slug": "best-paid-ai-worth-the-money",
     "title": "Which paid AI is actually worth the money?",
-    "intro": "If you make images every day, Midjourney's image quality is the reason professionals pay for it. ChatGPT Plus unlocks the ChatGPT agent and Sora video, and Claude Code pays for itself if coding is part of your job.",
+    "intro": "If you make pictures every day, Midjourney turns a short description into beautiful art, though it has no free plan. ChatGPT agent handles online chores like filling out forms, and Claude Code can read your whole coding project and make changes. Those two start around $17 to $20 a month.",
     "filter": {
       "free_tier": false
     },
@@ -791,7 +791,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they browse the web or live inside a browser and do online jobs.",
-    "intro": "ChatGPT agent browses the web, fills out forms, and compares prices for you, but it needs a paid ChatGPT plan. Fellou and Perplexity Comet are web browsers with an AI assistant built in that does online jobs for you, though Comet collects your browsing history to target ads. Hermes Agent is one you install yourself, and with any of them, check the work before they book or buy anything.",
+    "intro": "ChatGPT agent browses the web, fills out forms, and compares prices for you, but it needs a paid plan. Fellou and Perplexity Comet are web browsers with an AI assistant built in that does online jobs for you, though Comet collects your browsing history to target ads. Hermes Agent is one you install yourself, and with any of them, check the work before they book or buy anything.",
     "meta_description": "AI that uses the web for you: Fellou, Perplexity Comet, ChatGPT agent and Hermes Agent, with plain-English notes and links.",
     "seo_title": "AI that browses websites for me - AI Guide",
     "slug": "ai-that-browses-websites-for-me",
@@ -987,5 +987,158 @@
     "seo_title": "AI that writes marketing copy - AI Guide",
     "slug": "ai-for-writing-marketing-copy",
     "title": "Is there an AI that writes marketing copy?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "speechify",
+        "elevenlabs",
+        "typecast",
+        "kokoro-tts",
+        "piper-tts"
+      ]
+    },
+    "how_picked": "We hand-picked voice tools whose own descriptions say they read text, articles, or books aloud.",
+    "intro": "Speechify reads articles, documents, and books aloud, but its free voices sound robotic and the natural-voice plan costs $29 a month. Typecast lets you paste text and pick a voice to read it, and ElevenLabs turns written words into natural spoken audio. Kokoro and Piper run on your own computer but need technical setup, so they suit tinkerers.",
+    "meta_description": "AI that reads articles, documents, and books out loud: Speechify, Typecast, ElevenLabs and more, with plain-English notes and links.",
+    "seo_title": "AI that reads text out loud - AI Guide",
+    "slug": "ai-that-reads-text-out-loud",
+    "title": "Can AI read text out loud to me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "murf",
+        "wellsaid-labs",
+        "listnr",
+        "narakeet",
+        "elevenlabs",
+        "kapwing",
+        "fliki"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they turn a script into a voiceover or a narrated video.",
+    "intro": "Murf, WellSaid Labs, and Listnr turn a typed script into a voiceover for videos, and Narakeet and Fliki can build a narrated video from your script. Check the free plans first: Murf's free plan can't download your audio, and Narakeet's free accounts can't be used for commercial projects. ElevenLabs and Kapwing also make AI voices, and Kapwing does it inside a video editor.",
+    "meta_description": "Turn a script into a voiceover with AI: Murf, WellSaid Labs, Listnr, Narakeet and more, with plain-English notes and links.",
+    "seo_title": "AI voiceover for videos - AI Guide",
+    "slug": "ai-voiceover-for-my-videos",
+    "title": "Can AI make a voiceover for my video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "submagic",
+        "capcut-ai",
+        "kapwing",
+        "veed",
+        "wisecut",
+        "sonix",
+        "vibe",
+        "whisper"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they add captions or subtitles, or export subtitles from speech.",
+    "intro": "Submagic, CapCut AI, Kapwing, VEED, and Wisecut are video tools that add captions or subtitles for you. Sonix and Vibe turn the speech in a video into text and export subtitles, and Whisper can too but needs command-line steps. Submagic and Sonix have no free plan, and the free plans elsewhere have limits: Kapwing's free exports carry a watermark, and Wisecut's free plan only exports at 360p.",
+    "meta_description": "Add captions and subtitles to a video with AI: Submagic, CapCut AI, Kapwing, VEED and more, with plain-English notes and links.",
+    "seo_title": "AI that adds subtitles to videos - AI Guide",
+    "slug": "ai-that-adds-subtitles-to-videos",
+    "title": "Can AI add subtitles to my video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "brave-leo",
+        "perplexity-comet",
+        "qwant",
+        "iask-ai",
+        "claude"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they summarize a web page, a document, or long text.",
+    "intro": "Brave Leo and Perplexity Comet are built into a web browser and can summarize the page you are looking at, but Leo only comes with the Brave browser and Comet collects your browsing history to target ads. Claude is good at summarizing long documents, and iAsk has an instant summarizer. Qwant can condense a web page in one click if you have a free account.",
+    "meta_description": "AI that summarizes a web page or long document: Brave Leo, Perplexity Comet, Claude and more, with plain-English notes and links.",
+    "seo_title": "AI that summarizes a web page - AI Guide",
+    "slug": "ai-that-summarizes-a-web-page",
+    "title": "Can AI summarize a web page or long document for me?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "poe",
+        "duckduckgo-ai-chat",
+        "chatbox",
+        "lobehub",
+        "msty",
+        "open-webui"
+      ]
+    },
+    "how_picked": "We hand-picked apps whose own descriptions say you can chat with several different AI models in one place.",
+    "intro": "Poe lets you try many AI models in one app and compare their answers side by side. DuckDuckGo AI Chat lets you switch between several AI models without tracking you, and Chatbox and LobeHub bring many models into one desktop and phone app. Msty and Open WebUI take more setup, and the stronger models in most of these cost extra.",
+    "meta_description": "Use several AI chatbots in one app: Poe, DuckDuckGo AI Chat, Chatbox, LobeHub and more, with plain-English notes and links.",
+    "seo_title": "One app for many AI chatbots - AI Guide",
+    "slug": "one-app-for-many-ai-chatbots",
+    "title": "Is there one app that lets me use many AI chatbots?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "clipdrop",
+        "pixelcut",
+        "photoshop-generative-fill"
+      ]
+    },
+    "how_picked": "We hand-picked photo tools whose own descriptions say they erase or remove objects from a picture.",
+    "intro": "Clipdrop and Pixelcut are simple editors that can erase unwanted objects from a photo, and both have free plans with limits; Clipdrop's allows 20 uses per 24 hours. Photoshop's generative fill can remove anything in a photo with a text prompt, but it needs a paid Photoshop or Creative Cloud plan and some practice.",
+    "meta_description": "Erase unwanted objects from a photo with AI: Clipdrop, Pixelcut and Photoshop generative fill, with plain-English notes and links.",
+    "seo_title": "AI that removes objects from photos - AI Guide",
+    "slug": "ai-that-removes-objects-from-photos",
+    "title": "Can AI remove unwanted objects from a photo?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "jammable",
+        "audimee",
+        "kits-ai",
+        "ace-studio"
+      ]
+    },
+    "how_picked": "We hand-picked music tools whose own descriptions say they turn a vocal or a song into a different AI singing voice.",
+    "intro": "Jammable makes AI cover songs by singing your track in a voice you pick, and Audimee turns a vocal recording into a different singing voice. Kits AI trains AI voices to sing for your tracks, and ACE Studio makes AI singing voices from your melody and lyrics. Jammable and ACE Studio have no free plan, and many of Jammable's voices imitate real singers, so check you are allowed to share what you make.",
+    "meta_description": "Make an AI cover or change a singing voice: Jammable, Audimee, Kits AI and ACE Studio, with plain-English notes and links.",
+    "seo_title": "AI that sings in another voice - AI Guide",
+    "slug": "ai-that-sings-in-another-voice",
+    "title": "Can AI sing my song in a different voice?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "meta-ai",
+        "openclaw",
+        "hermes-agent",
+        "botpress"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say you can use or message them through WhatsApp.",
+    "intro": "Meta AI is free and already lives inside WhatsApp, but your chats may be used to train Meta's AI unless you opt out. OpenClaw and Hermes Agent are assistants you install on your own computer and message from WhatsApp, and both need more setup. Botpress is for businesses that want to put their own AI chatbot on WhatsApp.",
+    "meta_description": "AI you can use through WhatsApp: Meta AI, OpenClaw, Hermes Agent and Botpress, with plain-English notes and links.",
+    "seo_title": "AI you can use in WhatsApp - AI Guide",
+    "slug": "ai-i-can-use-in-whatsapp",
+    "title": "Can I use AI inside WhatsApp?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "sora",
+        "veo",
+        "ltx-2"
+      ]
+    },
+    "how_picked": "We hand-picked video tools whose own descriptions say the clips come with matching or synchronized sound.",
+    "intro": "Sora and Veo turn your written description into video clips with matching sound. Sora has a limited free tier each day, while Veo starts at $20 a month and charges per second of video. LTX-2 also makes video with synchronized sound, but it is a very large download (about 66 GB) that you run yourself with command-line setup.",
+    "meta_description": "AI that makes video clips with sound: Sora, Veo and LTX-2, with plain-English notes and links.",
+    "seo_title": "AI video maker with sound - AI Guide",
+    "slug": "ai-video-maker-with-sound",
+    "title": "Can AI make a video with sound?"
   }
 ]
