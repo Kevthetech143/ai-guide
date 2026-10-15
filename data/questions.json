@@ -1140,5 +1140,159 @@
     "seo_title": "AI video maker with sound - AI Guide",
     "slug": "ai-video-maker-with-sound",
     "title": "Can AI make a video with sound?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "capcut-ai",
+        "veed",
+        "kapwing",
+        "descript",
+        "wisecut",
+        "submagic"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they edit videos or do editing jobs for you, such as cutting silences or adding captions.",
+    "intro": "CapCut AI, VEED and Kapwing are video editors with AI helpers built in, like captions, subtitles, voices and background removal, and Descript lets you edit a podcast or video by editing its written transcript, like a document. Wisecut cuts silences and adds subtitles on its own, and Submagic adds captions automatically. Kapwing's free exports carry a watermark, and Submagic has no free plan.",
+    "meta_description": "AI that helps you edit videos: CapCut AI, VEED, Kapwing, Descript, Wisecut and Submagic, with plain-English notes and links.",
+    "seo_title": "AI for editing videos - AI Guide",
+    "slug": "ai-for-editing-videos",
+    "title": "Can AI help me edit a video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "zapier-ai",
+        "gumloop",
+        "taskade",
+        "relevance-ai",
+        "n8n"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they automate jobs or build workflows across your apps.",
+    "intro": "Zapier AI connects your apps and builds the steps from a plain sentence, like saving email attachments to Google Drive, with no coding. Gumloop and Taskade also set up automations, and Relevance AI builds no-code AI agents that do work across apps, such as sales research. n8n builds powerful automations across hundreds of apps but is built for technical users, so the first setup can feel hard; Zapier's free plan covers only 100 tasks a month, and Gumloop has no free plan.",
+    "meta_description": "AI that automates boring jobs between your apps: Zapier AI, Gumloop, Taskade, Relevance AI and n8n, with plain-English notes and links.",
+    "seo_title": "AI that automates work between apps - AI Guide",
+    "slug": "ai-that-automates-work-between-my-apps",
+    "title": "Can AI automate boring jobs between my apps?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "gumloop",
+        "autogpt",
+        "fellou",
+        "hermes-agent"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they can run jobs on a schedule.",
+    "intro": "Gumloop builds AI automations that run on a schedule, and AutoGPT helpers can run on a schedule too. Fellou is a web browser with an AI agent that can run scheduled tasks, and its free plan includes 2 of them. Hermes Agent is an assistant you install on your own computer that runs scheduled tasks and can browse the web, so it needs more setup; Gumloop has no free plan, and the free AutoGPT version also needs technical setup.",
+    "meta_description": "AI that does jobs on a schedule: Gumloop, AutoGPT, Fellou and Hermes Agent, with plain-English notes and links.",
+    "seo_title": "AI that runs jobs on a schedule - AI Guide",
+    "slug": "ai-that-runs-jobs-on-a-schedule",
+    "title": "Can AI do a job for me on a schedule?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "brave-leo",
+        "perplexity-comet",
+        "fellou"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they are a web browser with AI built in, or an AI built into one.",
+    "intro": "Brave Leo is an AI assistant inside the Brave browser that answers questions and summarizes the page you are looking at. Perplexity Comet and Fellou are whole web browsers with an AI assistant or agent built in that can do small online jobs for you. Comet collects your browsing history to target ads, so read its privacy terms first.",
+    "meta_description": "AI built into a web browser: Brave Leo, Perplexity Comet and Fellou, with plain-English notes and links.",
+    "seo_title": "AI built into a web browser - AI Guide",
+    "slug": "ai-built-into-my-web-browser",
+    "title": "Is there an AI built into my web browser?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "playht",
+        "narakeet",
+        "fish-audio",
+        "synthesia"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they speak your text in many languages.",
+    "intro": "PlayAI offers over 600 voices in 142 languages and accents, and Narakeet turns a written script into a voiceover in hundreds of voices and languages. Fish Audio does text-to-speech in 30+ languages, and Synthesia is different: it makes a video of an AI presenter saying your script in over 160 languages. PlayAI has no free plan, and free Narakeet and Fish Audio accounts are not for business use, so check before you sell or monetize what you make.",
+    "meta_description": "AI that speaks in many languages: PlayAI, Narakeet, Fish Audio and Synthesia, with plain-English notes and links.",
+    "seo_title": "AI voices in many languages - AI Guide",
+    "slug": "ai-voices-in-many-languages",
+    "title": "Can AI speak in other languages?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "perplexity",
+        "you-com",
+        "scira",
+        "morphic",
+        "liner",
+        "komo",
+        "brave-search",
+        "qwant",
+        "andi"
+      ]
+    },
+    "how_picked": "We hand-picked search tools whose own descriptions say their AI answers come with links to, or citations of, their sources.",
+    "intro": "Perplexity and You.com answer your question and show exactly which websites the facts came from, and Scira, Morphic, Liner and Komo give an AI answer with its sources listed. Brave Search puts AI answers that cite their sources above its results, Qwant sometimes shows a short answer with source links, and Andi gives conversational answers, though its own terms say the AI can make mistakes. Several free plans cap how many searches you get a day, Scira's at just 3, so whichever you use, click a source before you trust the answer.",
+    "meta_description": "AI search that shows where answers come from: Perplexity, You.com, Scira, Morphic, Liner, Komo, Brave Search, Qwant and Andi, with notes and links.",
+    "seo_title": "AI search that shows its sources - AI Guide",
+    "slug": "ai-search-that-shows-its-sources",
+    "title": "Is there an AI search that shows its sources?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "gemini",
+        "google-ai-mode",
+        "notebooklm",
+        "veo",
+        "google-flow",
+        "flow-music",
+        "magenta-realtime"
+      ]
+    },
+    "how_picked": "We listed the tools in our guide that are made by Google, leaving out the two made for programmers.",
+    "intro": "Gemini answers questions and helps inside Google apps like Gmail and Docs, Google AI Mode gives full AI answers with links inside Google Search, and NotebookLM answers questions from documents you upload. Veo turns words or photos into video clips but has no free plan, and Google Flow is Google's studio for making videos and images. Flow Music makes full songs with vocals, and Magenta RealTime 2 is a free music model you play like an instrument, though it needs a newer Mac.",
+    "meta_description": "The AI tools Google makes: Gemini, Google AI Mode, NotebookLM, Veo, Google Flow, Flow Music and Magenta RealTime 2.",
+    "seo_title": "AI tools made by Google - AI Guide",
+    "slug": "ai-tools-from-google",
+    "title": "Which AI tools does Google make?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "chatgpt",
+        "openai-agent",
+        "sora",
+        "whisper",
+        "codex"
+      ]
+    },
+    "how_picked": "We listed the tools in our guide that are made by OpenAI.",
+    "intro": "ChatGPT is good for chatting, writing, homework help and planning trips, and ChatGPT agent goes further and browses the web, fills out forms and compares prices, but it needs a paid ChatGPT plan. Sora turns written descriptions into short video clips, and Whisper turns spoken audio into text, though you install it yourself. OpenAI Codex is for programmers, not beginners, and also needs a paid plan.",
+    "meta_description": "The AI tools OpenAI makes: ChatGPT, ChatGPT agent, Sora, Whisper and OpenAI Codex, with plain-English notes and links.",
+    "seo_title": "AI tools made by OpenAI - AI Guide",
+    "slug": "ai-tools-from-openai",
+    "title": "Which AI tools does OpenAI make?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "meta-ai",
+        "llama",
+        "musicgen"
+      ]
+    },
+    "how_picked": "We listed the tools in our guide that are made by Meta.",
+    "intro": "Meta AI is free and lives inside WhatsApp, Instagram and Messenger, but your chats may be used to train Meta's AI unless you opt out. Llama is free AI you can download and run on your own computer or use through Meta's own apps. MusicGen is Meta's music model for your own computer, but it takes some coding and its license rules out commercial use.",
+    "meta_description": "The AI tools Meta makes: Meta AI, Llama and MusicGen, with plain-English notes and links.",
+    "seo_title": "AI tools made by Meta - AI Guide",
+    "slug": "ai-tools-from-meta",
+    "title": "Which AI tools does Meta make?"
   }
 ]

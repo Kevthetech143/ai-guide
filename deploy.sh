@@ -4,6 +4,7 @@
 set -euo pipefail; cd "$(dirname "$0")"; MSG="${1:-update}"
 g() { git -c user.name=primary-helper -c user.email=alltechkev@gmail.com "$@"; }
 rm -rf dist; python3 build.py
+python3 guidecheck.py  # fails the deploy on any guideline issue (incl. E-offpage)
 python3 - <<'PY'
 import html.parser,pathlib,json,sys
 root=pathlib.Path('dist'); files=list(root.rglob('*.html')); bad=[]; n=0

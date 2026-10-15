@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Guidelines final-pass checks on the built dist/. Stdlib only."""
+import json
 import os
 import re
 import sys
@@ -47,6 +48,29 @@ for dp, _, fs in os.walk(DIST):
                 issues.append("E: no h1 first in %s %s" % (os.path.relpath(p, DIST), hs[:4]))
             if any(b - a > 1 for a, b in zip(hs, hs[1:])):
                 issues.append("E: heading skip in %s %s" % (os.path.relpath(p, DIST), hs[:6]))
+
+# E-offpage: a question page's text fields must not name a provider that the
+# page's filter does not match. Whole-name matching: the longest provider name
+# wins at each spot, so "Perplexity" inside an on-page "Perplexity Comet" is
+# not flagged.
+sys.path.insert(0, ROOT)
+from build import question_matches
+
+with open(os.path.join(ROOT, "data", "providers.json"), encoding="utf-8") as f:
+    providers = json.load(f)
+with open(os.path.join(ROOT, "data", "questions.json"), encoding="utf-8") as f:
+    questions = json.load(f)
+def _aliases(n):
+    # "PlayAI (formerly PlayHT)" is written as "PlayAI" in copy; count the short form too
+    return {n, n.split(" (")[0]} if " (" in n else {n}
+alias = {p["name"]: _aliases(p["name"]) for p in providers}
+names = sorted(set().union(*alias.values()), key=len, reverse=True)
+name_re = re.compile(r"(?<!\w)(?:%s)(?!\w)" % "|".join(re.escape(n) for n in names))
+for q in questions:
+    on_page = set().union(*(alias[p["name"]] for p in providers if question_matches(p, q["filter"])), set())
+    for field in ("intro", "title", "seo_title", "meta_description", "how_picked"):
+        for name in sorted(set(name_re.findall(q.get(field, ""))) - on_page):
+            issues.append("E-offpage: %s %s names %s (not on page)" % (q["slug"], field, name))
 
 print("guideline issues: %d" % len(issues))
 for i in issues[:30]:
