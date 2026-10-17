@@ -1294,5 +1294,148 @@
     "seo_title": "AI tools made by Meta - AI Guide",
     "slug": "ai-tools-from-meta",
     "title": "Which AI tools does Meta make?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "loudly",
+        "boomy",
+        "aiva"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say you can release the songs you make or get commercial rights to them.",
+    "intro": "Loudly makes music from a text description with commercial licensing and can send it to Spotify, Apple Music and YouTube Music, but its free plan is for non-commercial use only. Boomy lets you make and release original AI songs with full commercial rights, though its free plan has no downloads and no commercial use. AIVA makes songs in over 250 styles, but only its Pro plan gives you full ownership; the free and Standard plans keep the copyright and limit commercial use.",
+    "meta_description": "AI music you are allowed to sell or release: Loudly, Boomy and AIVA, with plain-English notes on commercial rights and links.",
+    "seo_title": "AI music you can sell or release - AI Guide",
+    "slug": "ai-music-i-can-sell-or-release",
+    "title": "Which AI makes music I am allowed to sell or release?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "lalal-ai",
+        "fadr",
+        "stemroller",
+        "ultimate-vocal-remover",
+        "spleeter",
+        "audimee"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they split a song into separate parts such as vocals and instruments.",
+    "intro": "LALAL.AI splits any song into vocals, drums, bass and other parts in seconds, and Fadr pulls a song apart so you can remix it even with no music experience, though its free plan splits only the main parts. StemRoller and Ultimate Vocal Remover are free apps that run on your own computer, and Spleeter is free too but has no app window, so it suits people comfortable installing software. Audimee also splits songs, but it is aimed at music makers.",
+    "meta_description": "Split a song into vocals, drums and bass with AI: LALAL.AI, Fadr, StemRoller and more, with plain notes and links.",
+    "seo_title": "AI that splits a song into vocals and drums - AI Guide",
+    "slug": "ai-that-splits-a-song-into-instruments",
+    "title": "Which AI can split a song into vocals, drums and bass?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "viggle",
+        "domoai",
+        "vidu"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they work with characters in video.",
+    "intro": "Viggle swaps any character into trending clips, or turns a phone video into motion for your own character, to make memes and short social videos, with 5 free videos a day. DomoAI turns text or pictures into short videos and its Basic plan includes character-to-video, but it has no free plan and starts at $13 a month. Vidu makes short videos from reference pictures of a character or object, and its free plan is limited.",
+    "meta_description": "Put a character into a video with AI: Viggle, DomoAI and Vidu, with plain-English notes and links.",
+    "seo_title": "AI that puts a character in a video - AI Guide",
+    "slug": "ai-that-puts-a-character-in-a-video",
+    "title": "Which AI can put a character into a video?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "relevance-ai",
+        "mindstudio",
+        "autogpt",
+        "taskade",
+        "botpress"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say you can build your own AI agents or chatbots.",
+    "intro": "An AI agent is a helper that does a job for you. MindStudio lets you build and run your own agents, and Relevance AI builds no-code agents for multi-step work, though its builder still takes real setup effort. AutoGPT builds a team of helpers from a plain-English description of the job, but its free version needs Docker setup and your own AI model keys; Taskade also makes an agent from a description, and Botpress builds a chatbot or support agent for your website, starting at $150 a month.",
+    "meta_description": "Build your own AI helper (agent): MindStudio, Relevance AI, AutoGPT and more, with plain-English notes and links.",
+    "seo_title": "AI tools to build your own AI helper - AI Guide",
+    "slug": "ai-for-building-my-own-ai-helper",
+    "title": "Which AI tool can build my own AI helper?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "lumo",
+        "ecosia",
+        "anythingllm",
+        "dyad"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say you can try or use them without signing up for an account.",
+    "intro": "Lumo is a private AI chat you can try without an account, and a free account lets you keep your chat history. Ecosia lets you try its AI Chat without signing in, but its full free features need a free account. AnythingLLM is a free desktop app that works with no accounts or API keys, and Dyad needs no sign-up to download, but to use it you bring your own AI access, such as a free local model or a paid key.",
+    "meta_description": "AI you can try without an account: Lumo, Ecosia, AnythingLLM and Dyad, with plain-English notes and links.",
+    "seo_title": "AI you can use without an account - AI Guide",
+    "slug": "ai-you-can-use-without-an-account",
+    "title": "Which AI can I try without making an account?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "screenpipe",
+        "pieces",
+        "hermes-agent"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they remember your work or what you saw on your computer.",
+    "intro": "Pieces quietly remembers what you work on across your computer so you can ask AI about it later, but it has no free plan and captures your screen every 2 seconds by default, while screenpipe keeps your screen, audio and meetings on your own computer so you can search what you saw or heard, with a free plan that covers recent work only. Both record your screen, so think about what is on it. Hermes Agent is different: it is an open-source assistant you install yourself and talk to from chat apps, and it remembers your projects.",
+    "meta_description": "AI that remembers your work: screenpipe, Pieces and Hermes Agent, with plain-English notes and links.",
+    "seo_title": "AI that remembers what I worked on - AI Guide",
+    "slug": "ai-that-remembers-what-i-worked-on",
+    "title": "Which AI remembers what I worked on?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "leonardo",
+        "draw-things",
+        "scenario"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they keep the same art style or let you train your own style or model.",
+    "intro": "Leonardo AI is great for game art, character designs and keeping the same art style across many pictures, though free users get only 150 credits a day. Draw Things is a free app for iPhone, iPad and Mac that can train your own custom styles on your device. Scenario is a workspace for game, product and brand art where you can train your own custom models, but training needs its Pro plan at $45 a month.",
+    "meta_description": "Keep one art style across many AI pictures: Leonardo AI, Draw Things and Scenario, with plain-English notes and links.",
+    "seo_title": "AI that keeps one art style across pictures - AI Guide",
+    "slug": "ai-that-keeps-one-art-style",
+    "title": "Which AI can make many pictures in the same art style?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "recraft-ai",
+        "scenario",
+        "magnific",
+        "replicate"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they put many AI models in one place.",
+    "intro": "Recraft makes and edits images with several different AI models, though its free-plan images are public with no commercial use. Scenario gives you 65+ AI models for game, product and brand art with a free tier, and Magnific puts image, video, music and voice models in one subscription but has no free plan. Replicate has thousands of models for images, video, speech, music and chat, but it is built for developers and billed per use.",
+    "meta_description": "Try many AI picture and video models in one place: Recraft, Scenario, Magnific and Replicate, with plain notes.",
+    "seo_title": "AI sites with many picture and video models - AI Guide",
+    "slug": "ai-site-with-many-picture-and-video-models",
+    "title": "Which AI site lets me try many picture and video models in one place?"
+  },
+  {
+    "filter": {
+      "ids": [
+        "pika",
+        "viggle",
+        "character-ai",
+        "grok"
+      ]
+    },
+    "how_picked": "We hand-picked tools whose own descriptions say they are fun, playful or made for memes.",
+    "intro": "Pika turns your words or photos into short, fun video clips with playful effects like melting or exploding objects, though free clips carry a watermark. Viggle swaps any character into trending clips to make memes. Character AI is great for chatting and roleplaying with fun characters, and Grok is great for fun chats, though you need an X account to sign in.",
+    "meta_description": "Fun AI to play with: Pika, Viggle, Character AI and Grok, with plain-English notes and links.",
+    "seo_title": "Fun AI tools to play with - AI Guide",
+    "slug": "ai-that-is-fun-to-play-with",
+    "title": "Which AI is fun to play with?"
   }
 ]
