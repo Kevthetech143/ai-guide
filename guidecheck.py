@@ -72,6 +72,29 @@ for q in questions:
         for name in sorted(set(name_re.findall(q.get(field, ""))) - on_page):
             issues.append("E-offpage: %s %s names %s (not on page)" % (q["slug"], field, name))
 
+# F-freshness: the site must not promise a weekly check it does not do, and no
+# card may be dated after the build date. Cards past 30 days only WARN (the
+# page itself already says "Needs a new check").
+from build import BUILD_DATE, is_overdue, OVERDUE_DAYS
+_SUBJ = r"(?:we|listing|listings|site|card|cards|page|pages|price|prices|provider|providers)"
+fresh_re = re.compile(
+    r"\b%s\b[^.]{0,40}?\b(?:re-?check\w*|review\w*|updat\w*|check\w*)\b[^.]{0,20}?\b(?:weekly|every week|each week|next week)\b"
+    r"|\b(?:weekly|every week|each week)\s+(?:(?:re-?)?checks?|reviews?|cadence)\b" % _SUBJ, re.I)
+for dp, _, fs in os.walk(DIST):
+    for f in fs:
+        if f.endswith(".html"):
+            p = os.path.join(dp, f)
+            src = open(p, encoding="utf-8").read()
+            text = re.sub(r"<[^>]+>", " ", src) + " " + " ".join(re.findall(r'content="([^"]*)"', src))
+            m = fresh_re.search(text)
+            if m:
+                issues.append("F-freshness: weekly-check claim '%s' in %s" % (m.group(0), os.path.relpath(p, DIST)))
+for p in providers:
+    if p["last_checked"] > BUILD_DATE:
+        issues.append("F-freshness: %s last_checked %s is after BUILD_DATE %s" % (p["id"], p["last_checked"], BUILD_DATE))
+overdue = sum(1 for p in providers if is_overdue(p))
+print("F-freshness WARN: %d of %d cards are past %d days (build date %s)" % (overdue, len(providers), OVERDUE_DAYS, BUILD_DATE))
+
 print("guideline issues: %d" % len(issues))
 for i in issues[:30]:
     print(i)

@@ -1,12 +1,14 @@
 # How we review
 
-We keep every provider on this site up to date.
+We try to keep every provider on this site up to date.
 
 ## Who looks after this site
 
 This site is maintained by one person, not a company.
-Every listing on this site is re-checked weekly.
-This weekly cadence began on September 14, 2026.
+We aim to re-check every listing at least once every 30 days.
+We go through them a few at a time, not all on one day.
+If a listing goes past 30 days, its card says "Needs a new check" until we look again.
+Each page also shows how many listings were checked in the last 30 days.
 
 ## Nobody pays to be listed
 
@@ -39,7 +41,7 @@ The PlayHT sources disagreed with each other,
 and PlayHT's official page would not load.
 The Gemini price came from a Singapore page,
 and we could not confirm the US price.
-We kept the old prices and will check again next week.
+We kept the old prices and will check again.
 
 ## Spot a mistake?
 

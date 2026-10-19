@@ -21,16 +21,9 @@ TEMPLATES = os.path.join(ROOT, "templates")
 STATIC = os.path.join(ROOT, "static")
 DIST = os.path.join(ROOT, "dist")
 BASE_URL = "https://kevthetech143.github.io/ai-guide/"
-UPDATED = date.today().isoformat()
 
 MONTHS = ["January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
-
-
-def freshness_line():
-    """Page-level freshness microcopy, e.g. 'Prices and plans checked September 2026.'"""
-    y, m, _d = UPDATED.split("-")
-    return "Prices and plans checked %s %s." % (MONTHS[int(m) - 1], y)
 
 
 CATEGORY_BLURBS = {
@@ -84,26 +77,28 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-# Build date baked into sitemap <lastmod> (brief: YYYY-MM-DD).
-BUILD_DATE = "2026-09-18"
+# Build date: today's local date, or AI_GUIDE_BUILD_DATE=YYYY-MM-DD (tests,
+# reproducible builds). Only used to measure how old each check is and for the
+# footer; sitemap <lastmod> comes from real last_checked dates.
+BUILD_DATE = os.environ.get("AI_GUIDE_BUILD_DATE") or date.today().isoformat()
 BUILD_D = date.fromisoformat(BUILD_DATE)
-OVERDUE_DAYS = 7
+OVERDUE_DAYS = 30
 
 
-def _newest_last_checked():
-    """Newest last_checked across all 60 providers (freshness-015; data-only)."""
-    with open(DATA, encoding="utf-8") as f:
-        return max(p["last_checked"] for p in json.load(f))
+
+def nice_date(iso):
+    """'2026-09-11' -> 'September 11, 2026'."""
+    d = date.fromisoformat(iso)
+    return "%s %d, %d" % (MONTHS[d.month - 1], d.day, d.year)
 
 
-# Last full review = the newest last_checked across providers. Never claims
-# "checked today" (freshness-015).
-LAST_FULL_REVIEW = _newest_last_checked()
+def age_days(p):
+    return (BUILD_D - date.fromisoformat(p["last_checked"])).days
 
 
 def is_overdue(p):
-    """A card is overdue when its last_checked is 7+ days before BUILD_DATE."""
-    return (BUILD_D - date.fromisoformat(p["last_checked"])).days >= OVERDUE_DAYS
+    """A card is overdue when its last_checked is 30+ days before BUILD_DATE."""
+    return age_days(p) >= OVERDUE_DAYS
 
 
 def overdue_line(p):
@@ -113,12 +108,26 @@ def overdue_line(p):
     return ""
 
 
-REVIEW_STAMP = '<p class="review-stamp">Last full review: %s</p>' % LAST_FULL_REVIEW
+def review_stamp_text(providers):
+    """Honest stamp built from data: how many cards are in date, and the oldest check."""
+    fresh = sum(1 for p in providers if not is_overdue(p))
+    oldest = min(p["last_checked"] for p in providers)
+    return ("%d of %d listings checked in the last %d days. Oldest check: %s."
+            % (fresh, len(providers), OVERDUE_DAYS, nice_date(oldest)))
+
+
+with open(DATA, encoding="utf-8") as _f:
+    REVIEW_STAMP = '<p class="review-stamp">%s</p>' % review_stamp_text(json.load(_f))
 
 
 def stamp_review(body):
-    """Insert the 'Last full review' line directly under the page's h1 (freshness-015)."""
+    """Insert the review stamp directly under the page's h1."""
     return body.replace("</h1>", "</h1>\n" + REVIEW_STAMP, 1)
+
+
+def oldest_check_line(ps):
+    """'Oldest check on this page: <date>' for a page that shows these cards."""
+    return "Oldest check on this page: %s." % nice_date(min(p["last_checked"] for p in ps))
 
 
 # The locked how-we-review source text may contain exactly one absolute URL
@@ -343,7 +352,7 @@ def page(title, meta_description, body, style_prefix, home_href,
         start_current=start_current,
         about_link=about_link,
         topnav=topnav,
-        updated=UPDATED,
+        updated=nice_date(BUILD_DATE),
         canonical=esc(canonical or BASE_URL),
         og_title=esc(title),
         og_description=esc(meta_description),
@@ -463,7 +472,7 @@ def build():
         body = stamp_review(tmpl("category.html").substitute(
             category_kicker="Category",
             category_name=esc(label),
-            freshness=esc(freshness_line()),
+            freshness=esc(oldest_check_line(cat_ps)),
             category_blurb=esc(CATEGORY_BLURBS.get(c, "")),
             cards=LEGEND_HTML + "\n" + cards,
         ))
@@ -591,7 +600,7 @@ def build():
         review_body = md_trust(fh.read())
     write(os.path.join(DIST, "about", "how-we-review", "index.html"),
           page("How we review - AI Guide",
-               "How this plain-language AI guide is kept current: weekly checks, no ads, no paid listings, and how to report a mistake.",
+               "How this plain-language AI guide is kept current: a 30-day re-check goal, no ads, no paid listings, and how to report a mistake.",
                review_body, "../..", "../../index.html",
                canonical=BASE_URL + "about/how-we-review/",
                is_review_page=True))
@@ -623,6 +632,7 @@ def build():
 
     # SEO question pages: data-driven from data/questions.json
     best_urls = []
+    best_mod = {}
     for q in questions:
         slug = q["slug"]
         check_rule_ids(providers, q["filter"])
@@ -633,7 +643,7 @@ def build():
                 + LEGEND_HTML + "\n"
                 + cards + "\n"
                 + '<p class="method">How we picked: %s</p>\n' % esc(q["how_picked"])
-                + '<p class="checked">Last checked %s</p>\n' % UPDATED))
+                + '<p class="checked">%s</p>\n' % esc(oldest_check_line(matched))))
         canonical = BASE_URL + "best/%s/" % slug
         write(os.path.join(DIST, "best", slug, "index.html"),
               page(q["seo_title"], q["meta_description"], body, "../..",
@@ -642,11 +652,21 @@ def build():
                        q, matched,
                        [BASE_URL + "p/%s.html" % p["id"] for p in matched])))
         best_urls.append(canonical)
+        best_mod[canonical] = max(p["last_checked"] for p in matched)
     print("Built %d SEO question pages" % len(best_urls))
 
     # sitemap.xml (2026-09-16 SEO fix: each page exactly once, using the
     # canonical URL form from the <link rel="canonical"> tag — the old
     # BASE_URL+"index.html" twin is gone — and a <lastmod> on every entry).
+    newest = max(p["last_checked"] for p in providers)
+    cat_mod = {c: max(p["last_checked"] for p in providers if c in p["categories"])
+               for c in categories}
+    lastmod = {BASE_URL: newest}
+    for c in categories:
+        lastmod[BASE_URL + c + "/"] = cat_mod[c]
+    for p in providers:
+        lastmod[BASE_URL + "p/%s.html" % p["id"]] = p["last_checked"]
+    lastmod.update(best_mod)
     urls = [BASE_URL]
     urls += [BASE_URL + c + "/" for c in categories]
     urls += [BASE_URL + "p/%s.html" % p["id"] for p in providers]
@@ -658,7 +678,7 @@ def build():
     sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                + "".join("  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n"
-                         % (u, BUILD_DATE) for u in urls)
+                         % (u, lastmod.get(u, newest)) for u in urls)
                + "</urlset>\n")
     write(os.path.join(DIST, "sitemap.xml"), sitemap)
 
