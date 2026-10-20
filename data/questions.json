@@ -170,7 +170,7 @@
   {
     "slug": "ai-that-can-talk-to-me",
     "title": "Which AI can actually talk to me?",
-    "intro": "ElevenLabs, Murf AI, and PlayAI turn typed text into spoken voice that sounds close to a real person. Some chatbots can also talk out loud and listen to your voice, so it feels like a phone call.",
+    "intro": "ElevenLabs and Murf AI turn typed text into spoken voice that sounds close to a real person. Some chatbots can also talk out loud and listen to your voice, so it feels like a phone call.",
     "filter": {
       "categories": [
         "voice"
@@ -178,7 +178,7 @@
     },
     "how_picked": "We listed every voice AI in the guide, from text-to-speech voices to talking chatbots.",
     "seo_title": "AI that can talk to me - AI Guide",
-    "meta_description": "AI tools that talk out loud, in plain language: ElevenLabs, Murf AI, PlayAI and talking chatbots, with prices and links."
+    "meta_description": "AI tools that talk out loud, in plain language: ElevenLabs, Murf AI and talking chatbots, with prices and links."
   },
   {
     "slug": "free-ai-voice-generator",
@@ -907,7 +907,6 @@
     "filter": {
       "ids": [
         "fish-audio",
-        "playht",
         "hume-ai",
         "ace-studio",
         "orpheus-tts",
@@ -915,8 +914,8 @@
       ]
     },
     "how_picked": "We hand-picked voice tools whose own descriptions say they clone or copy a voice.",
-    "intro": "Fish Audio can copy a voice from as little as 10 seconds of audio. Hume AI and PlayAI also mention voice cloning, while Orpheus TTS and F5-TTS run on your own computer and need Python, a programming tool. Only copy voices you have permission to use.",
-    "meta_description": "AI that copies a voice from a short sample: Fish Audio, Hume AI, PlayAI and more, with plain-English notes and links.",
+    "intro": "Fish Audio can copy a voice from as little as 10 seconds of audio. Hume AI also mentions voice cloning, while Orpheus TTS and F5-TTS run on your own computer and need Python, a programming tool. Only copy voices you have permission to use.",
+    "meta_description": "AI that copies a voice from a short sample: Fish Audio, Hume AI and more, with plain-English notes and links.",
     "seo_title": "AI voice cloning - AI Guide",
     "slug": "ai-that-copies-a-voice",
     "title": "Can AI copy a voice?"
@@ -1210,15 +1209,14 @@
   {
     "filter": {
       "ids": [
-        "playht",
         "narakeet",
         "fish-audio",
         "synthesia"
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they speak your text in many languages.",
-    "intro": "PlayAI offers over 600 voices in 142 languages and accents, and Narakeet turns a written script into a voiceover in hundreds of voices and languages. Fish Audio does text-to-speech in 30+ languages, and Synthesia is different: it makes a video of an AI presenter saying your script in over 160 languages. PlayAI has no free plan, and free Narakeet and Fish Audio accounts are not for business use, so check before you sell or monetize what you make.",
-    "meta_description": "AI that speaks in many languages: PlayAI, Narakeet, Fish Audio and Synthesia, with plain-English notes and links.",
+    "intro": "Narakeet turns a written script into a voiceover in hundreds of voices and languages, and Fish Audio does text-to-speech in 30+ languages. Synthesia is different: it makes a video of an AI presenter saying your script in over 160 languages. Free Narakeet and Fish Audio accounts are not for business use, so check before you sell or monetize what you make.",
+    "meta_description": "AI that speaks in many languages: Narakeet, Fish Audio and Synthesia, with plain-English notes and links.",
     "seo_title": "AI voices in many languages - AI Guide",
     "slug": "ai-voices-in-many-languages",
     "title": "Can AI speak in other languages?"

@@ -32,8 +32,9 @@
     "runs_on_your_computer": false,
     "good_for": "Great for writing help, summarizing long documents, answering coding questions, and thinking ideas through carefully.",
     "watch_out": "The free plan runs out of messages fast on busy days; the Pro plan costs $20 a month when billed monthly.",
-    "link": "https://www.anthropic.com/pricing",
-    "last_checked": "2026-09-14"
+    "link": "https://claude.com/pricing",
+    "last_checked": "2026-10-20",
+    "watch_out_source": "https://claude.com/pricing"
   },
   {
     "id": "gemini",
@@ -44,13 +45,14 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "$19.99/month",
+    "price_from": "$4.99/month",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Great for quick answers, help inside Google apps like Gmail and Docs, and looking things up on the web.",
-    "watch_out": "The free version has usage limits, and the paid AI Pro plan costs $19.99 a month.",
-    "link": "https://one.google.com/intl/en_sg/about/google-ai-plans/",
-    "last_checked": "2026-09-11"
+    "watch_out": "The free version has usage limits, and the cheapest paid plan (Google AI Plus) costs $4.99 a month.",
+    "link": "https://gemini.google/subscriptions/",
+    "last_checked": "2026-10-20",
+    "watch_out_source": "https://gemini.google/subscriptions/"
   },
   {
     "id": "grok",
@@ -420,14 +422,15 @@
     "free_tier": false,
     "good_for": "An AI coding helper that works in your terminal; it can read your whole project, make changes, and run tests.",
     "id": "claude-code",
-    "last_checked": "2026-09-14",
-    "link": "https://www.anthropic.com/pricing",
+    "last_checked": "2026-10-20",
+    "link": "https://claude.com/pricing",
     "name": "Claude Code",
     "open_weights": false,
     "price_from": "$17/month (billed annually; $20 monthly)",
     "runs_on_your_computer": true,
     "skill_level": "medium",
-    "watch_out": "There is no free access, and usage limits mean heavy coding days can hit the cap."
+    "watch_out": "There is no free access, and usage limits mean heavy coding days can hit the cap.",
+    "watch_out_source": "https://claude.com/pricing"
   },
   {
     "categories": [
@@ -557,14 +560,15 @@
     "free_tier": true,
     "good_for": "Great for business-ready pictures that are safe to use commercially, since it is trained on licensed content.",
     "id": "adobe-firefly",
-    "last_checked": "2026-09-14",
-    "link": "https://www.adobe.com/products/firefly/plans.html",
+    "last_checked": "2026-10-20",
+    "link": "https://www.adobe.com/products/firefly.html",
     "name": "Adobe Firefly",
     "open_weights": false,
     "price_from": "$9.99/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan only gives 25 credits a month, and unused credits do not roll over to the next month."
+    "watch_out": "The free plan only gives you a small number of free generations each day; the cheapest paid plan (Standard) costs $9.99 a month for 2,000 credits, and credits reset every month.",
+    "watch_out_source": "https://www.adobe.com/products/firefly.html"
   },
   {
     "categories": [
@@ -650,23 +654,6 @@
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan."
-  },
-  {
-    "categories": [
-      "voice"
-    ],
-    "company": "PlayAI",
-    "free_tier": false,
-    "good_for": "It turns your written text into realistic spoken audio using over 600 voices in 142 languages and accents.",
-    "id": "playht",
-    "last_checked": "2026-09-11",
-    "link": "https://play.ht/pricing",
-    "name": "PlayAI (formerly PlayHT)",
-    "open_weights": false,
-    "price_from": "Check site",
-    "runs_on_your_computer": false,
-    "skill_level": "easy",
-    "watch_out": "It is priced by how much audio you make, so heavy use or voice cloning can get expensive fast."
   },
   {
     "categories": [
@@ -970,13 +957,14 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "$9.99/month",
+    "price_from": "$19.99/month",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "A free video editor from the maker of TikTok with AI captions, background removal, and text-to-speech built right in.",
-    "watch_out": "Some features and cloud storage need the paid Pro plan; the paid Standard plan costs about $9.99 a month, and it is best for short videos, not full movies.",
+    "watch_out": "Some features and cloud storage need the paid Pro plan, which costs $19.99 a month; CapCut is best for short videos, not full movies.",
     "link": "https://www.capcut.com",
-    "last_checked": "2026-09-14"
+    "last_checked": "2026-10-20",
+    "watch_out_source": "https://www.capcut.com/pricing"
   },
   {
     "id": "openai-agent",
@@ -1023,13 +1011,14 @@
     ],
     "open_weights": true,
     "free_tier": true,
-    "price_from": "Free",
+    "price_from": "$15/month (billed annually; $19 monthly)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "A free chatbot that handles very long documents and searches the web, with open models you can also run yourself.",
     "watch_out": "It is made by a Chinese company, so think carefully about what personal details you share.",
     "link": "https://www.kimi.com",
-    "last_checked": "2026-09-11"
+    "last_checked": "2026-10-20",
+    "watch_out_source": "https://www.kimi.com/membership/pricing"
   },
   {
     "categories": [

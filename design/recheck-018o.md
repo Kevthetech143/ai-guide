@@ -1,0 +1,15 @@
+gemini | link | https://one.google.com/intl/en_sg/about/google-ai-plans/ -> https://gemini.google/subscriptions/ | old Singapore URL still 200 but price blank on plain one.google.com page; gemini.google/subscriptions returns 200 and shows prices
+gemini | price_from | $19.99/month -> $4.99/month | https://gemini.google/subscriptions/ "Google AI Plus ... $4.99/ month"; Free "$0/ month with a Google Account"
+gemini | watch_out | "The free version has usage limits, and the paid AI Pro plan costs $19.99 a month." -> "The free version has usage limits, and the cheapest paid plan (Google AI Plus) costs $4.99 a month." | same page
+kimi | price_from | Free -> $15/month (billed annually; $19 monthly) | https://www.kimi.com/membership/pricing "Plus ... $ 15 / month ... Billed annually $180 / year"; free tier "Adagio $0" (the $19 monthly figure is inferred from the page layout, unverified)
+capcut-ai | price_from | $9.99/month -> $19.99/month | https://www.capcut.com/pricing "Free USD 0"; "Pro USD 19.99 /month" (no Standard plan shown; Teams USD 12.49/month per seat, 2 seats)
+capcut-ai | watch_out | "...the paid Standard plan costs about $9.99 a month, and it is best for short videos, not full movies." -> "Some features and cloud storage need the paid Pro plan, which costs $19.99 a month; CapCut is best for short videos, not full movies." | same page
+claude | link | https://www.anthropic.com/pricing -> https://claude.com/pricing | old URL redirects (200) to claude.com/pricing
+claude-code | link | https://www.anthropic.com/pricing -> https://claude.com/pricing | same
+all 10 | watch_out_source | added (see JSON). claude/claude-code/gemini/kimi/capcut-ai point to verified pages. chatgpt/canva-ai/character-ai/adobe-firefly/playht carry their existing link only as a placeholder (NOT verified; pages blocked)
+verified, no change: claude (Free; Pro "$200 billed up front. $20 if billed monthly" => $17/mo annual; Claude Code "No" on Free, included in Pro; https://claude.com/pricing), claude-code (free_tier false, price same), kimi open_weights true (weights at https://huggingface.co/moonshotai/Kimi-K3, license is custom "Kimi K3 License")
+FLAG adobe-firefly (not verified, date kept): adobe.com page opens only as a Japan page (1,580 yen/mo Standard, 2,000 credits) and says "You don't need a plan to get free daily generations across image, video, and audio." This suggests watch_out ("25 credits a month ... do not roll over") and possibly $9.99 are stale, but US page not readable (HTTP 403 for curl and browser), so nothing changed.
+FLAG playht (not verified): play.ht and play.ai do not resolve in DNS from this Mac. Third-party sources (unverified, no official notice found) say Meta acquired the PlayAI team in July 2025 and the product shut down 2025-12-31. Recommend lead decide to remove or mark discontinued; I did not touch it.
+unchanged: chatgpt, canva-ai, character-ai (blocked), adobe-firefly, playht, claude-code facts, kimi facts other than price_from
+unreachable: playht, adobe-firefly, canva-ai, character-ai, chatgpt
+checked: 5/10
