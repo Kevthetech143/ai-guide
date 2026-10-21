@@ -1,0 +1,362 @@
+[
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Canva",
+    "free_tier": true,
+    "good_for": "Great for making social media posts, flyers, and presentations with AI help, right inside an easy drag-and-drop design tool.",
+    "id": "canva-ai",
+    "last_checked": "2026-10-21",
+    "link": "https://www.canva.com/pricing/",
+    "name": "Canva AI (Magic Studio)",
+    "open_weights": false,
+    "price_from": "$12/month (billed annually; $18 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only gives up to 20 AI uses; the paid Pro plan costs $18 a month, or $144 if you pay for a year.",
+    "watch_out_source": "https://www.canva.com/pricing/"
+  },
+  {
+    "id": "character-ai",
+    "name": "Character AI",
+    "company": "Character AI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$4.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for chatting and roleplaying with fun characters you pick or create yourself - story heroes, historical figures, and helpful personas.",
+    "watch_out": "The free plan shows ads and has some limits; the cheapest paid plan (lite) starts at $4.99 a month, and the price changes by country. The characters sometimes make things up.",
+    "link": "https://character.ai",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://support.character.ai/hc/en-us/articles/55388952900379--c-ai-lite-FAQ"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "company": "OpenAI",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for chatting, writing, homework help, planning trips, and turning word descriptions into pictures.",
+    "watch_out": "The free plan has limits on messages, uploads and images; the cheapest paid plan (Go) costs $8 a month and may include ads.",
+    "link": "https://chatgpt.com/pricing",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://chatgpt.com/pricing"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "company": "xAI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for fun chats, quick questions, seeing what's happening on X right now, and making pictures from words.",
+    "watch_out": "The free plan has limited use; the cheapest paid plan (Plus) costs $8 a month, and the Premium plan costs $30 a month.",
+    "link": "https://x.ai/grok",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://x.ai/pricing"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "company": "Perplexity AI",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$17/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for looking things up and getting answers that show exactly which websites the facts came from.",
+    "watch_out": "The free plan is only good for limited daily use; the cheapest paid plan (Pro) costs $17 a month when you pay for a year.",
+    "link": "https://www.perplexity.ai/pro",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://www.perplexity.ai/hub/pricing"
+  },
+  {
+    "id": "llama",
+    "name": "Llama",
+    "company": "Meta",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Free, powerful AI you can download and run on your own computer or through Meta's own apps.",
+    "watch_out": "You have to set it up yourself or use someone else's app to talk to it.",
+    "link": "https://dev.meta.ai/llama/",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://dev.meta.ai/llama/"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "company": "Mistral AI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "$14.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A fast, free chatbot made in Europe that answers questions, searches the web, and even makes images.",
+    "watch_out": "The free plan has limited messages and web searches, and the paid Pro plan costs $14.99 a month.",
+    "link": "https://mistral.ai/pricing/",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://mistral.ai/pricing/"
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen",
+    "company": "Alibaba",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI chat assistant that is strong in many languages and can also generate images.",
+    "watch_out": "Running its biggest versions on your own computer needs serious hardware.",
+    "link": "https://qwen.ai/",
+    "last_checked": "2026-10-21"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "company": "Midjourney",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$10/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Beautiful AI pictures and art that look great, made by typing a simple description.",
+    "watch_out": "There is no free plan and your pictures are public unless you pay more.",
+    "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "company": "Stability AI",
+    "categories": [
+      "image"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Free AI picture-making that runs on your own computer with no subscription and no picture limits.",
+    "watch_out": "You have to install it yourself and your computer needs a good graphics card.",
+    "link": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
+    "last_checked": "2026-10-21"
+  },
+  {
+    "id": "flux",
+    "name": "Flux",
+    "company": "Black Forest Labs",
+    "categories": [
+      "image"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free (open weights); usage-based API pricing",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "It makes very detailed pictures from a short written description, like posters, art, or product mockups.",
+    "watch_out": "Setting it up on your own computer takes some technical steps and a strong graphics card.",
+    "link": "https://bfl.ai",
+    "last_checked": "2026-10-21"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "company": "ElevenLabs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$5/month (billed annually; $6 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns your written words into natural-sounding spoken audio, great for videos, podcasts, or audiobooks.",
+    "watch_out": "The free plan is small, so you will hit the monthly limit quickly if you make lots of audio.",
+    "link": "https://elevenlabs.io/pricing",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://elevenlabs.io/pricing"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "company": "Suno",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month (billed annually; $10 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns a few words about a style or theme into a full song with music and singing.",
+    "watch_out": "Songs made on the free plan cannot be used for business or sold.",
+    "link": "https://suno.com/pricing",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://suno.com/pricing"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "company": "Runway",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (billed annually; $15 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "It turns your words or photos into short video clips for ads, social posts, or creative projects.",
+    "watch_out": "You spend credits for each second of video, so longer videos use them up fast.",
+    "link": "https://runway.com/pricing",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://runway.com/pricing"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "company": "Anysphere",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "It is an app where an AI assistant helps you write, fix, and explain code right in your editor.",
+    "watch_out": "The free plan has limited AI use; the $8 Plus plan only works with Grok models, and other companies' models are billed extra on the Premium plan ($30 a month).",
+    "link": "https://cursor.com/pricing",
+    "last_checked": "2026-10-21",
+    "watch_out_source": "https://cursor.com/pricing"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "OpenAI",
+    "free_tier": true,
+    "good_for": "It turns spoken audio into written text, great for transcribing meetings, lectures, or video subtitles. It understands dozens of languages.",
+    "id": "whisper",
+    "last_checked": "2026-10-21",
+    "link": "https://github.com/openai/whisper",
+    "name": "Whisper",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "You have to install it yourself with some command-line steps, and it needs a decent computer to run well.",
+    "watch_out_source": "https://github.com/openai/whisper"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "OpenAI",
+    "free_tier": false,
+    "good_for": "It turns your written descriptions into short, realistic-looking video clips, even with matching sound.",
+    "id": "sora",
+    "last_checked": "2026-10-21",
+    "link": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+    "name": "Sora",
+    "open_weights": false,
+    "price_from": "No longer sold",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "OpenAI shut down the Sora app and website on April 26, 2026, so you can no longer use it. OpenAI suggests exporting your saved videos.",
+    "watch_out_source": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Google",
+    "free_tier": true,
+    "good_for": "Google's top video maker; it turns words or photos into sharp, cinematic video clips, even with matching sound.",
+    "id": "veo",
+    "last_checked": "2026-10-21",
+    "link": "https://flow.google.com/about",
+    "name": "Veo",
+    "open_weights": false,
+    "price_from": "$4.99/month (Google AI Plus)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "The free plan gives you 50 Google Flow credits a day, and each video uses credits; the cheapest paid plan (Google AI Plus) costs $4.99 a month, and prices may vary by country.",
+    "watch_out_source": "https://flow.google.com/about"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Pika Labs",
+    "free_tier": false,
+    "good_for": "It turns your words or photos into short, fun video clips with playful effects like melting or exploding objects.",
+    "id": "pika",
+    "last_checked": "2026-10-21",
+    "link": "https://pika.art",
+    "name": "Pika",
+    "open_weights": false,
+    "price_from": "$8/month (billed annually; $10 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan gives you no monthly credits, so you buy credit packs to make clips; the cheapest plan (Starter) costs $10 a month, or $8 if you pay for a year.",
+    "watch_out_source": "https://pika.art/pricing"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Kuaishou",
+    "free_tier": true,
+    "good_for": "It turns words or photos into smooth, realistic-looking video clips, and you get free credits every day.",
+    "id": "kling",
+    "last_checked": "2026-10-21",
+    "link": "https://kling.ai/app/membership/membership-plan",
+    "name": "Kling",
+    "open_weights": false,
+    "price_from": "$10/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free Basic plan has a watermark and no commercial use; paid plans start at $10 a month.",
+    "watch_out_source": "https://kling.ai/app/membership/membership-plan"
+  }
+]

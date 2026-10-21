@@ -33,8 +33,8 @@
       ]
     },
     "how_picked": "we listed AIs that make or edit video, all rated easy or medium for a beginner to try.",
-    "intro": "Runway, Sora, Pika, and Kling turn text into short videos, and HeyGen can put a realistic presenter on screen for you. Most are free to try, with paid plans for longer or sharper videos.",
-    "meta_description": "Which AI makes the best videos? Simple picks like Runway, Pika and Sora, with what they cost and where to get them.",
+    "intro": "Runway, Pika, and Kling turn text into short videos, and HeyGen can put a realistic presenter on screen for you. Most are free to try, with paid plans for longer or sharper videos.",
+    "meta_description": "Which AI makes the best videos? Simple picks like Runway, Pika and Kling, with what they cost and where to get them.",
     "seo_title": "Best AI for making videos - AI Guide",
     "slug": "best-ai-for-making-videos",
     "title": "What's the best AI for making videos?"
@@ -72,7 +72,7 @@
       ]
     },
     "how_picked": "we listed AIs that help you write computer code, free or easy to try first.",
-    "intro": "GitHub Copilot and Cursor sit next to you while you type and suggest the code. Copilot is free for many users, and Cursor's free tier is generous for trying it out.",
+    "intro": "GitHub Copilot and Cursor sit next to you while you type and suggest the code. Copilot is free for many users, and Cursor has a free plan with limited AI use for trying it out.",
     "meta_description": "Which AI writes code best? Plain-English picks like GitHub Copilot and Cursor, with costs and official links.",
     "seo_title": "Best AI for writing code - AI Guide",
     "slug": "best-ai-for-writing-code",
@@ -156,7 +156,7 @@
   {
     "slug": "free-ai-video-generator",
     "title": "Which AI video generator is free?",
-    "intro": "Runway, Pika, Kling, and CapCut AI all let you make short videos from a text description without paying. The free plans give you a limited number of videos each month, which is plenty to try it out.",
+    "intro": "Runway, Kling, CapCut AI and Veo all let you make short videos from a text description without paying. The free plans give you a limited number of videos or daily credits, which is plenty to try it out.",
     "filter": {
       "categories": [
         "video"
@@ -165,7 +165,7 @@
     },
     "how_picked": "We listed video AIs with a free tier, so you can generate your first videos without paying.",
     "seo_title": "Free AI video generator - AI Guide",
-    "meta_description": "The best free AI video generators compared in plain language: Runway, Pika, Kling, Sora and more, with free limits explained."
+    "meta_description": "The best free AI video generators compared in plain language: Runway, Kling, Veo and more, with free limits explained."
   },
   {
     "slug": "ai-that-can-talk-to-me",
@@ -275,7 +275,7 @@
     },
     "how_picked": "We listed AIs with no free tier, so you can see what the money buys before you pay.",
     "seo_title": "Paid AI worth the money - AI Guide",
-    "meta_description": "Which paid AIs are worth it, in plain language: Midjourney, Claude Code, Veo and more, with prices and links."
+    "meta_description": "Which paid AIs are worth it, in plain language: Midjourney, Claude Code, ChatGPT agent and more, with prices and links."
   },
   {
     "slug": "ai-for-making-a-podcast",
@@ -309,7 +309,7 @@
   {
     "slug": "ai-that-writes-code-for-free",
     "title": "Which AI writes code for free?",
-    "intro": "GitHub Copilot and Replit have free plans that write code from your descriptions and fix errors for you. Cursor's free tier is generous too, and it is one of the easiest ways to start.",
+    "intro": "GitHub Copilot and Replit have free plans that write code from your descriptions and fix errors for you. Cursor has a free plan too, with limited AI use, and it is one of the easiest ways to start.",
     "filter": {
       "categories": [
         "code"
@@ -554,8 +554,8 @@
       "free_tier": false
     },
     "how_picked": "We listed video AIs with no free tier, so you can see the price before you sign up.",
-    "intro": "Veo and Luma Dream Machine turn words or a photo into realistic video clips. Pictory turns a blog post or script into a captioned video, and D-ID makes a talking video from a photo and a typed script. None of them has a free plan, so expect to pay from day one.",
-    "meta_description": "AI video makers with no free plan: Veo, Luma Dream Machine, Pictory, D-ID and more. What they do and cost, in plain English.",
+    "intro": "Luma Dream Machine turns words or a photo into realistic video clips, and Pika makes short clips with playful effects. Pictory turns a blog post or script into a captioned video, and D-ID makes a talking video from a photo and a typed script. None of them gives you free monthly videos, so expect to pay from day one.",
+    "meta_description": "AI video makers with no free monthly videos: Luma Dream Machine, Pika, Pictory, D-ID and more. What they do and cost, in plain English.",
     "seo_title": "Paid AI video makers - AI Guide",
     "slug": "paid-ai-video-generator",
     "title": "Which AI video makers are paid only?"
@@ -1128,14 +1128,13 @@
   {
     "filter": {
       "ids": [
-        "sora",
         "veo",
         "ltx-2"
       ]
     },
     "how_picked": "We hand-picked video tools whose own descriptions say the clips come with matching or synchronized sound.",
-    "intro": "Sora and Veo turn your written description into video clips with matching sound. Sora has a limited free tier each day, while Veo starts at $20 a month and charges per second of video. LTX-2 also makes video with synchronized sound, but it is a very large download (about 66 GB) that you run yourself with command-line setup.",
-    "meta_description": "AI that makes video clips with sound: Sora, Veo and LTX-2, with plain-English notes and links.",
+    "intro": "Veo turns your written description into video clips with matching sound, and Google's free Flow plan gives you 50 credits a day to try it. LTX-2 also makes video with synchronized sound, but it is a very large download (about 66 GB) that you run yourself with command-line setup.",
+    "meta_description": "AI that makes video clips with sound: Veo and LTX-2, with plain-English notes and links.",
     "seo_title": "AI video maker with sound - AI Guide",
     "slug": "ai-video-maker-with-sound",
     "title": "Can AI make a video with sound?"
@@ -1255,7 +1254,7 @@
       ]
     },
     "how_picked": "We listed the tools in our guide that are made by Google, leaving out the two made for programmers.",
-    "intro": "Gemini answers questions and helps inside Google apps like Gmail and Docs, Google AI Mode gives full AI answers with links inside Google Search, and NotebookLM answers questions from documents you upload. Veo turns words or photos into video clips but has no free plan, and Google Flow is Google's studio for making videos and images. Flow Music makes full songs with vocals, and Magenta RealTime 2 is a free music model you play like an instrument, though it needs a newer Mac.",
+    "intro": "Gemini answers questions and helps inside Google apps like Gmail and Docs, Google AI Mode gives full AI answers with links inside Google Search, and NotebookLM answers questions from documents you upload. Veo turns words or photos into video clips, with a small free daily allowance through Google Flow, and Google Flow is Google's studio for making videos and images. Flow Music makes full songs with vocals, and Magenta RealTime 2 is a free music model you play like an instrument, though it needs a newer Mac.",
     "meta_description": "The AI tools Google makes: Gemini, Google AI Mode, NotebookLM, Veo, Google Flow, Flow Music and Magenta RealTime 2.",
     "seo_title": "AI tools made by Google - AI Guide",
     "slug": "ai-tools-from-google",
@@ -1266,14 +1265,13 @@
       "ids": [
         "chatgpt",
         "openai-agent",
-        "sora",
         "whisper",
         "codex"
       ]
     },
     "how_picked": "We listed the tools in our guide that are made by OpenAI.",
-    "intro": "ChatGPT is good for chatting, writing, homework help and planning trips, and ChatGPT agent goes further and browses the web, fills out forms and compares prices, but it needs a paid ChatGPT plan. Sora turns written descriptions into short video clips, and Whisper turns spoken audio into text, though you install it yourself. OpenAI Codex is for programmers, not beginners, and also needs a paid plan.",
-    "meta_description": "The AI tools OpenAI makes: ChatGPT, ChatGPT agent, Sora, Whisper and OpenAI Codex, with plain-English notes and links.",
+    "intro": "ChatGPT is good for chatting, writing, homework help and planning trips, and ChatGPT agent goes further and browses the web, fills out forms and compares prices, but it needs a paid ChatGPT plan. Whisper turns spoken audio into text, though you install it yourself. OpenAI Codex is for programmers, not beginners, and also needs a paid plan.",
+    "meta_description": "The AI tools OpenAI makes: ChatGPT, ChatGPT agent, Whisper and OpenAI Codex, with plain-English notes and links.",
     "seo_title": "AI tools made by OpenAI - AI Guide",
     "slug": "ai-tools-from-openai",
     "title": "Which AI tools does OpenAI make?"
@@ -1430,7 +1428,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they are fun, playful or made for memes.",
-    "intro": "Pika turns your words or photos into short, fun video clips with playful effects like melting or exploding objects, though free clips carry a watermark. Viggle swaps any character into trending clips to make memes. Character AI is great for chatting and roleplaying with fun characters, and Grok is great for fun chats, though you need an X account to sign in.",
+    "intro": "Pika turns your words or photos into short, fun video clips with playful effects like melting or exploding objects, though you have to buy credits to make them. Viggle swaps any character into trending clips to make memes. Character AI is great for chatting and roleplaying with fun characters, and Grok is great for fun chats, though you need an X account to sign in.",
     "meta_description": "Fun AI to play with: Pika, Viggle, Character AI and Grok, with plain-English notes and links.",
     "seo_title": "Fun AI tools to play with - AI Guide",
     "slug": "ai-that-is-fun-to-play-with",
