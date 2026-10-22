@@ -350,14 +350,15 @@
     "free_tier": true,
     "good_for": "It turns a short description into a full song with music, singing, and lyrics that you can tweak and extend.",
     "id": "udio",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://www.udio.com",
     "name": "Udio",
     "open_weights": false,
-    "price_from": "$10/month",
+    "price_from": "$8/month (billed annually; $10 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Songs made on the free plan are public and cannot be used for business."
+    "watch_out": "The free plan gives you 100 credits a month, no more than 10 a day, and only 3 full-length songs a day; the cheapest paid plan (Standard) costs $10 a month, or $8 if you pay for a year.",
+    "watch_out_source": "https://www.udio.com/pricing"
   },
   {
     "categories": [
@@ -367,7 +368,7 @@
     "free_tier": true,
     "good_for": "An AI helper that does multi-step jobs for you on its own, like researching a topic and building a report or a website.",
     "id": "manus",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://manus.im",
     "name": "Manus",
     "open_weights": false,
@@ -385,14 +386,15 @@
     "free_tier": true,
     "good_for": "An AI software engineer that can plan, write, and test code for whole projects on its own in the cloud.",
     "id": "devin",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://devin.ai",
     "name": "Devin",
     "open_weights": false,
     "price_from": "$20/month",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "It charges for the computer time it uses, so a big job can cost more than the $20 starting price."
+    "watch_out": "The free plan only gives you a light quota; the $20 Pro plan has higher limits, and extra use is charged at API prices, so heavy use can cost more than $20.",
+    "watch_out_source": "https://devin.ai/pricing"
   },
   {
     "categories": [
@@ -402,14 +404,15 @@
     "free_tier": true,
     "good_for": "It suggests code as you type right inside your editor, and it can explain code and help fix bugs.",
     "id": "github-copilot",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://github.com/features/copilot",
     "name": "GitHub Copilot",
     "open_weights": false,
     "price_from": "$10/month",
     "runs_on_your_computer": true,
     "skill_level": "easy",
-    "watch_out": "The free plan only includes a limited number of completions and chats each month."
+    "watch_out": "The free plan only includes a limited number of completions and chats each month.",
+    "watch_out_source": "https://github.com/features/copilot/plans"
   },
   {
     "categories": [
@@ -438,14 +441,15 @@
     "free_tier": true,
     "good_for": "You describe an app in plain words and its AI agent builds it and puts it on the web, all in your browser.",
     "id": "replit",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://replit.com",
     "name": "Replit",
     "open_weights": false,
-    "price_from": "$18/month (billed annually; $25 monthly)",
+    "price_from": "$18/month (billed annually; $20 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan only includes small daily AI credits, and extra AI usage costs more."
+    "watch_out": "The free plan only gives you daily AI credits up to a monthly cap and the simpler Lite build; the full builder needs the paid Core plan.",
+    "watch_out_source": "https://docs.replit.com/billing/plans/starter-plan"
   },
   {
     "categories": [
@@ -455,14 +459,15 @@
     "free_tier": true,
     "good_for": "A smarter way to Google: it gives full AI answers with links, and you can ask follow-up questions.",
     "id": "google-ai-mode",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://www.google.com/aimode",
     "name": "Google AI Mode",
     "open_weights": false,
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "It is built into Google Search, so you need to be signed in to a Google account to use it."
+    "watch_out": "It is built into Google Search. You can use it without signing in, but you need to sign in and turn on history to pick up where you left off, and its answers can include mistakes.",
+    "watch_out_source": "https://support.google.com/websearch/answer/16011537"
   },
   {
     "categories": [
@@ -489,7 +494,7 @@
     "free_tier": true,
     "good_for": "A free app that downloads AI models like Llama and DeepSeek and runs them on your own computer, with no internet needed after setup.",
     "id": "ollama",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://ollama.com",
     "name": "Ollama",
     "open_weights": true,
@@ -506,14 +511,15 @@
     "free_tier": true,
     "good_for": "A free AI chat assistant that is strong at math, coding, and careful step-by-step thinking.",
     "id": "deepseek",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://chat.deepseek.com/",
     "name": "DeepSeek",
     "open_weights": true,
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Your chats are stored on servers in China, so do not share private details with it."
+    "watch_out": "Your chats are stored on servers in China, so do not share private details with it.",
+    "watch_out_source": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"
   },
   {
     "categories": [
@@ -523,14 +529,15 @@
     "free_tier": true,
     "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
     "id": "ideogram",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://ideogram.ai",
     "name": "Ideogram",
     "open_weights": true,
-    "price_from": "$15/month",
+    "price_from": "$15/month (billed annually; $20 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Pictures you make on the free plan are public for everyone to see, and you can't keep them private without paying; paid plans start at $15 a month."
+    "watch_out": "Pictures you make are public by default, and only the paid Plus and Pro plans can keep them private; Plus costs $20 a month, or $15 a month if you pay for a year. Free accounts get weekly credits, but the amount can change.",
+    "watch_out_source": "https://ideogram.ai/pricing"
   },
   {
     "categories": [
@@ -540,14 +547,15 @@
     "free_tier": true,
     "good_for": "Great for game art, character designs, and keeping the same art style across many pictures.",
     "id": "leonardo",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://leonardo.ai/pricing/",
     "name": "Leonardo AI",
     "open_weights": false,
     "price_from": "$12/month",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "It uses a credit system instead of a simple price, so free users only get 150 credits a day, and keeping pictures private needs a paid plan."
+    "watch_out": "It uses tokens instead of a simple price, so free users only get 150 tokens a day, and keeping pictures private needs a paid plan.",
+    "watch_out_source": "https://leonardo.ai/pricing/"
   },
   {
     "categories": [
@@ -593,14 +601,15 @@
     "free_tier": true,
     "good_for": "Turns your written text into a video with a realistic AI talking person, so you can make studio-quality videos without a camera, actors, or editing skills.",
     "id": "heygen",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://www.heygen.com/pricing",
     "name": "HeyGen",
     "open_weights": false,
     "price_from": "$29/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "You pay with credits and each video costs credits, so making lots of videos can get expensive; the free plan also only gives 3 videos a month and adds a watermark."
+    "watch_out": "You pay with credits and each video costs credits, so making lots of videos can get expensive; the free plan also only gives 3 videos a month and adds a watermark.",
+    "watch_out_source": "https://www.heygen.com/pricing"
   },
   {
     "categories": [
@@ -610,14 +619,15 @@
     "free_tier": false,
     "good_for": "It turns a written description or a photo into a realistic short video clip, like making a still photo move or describing a scene and watching it come to life.",
     "id": "luma",
-    "last_checked": "2026-09-14",
-    "link": "https://lumalabs.ai/learning-hub/dream-machine-support-pricing-information",
+    "last_checked": "2026-10-22",
+    "link": "https://lumalabs.ai/pricing",
     "name": "Luma Dream Machine",
     "open_weights": false,
     "price_from": "$30/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Clips are short (about 5 to 10 seconds each), and the paid Plus plan costs $30 a month, so you likely need to pay before you can create anything."
+    "watch_out": "Clips are short (about 5 to 10 seconds each), and the paid Plus plan costs $30 a month, so you likely need to pay before you can create anything.",
+    "watch_out_source": "https://lumalabs.ai/pricing"
   },
   {
     "categories": [
@@ -627,14 +637,15 @@
     "free_tier": true,
     "good_for": "It turns your words or photos into short AI videos in just a few clicks.",
     "id": "hailuo",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://hailuoai.video",
     "name": "Hailuo AI",
     "open_weights": false,
     "price_from": "$14.99/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free version puts a watermark on your videos, and clips are short — only about 6 to 10 seconds each."
+    "watch_out": "The free plan only gives you one-time trial credits, so you need a paid plan to keep making videos; the cheapest paid plan (Standard) costs $14.99 a month.",
+    "watch_out_source": "https://hailuoai.video/subscribe"
   },
   {
     "categories": [
@@ -644,14 +655,15 @@
     "free_tier": true,
     "good_for": "Murf is best at turning typed scripts into natural-sounding voiceovers for videos, podcasts, and presentations.",
     "id": "murf",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://murf.ai/pricing",
     "name": "Murf AI",
     "open_weights": false,
-    "price_from": "$19/month",
+    "price_from": "$19/month (billed annually; $29 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan."
+    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan.",
+    "watch_out_source": "https://murf.ai/pricing"
   },
   {
     "categories": [
@@ -661,14 +673,15 @@
     "free_tier": true,
     "good_for": "You can ask it questions, write emails, and make pictures using plain words — no training needed, and the basic chat is free.",
     "id": "microsoft-copilot",
-    "last_checked": "2026-09-14",
-    "link": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/right-copilot-plan-for-you",
+    "last_checked": "2026-10-22",
+    "link": "https://www.microsoft.com/en-us/copilot/solutions/individuals",
     "name": "Microsoft Copilot",
     "open_weights": false,
-    "price_from": "$19.99/month",
+    "price_from": "$9.99/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free version has usage limits; the paid Microsoft 365 Premium plan costs $19.99 a month. (Copilot Pro was discontinued.)"
+    "watch_out": "The free version has usage limits; paid Microsoft 365 plans give you more Copilot use, starting at $9.99 a month (Personal), with Microsoft 365 Premium at $19.99 a month for the most.",
+    "watch_out_source": "https://www.microsoft.com/en-us/copilot/solutions/individuals"
   },
   {
     "categories": [
@@ -678,14 +691,15 @@
     "free_tier": true,
     "good_for": "It's free and already lives inside WhatsApp, Instagram, and Messenger, so you can ask it things right where you already chat with people.",
     "id": "meta-ai",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://www.meta.ai/",
     "name": "Meta AI",
     "open_weights": false,
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Your conversations may be used to train Meta's AI models unless you opt out, so avoid sharing private details with it."
+    "watch_out": "Meta says it trains its AI partly on what people share on its apps, including your chats with its AI features, so avoid sharing private details with it.",
+    "watch_out_source": "https://www.facebook.com/privacy/genai/"
   },
   {
     "categories": [
@@ -695,14 +709,15 @@
     "free_tier": true,
     "good_for": "It connects your apps and does boring tasks for you — like saving email attachments to Google Drive — without writing any code, and an AI helper builds the workflows from a plain sentence.",
     "id": "zapier-ai",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://zapier.com/pricing",
     "name": "Zapier AI",
     "open_weights": false,
-    "price_from": "$19.99/month",
+    "price_from": "$19.99/month (billed annually; $29.99 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan covers only 100 tasks a month and caps workflows at two steps, so costs rise quickly as you automate more."
+    "watch_out": "The free plan covers only 100 tasks a month and caps workflows at two steps, so costs rise quickly as you automate more.",
+    "watch_out_source": "https://zapier.com/pricing"
   },
   {
     "categories": [
@@ -712,14 +727,14 @@
     "free_tier": true,
     "good_for": "It lets you build powerful step-by-step automations across hundreds of apps, and the free Community edition runs on your own machine with no limits on executions.",
     "id": "n8n",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-10-22",
     "link": "https://n8n.io/pricing/",
     "name": "n8n",
     "open_weights": false,
-    "price_from": "$24/month",
+    "price_from": "$20/month (billed annually; $24 monthly)",
     "runs_on_your_computer": true,
     "skill_level": "medium",
-    "watch_out": "It's built for technical users, so the first setup can feel hard if you've never made a workflow before; the cloud plan costs $24 a month, or you can run it on your own computer for free."
+    "watch_out": "It's built for technical users, so the first setup can feel hard if you've never made a workflow before; the cloud plan costs $24 a month, or $20 a month if you pay for a year, or you can run it on your own computer for free."
   },
   {
     "categories": [
@@ -729,14 +744,15 @@
     "free_tier": true,
     "good_for": "It's a free, openly available AI model from Google (built with the same research as Gemini) that developers can download, customize, and build with.",
     "id": "gemma",
-    "last_checked": "2026-09-14",
-    "link": "https://ai.google.dev/gemma/docs/get_started",
+    "last_checked": "2026-10-22",
+    "link": "https://gemma.ai/get-started/",
     "name": "Gemma",
     "open_weights": true,
     "price_from": "Free",
-    "runs_on_your_computer": false,
+    "runs_on_your_computer": true,
     "skill_level": "hard",
-    "watch_out": "Gemma is a raw model, not an app — you need technical tools to actually run it, so it's hard for non-technical people to use on its own."
+    "watch_out": "Gemma is a raw model, not an app — you need technical tools to actually run it, so it's hard for non-technical people to use on its own.",
+    "watch_out_source": "https://gemma.ai/get-started/"
   },
   {
     "categories": [

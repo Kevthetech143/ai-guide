@@ -810,7 +810,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they make full songs with singing or lyrics.",
-    "intro": "Suno and Udio turn a few words into a full song with singing, and Udio's songs come with lyrics you can tweak. Flow Music lets you chat with an AI co-producer to make full songs with vocals, and Mureka and MusicGPT also make songs from typed words. Songs made on the free plans of Suno and Udio cannot be used for business.",
+    "intro": "Suno and Udio turn a few words into a full song with singing, and Udio's songs come with lyrics you can tweak. Flow Music lets you chat with an AI co-producer to make full songs with vocals, and Mureka and MusicGPT also make songs from typed words. Songs made on Suno's free plan cannot be used for business, and Udio's terms say its songs are for personal use only, not business.",
     "meta_description": "Make a full song with singing and lyrics using AI: Suno, Udio, Flow Music and more, with plain-English notes and links.",
     "seo_title": "AI that writes and sings a song - AI Guide",
     "slug": "ai-that-writes-a-song-with-lyrics",
@@ -1119,7 +1119,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say you can use or message them through WhatsApp.",
-    "intro": "Meta AI is free and already lives inside WhatsApp, but your chats may be used to train Meta's AI unless you opt out. OpenClaw and Hermes Agent are assistants you install on your own computer and message from WhatsApp, and both need more setup. Botpress is for businesses that want to put their own AI chatbot on WhatsApp.",
+    "intro": "Meta AI is free and already lives inside WhatsApp, but Meta says your chats with its AI can be used to train its AI, so avoid sharing private details. OpenClaw and Hermes Agent are assistants you install on your own computer and message from WhatsApp, and both need more setup. Botpress is for businesses that want to put their own AI chatbot on WhatsApp.",
     "meta_description": "AI you can use through WhatsApp: Meta AI, OpenClaw, Hermes Agent and Botpress, with plain-English notes and links.",
     "seo_title": "AI you can use in WhatsApp - AI Guide",
     "slug": "ai-i-can-use-in-whatsapp",
@@ -1285,7 +1285,7 @@
       ]
     },
     "how_picked": "We listed the tools in our guide that are made by Meta.",
-    "intro": "Meta AI is free and lives inside WhatsApp, Instagram and Messenger, but your chats may be used to train Meta's AI unless you opt out. Llama is free AI you can download and run on your own computer or use through Meta's own apps. MusicGen is Meta's music model for your own computer, but it takes some coding and its license rules out commercial use.",
+    "intro": "Meta AI is free and lives inside WhatsApp, Instagram and Messenger, but Meta says your chats with its AI can be used to train its AI, so avoid sharing private details. Llama is free AI you can download and run on your own computer or use through Meta's own apps. MusicGen is Meta's music model for your own computer, but it takes some coding and its license rules out commercial use.",
     "meta_description": "The AI tools Meta makes: Meta AI, Llama and MusicGen, with plain-English notes and links.",
     "seo_title": "AI tools made by Meta - AI Guide",
     "slug": "ai-tools-from-meta",
@@ -1396,7 +1396,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they keep the same art style or let you train your own style or model.",
-    "intro": "Leonardo AI is great for game art, character designs and keeping the same art style across many pictures, though free users get only 150 credits a day. Draw Things is a free app for iPhone, iPad and Mac that can train your own custom styles on your device. Scenario is a workspace for game, product and brand art where you can train your own custom models, but training needs its Pro plan at $45 a month.",
+    "intro": "Leonardo AI is great for game art, character designs and keeping the same art style across many pictures, though free users get only 150 tokens a day. Draw Things is a free app for iPhone, iPad and Mac that can train your own custom styles on your device. Scenario is a workspace for game, product and brand art where you can train your own custom models, but training needs its Pro plan at $45 a month.",
     "meta_description": "Keep one art style across many AI pictures: Leonardo AI, Draw Things and Scenario, with plain-English notes and links.",
     "seo_title": "AI that keeps one art style across pictures - AI Guide",
     "slug": "ai-that-keeps-one-art-style",
