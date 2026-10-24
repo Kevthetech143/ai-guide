@@ -1110,14 +1110,15 @@
     "free_tier": true,
     "good_for": "Drafting marketing content and pulling live web data inside one chat window.",
     "id": "chatsonic",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://writesonic.com/chat",
     "name": "ChatSonic",
     "open_weights": false,
     "price_from": "$16/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "It is now folded into Writesonic's marketing platform, and the $16/month price is billed annually."
+    "watch_out": "It is built for marketing work rather than everyday chatting, and the $16/month price is billed annually.",
+    "watch_out_source": "https://writesonic.com/chat"
   },
   {
     "categories": [
@@ -1127,14 +1128,15 @@
     "free_tier": true,
     "good_for": "Talking through ideas or worries with a friendly, conversational AI.",
     "id": "pi-ai",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://pi.ai/",
     "name": "Pi by Inflection",
     "open_weights": false,
     "price_from": "Free",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "It has no paid tier with extra features, and it cannot browse the live web or perform tasks for you."
+    "watch_out": "Pi can make mistakes, so double-check important facts, and your chats are only saved past 60 days if you log in.",
+    "watch_out_source": "https://pi.ai/"
   },
   {
     "categories": [
@@ -1144,14 +1146,15 @@
     "free_tier": true,
     "good_for": "Listening to articles, documents, and books read aloud in natural-sounding voices.",
     "id": "speechify",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://speechify.com/pricing/",
     "name": "Speechify",
     "open_weights": false,
     "price_from": "$29/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan's voices sound robotic, and the natural-voice Premium plan costs $29/month."
+    "watch_out": "The free plan's voices sound robotic, and the natural-voice Premium plan costs $29/month.",
+    "watch_out_source": "https://speechify.com/pricing/"
   },
   {
     "categories": [
@@ -1161,14 +1164,15 @@
     "free_tier": true,
     "good_for": "Turning scripts into studio-quality voiceovers for videos and presentations.",
     "id": "wellsaid-labs",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.wellsaid.io/ai-voice-pricing",
     "name": "WellSaid Labs",
     "open_weights": false,
-    "price_from": "$10/month",
+    "price_from": "$10/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "You pay for downloaded minutes of finished audio, so long projects get expensive quickly."
+    "watch_out": "You pay for downloaded minutes of finished audio, so long projects get expensive quickly.",
+    "watch_out_source": "https://www.wellsaid.io/ai-voice-pricing"
   },
   {
     "categories": [
@@ -1178,14 +1182,15 @@
     "free_tier": true,
     "good_for": "Turn a text prompt into a finished video with stock footage and AI voiceover without editing anything yourself.",
     "id": "invideo",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://invideo.io/pricing/",
     "name": "InVideo",
     "open_weights": false,
     "price_from": "$20/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Paid plans run on credits that do not roll over, and costs are hard to predict because every AI model burns credits at a different rate."
+    "watch_out": "Paid plans run on credits that do not roll over, and costs are hard to predict because every AI model burns credits at a different rate.",
+    "watch_out_source": "https://invideo.io/pricing/"
   },
   {
     "categories": [
@@ -1195,14 +1200,15 @@
     "free_tier": true,
     "good_for": "Turn a long video or podcast into short vertical clips with captions for TikTok, Reels, and Shorts.",
     "id": "opus-clip",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.opus.pro/pricing",
     "name": "Opus Clip",
     "open_weights": false,
     "price_from": "$15/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "You pay per minute of video you upload, not per clip you get, so long source videos burn through the plan fast."
+    "watch_out": "You pay per minute of video you upload, not per clip you get, so long source videos burn through the plan fast.",
+    "watch_out_source": "https://www.opus.pro/pricing"
   },
   {
     "categories": [
@@ -1212,14 +1218,15 @@
     "free_tier": false,
     "good_for": "Turn a blog post, script, or long recording into a captioned video with stock footage matched to your words.",
     "id": "pictory",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://pictory.ai/pricing",
     "name": "Pictory",
     "open_weights": false,
-    "price_from": "$25/month",
+    "price_from": "$25/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Exports top out at 1080p, there is no ongoing free plan (14-day trial only), and unused video minutes do not roll over."
+    "watch_out": "There is no ongoing free plan, only a 14-day trial that exports at 720p, and paying month to month costs $29 instead of $25.",
+    "watch_out_source": "https://pictory.ai/pricing"
   },
   {
     "categories": [
@@ -1227,16 +1234,17 @@
     ],
     "company": "Synthesia",
     "free_tier": true,
-    "good_for": "Type a script and get a video of a lifelike AI presenter saying it, in over 160 languages.",
+    "good_for": "Type a script and get a video of a lifelike AI presenter saying it, in over 140 languages.",
     "id": "synthesia",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.synthesia.io/pricing",
     "name": "Synthesia",
     "open_weights": false,
-    "price_from": "$29/month",
+    "price_from": "$14/month (billed yearly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The $29 Starter plan covers only about 120 minutes of finished video for the whole year, so steady publishing means a bigger plan."
+    "watch_out": "The Starter plan adds only about 12 minutes of video a month on top of the free 10, and free videos carry a Synthesia watermark, so steady publishing means a bigger plan.",
+    "watch_out_source": "https://www.synthesia.io/pricing"
   },
   {
     "categories": [
@@ -1246,14 +1254,15 @@
     "free_tier": true,
     "good_for": "Type a script and get a training-style video narrated by an AI avatar, with quizzes and course exports.",
     "id": "colossyan",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.colossyan.com/pricing",
     "name": "Colossyan",
     "open_weights": false,
-    "price_from": "$59/month",
+    "price_from": "$59/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The paid plan starts at $59/month, one of the priciest entries here, and it is built for training videos rather than creative content."
+    "watch_out": "The $59/month price needs a yearly plan, the free plan keeps a Colossyan watermark, and unused minutes do not roll over.",
+    "watch_out_source": "https://www.colossyan.com/pricing"
   },
   {
     "categories": [
@@ -1263,14 +1272,15 @@
     "free_tier": true,
     "good_for": "Create original songs in over 250 styles in seconds, even with no music training.",
     "id": "aiva",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.aiva.ai/pricing",
     "name": "AIVA",
     "open_weights": false,
     "price_from": "€11/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free and Standard plans keep copyright with AIVA and limit commercial use; only the Pro plan transfers full ownership to you."
+    "watch_out": "The free and Standard plans keep copyright with AIVA and limit commercial use; only the Pro plan transfers full ownership to you.",
+    "watch_out_source": "https://www.aiva.ai/pricing"
   },
   {
     "categories": [
@@ -1280,14 +1290,15 @@
     "free_tier": true,
     "good_for": "Generate royalty-free background music from a text prompt for videos, podcasts, and apps.",
     "id": "mubert",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://mubert.com/render/pricing",
     "name": "Mubert",
     "open_weights": false,
     "price_from": "$11.69/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan adds an audible watermark and requires attribution, and tracks can't be released on Spotify or registered with Content ID."
+    "watch_out": "The free plan adds an audible watermark and requires attribution, and tracks can't be released on Spotify or registered with Content ID.",
+    "watch_out_source": "https://mubert.com/render/pricing"
   },
   {
     "categories": [
@@ -1297,31 +1308,33 @@
     "free_tier": true,
     "good_for": "Ask a research question and get structured evidence tables pulled from over 138 million academic papers.",
     "id": "elicit",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://elicit.com/pricing",
     "name": "Elicit",
     "open_weights": false,
     "price_from": "$11/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Elicit works on usage limits, so heavy extraction runs can burn through your monthly allowance faster than expected."
+    "watch_out": "The free plan has limited usage for the Research Agent and Research Reports, and the $11/month price is billed as $132 a year.",
+    "watch_out_source": "https://elicit.com/pricing"
   },
   {
     "categories": [
       "search"
     ],
     "company": "Scite",
-    "free_tier": true,
+    "free_tier": false,
     "good_for": "Check whether scientific papers are supported or contradicted by later research, with AI-written summaries.",
     "id": "scite",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://scite.ai/pricing",
     "name": "Scite",
     "open_weights": false,
-    "price_from": "$20/month (billed yearly)",
+    "price_from": "$12/month (billed yearly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan only covers the basic research connector, not the full platform; real literature-review work starts at the paid Basic plan."
+    "watch_out": "There is no ongoing free plan, only a 7-day free trial that turns into a paid subscription unless you cancel.",
+    "watch_out_source": "https://scite.ai/pricing"
   },
   {
     "categories": [
@@ -1331,14 +1344,15 @@
     "free_tier": true,
     "good_for": "Build an AI voice assistant that answers and makes real phone calls for your business.",
     "id": "vapi",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://vapi.ai/pricing",
     "name": "Vapi",
     "open_weights": false,
-    "price_from": "$29/month",
+    "price_from": "$0.05/min (pay as you go)",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "The headline per-minute fee only covers Vapi's own charge — the AI model, voice, and phone line each add separate costs on top."
+    "watch_out": "The $0.05 a minute covers only Vapi's own fee. The AI model, voice, transcriber, and phone line cost extra, so the page's 1,000-minute example adds up to $82 to $129 a month.",
+    "watch_out_source": "https://vapi.ai/pricing"
   },
   {
     "categories": [
@@ -1348,14 +1362,15 @@
     "free_tier": false,
     "good_for": "An AI teammate that handles your email, calendar, meetings, and routine office work when you tell it what to do.",
     "id": "lindy",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.lindy.ai/pricing",
     "name": "Lindy",
     "open_weights": false,
     "price_from": "$29.99/user/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Everything runs on credits, so heavy or complex tasks can burn through your monthly allowance faster than the plan price suggests."
+    "watch_out": "The $50 of free credits lasts only 7 days, then paid use starts at $29.99 per user per month. Credits do not roll over, and bigger jobs use more of them.",
+    "watch_out_source": "https://www.lindy.ai/pricing"
   },
   {
     "categories": [
@@ -1365,14 +1380,15 @@
     "free_tier": true,
     "good_for": "Build chatbots and conversational forms for your website by dragging and dropping blocks, no coding needed.",
     "id": "typebot",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://typebot.com/pricing",
     "name": "Typebot",
     "open_weights": false,
     "price_from": "$39/month",
     "runs_on_your_computer": true,
     "skill_level": "easy",
-    "watch_out": "Chat limits count every new conversation, so a busy site can burn through the free 200 chats a month quickly."
+    "watch_out": "Chat limits count every new conversation, so a busy site can burn through the free 200 chats a month quickly.",
+    "watch_out_source": "https://typebot.com/pricing"
   },
   {
     "categories": [
@@ -1382,14 +1398,15 @@
     "free_tier": true,
     "good_for": "Build an AI chatbot or support agent for your website, WhatsApp, or Slack that answers questions and can do real tasks.",
     "id": "botpress",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://botpress.com/pricing",
     "name": "Botpress",
     "open_weights": false,
-    "price_from": "$150/month",
+    "price_from": "$150/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "Plan prices don't include AI usage and extra conversation packs, which are billed on top and can add up fast."
+    "watch_out": "The $150/month price needs a yearly plan (monthly is $189). The Plus plan includes 250 conversations a month, and extra packs cost $65 per 100.",
+    "watch_out_source": "https://botpress.com/pricing"
   },
   {
     "categories": [
@@ -1399,14 +1416,15 @@
     "free_tier": true,
     "good_for": "Turns a written script into a spoken voiceover or narrated video in hundreds of voices and languages.",
     "id": "narakeet",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.narakeet.com/docs/pricing/",
     "name": "Narakeet",
     "open_weights": false,
     "price_from": "$6 (one-time, 30 minutes)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Free accounts cannot be used for commercial projects, and every full build (including re-doing one) eats your paid minutes."
+    "watch_out": "Free accounts cannot be used for commercial projects, and every full build (including re-doing one) eats your paid minutes.",
+    "watch_out_source": "https://www.narakeet.com/docs/pricing/"
   },
   {
     "categories": [
@@ -1416,14 +1434,15 @@
     "free_tier": true,
     "good_for": "Edits videos in a web browser with AI tools for subtitles, voiceovers, resizing, and background removal.",
     "id": "kapwing",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://www.kapwing.com/pricing",
     "name": "Kapwing",
     "open_weights": false,
     "price_from": "$16/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Free exports carry a Kapwing watermark and are limited to short 720p clips, and the AI features run on a limited monthly credit allowance."
+    "watch_out": "Free exports carry a Kapwing watermark and are limited to 4-minute 720p clips, and the free plan includes only 10 credits for the AI tools.",
+    "watch_out_source": "https://www.kapwing.com/pricing"
   },
   {
     "categories": [
@@ -1433,14 +1452,15 @@
     "free_tier": true,
     "good_for": "Automatically cuts silences, adds subtitles and background music, and turns long videos into short clips.",
     "id": "wisecut",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-24",
     "link": "https://wisecut.ai/pricing",
     "name": "Wisecut",
     "open_weights": false,
-    "price_from": "US$23.25/month (billed annually)",
+    "price_from": "US$189/year",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan only exports at 360p, and paid plans run on a monthly credit balance that long videos can burn through quickly."
+    "watch_out": "The free plan exports only 480p clips up to 3 minutes long. The Starter+ plan gives 300 credits a month, and each minute of editing uses one, so long videos use them up fast.",
+    "watch_out_source": "https://wisecut.ai/pricing"
   },
   {
     "categories": [
