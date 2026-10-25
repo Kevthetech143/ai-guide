@@ -979,7 +979,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they write marketing copy.",
-    "intro": "Copy.ai writes marketing copy, emails, and social posts in your brand voice. Jasper writes on-brand marketing content but is built for teams rather than casual use. Rytr is a budget pick for short marketing copy and emails, and ChatSonic is Writesonic's marketing chat assistant.",
+    "intro": "Copy.ai writes marketing copy, emails, and social posts in your brand voice. Jasper writes on-brand marketing content but is built for teams rather than casual use. Rytr is a budget pick for writing emails and short posts in your own voice, and ChatSonic is Writesonic's marketing chat assistant.",
     "meta_description": "AI that writes marketing copy and emails: Copy.ai, Jasper, Rytr and ChatSonic, with plain-English notes and links.",
     "seo_title": "AI that writes marketing copy - AI Guide",
     "slug": "ai-for-writing-marketing-copy",
@@ -1346,7 +1346,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say you can build your own AI agents or chatbots.",
-    "intro": "An AI agent is a helper that does a job for you. MindStudio lets you build and run your own agents, and Relevance AI builds no-code agents for multi-step work, though its builder still takes real setup effort. AutoGPT builds a team of helpers from a plain-English description of the job, but its free version needs Docker setup and your own AI model keys; Taskade also makes an agent from a description, and Botpress builds a chatbot or support agent for your website, starting at $150 a month on a yearly plan.",
+    "intro": "An AI agent is a helper that does a job for you. MindStudio lets you build and run your own agents, and Relevance AI builds no-code agents for multi-step work, but its free plan is gone, so it starts at $19 a month on a yearly plan. AutoGPT builds a team of helpers from a plain-English description of the job, but its free version needs Docker setup and your own AI model keys; Taskade also makes an agent from a description, and Botpress builds a chatbot or support agent for your website, starting at $150 a month on a yearly plan.",
     "meta_description": "Build your own AI helper (agent): MindStudio, Relevance AI, AutoGPT and more, with plain-English notes and links.",
     "seo_title": "AI tools to build your own AI helper - AI Guide",
     "slug": "ai-for-building-my-own-ai-helper",

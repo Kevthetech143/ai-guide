@@ -1467,17 +1467,18 @@
       "agents"
     ],
     "company": "Relevance AI",
-    "free_tier": true,
+    "free_tier": false,
     "good_for": "Builds no-code AI agents that can do multi-step work across apps, like sales research or lead follow-up.",
     "id": "relevance-ai",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-25",
     "link": "https://relevanceai.com/docs/get-started/pricing",
     "name": "Relevance AI",
     "open_weights": false,
     "price_from": "$19/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "medium",
-    "watch_out": "Everything is metered in Actions and credits, so real usage costs can climb past the base plan, and the builder still takes genuine setup effort."
+    "watch_out": "The free plan has been retired, so you pay from day one. Pro is $19/month on yearly billing ($29 month to month) and includes 2,500 Actions and $20 of vendor credits a month.",
+    "watch_out_source": "https://relevanceai.com/docs/get-started/pricing"
   },
   {
     "id": "copy-ai",
@@ -1494,7 +1495,8 @@
     "good_for": "Writing marketing copy, emails, and social posts fast with AI that follows your brand voice.",
     "watch_out": "The $24/month Chat plan is billed once a year ($288 up front); month to month costs $29.",
     "link": "https://www.copy.ai/prices",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.copy.ai/prices"
   },
   {
     "id": "soundful",
@@ -1509,9 +1511,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Generating royalty-free background music for videos, streams, and social posts.",
-    "watch_out": "The $9.99/month Plus plan is billed monthly; the cheaper $4.99 rate needs a full year paid upfront, and downloads reset each month.",
+    "watch_out": "Plus is $9.99/month when paid month to month; the $4.99 price is shown under the Annual option. Free gives 1 MP3 download a month, and plan downloads reset each month instead of stacking.",
     "link": "https://soundful.com/pricing/",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://soundful.com/pricing/"
   },
   {
     "id": "getimg-ai",
@@ -1522,13 +1525,14 @@
     ],
     "open_weights": false,
     "free_tier": false,
-    "price_from": "$8/month (billed annually)",
+    "price_from": "$15/month",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Generating and editing AI images for art, thumbnails, and design mockups.",
-    "watch_out": "The $8/month Entry plan is billed yearly ($96 upfront), plan credits do not roll over, and API access costs extra.",
+    "watch_out": "The cheapest plan, Entry, is $15/month for 8,000 credits that do not roll over, and it only covers selected models. API use is not included in any plan.",
     "link": "https://getimg.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://getimg.ai/pricing"
   },
   {
     "id": "augment-code",
@@ -1545,7 +1549,8 @@
     "good_for": "Getting AI help writing and understanding code right inside your code editor.",
     "watch_out": "The $20/month plan is a usage allowance across their AI models, so heavy coding sessions can burn through it.",
     "link": "https://www.augmentcode.com/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.augmentcode.com/pricing"
   },
   {
     "id": "gumloop",
@@ -1562,7 +1567,8 @@
     "good_for": "Building no-code AI automations that scrape sites, process data, and run on a schedule.",
     "watch_out": "Pro starts at $37/month and usage is credit-based, so large workflows can cost more than the base price.",
     "link": "https://www.gumloop.com/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.gumloop.com/pricing"
   },
   {
     "id": "kagi",
@@ -1579,7 +1585,8 @@
     "good_for": "Ad-free web search with better results and no tracking.",
     "watch_out": "The $5/month Starter plan limits how many searches you get; heavy searching needs a pricier plan.",
     "link": "https://kagi.com/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://kagi.com/pricing"
   },
   {
     "id": "kits-ai",
@@ -1597,7 +1604,8 @@
     "good_for": "Training AI voices to sing or speak for your music tracks.",
     "watch_out": "The cheapest paid plan is Starter at $10 a month, and it limits how many custom voices you can train.",
     "link": "https://kits.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.kits.ai/pricing"
   },
   {
     "id": "listnr",
@@ -1614,7 +1622,8 @@
     "good_for": "Turning text into natural voiceovers for videos and podcasts.",
     "watch_out": "The $19/month plan caps you at 20,000 credits, which is roughly 2 hours of audio a month.",
     "link": "https://listnr.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://listnr.ai/pricing"
   },
   {
     "id": "ltx-studio",
@@ -1631,7 +1640,8 @@
     "good_for": "Directing AI-generated video scenes with real camera-style controls.",
     "watch_out": "The $12/month price needs yearly billing and is currently shown as a limited-time offer, and the plan caps you at 8,000 credits a month.",
     "link": "https://ltx.io/studio/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://ltx.io/studio/pricing"
   },
   {
     "id": "dzine-ai",
@@ -1646,9 +1656,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Editing photos and generating design images with simple text prompts.",
-    "watch_out": "The $8.99/month plan is credit-based, and extra top-up credits cost more on top.",
+    "watch_out": "The $8.99/month Beginner plan gives 1,000 credits a month that do not roll over, and Beginner users cannot buy extra top-up credits. Free accounts get 100 credits once, with no daily refill.",
     "link": "https://www.dzine.ai/pricing/",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.dzine.ai/pricing/"
   },
   {
     "id": "cartesia",
@@ -1665,7 +1676,8 @@
     "good_for": "Adding ultra-fast, natural AI voices to apps and products.",
     "watch_out": "The $5/month Pro plan bundles 100K credits a month; go over the included credits and you pay for more.",
     "link": "https://cartesia.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.cartesia.ai/pricing"
   },
   {
     "id": "fireflies-ai",
@@ -1680,9 +1692,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Auto-transcribing meetings and getting AI summaries without taking notes.",
-    "watch_out": "The $10/month price needs yearly billing, and the plan covers a set number of transcription minutes per month.",
+    "watch_out": "The $10/month Pro price needs yearly billing ($18 month to month). Transcription is unlimited, but Pro storage is 8,000 minutes per person and you get 20 AI credits.",
     "link": "https://fireflies.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://fireflies.ai/pricing"
   },
   {
     "id": "krisp",
@@ -1692,14 +1705,15 @@
       "voice"
     ],
     "open_weights": false,
-    "free_tier": true,
+    "free_tier": false,
     "price_from": "$8/month (billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Removing background noise from your calls and meetings.",
-    "watch_out": "The $8/month price needs yearly billing ($16 month-to-month), and it is priced per user.",
+    "watch_out": "The pricing page shows only a free 7-day trial, no ongoing free plan. Core is $8/month on yearly billing ($16 month to month) and is priced per user.",
     "link": "https://krisp.ai/pricing/",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://krisp.ai/pricing/"
   },
   {
     "id": "reclaim-ai",
@@ -1716,7 +1730,8 @@
     "good_for": "Auto-scheduling your workday, habits, and meetings around your priorities.",
     "watch_out": "The $10 Starter price needs yearly billing and is per seat; month to month it is $12 each, so costs add up as your team grows.",
     "link": "https://reclaim.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://reclaim.ai/pricing"
   },
   {
     "id": "jasper-ai",
@@ -1733,7 +1748,8 @@
     "good_for": "Writing on-brand marketing content with an AI trained on your style.",
     "watch_out": "The $59/month Pro price needs yearly billing; month-to-month is $69, and it is built for teams rather than casual use.",
     "link": "https://www.jasper.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.jasper.ai/pricing"
   },
   {
     "id": "rytr",
@@ -1747,10 +1763,11 @@
     "price_from": "$7.50/month (billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
-    "good_for": "Writing short marketing copy and emails on a tight budget.",
-    "watch_out": "The $7.50 Unlimited plan needs yearly billing, so you pay about $90 up front rather than month to month.",
+    "good_for": "Writing emails and short posts in your own voice on a tight budget.",
+    "watch_out": "The $7.50/month Lite plan needs yearly billing, so you pay about $90 up front; month to month it is $9.",
     "link": "https://rytr.me/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://rytr.me/pricing"
   },
   {
     "id": "fathom-ai",
@@ -1767,7 +1784,8 @@
     "good_for": "Recording video calls with free transcripts and AI summaries.",
     "watch_out": "The cheapest plan one person can buy is Premium at $16 a month on yearly billing ($20 month to month); the Team price advertised as $15 needs at least 2 users.",
     "link": "https://www.fathom.ai/pricing",
-    "last_checked": "2026-09-20"
+    "last_checked": "2026-10-25",
+    "watch_out_source": "https://www.fathom.ai/pricing"
   },
   {
     "categories": [
@@ -1777,14 +1795,15 @@
     "free_tier": true,
     "good_for": "It turns a genre, mood, and length you pick into an original royalty-free track - the AI is trained only on music their own producers write and record, and every download comes with a worldwide, perpetual license.",
     "id": "soundraw",
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-10-25",
     "link": "https://soundraw.io/#pricing-section",
     "name": "Soundraw",
     "open_weights": false,
     "price_from": "$16.99/month ($11.04/month billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The cheapest Creator plan only downloads MP3s. WAV files and separate instrument stems need the Artist Pro plan - Artist Starter is MP3-only too."
+    "watch_out": "The cheapest Creator plan only downloads MP3s. WAV files and separate instrument stems need the Artist Pro plan - Artist Starter is MP3-only too.",
+    "watch_out_source": "https://soundraw.io/#pricing-section"
   },
   {
     "categories": [
@@ -1794,14 +1813,15 @@
     "free_tier": true,
     "good_for": "It splits any song into vocals, drums, bass, and other stems in seconds, and cleans up noisy recordings - with desktop, phone, and DAW apps.",
     "id": "lalal-ai",
-    "last_checked": "2026-09-21",
+    "last_checked": "2026-10-25",
     "link": "https://www.lalal.ai/pricing/",
     "name": "LALAL.AI",
     "open_weights": false,
     "price_from": "$7.50/month (billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Paid plans give unlimited relaxed-queue minutes but only a fixed monthly amount of fast-queue minutes (90 on Lite, 250 on Pro); the VST plugin and local desktop processing are Pro-only."
+    "watch_out": "Paid plans give unlimited relaxed-queue minutes but only a fixed monthly amount of fast-queue minutes (90 on Lite, 250 on Pro); the VST plugin and local desktop processing are Pro-only.",
+    "watch_out_source": "https://www.lalal.ai/pricing/"
   },
   {
     "categories": [
