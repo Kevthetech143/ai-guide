@@ -1,0 +1,347 @@
+[
+  {
+    "id": "recraft-ai",
+    "name": "Recraft",
+    "company": "Recraft",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (Basic; $10/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating and editing images with multiple AI models (Flux, GPT Image, Nano Banana); video generation on Pro",
+    "watch_out": "Basic: 1,000 credits/month; free-plan images are public with no commercial use",
+    "link": "https://www.recraft.ai/pricing",
+    "last_checked": "2026-10-27",
+    "watch_out_source": "https://www.recraft.ai/pricing"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "company": "Vercel",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$30/user/month (Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating complete web apps and UIs from text prompts, deployed to Vercel",
+    "watch_out": "Plus is priced per user; free plan limited to 7 messages per day",
+    "link": "https://v0.app/pricing",
+    "last_checked": "2026-10-27",
+    "watch_out_source": "https://v0.app/pricing"
+  },
+  {
+    "id": "warp-dev",
+    "name": "Warp",
+    "company": "Warp",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$20/month (Build)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "AI-assisted coding in a modern terminal with Warp Agent",
+    "watch_out": "Build: 1,500 credits ($20 of agent usage at API rates); you can add more usage as an add-on or with auto-reload",
+    "link": "https://www.warp.dev/pricing",
+    "last_checked": "2026-10-27",
+    "watch_out_source": "https://www.warp.dev/pricing"
+  },
+  {
+    "id": "zed-editor",
+    "name": "Zed",
+    "company": "Zed Industries",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Pro)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A fast code editor with AI edit predictions and token-based AI features",
+    "watch_out": "Pro includes $5 of tokens; usage beyond that bills at API list price +10%",
+    "link": "https://zed.dev/pricing",
+    "last_checked": "2026-10-27",
+    "watch_out_source": "https://zed.dev/pricing"
+  },
+  {
+    "categories": [
+      "search",
+      "chat"
+    ],
+    "company": "ItzCrazyKns",
+    "free_tier": true,
+    "good_for": "Running a private Perplexity-style AI answering engine entirely on your own hardware, with cited answers and local LLMs.",
+    "id": "vane",
+    "last_checked": "2026-10-27",
+    "link": "https://github.com/ItzCrazyKns/Vane",
+    "name": "Vane",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "You install and run it yourself (the guide recommends Docker), then connect an AI model: Ollama on your own computer, or a key from an online provider like OpenAI, Claude or Groq.",
+    "watch_out_source": "https://github.com/ItzCrazyKns/Vane"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "LazyWeb Inc.",
+    "free_tier": true,
+    "good_for": "Ad-free conversational answers and visual search results with a privacy-first, no-tracking positioning.",
+    "id": "andi",
+    "last_checked": "2026-10-27",
+    "link": "https://andisearch.com",
+    "name": "Andi",
+    "open_weights": false,
+    "price_from": "Free (a separate Search API for developers is paid per query)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "AI answers can contain mistakes (its terms say so), so check the sources it shows.",
+    "watch_out_source": "https://andiai.com/legal/terms-of-service"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Allen Institute for AI",
+    "free_tier": true,
+    "good_for": "Free AI search across scientific papers, with short one-line summaries (TLDRs) on many papers and links to the papers they cite.",
+    "id": "semantic-scholar",
+    "last_checked": "2026-10-27",
+    "link": "https://www.semanticscholar.org/",
+    "name": "Semantic Scholar",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Academic literature only — it is not a general web search engine.",
+    "watch_out_source": "https://www.semanticscholar.org/"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Consensus NLP, Inc.",
+    "free_tier": true,
+    "good_for": "Evidence-backed answers and AI summaries drawn directly from peer-reviewed papers, with unlimited Pro messages.",
+    "id": "consensus",
+    "last_checked": "2026-10-27",
+    "link": "https://consensus.app",
+    "name": "Consensus",
+    "open_weights": false,
+    "price_from": "Pro from $20/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "$20/month is the monthly price ($12/month if you pay for a year). Pro includes 15 Deep reviews a month; the Free plan gets 10 Pro messages and up to 3 Deep reviews a month.",
+    "watch_out_source": "https://consensus.app/pricing/"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "GPT Researcher",
+    "free_tier": true,
+    "good_for": "Self-hosted autonomous deep-research agents that aggregate 20+ web sources into cited reports on your own machine.",
+    "id": "gpt-researcher",
+    "last_checked": "2026-10-27",
+    "link": "https://github.com/assafelovic/gpt-researcher",
+    "name": "GPT Researcher",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "You must bring your own AI and search accounts (for example OpenAI and Tavily keys), and each deep research run takes about 5 minutes.",
+    "watch_out_source": "https://github.com/assafelovic/gpt-researcher"
+  },
+  {
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "company": "Timedomain Inc.",
+    "free_tier": false,
+    "good_for": "AI singing voices from your melody and lyrics, voice cloning, and AI instruments that work alongside music-making software.",
+    "id": "ace-studio",
+    "last_checked": "2026-10-27",
+    "link": "https://acestudio.ai/",
+    "name": "ACE Studio",
+    "open_weights": false,
+    "price_from": "$20.73/month Artist (billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "Generative kits, stem splitter, and video tools are metered from a 2,500 credits/month pool on the Artist plan.",
+    "watch_out_source": "https://acestudio.ai/pricing/"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Hanabi AI Inc.",
+    "free_tier": true,
+    "good_for": "Natural-sounding text-to-speech and voice cloning from as little as 10 seconds of audio, in 30+ languages; the company also shares downloadable models you can run yourself.",
+    "id": "fish-audio",
+    "last_checked": "2026-10-27",
+    "link": "https://fish.audio/plan/",
+    "name": "Fish Audio",
+    "open_weights": true,
+    "price_from": "$15/month (Plus)",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Free Tier is for personal use only; monetizing content requires a paid plan, and unused credits do not roll over.",
+    "watch_out_source": "https://fish.audio/plan/"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Retell AI",
+    "free_tier": true,
+    "good_for": "Production phone and web voice agents with SIP telephony, no-code builder, and 20 free concurrent calls.",
+    "id": "retell-ai",
+    "last_checked": "2026-10-27",
+    "link": "https://www.retellai.com/pricing",
+    "name": "Retell AI",
+    "open_weights": false,
+    "price_from": "$0.07–$0.31/minute (Pay-as-you-go Voice AI)",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "Made for businesses building phone-answering bots. The real cost per minute depends on the parts you pick: Retell's voice engine is $0.055/minute, plus the AI model and the voice (Retell's own voices add $0.015/minute).",
+    "watch_out_source": "https://www.retellai.com/pricing"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Canopy Labs",
+    "free_tier": true,
+    "good_for": "Free, expressive text-to-speech you can run yourself, with emotion tags (like laughing or sighing) and voice cloning from a short sample.",
+    "id": "orpheus-tts",
+    "last_checked": "2026-10-27",
+    "link": "https://github.com/canopyai/Orpheus-TTS",
+    "name": "Orpheus TTS",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "There is no app to click: you install it with Python commands and run it as code. The main models are English; other languages are only a research preview.",
+    "watch_out_source": "https://github.com/canopyai/Orpheus-TTS"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Sonix",
+    "free_tier": false,
+    "good_for": "Automated transcription in 54+ languages with in-browser editing, translation, and subtitle exports.",
+    "id": "sonix",
+    "last_checked": "2026-10-27",
+    "link": "https://sonix.ai/pricing",
+    "name": "Sonix",
+    "open_weights": false,
+    "price_from": "$25/month (Core)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Core includes 1 user and 5 hrs/month of transcription; extra seats are +$25/month each.",
+    "watch_out_source": "https://sonix.ai/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Upscayl",
+    "free_tier": true,
+    "good_for": "AI image upscaling on desktop (Linux, macOS, Windows); cloud plans add AI image generation.",
+    "id": "upscayl",
+    "last_checked": "2026-10-27",
+    "link": "https://upscayl.org/pricing",
+    "name": "Upscayl",
+    "open_weights": false,
+    "price_from": "Free to run yourself (Pro cloud from $9.99/month)",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "The free desktop app needs a graphics card that supports Vulkan; many built-in (integrated) laptop graphics chips do not work.",
+    "watch_out_source": "https://github.com/upscayl/upscayl"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "AUTOMATIC1111",
+    "free_tier": true,
+    "good_for": "Running open Stable Diffusion checkpoints locally: txt2img, img2img, inpainting, LoRAs, extensions.",
+    "id": "automatic1111",
+    "last_checked": "2026-10-27",
+    "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "name": "AUTOMATIC1111 Stable Diffusion WebUI",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "You must install Python and git first; the guide lists support for 4GB video cards (some reports of 2GB working).",
+    "watch_out_source": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "lllyasviel",
+    "free_tier": true,
+    "good_for": "Simple, offline text-to-image on your own computer: type a description, fix parts of a picture, or add a style.",
+    "id": "fooocus",
+    "last_checked": "2026-10-27",
+    "link": "https://github.com/lllyasviel/Fooocus",
+    "name": "Fooocus",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Needs an Nvidia graphics card with 4GB+ of memory and 8GB of RAM (the guide says to keep 40GB of disk space free if you hit memory errors); project is in limited long-term support (bug fixes only).",
+    "watch_out_source": "https://github.com/lllyasviel/Fooocus"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Photoroom",
+    "free_tier": true,
+    "good_for": "AI product photography: background removal/replacement, AI backgrounds, marketing assets.",
+    "id": "photoroom",
+    "last_checked": "2026-10-27",
+    "link": "https://www.photoroom.com/pricing",
+    "name": "Photoroom",
+    "open_weights": false,
+    "price_from": "$12.99/month (Pro, billed monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Pro includes 8,000 AI credits and 1,000 exports a month; the Video Generator and 4K output are not included in Pro.",
+    "watch_out_source": "https://www.photoroom.com/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Morphogen, Inc.",
+    "free_tier": true,
+    "good_for": "Breeding and remixing character portraits/art with gene sliders (Splicer, Collage, Composer).",
+    "id": "artbreeder",
+    "last_checked": "2026-10-27",
+    "link": "https://www.artbreeder.com/pricing",
+    "name": "Artbreeder",
+    "open_weights": false,
+    "price_from": "$8.99/month (Starter), or $7.49/month billed annually",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Monthly Starter gives 100 credits a month (the page says about 1,000 images), and unused credits reset each billing period instead of rolling over.",
+    "watch_out_source": "https://www.artbreeder.com/pricing"
+  }
+]

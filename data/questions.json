@@ -860,7 +860,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they search or summarize scientific papers.",
-    "intro": "Semantic Scholar is a free AI search across scientific papers, with a one-line summary of each. Consensus answers from peer-reviewed papers, and Elicit builds evidence tables from over 138 million academic papers. Semantic Scholar covers academic papers only, so it is not a general web search.",
+    "intro": "Semantic Scholar is a free AI search across scientific papers, with a short one-line summary on many of them. Consensus answers from peer-reviewed papers, and Elicit builds evidence tables from over 138 million academic papers. Semantic Scholar covers academic papers only, so it is not a general web search.",
     "meta_description": "AI tools that find and explain scientific papers: Semantic Scholar, Consensus, Elicit and more, with plain-English notes and links.",
     "seo_title": "AI that finds scientific papers - AI Guide",
     "slug": "ai-for-finding-scientific-papers",
@@ -905,15 +905,14 @@
     "filter": {
       "ids": [
         "fish-audio",
-        "hume-ai",
         "ace-studio",
         "orpheus-tts",
         "f5-tts"
       ]
     },
     "how_picked": "We hand-picked voice tools whose own descriptions say they clone or copy a voice.",
-    "intro": "Fish Audio can copy a voice from as little as 10 seconds of audio. Hume AI also mentions voice cloning, while Orpheus TTS and F5-TTS run on your own computer and need Python, a programming tool. Only copy voices you have permission to use.",
-    "meta_description": "AI that copies a voice from a short sample: Fish Audio, Hume AI and more, with plain-English notes and links.",
+    "intro": "Fish Audio can copy a voice from as little as 10 seconds of audio, while Orpheus TTS and F5-TTS run on your own computer and need Python, a programming tool. Only copy voices you have permission to use.",
+    "meta_description": "AI that copies a voice from a short sample: Fish Audio, Orpheus TTS, F5-TTS and more, with plain-English notes and links.",
     "seo_title": "AI voice cloning - AI Guide",
     "slug": "ai-that-copies-a-voice",
     "title": "Can AI copy a voice?"
