@@ -1231,7 +1231,7 @@
       ]
     },
     "how_picked": "We hand-picked search tools whose own descriptions say their AI answers come with links to, or citations of, their sources.",
-    "intro": "Perplexity answers your question and shows exactly which websites the facts came from, and Scira, Morphic, Liner and Komo give an AI answer with its sources listed. Brave Search puts AI answers that cite their sources above its results, Qwant sometimes shows a short answer with source links, and Andi gives conversational answers, though its own terms say the AI can make mistakes. Several free plans cap how many searches you get a day, Scira's at just 3, so whichever you use, click a source before you trust the answer.",
+    "intro": "Perplexity answers your question and shows exactly which websites the facts came from, and Scira, Morphic, Liner and Komo give an AI answer with its sources listed. Brave Search puts AI answers that cite their sources above its results, Qwant sometimes shows a short answer with source links, and Andi gives conversational answers, though its own terms say the AI can make mistakes. Several free plans cap how many searches you get, Scira's at just 5 a month, so whichever you use, click a source before you trust the answer.",
     "meta_description": "AI search that shows where answers come from: Perplexity, Scira, Morphic, Liner, Komo, Brave Search, Qwant and Andi, with notes and links.",
     "seo_title": "AI search that shows its sources - AI Guide",
     "slug": "ai-search-that-shows-its-sources",
