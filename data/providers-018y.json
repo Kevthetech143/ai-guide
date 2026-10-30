@@ -1,0 +1,367 @@
+[
+  {
+    "id": "yue",
+    "name": "YuE2",
+    "company": "Multimodal Art Projection (M-A-P)",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open music model that turns your lyrics and a style description into a full song with vocals and backing music. The model files are free to download and run on your own computer.",
+    "watch_out": "Running it yourself needs a Linux computer with an NVIDIA graphics card with 24 GB of memory. Companies need a separate commercial license for the model files.",
+    "link": "https://github.com/multimodal-art-projection/YuE",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://github.com/multimodal-art-projection/YuE"
+  },
+  {
+    "id": "msty",
+    "name": "Msty Studio",
+    "company": "CloudStack, LLC",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Aurum $149/year, billed annually; lifetime license $349 one-time)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A desktop app for chatting with AI models, either ones that run on your own computer or online ones, with personas, saved knowledge and prompt tools in one workspace.",
+    "watch_out": "The free plan marks some features as limited, including persona chats, crew conversations and knowledge stacks. Msty Studio Web and the advanced features need the paid Aurum plan.",
+    "link": "https://msty.ai/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://msty.ai/pricing/"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "company": "Open WebUI, Inc.",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (Enterprise plans are by quote)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free chat app for AI that you install yourself and use in your web browser. It works with AI models on your own computer (through Ollama) or online ones, and adds document chat, web search, voice and image tools.",
+    "watch_out": "You install it yourself with a typed command (pip) or Docker, then connect an AI model. Business licenses, for rebranding and dedicated support, are sold only to companies.",
+    "link": "https://openwebui.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://docs.openwebui.com/enterprise"
+  },
+  {
+    "id": "brave-leo",
+    "name": "Brave Leo",
+    "company": "Brave Software, Inc.",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Leo Premium $14.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI assistant built into the Brave browser. Ask it questions, or have it summarize the web page, document or PDF you are looking at.",
+    "watch_out": "Leo only comes with the Brave browser. Leo Premium adds more models and higher rate limits than the free version.",
+    "link": "https://brave.com/leo/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://brave.com/leo/"
+  },
+  {
+    "id": "lumo",
+    "name": "Lumo",
+    "company": "Proton AG",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Lumo Plus $12.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A private AI chat assistant from Proton, the email and privacy company. You can try it without an account, and a free account lets you keep your chat history.",
+    "watch_out": "The free plan limits use of the Max model, messages and chat history, and image generations, and allows 1 project. Lumo Plus raises those limits.",
+    "link": "https://proton.me/lumo",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://proton.me/lumo"
+  },
+  {
+    "id": "antigravity",
+    "name": "Google Antigravity",
+    "company": "Google LLC",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Individual plan $0/month; paid Google AI plans add higher limits)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A downloadable app where AI agents build software for you. You describe what you want, and you can run several agents at once on different projects.",
+    "watch_out": "The free Individual plan has basic weekly rate limits, so heavy users will hit the cap. Higher limits come with the paid Google AI Pro and Ultra plans.",
+    "link": "https://antigravity.google/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://antigravity.google/pricing"
+  },
+  {
+    "id": "morphic",
+    "name": "Morphic",
+    "company": "Shironel",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI search engine that gives a complete answer with its sources instead of a list of links. Use it on its website, or run your own copy, because the code is open source.",
+    "watch_out": "Running your own copy takes technical setup with Docker plus at least one AI provider key (OpenAI, Anthropic or Google, for example).",
+    "link": "https://chat.morphic.sh/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://github.com/miurla/morphic"
+  },
+  {
+    "id": "audimee",
+    "name": "Audimee",
+    "company": "Audimee AB",
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter $12/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn a vocal recording into a different singing voice, split a song into vocals and instruments, and make harmonies. It is aimed at music makers.",
+    "watch_out": "The free plan gives 15 minutes of conversions, MP3 downloads only and personal use only, with no harmony maker, and you cannot save your conversions. Starter includes 1 hour of conversions a month.",
+    "link": "https://audimee.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://audimee.com/pricing"
+  },
+  {
+    "id": "submagic",
+    "name": "Submagic",
+    "company": "TURBO STUDIO S.A.S.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$19/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Upload a short video and it adds captions automatically, plus free extra clips and sound, and lets you cut the video by editing its text.",
+    "watch_out": "The $19/month Starter plan includes 45 credits (about 15 videos) a month and videos up to 2 minutes long. Automatic removal of silences and bad takes needs Pro ($39/month).",
+    "link": "https://www.submagic.co/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://www.submagic.co/pricing"
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "company": "ShengShu AI HK Limited",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Standard $10/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make short AI videos from text, from a photo, or from reference pictures of a character or object.",
+    "watch_out": "The free plan is limited, for example 10 saved references a month. Standard includes 800 credits a month, which the page says covers up to 200 videos.",
+    "link": "https://www.vidu.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://www.vidu.com/pricing"
+  },
+  {
+    "id": "basic-pitch",
+    "name": "Basic Pitch",
+    "company": "Spotify AB",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "Drop in a recording of one instrument, or sing into your microphone, and get a MIDI file back that you can edit in music software. It is a free tool from Spotify.",
+    "watch_out": "The online tool takes a recording of a single instrument or your singing, and gives you a MIDI file to clean up, not finished sheet music. There is also a version for programmers that you install with pip.",
+    "link": "https://basicpitch.spotify.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://basicpitch.spotify.com/"
+  },
+  {
+    "id": "crush",
+    "name": "Crush",
+    "company": "Charmbracelet, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free app (optional Hyper model service: plans from $10/month, or prepaid credits from $5)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI coding helper that runs in your terminal, the text window where you type commands. You choose which AI model powers it, and you can keep several work sessions for each project.",
+    "watch_out": "It works only by typing in a terminal window, so it suits people comfortable with the command line. You need a model: the Hyper service from the same company (its free monthly allowance has ended, so you pay with a plan or prepaid credits starting at $5), or your own key from a provider like Anthropic, OpenAI or Gemini.",
+    "link": "https://github.com/charmbracelet/crush",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://hyper.charm.land/faq"
+  },
+  {
+    "id": "musicgpt",
+    "name": "MusicGPT",
+    "company": "MusicGPT Ltd",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus $11.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Type a description and get a full song, or make sound effects and spoken audio.",
+    "watch_out": "The free plan gives 500 credits a month, and each download costs 50 credits. Plus includes 5,000 credits a month, 100 songs a month and unlimited free downloads; remix and edit come with Pro ($21.99/month).",
+    "link": "https://musicgpt.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://musicgpt.com/pricing"
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "company": "Determinist Ltd",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (cloud Pro $50/month, 7-day free trial)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "Build a team of AI helpers for research, content and sales work by describing the job in plain English. They can run on a schedule. A free version you set up and run yourself is also available.",
+    "watch_out": "The cloud Pro plan needs a card to start the 7-day trial, then costs $50/month, and scheduled runs spend from a credit wallet with a cap you set for each helper. The free version you run yourself needs Docker setup and your own AI model keys.",
+    "link": "https://agpt.co/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://agpt.co/pricing/"
+  },
+  {
+    "id": "stability-matrix",
+    "name": "Stability Matrix",
+    "company": "Lykos, LLC",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (optional supporter plans from $5/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that installs and manages popular AI image tools such as ComfyUI, Fooocus and Forge with one click, and lets you browse and download models from CivitAI and Hugging Face.",
+    "watch_out": "It sets up other image tools rather than being one itself, and you download the image models separately. Paid supporter plans add cloud extras and early builds; the $5/month Supporter plan includes 4,000 credits.",
+    "link": "https://lykos.ai/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://lykos.ai/membership"
+  },
+  {
+    "id": "dyad",
+    "name": "Dyad",
+    "company": "Dyad Tech, Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro plan $20/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free desktop app that turns a plain-English description into a working web app on your own computer, using the AI model you choose. No sign-up is needed to download it.",
+    "watch_out": "You bring your own AI access, such as an API key (a paid access code from an AI company), a ChatGPT subscription or a free local model. The free plan's built-in agent mode is limited to 20 messages a day; the fuller Pro Agent mode with its own AI credits comes with Pro at $20/month.",
+    "link": "https://www.dyad.sh/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://www.dyad.sh/pro"
+  },
+  {
+    "id": "clipdrop",
+    "name": "Clipdrop",
+    "company": "Init ML",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $15/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Free web tools to remove backgrounds, erase unwanted objects, upscale pictures 2x, relight photos and remove text.",
+    "watch_out": "The free plan allows 20 uses per 24 hours on background removal, upscaling, cleanup and relight, and 50 on text remover. Text-to-image, extending photos (Uncrop) and background replacement need Pro at $15/month, which also adds high-resolution output and 16x upscaling.",
+    "link": "https://clipdrop.co/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://clipdrop.co/pricing"
+  },
+  {
+    "id": "pixlr",
+    "name": "Pixlr",
+    "company": "Pixlr Pte. Ltd.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$2.49/month (Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Edit photos and make AI images in your web browser. The Plus plan removes ads, allows unlimited saves and includes 80 AI credits each month.",
+    "watch_out": "Plus's 80 monthly credits cover about 80 fast AI images or about 16 higher-quality ones. Unlimited fast image generations (fair use applies) need the Ultra plan, which starts at $24.99/month.",
+    "link": "https://pixlr.com/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://pixlr.com/pricing/"
+  },
+  {
+    "id": "domoai",
+    "name": "DomoAI",
+    "company": "DomoAI Pte. Ltd.",
+    "categories": [
+      "video",
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$13/month (Basic)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn text or pictures into short AI videos and images. The Basic plan includes character-to-video, talking avatars, 4K video upscaling and watermark-free results.",
+    "watch_out": "Basic includes 600 credits a month, which the page says is about 85 videos or 150 images. Unlimited \"Relax\" generations on supported models start with the Standard plan at $42/month.",
+    "link": "https://www.domoai.app/",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://www.domoai.app/pricing"
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific",
+    "company": "Magnific AI, S.L.U.",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month (Premium; $14.50/month billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "One subscription for AI image, video, music and voice generation with many leading models, pro editing tools, a shared canvas for workflows called Spaces, and a stock library with a commercial AI license.",
+    "watch_out": "Monthly Premium includes 20,000 credits a month. Unlimited generations need Premium+ at $45/month ($33.75/month billed annually). Prices exclude VAT and local taxes.",
+    "link": "https://www.magnific.com/pricing",
+    "last_checked": "2026-10-30",
+    "watch_out_source": "https://www.magnific.com/pricing"
+  }
+]
