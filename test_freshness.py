@@ -45,7 +45,8 @@ class Stamp(unittest.TestCase):
 
 class Sitemap(unittest.TestCase):
     def test_lastmod_from_real_dates(self):
-        b = load_build("2026-10-30")
+        # build date must be one no real card can have, else it collides with real last_checked dates (hit 2026-10-30)
+        b = load_build("2099-01-01")
         with tempfile.TemporaryDirectory() as tmp:
             b.DIST = tmp
             b.build()
@@ -57,7 +58,7 @@ class Sitemap(unittest.TestCase):
         p = providers[0]
         self.assertEqual(mods[b.BASE_URL + "p/%s.html" % p["id"]], p["last_checked"])
         self.assertEqual(mods[b.BASE_URL], max(x["last_checked"] for x in providers))
-        self.assertNotIn("2026-10-30", mods.values())
+        self.assertNotIn("2099-01-01", mods.values())
         self.assertIn("listings checked in the last 30 days. Oldest check:", home)
 
 
