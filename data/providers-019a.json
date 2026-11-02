@@ -1,0 +1,368 @@
+[
+  {
+    "id": "mindstudio",
+    "name": "MindStudio",
+    "company": "GoMeta, Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Individual plan $20/month plus usage)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Build and run your own AI agents, with 200+ AI models available through MindStudio so you do not need your own API keys.",
+    "watch_out": "The free plan allows one agent and 1,000 runs a month. Unlimited agents and runs need the Individual plan at $20/month on monthly billing, and both plans add usage charges on top.",
+    "watch_out_source": "https://www.mindstudio.ai/pricing",
+    "link": "https://www.mindstudio.ai/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "fellou",
+    "name": "Fellou",
+    "company": "ASI X Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus plan $19/month, or $16/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A web browser with an AI agent built in that carries out online jobs for you, such as research, comparing prices and putting together reports, and can run scheduled tasks.",
+    "watch_out": "The free plan gives a one-time bonus of 1,000 Sparks (the browser's task credits), about 4 tasks, and 2 scheduled tasks. Plus at $19/month on monthly billing gives 2,000 Sparks a month, about 8 tasks. Actual use varies with how complex the task is.",
+    "watch_out_source": "https://fellou.ai/pricing",
+    "link": "https://fellou.ai/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "wondercraft",
+    "name": "Wondercraft",
+    "company": "Wondercraft, Inc.",
+    "categories": [
+      "video",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Creator plan $25/month, or $21/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI video studio that brings AI video, avatar, image, voice and sound tools together in guided steps for making business-ready videos. No credit card is needed to start.",
+    "watch_out": "The free plan gives 150 credits, limited access to the AI models and exports up to 720p. No watermark and full commercial rights start with Creator at $25/month on monthly billing, which includes 1,000 credits.",
+    "watch_out_source": "https://www.wondercraft.ai/pricing",
+    "link": "https://www.wondercraft.ai/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "company": "Nous Research, Inc.",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Nous Portal Plus plan $20/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source personal AI agent you install on a Mac, Windows or Linux computer and talk to from Telegram, Discord, Slack, WhatsApp, Signal or email. It remembers your projects, runs scheduled tasks and can browse the web.",
+    "watch_out": "The free Nous Portal plan includes free AI models only and $0 of monthly credits. Access to 200+ models and hosted tools starts with the Plus plan at $20/month.",
+    "watch_out_source": "https://hermes-agent.nousresearch.com/",
+    "link": "https://hermes-agent.nousresearch.com/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "rork",
+    "name": "Rork",
+    "company": "Rork, Inc.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Rork Pro plan $20/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Describe the app you want and Rork designs it for you by chat. The free plan lets you explore app designs; turning a design into a working iPhone, Android or web app needs a paid plan.",
+    "watch_out": "The free plan is design-only, with 35 design credits a month and at most 5 a day. Build mode, which turns designs into working iPhone, Android and web apps, plus private projects and 100 credits a month, needs Rork Pro at $20/month; Rork Max for iOS, iPad and Apple Watch apps costs $200/month.",
+    "watch_out_source": "https://rork.com/pricing",
+    "link": "https://rork.com/pricing",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "company": "OpenClaw Foundation",
+    "categories": [
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (no subscription and no paid hosted version)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source AI assistant you run on your own Mac, Windows or Linux computer and message from WhatsApp, Telegram or other chat apps. It can organise your inbox, send emails and manage your calendar.",
+    "watch_out": "You bring the AI model it uses (hosted, subscription-backed or local), and any model charges are separate. It acts for you on your own computer, so connect only the accounts you are happy for it to use.",
+    "watch_out_source": "https://openclaw.ai/",
+    "link": "https://openclaw.ai/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "anara",
+    "name": "Anara",
+    "company": "Anara Labs, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus plan $10/month, or $8/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Search the scientific literature, then ask questions across your own uploaded papers and files and get answers that point to the exact passage they came from.",
+    "watch_out": "The free plan has limited AI usage and uploads (20MB or 120 pages per upload). Deep Search for multi-step research needs the Max 5x plan at $100/month on monthly billing.",
+    "watch_out_source": "https://anara.com/pricing",
+    "link": "https://anara.com/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "brave-search",
+    "name": "Brave Search (Ask Brave)",
+    "company": "Brave Software, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (ad-free Search Premium $3/month, or $2.50/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A private search engine built on its own index. It puts AI answers that cite their sources at the top of results, and Ask Brave gives a chat-style answer with supporting websites and videos, then lets you ask follow-up questions.",
+    "watch_out": "Free searches show private ads. Search Premium, the paid ad-free option, is only available in the Brave browser.",
+    "watch_out_source": "https://search.brave.com/help/premium",
+    "link": "https://search.brave.com/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "ecosia",
+    "name": "Ecosia",
+    "company": "Ecosia GmbH",
+    "categories": [
+      "search",
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (AI Chat Starter plan $7.99/month, Pro plan $14.99/month)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A search engine that uses all its profits for climate action and has an AI Chat tab next to web results. Ecosia says its small AI models give accurate answers from reliable sources and that your chats are never used to train AI models.",
+    "watch_out": "You can try AI Chat without signing in, but the free plan's full features need a free Ecosia account and have daily limits on file uploads and Think longer mode. Unlimited AI Chat messages need the Starter plan at $7.99/month.",
+    "watch_out_source": "https://www.ecosia.org/pricing",
+    "link": "https://www.ecosia.org/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "qwant",
+    "name": "Qwant",
+    "company": "QWANT",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A French search engine hosted in Europe that says it does not store your search history. For some factual questions its AI shows a short Flash Answer with source links above the results, and with a free Qwant account a Summary feature condenses a web page in one click.",
+    "watch_out": "Qwant says it is free. The Flash Answer only appears for certain factual searches, not every search, and may not be switched on in every region or language yet. Qwant says the AI can be wrong, so check the sources it cites.",
+    "watch_out_source": "https://help.qwant.com/hc/en-us/articles/48074769704593-Why-isn-t-the-AI-answer-showing-up-in-my-search",
+    "link": "https://www.qwant.com/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "reddit-ai-search",
+    "name": "Reddit AI search",
+    "company": "Reddit, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Reddit Premium $5.99/month raises the daily limit)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Ask a question in plain words and get an AI summary of what people on Reddit say, with in-line links to the original posts and comments.",
+    "watch_out": "Logged-out users can ask 10 questions a week and logged-in users 50 a day; Reddit Premium at $5.99/month allows 100 a day. It only draws on Reddit posts and comments, which Reddit says are not checked, so double-check anything important. It works in English anywhere, and in Spanish, Portuguese, Italian, French and German.",
+    "watch_out_source": "https://support.reddithelp.com/hc/en-us/articles/32026729424916-Reddit-s-AI-search",
+    "link": "https://www.reddit.com/answers/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "company": "Anthropic",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$17/month (billed annually; $20 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for writing help, summarizing long documents, answering coding questions, and thinking ideas through carefully.",
+    "watch_out": "The free plan runs out of messages fast on busy days; the Pro plan costs $20 a month when billed monthly.",
+    "watch_out_source": "https://claude.com/pricing",
+    "link": "https://claude.com/pricing",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "company": "Google",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$4.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for quick answers, help inside Google apps like Gmail and Docs, and looking things up on the web.",
+    "watch_out": "The free version has usage limits, and the cheapest paid plan (Google AI Plus) costs $4.99 a month.",
+    "watch_out_source": "https://gemini.google/subscriptions/",
+    "link": "https://gemini.google/subscriptions/",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Anthropic",
+    "free_tier": false,
+    "good_for": "An AI coding helper that works in your terminal; it can read your whole project, make changes, and run tests.",
+    "id": "claude-code",
+    "last_checked": "2026-11-02",
+    "link": "https://claude.com/pricing",
+    "name": "Claude Code",
+    "open_weights": false,
+    "price_from": "$17/month (billed annually; $20 monthly)",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "There is no free access, and usage limits mean heavy coding days can hit the cap.",
+    "watch_out_source": "https://claude.com/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Adobe",
+    "free_tier": true,
+    "good_for": "Great for business-ready pictures that are safe to use commercially, since it is trained on licensed content.",
+    "id": "adobe-firefly",
+    "last_checked": "2026-11-02",
+    "link": "https://www.adobe.com/products/firefly.html",
+    "name": "Adobe Firefly",
+    "open_weights": false,
+    "price_from": "$9.99/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan gives limited free generations each day; the cheapest paid plan (Standard) costs $9.99 a month for 2,000 monthly credits.",
+    "watch_out_source": "https://www.adobe.com/products/firefly.html"
+  },
+  {
+    "id": "capcut-ai",
+    "name": "CapCut AI",
+    "company": "ByteDance",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$19.99/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A free video editor from the maker of TikTok with AI captions, background removal, and text-to-speech built right in.",
+    "watch_out": "The paid Pro plan costs $19.99 a month and adds all premium templates, 1,200 monthly AI credits and 1 TB of storage. The free plan covers basic editing tools and free templates.",
+    "watch_out_source": "https://www.capcut.com/pricing",
+    "link": "https://www.capcut.com",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "company": "Moonshot AI",
+    "categories": [
+      "chat",
+      "search"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "$15/month (billed annually; $19 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A free chatbot that handles very long documents and searches the web, with open models you can also run yourself.",
+    "watch_out": "It is made by a Chinese company, so think carefully about what personal details you share.",
+    "watch_out_source": "https://www.kimi.com/user/agreement/modelUse",
+    "link": "https://www.kimi.com",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "company": "OpenAI",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for chatting, writing, homework help, planning trips, and turning word descriptions into pictures.",
+    "watch_out": "The free plan gives unlimited plain chats but limits uploads, pictures and voice chats; the cheapest paid plan (Go) costs $8 a month and may include ads.",
+    "watch_out_source": "https://chatgpt.com/pricing",
+    "link": "https://chatgpt.com/pricing",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "company": "xAI",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for fun chats, quick questions, seeing what's happening on X right now, and making pictures from words.",
+    "watch_out": "The free plan has limited use; the cheapest paid plan (Plus) costs $8 a month, and the Premium plan costs $30 a month.",
+    "watch_out_source": "https://x.ai/pricing",
+    "link": "https://x.ai/grok",
+    "last_checked": "2026-11-02"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "company": "Perplexity AI",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$17/month (billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for looking things up and getting answers that show exactly which websites the facts came from.",
+    "watch_out": "The free plan is only good for limited daily use; the cheapest paid plan (Pro) costs $17 a month when you pay for a year.",
+    "watch_out_source": "https://www.perplexity.ai/hub/pricing",
+    "link": "https://www.perplexity.ai/pro",
+    "last_checked": "2026-11-02"
+  }
+]

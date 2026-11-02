@@ -1051,7 +1051,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they summarize a web page, a document, or long text.",
-    "intro": "Brave Leo and Perplexity Comet are built into a web browser and can summarize the page you are looking at, but Leo only comes with the Brave browser, and the company behind Comet says that, depending on your settings, it records your browsing history when you use Comet signed in. Claude is good at summarizing long documents, and iAsk has an instant summarizer. Qwant can condense a web page in one click if you have a free account.",
+    "intro": "Brave Leo and Perplexity Comet are built into a web browser and can summarize the page you are looking at, but Leo only comes with the Brave browser, and the company behind Comet says that, depending on your settings, it records your browsing history when you use Comet signed in. Claude is good at summarizing long documents, and iAsk has an instant summarizer.",
     "meta_description": "AI that summarizes a web page or long document: Brave Leo, Perplexity Comet, Claude and more, with plain-English notes and links.",
     "seo_title": "AI that summarizes a web page - AI Guide",
     "slug": "ai-that-summarizes-a-web-page",
