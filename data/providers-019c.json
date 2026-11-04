@@ -1,0 +1,362 @@
+[
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Google",
+    "free_tier": true,
+    "good_for": "A smarter way to Google: it gives full AI answers with links, and you can ask follow-up questions.",
+    "id": "google-ai-mode",
+    "last_checked": "2026-11-04",
+    "link": "https://www.google.com/aimode",
+    "name": "Google AI Mode",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "It is built into Google Search. You can use it without signing in, but you need to sign in and turn on history to pick up where you left off, and its answers can include mistakes.",
+    "watch_out_source": "https://support.google.com/websearch/answer/16011537"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "MiniMax",
+    "free_tier": true,
+    "good_for": "It turns your words or photos into short AI videos in just a few clicks.",
+    "id": "hailuo",
+    "last_checked": "2026-11-04",
+    "link": "https://hailuoai.video",
+    "name": "Hailuo AI",
+    "open_weights": false,
+    "price_from": "$14.99/month (Standard list price; the page currently shows a 30% discount, $10.50 a month, or $8.40 a month billed yearly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only gives you one-time trial credits, so you need a paid plan to keep making videos; the cheapest paid plan (Standard) costs $14.99 a month.",
+    "watch_out_source": "https://hailuoai.video/subscribe"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "HeyGen",
+    "free_tier": true,
+    "good_for": "Turns your written text into a video with a realistic AI talking person, so you can make studio-quality videos without a camera, actors, or editing skills.",
+    "id": "heygen",
+    "last_checked": "2026-11-04",
+    "link": "https://www.heygen.com/pricing",
+    "name": "HeyGen",
+    "open_weights": false,
+    "price_from": "$29/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "You pay with credits and each video costs credits, so making lots of videos can get expensive; the free plan also only gives 3 videos a month and adds a watermark.",
+    "watch_out_source": "https://www.heygen.com/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Ideogram",
+    "free_tier": true,
+    "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
+    "id": "ideogram",
+    "last_checked": "2026-11-04",
+    "link": "https://ideogram.ai",
+    "name": "Ideogram",
+    "open_weights": true,
+    "price_from": "$15/month (billed annually; $20 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Pictures you make are public by default, and only the paid Plus and Pro plans can keep them private; Plus costs $20 a month, or $15 a month if you pay for a year. Free accounts get weekly credits, but the amount can change.",
+    "watch_out_source": "https://ideogram.ai/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Leonardo.ai",
+    "free_tier": true,
+    "good_for": "Great for game art, character designs, and keeping the same art style across many pictures.",
+    "id": "leonardo",
+    "last_checked": "2026-11-04",
+    "link": "https://leonardo.ai/pricing/",
+    "name": "Leonardo AI",
+    "open_weights": false,
+    "price_from": "$12/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It uses tokens instead of a simple price, so free users only get 150 tokens a day, and keeping pictures private needs a paid plan.",
+    "watch_out_source": "https://leonardo.ai/pricing/"
+  },
+  {
+    "categories": [
+      "video"
+    ],
+    "company": "Luma AI",
+    "free_tier": false,
+    "good_for": "It turns a written description or a photo into a realistic short video clip, like making a still photo move or describing a scene and watching it come to life.",
+    "id": "luma",
+    "last_checked": "2026-11-04",
+    "link": "https://lumalabs.ai/pricing",
+    "name": "Luma Dream Machine",
+    "open_weights": false,
+    "price_from": "$30/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Clips are short (about 5 to 10 seconds each), and the paid Plus plan costs $30 a month, so you likely need to pay before you can create anything.",
+    "watch_out_source": "https://lumalabs.ai/pricing"
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Manus",
+    "free_tier": true,
+    "good_for": "An AI helper that does multi-step jobs for you on its own, like researching a topic and building a report or a website.",
+    "id": "manus",
+    "last_checked": "2026-11-04",
+    "link": "https://manus.im",
+    "name": "Manus",
+    "open_weights": false,
+    "price_from": "$20/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "It spends credits on every task, so long jobs can burn through your plan quickly; always double-check its work."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Meta",
+    "free_tier": true,
+    "good_for": "It's free and already lives inside WhatsApp, Instagram, and Messenger, so you can ask it things right where you already chat with people.",
+    "id": "meta-ai",
+    "last_checked": "2026-11-04",
+    "link": "https://www.meta.ai/",
+    "name": "Meta AI",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Meta says it trains its AI partly on what people share on its apps, including your chats with its AI features, so avoid sharing private details with it.",
+    "watch_out_source": "https://www.facebook.com/privacy/genai/"
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Microsoft",
+    "free_tier": true,
+    "good_for": "You can ask it questions, write emails, and make pictures using plain words — no training needed, and the basic chat is free.",
+    "id": "microsoft-copilot",
+    "last_checked": "2026-11-04",
+    "link": "https://www.microsoft.com/en-us/copilot/solutions/individuals",
+    "name": "Microsoft Copilot",
+    "open_weights": false,
+    "price_from": "$9.99/month",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free version has usage limits; paid Microsoft 365 plans give you more Copilot use, starting at $9.99 a month (Personal), with Microsoft 365 Premium at $19.99 a month for the most.",
+    "watch_out_source": "https://www.microsoft.com/en-us/copilot/solutions/individuals"
+  },
+  {
+    "categories": [
+      "voice"
+    ],
+    "company": "Murf AI",
+    "free_tier": true,
+    "good_for": "Murf is best at turning typed scripts into natural-sounding voiceovers for videos, podcasts, and presentations.",
+    "id": "murf",
+    "last_checked": "2026-11-04",
+    "link": "https://murf.ai/pricing",
+    "name": "Murf AI",
+    "open_weights": false,
+    "price_from": "$19/month (billed annually; $29 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "On the free plan you cannot download your audio or use it in anything commercial — downloads and commercial rights need a paid plan.",
+    "watch_out_source": "https://murf.ai/pricing"
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "n8n",
+    "free_tier": true,
+    "good_for": "It lets you build powerful step-by-step automations across hundreds of apps, and the free Community edition runs on your own machine with no limits on executions.",
+    "id": "n8n",
+    "last_checked": "2026-11-04",
+    "link": "https://n8n.io/pricing/",
+    "name": "n8n",
+    "open_weights": false,
+    "price_from": "$20/month (billed annually; $24 monthly)",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "It's built for technical users, so the first setup can feel hard if you've never made a workflow before; the cloud plan costs $24 a month, or $20 a month if you pay for a year, or you can run it on your own computer for free."
+  },
+  {
+    "categories": [
+      "chat"
+    ],
+    "company": "Ollama",
+    "free_tier": true,
+    "good_for": "A free app that downloads AI models like Llama and DeepSeek and runs them on your own computer, with no internet needed after setup.",
+    "id": "ollama",
+    "last_checked": "2026-11-04",
+    "link": "https://ollama.com",
+    "name": "Ollama",
+    "open_weights": true,
+    "price_from": "$20/month (Ollama Pro; local use free)",
+    "runs_on_your_computer": true,
+    "skill_level": "medium",
+    "watch_out": "You type commands to use it, the bigger models need lots of computer memory, and the new paid Ollama Pro plan costs $20 a month."
+  },
+  {
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "company": "Replit",
+    "free_tier": true,
+    "good_for": "You describe an app in plain words and its AI agent builds it and puts it on the web, all in your browser.",
+    "id": "replit",
+    "last_checked": "2026-11-04",
+    "link": "https://replit.com",
+    "name": "Replit",
+    "open_weights": false,
+    "price_from": "$18/month (billed annually; $20 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan only gives you daily AI credits up to a monthly cap and the simpler Lite build; the full builder needs the paid Core plan.",
+    "watch_out_source": "https://docs.replit.com/billing/plans/starter-plan"
+  },
+  {
+    "categories": [
+      "music"
+    ],
+    "company": "Udio",
+    "free_tier": true,
+    "good_for": "It turns a short description into a full song with music, singing, and lyrics that you can tweak and extend.",
+    "id": "udio",
+    "last_checked": "2026-11-04",
+    "link": "https://www.udio.com",
+    "name": "Udio",
+    "open_weights": false,
+    "price_from": "$8/month (billed annually; $10 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan gives you 100 credits a month, no more than 10 a day, and only 3 full-length songs a day; the cheapest paid plan (Standard) costs $10 a month, or $8 if you pay for a year.",
+    "watch_out_source": "https://www.udio.com/pricing"
+  },
+  {
+    "categories": [
+      "agents"
+    ],
+    "company": "Zapier",
+    "free_tier": true,
+    "good_for": "It connects your apps and does boring tasks for you — like saving email attachments to Google Drive — without writing any code, and an AI helper builds the workflows from a plain sentence.",
+    "id": "zapier-ai",
+    "last_checked": "2026-11-04",
+    "link": "https://zapier.com/pricing",
+    "name": "Zapier AI",
+    "open_weights": false,
+    "price_from": "$19.99/month (billed annually; $29.99 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "The free plan covers only 100 tasks a month and caps workflows at two steps, so costs rise quickly as you automate more.",
+    "watch_out_source": "https://zapier.com/pricing"
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Aider",
+    "free_tier": true,
+    "good_for": "Talk to an AI in your computer's terminal and it writes and edits your code files for you.",
+    "id": "aider",
+    "last_checked": "2026-11-04",
+    "link": "https://aider.chat/",
+    "name": "Aider",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "The tool itself is free, but you still pay the AI provider (like Anthropic or OpenAI) for each use, so costs depend on how much you use it.",
+    "watch_out_source": "https://aider.chat/docs/faq.html"
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Amazon",
+    "free_tier": true,
+    "good_for": "Amazon's AI coding helper that suggests code and answers questions inside your editor or the AWS console.",
+    "id": "amazon-q-developer",
+    "last_checked": "2026-11-04",
+    "link": "https://aws.amazon.com/q/developer/pricing/",
+    "name": "Amazon Q Developer",
+    "open_weights": false,
+    "price_from": "$19/month",
+    "runs_on_your_computer": false,
+    "skill_level": "medium",
+    "watch_out": "The paid Pro subscription can start billing once you use certain AI features, not at sign-in, so it can surprise you with a charge.",
+    "watch_out_source": "https://aws.amazon.com/q/developer/pricing/"
+  },
+  {
+    "categories": [
+      "code"
+    ],
+    "company": "Bolt",
+    "free_tier": true,
+    "good_for": "Describe the website or app you want in plain words and it builds it for you right in your browser.",
+    "id": "bolt-new",
+    "last_checked": "2026-11-04",
+    "link": "https://bolt.new/pricing",
+    "name": "Bolt.new",
+    "open_weights": false,
+    "price_from": "$18/month (billed annually; $25 monthly)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Everything runs on tokens, so a big or complicated project can burn through your monthly allowance quickly.",
+    "watch_out_source": "https://bolt.new/pricing"
+  },
+  {
+    "id": "codex",
+    "name": "OpenAI Codex",
+    "company": "OpenAI",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$8/month (with ChatGPT Go)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Great for programmers: it works inside your terminal, writes new features, fixes bugs, and runs your tests for you.",
+    "watch_out": "The Free plan covers only quick coding tasks and the $8 Go plan only lightweight ones; the web, terminal and editor versions are listed starting with the $20 Plus plan.",
+    "link": "https://openai.com/codex",
+    "last_checked": "2026-11-04",
+    "watch_out_source": "https://developers.openai.com/codex/pricing"
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "company": "Descript",
+    "categories": [
+      "voice",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$16/month (billed annually; $24 monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Great for editing podcasts and videos by editing the written transcript - delete a sentence and it is gone from the recording, like editing a document.",
+    "watch_out": "The free plan only covers 60 minutes of media a month; paid plans start at $16 a month if you pay for a year ($24 a month if you pay monthly).",
+    "link": "https://www.descript.com",
+    "last_checked": "2026-11-04",
+    "watch_out_source": "https://www.descript.com/pricing"
+  }
+]
