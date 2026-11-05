@@ -183,7 +183,7 @@
   {
     "slug": "free-ai-voice-generator",
     "title": "What's the best free AI voice generator?",
-    "intro": "ElevenLabs, Murf AI, and NotebookLM all have free plans that turn your writing into spoken audio. Free plans cap how many minutes you get each month, but they are enough for short projects.",
+    "intro": "ElevenLabs, Murf AI, and Gemini Notebook all have free plans that turn your writing into spoken audio. Free plans cap how many minutes you get each month, but they are enough for short projects.",
     "filter": {
       "categories": [
         "voice"
@@ -192,12 +192,12 @@
     },
     "how_picked": "We listed voice AIs with a free tier, so you can create your first audio for nothing.",
     "seo_title": "Best free AI voice generator - AI Guide",
-    "meta_description": "The best free AI voice generators in plain language: ElevenLabs, Murf AI, NotebookLM and more, with free limits and links."
+    "meta_description": "The best free AI voice generators in plain language: ElevenLabs, Murf AI, Gemini Notebook and more, with free limits and links."
   },
   {
     "slug": "ai-for-homework-help",
     "title": "Which AI is best for homework help?",
-    "intro": "ChatGPT, Claude, and Perplexity can explain hard topics step by step, help you outline essays, and check your work. Perplexity and NotebookLM also cite their sources, which helps when you need to show where an answer came from.",
+    "intro": "ChatGPT, Claude, and Perplexity can explain hard topics step by step, help you outline essays, and check your work. Perplexity and Gemini Notebook also cite their sources, which helps when you need to show where an answer came from.",
     "filter": {
       "categories": [
         "chat",
@@ -207,7 +207,7 @@
     },
     "how_picked": "We listed free chatbots and AI search tools that explain, tutor, and show their sources.",
     "seo_title": "Best AI for homework help - AI Guide",
-    "meta_description": "The best AI tools for homework in plain language: ChatGPT, Claude, Perplexity and NotebookLM, with costs and official links."
+    "meta_description": "The best AI tools for homework in plain language: ChatGPT, Claude, Perplexity and Gemini Notebook, with costs and official links."
   },
   {
     "slug": "ai-for-making-logos",
@@ -227,7 +227,7 @@
   {
     "slug": "ai-for-editing-photos",
     "title": "Which AI can edit my photos?",
-    "intro": "Adobe Firefly and Canva AI can change backgrounds, remove objects, and restyle your pictures with a text prompt. Remove.bg does one job brilliantly: cutting a person or product out of its background in seconds.",
+    "intro": "Adobe Firefly and Canva AI can change backgrounds, remove objects, and restyle your pictures with a text prompt.",
     "filter": {
       "categories": [
         "image"
@@ -236,7 +236,7 @@
     },
     "how_picked": "We listed image AIs with a free tier that edit, retouch, or cut out parts of your photos.",
     "seo_title": "Best AI photo editor - AI Guide",
-    "meta_description": "The best AI photo editors in plain language: Adobe Firefly, Canva AI, Remove.bg and more, with free plans and links."
+    "meta_description": "The best AI photo editors in plain language: Adobe Firefly, Canva AI and more, with free plans and links."
   },
   {
     "slug": "ai-for-small-business",
@@ -280,7 +280,7 @@
   {
     "slug": "ai-for-making-a-podcast",
     "title": "Which AI is best for making a podcast?",
-    "intro": "Descript edits audio by editing a written transcript, which feels like editing a document instead of sound waves. NotebookLM can turn your notes into a lively two-host discussion, and ElevenLabs gives you natural narration voices.",
+    "intro": "Descript edits audio by editing a written transcript, which feels like editing a document instead of sound waves. Gemini Notebook can turn your notes into a lively two-host discussion, and ElevenLabs gives you natural narration voices.",
     "filter": {
       "categories": [
         "voice"
@@ -290,7 +290,7 @@
     },
     "how_picked": "We listed easy voice AIs with a free tier that cover recording, editing, and narration.",
     "seo_title": "Best AI for podcasts - AI Guide",
-    "meta_description": "The best AI tools for podcasts in plain language: Descript, NotebookLM, ElevenLabs and more, with free plans and links."
+    "meta_description": "The best AI tools for podcasts in plain language: Descript, Gemini Notebook, ElevenLabs and more, with free plans and links."
   },
   {
     "slug": "ai-that-builds-websites",
@@ -379,7 +379,7 @@
   {
     "slug": "ai-that-reads-documents-for-me",
     "title": "Is there an AI that can read documents for me?",
-    "intro": "NotebookLM lets you upload PDFs and documents, then answers your questions about them in plain words. Perplexity and Google AI Mode can summarize long articles and web pages from a link.",
+    "intro": "Gemini Notebook lets you upload PDFs and documents, then answers your questions about them in plain words. Perplexity and Google AI Mode can summarize long articles and web pages from a link.",
     "filter": {
       "categories": [
         "search",
@@ -388,7 +388,7 @@
     },
     "how_picked": "We listed search and voice AIs that can take in long documents and give you back the short version.",
     "seo_title": "AI that reads documents for me - AI Guide",
-    "meta_description": "AI tools that read documents for you: NotebookLM answers questions about your PDFs; Perplexity summarizes articles."
+    "meta_description": "AI tools that read documents for you: Gemini Notebook answers questions about your PDFs; Perplexity summarizes articles."
   },
   {
     "slug": "ai-for-making-a-presentation",
@@ -568,7 +568,7 @@
       "skill_level": "easy"
     },
     "how_picked": "We listed picture AIs rated easy to use, so you can start without any setup or training.",
-    "intro": "Midjourney, Ideogram, and Adobe Firefly turn a short description into a picture, and Canva AI works inside a simple drag-and-drop design tool. Remove.bg and Photoroom help with photo jobs like removing a background.",
+    "intro": "Midjourney, Ideogram, and Adobe Firefly turn a short description into a picture, and Canva AI works inside a simple drag-and-drop design tool. Photoroom helps with photo jobs like removing a background.",
     "meta_description": "The easiest AI picture makers: Midjourney, Ideogram, Adobe Firefly, Canva AI and more. Plain-English picks with costs and links.",
     "seo_title": "Easiest AI picture maker - AI Guide",
     "slug": "easiest-ai-image-generator",
@@ -635,8 +635,8 @@
       "price_from": "Free"
     },
     "how_picked": "We listed every AI whose lowest price is Free, with no paid plan needed to start.",
-    "intro": "Meta AI, Google AI Mode, DeepSeek, and NotebookLM are all listed with a price of Free. So are downloadable tools like Stable Diffusion, Whisper, and Llama that run on your own computer.",
-    "meta_description": "Which AI tools are completely free? Meta AI, Google AI Mode, DeepSeek, NotebookLM, Stable Diffusion and more, with official links.",
+    "intro": "Meta AI, Google AI Mode, DeepSeek, and Gemini Notebook are all listed with a price of Free. So are downloadable tools like Stable Diffusion, Whisper, and Llama that run on your own computer.",
+    "meta_description": "Which AI tools are completely free? Meta AI, Google AI Mode, DeepSeek, Gemini Notebook, Stable Diffusion and more, with official links.",
     "seo_title": "Completely free AI tools - AI Guide",
     "slug": "completely-free-ai-tools",
     "title": "Which AI tools are completely free?"
@@ -709,7 +709,6 @@
   {
     "filter": {
       "ids": [
-        "removebg",
         "photoroom",
         "pixelcut",
         "clipdrop",
@@ -717,8 +716,8 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they remove or replace the background in a photo.",
-    "intro": "Remove.bg removes the background from a photo in seconds with one click. Photoroom, Pixelcut, and Clipdrop can do it too, and Clipdrop's free plan allows 20 uses per 24 hours.",
-    "meta_description": "Remove the background from a photo with AI in seconds. Remove.bg, Photoroom, Pixelcut and Clipdrop, with plain-English notes.",
+    "intro": "Photoroom, Pixelcut, and Clipdrop remove the background from a photo in seconds with one click, and Clipdrop's free plan allows 20 uses per 24 hours.",
+    "meta_description": "Remove the background from a photo with AI in seconds. Photoroom, Pixelcut and Clipdrop, with plain-English notes.",
     "seo_title": "AI that removes photo backgrounds - AI Guide",
     "slug": "ai-that-removes-photo-backgrounds",
     "title": "Can AI remove the background from a photo?"
@@ -1250,8 +1249,8 @@
       ]
     },
     "how_picked": "We listed the tools in our guide that are made by Google, leaving out the two made for programmers.",
-    "intro": "Gemini answers questions and helps inside Google apps like Gmail and Docs, Google AI Mode gives full AI answers with links inside Google Search, and NotebookLM answers questions from documents you upload. Veo turns words or photos into video clips, with a small free daily allowance through Google Flow, and Google Flow is Google's studio for making videos and images. Flow Music makes full songs with vocals, and Magenta RealTime 2 is a free music model you play like an instrument, though it needs a newer Mac.",
-    "meta_description": "The AI tools Google makes: Gemini, Google AI Mode, NotebookLM, Veo, Google Flow, Flow Music and Magenta RealTime 2.",
+    "intro": "Gemini answers questions and helps inside Google apps like Gmail and Docs, Google AI Mode gives full AI answers with links inside Google Search, and Gemini Notebook answers questions from documents you upload. Veo turns words or photos into video clips, with a small free daily allowance through Google Flow, and Google Flow is Google's studio for making videos and images. Flow Music makes full songs with vocals, and Magenta RealTime 2 is a free music model you play like an instrument, though it needs a newer Mac.",
+    "meta_description": "The AI tools Google makes: Gemini, Google AI Mode, Gemini Notebook, Veo, Google Flow, Flow Music and Magenta RealTime 2.",
     "seo_title": "AI tools made by Google - AI Guide",
     "slug": "ai-tools-from-google",
     "title": "Which AI tools does Google make?"

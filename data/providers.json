@@ -747,11 +747,11 @@
     "free_tier": true,
     "good_for": "It's a free desktop app that runs AI models right on your computer, so what you type stays private unless you choose its optional paid cloud models.",
     "id": "lm-studio",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "link": "https://lmstudio.ai/",
     "name": "LM Studio",
     "open_weights": true,
-    "price_from": "Free",
+    "price_from": "Free (optional cloud plan, Bionic+, $20/month)",
     "runs_on_your_computer": true,
     "skill_level": "medium",
     "watch_out": "You need a fairly strong computer: 16GB of memory is recommended, and 8GB works only with smaller models.",
@@ -790,7 +790,7 @@
     "good_for": "Great for trying many different AI models in one app - GPT, Claude, Llama, and more - and comparing their answers side by side.",
     "watch_out": "The free plan limits how much you can chat each day; the paid plan costs $4.99 a month.",
     "link": "https://poe.com",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://help.poe.com/hc/en-us/articles/19945140063636-Poe-Purchases-FAQs"
   },
   {
@@ -809,7 +809,7 @@
     "good_for": "Great for asking questions in private - it does not track you, and you can switch between models like GPT, Claude, and Llama.",
     "watch_out": "The more advanced AI models need a paid DuckDuckGo subscription, which starts at $9.99 a month.",
     "link": "https://duck.ai",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://duckduckgo.com/pro"
   },
   {
@@ -846,7 +846,7 @@
     "good_for": "An AI code editor that understands your whole project and can change many files at once, with you watching each step.",
     "watch_out": "The free plan only gives you a light quota for AI agents; the Pro plan costs $20 a month. Windsurf is now called Devin Desktop.",
     "link": "https://devin.ai/desktop",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://devin.ai/pricing"
   },
   {
@@ -864,7 +864,7 @@
     "good_for": "Great for non-programmers: describe the app or website you want in plain words and it builds a working version for you.",
     "watch_out": "The free plan gives you 5 build credits a day (up to 30 a month), and bigger tasks cost more credits; the Pro plan costs $25 a month, or $21 a month if you pay for a year.",
     "link": "https://lovable.dev",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://lovable.dev/pricing"
   },
   {
@@ -882,7 +882,7 @@
     "good_for": "Joins your meetings and writes down what everyone says, so you get notes and summaries without typing a word.",
     "watch_out": "The free plan gives you 300 transcription minutes a month and only 3 file imports in total; the Pro plan costs $16.99 a month, or $8.33 a month if you pay for a year.",
     "link": "https://otter.ai",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://otter.ai/pricing"
   },
   {
@@ -906,7 +906,7 @@
   },
   {
     "id": "notebooklm",
-    "name": "NotebookLM",
+    "name": "Gemini Notebook (formerly NotebookLM)",
     "company": "Google",
     "categories": [
       "search",
@@ -920,7 +920,8 @@
     "good_for": "Great for studying: upload your documents and ask it questions, or turn them into a podcast-style audio chat between two AI hosts.",
     "watch_out": "It only answers from the documents you upload, so weak sources mean weak answers.",
     "link": "https://notebook.google.com/",
-    "last_checked": "2026-10-23"
+    "last_checked": "2026-11-05",
+    "watch_out_source": "https://notebook.google/"
   },
   {
     "id": "photoshop-generative-fill",
@@ -937,26 +938,8 @@
     "good_for": "Inside Photoshop, add or remove anything in a photo with a text prompt - the AI fills in the rest to match.",
     "watch_out": "You need a paid plan: Photoshop costs $22.99 a month (annual plan, billed monthly) and includes 25 generative credits a month, while unlimited Generative Fill comes with Creative Cloud Pro at $69.99 a month.",
     "link": "https://www.adobe.com/products/photoshop.html",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://www.adobe.com/products/photoshop.html"
-  },
-  {
-    "id": "removebg",
-    "name": "Remove.bg",
-    "company": "Kaleido AI",
-    "categories": [
-      "image"
-    ],
-    "open_weights": false,
-    "free_tier": true,
-    "price_from": "$9/month",
-    "skill_level": "easy",
-    "runs_on_your_computer": false,
-    "good_for": "Removes the background from any photo in seconds with one click - great for product shots and profile pictures.",
-    "watch_out": "The remove.bg website closes on 1 December 2026 and its background remover moves into Canva; until then, top quality needs credits ($3 for 3) or the $9-a-month plan.",
-    "link": "https://www.remove.bg",
-    "last_checked": "2026-10-23",
-    "watch_out_source": "https://www.remove.bg/pricing"
   },
   {
     "id": "capcut-ai",
@@ -992,7 +975,7 @@
     "good_for": "A web browser with an AI assistant built in that can summarize pages, compare products, and do small tasks for you.",
     "watch_out": "The free version of Comet does not include the browser agent that does tasks for you; that needs a paid Perplexity plan.",
     "link": "https://www.perplexity.ai",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "watch_out_source": "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you"
   },
   {
@@ -1076,14 +1059,14 @@
     "free_tier": true,
     "good_for": "Type a description and it creates images for you, with lots of ready-made style templates to start from.",
     "id": "playground-ai",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "link": "https://playgroundai.com/design/pricing",
     "name": "Playground AI",
     "open_weights": false,
     "price_from": "$12/month (billed annually; $15 monthly)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan is limited to 10 images every 3 hours and runs slower at busy times, and the premium models use monthly credits.",
+    "watch_out": "The free plan is limited to 5 images every 3 hours and 6 credits a month, and runs slower at busy times, and the premium models use monthly credits.",
     "watch_out_source": "https://playgroundai.com/design/pricing"
   },
   {
@@ -1094,7 +1077,7 @@
     "free_tier": false,
     "good_for": "Chatting with many open-source AI models in one app, using a Hugging Face account.",
     "id": "huggingchat",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "link": "https://huggingface.co/chat",
     "name": "HuggingChat",
     "open_weights": true,
@@ -1112,7 +1095,7 @@
     "free_tier": true,
     "good_for": "Drafting marketing content and pulling live web data inside one chat window.",
     "id": "chatsonic",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://writesonic.com/chat",
     "name": "ChatSonic",
     "open_weights": false,
@@ -1181,14 +1164,14 @@
       "video"
     ],
     "company": "InVideo",
-    "free_tier": true,
+    "free_tier": false,
     "good_for": "Turn a text prompt into a finished video with stock footage and AI voiceover without editing anything yourself.",
     "id": "invideo",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://invideo.io/pricing/",
     "name": "InVideo",
     "open_weights": false,
-    "price_from": "$20/month",
+    "price_from": "$20/month (Starter list price, billed monthly; the page currently shows 50% off with yearly billing, $10 a month)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "Paid plans run on credits that do not roll over, and costs are hard to predict because every AI model burns credits at a different rate.",
@@ -1256,7 +1239,7 @@
     "free_tier": true,
     "good_for": "Type a script and get a training-style video narrated by an AI avatar, with quizzes and course exports.",
     "id": "colossyan",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://www.colossyan.com/pricing",
     "name": "Colossyan",
     "open_weights": false,
@@ -1274,7 +1257,7 @@
     "free_tier": true,
     "good_for": "Create original songs in over 250 styles in seconds, even with no music training.",
     "id": "aiva",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://www.aiva.ai/pricing",
     "name": "AIVA",
     "open_weights": false,
@@ -1310,14 +1293,14 @@
     "free_tier": true,
     "good_for": "Ask a research question and get structured evidence tables pulled from over 138 million academic papers.",
     "id": "elicit",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://elicit.com/pricing",
     "name": "Elicit",
     "open_weights": false,
-    "price_from": "$11/month (billed annually)",
+    "price_from": "$11/month (Academic Plus plan, billed annually; $49/month on the Pro plan for everyone else)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "The free plan has limited usage for the Research Agent and Research Reports, and the $11/month price is billed as $132 a year.",
+    "watch_out": "The free plan has limited usage for the Research Agent and Research Reports, and the $11/month Academic Plus price is billed as $132 a year; the Pro plan for everyone else is $49 a month, billed as $588 a year.",
     "watch_out_source": "https://elicit.com/pricing"
   },
   {
@@ -1364,7 +1347,7 @@
     "free_tier": false,
     "good_for": "An AI teammate that handles your email, calendar, meetings, and routine office work when you tell it what to do.",
     "id": "lindy",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://www.lindy.ai/pricing",
     "name": "Lindy",
     "open_weights": false,
@@ -1400,7 +1383,7 @@
     "free_tier": true,
     "good_for": "Build an AI chatbot or support agent for your website, WhatsApp, or Slack that answers questions and can do real tasks.",
     "id": "botpress",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://botpress.com/pricing",
     "name": "Botpress",
     "open_weights": false,
@@ -1436,7 +1419,7 @@
     "free_tier": true,
     "good_for": "Edits videos in a web browser with AI tools for subtitles, voiceovers, resizing, and background removal.",
     "id": "kapwing",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "link": "https://www.kapwing.com/pricing",
     "name": "Kapwing",
     "open_weights": false,
