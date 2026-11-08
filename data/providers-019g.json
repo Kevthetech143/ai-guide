@@ -1,0 +1,368 @@
+[
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "DiffusionBee",
+    "free_tier": true,
+    "good_for": "The easiest way to run Stable Diffusion on a Mac - text-to-image, generative fill, upscaling, and video tools in one free app that works fully offline.",
+    "id": "diffusionbee",
+    "last_checked": "2026-11-08",
+    "link": "https://diffusionbee.com/",
+    "name": "DiffusionBee",
+    "open_weights": true,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Mac only, and Apple silicon is recommended - Intel Macs work but generate images much more slowly.",
+    "watch_out_source": "https://diffusionbee.com/"
+  },
+  {
+    "id": "vocal-remover",
+    "name": "Vocal Remover",
+    "company": "VocalRemover.org",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (up to 10 minutes of audio a day); membership US$12.95/month or US$99/year",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Splitting a song into karaoke (no vocals) and acapella (isolated vocals) tracks; also key, BPM, pitch and cutter tools",
+    "watch_out": "Free use is capped at 10 minutes of audio a day and 8-minute files; a membership raises that to 300 minutes a day and 25-minute files",
+    "link": "https://vocalremover.org",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://vocalremover.org/next/pricing"
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "company": "Tavily",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Researcher plan); paid from $0.008/credit (Pay As You Go) or $30/month (Project)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Search API built for AI agents — fast results with source citations",
+    "watch_out": "API only, no consumer search page; usage-based pricing needs monitoring",
+    "link": "https://www.tavily.com/",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.tavily.com/pricing"
+  },
+  {
+    "id": "goose",
+    "name": "goose",
+    "company": "Agentic AI Foundation",
+    "categories": [
+      "agents",
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free, open-source AI assistant on your own computer (desktop app or command line) that does tasks for you - coding, research, writing and automation",
+    "watch_out": "You connect your own AI model (an API key or an existing Claude, ChatGPT or Gemini subscription), and that model's costs are separate",
+    "link": "https://goose-docs.ai",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://goose-docs.ai"
+  },
+  {
+    "id": "qodo",
+    "name": "Qodo",
+    "company": "Qodo",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$30/month (Pro Team; extra credits $0.015/credit)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "Agentic AI code review on pull requests — rules system, pre-PR checks, analytics",
+    "watch_out": "$30/month buys 2,000 credits (about 14 reviews a month); about 29 reviews costs $60/month. 14-day free trial, no card needed; free only for open-source projects",
+    "link": "https://www.qodo.ai",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.qodo.ai/pricing/"
+  },
+  {
+    "id": "pieces",
+    "name": "Pieces",
+    "company": "Pieces",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$18.99 per user/month (Pro, billed monthly; 25% off billed yearly)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An app that quietly remembers what you work on across your computer so you can ask AI about it later - recaps, meeting prep, finding past work",
+    "watch_out": "No free plan (the 7-day trial needs a card); it builds its memory by capturing across your apps and websites, so check its privacy settings",
+    "link": "https://pieces.app",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://pieces.app/pricing"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "company": "Replicate",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "Pay as you go per model - e.g. $0.025 per image (flux-dev), $0.04 per image (flux-1.1-pro)",
+    "skill_level": "hard",
+    "runs_on_your_computer": false,
+    "good_for": "Trying thousands of AI models (images, video, speech, music, chat) from one account, in a browser playground or through code",
+    "watch_out": "Built for developers and billed per use, so running models costs money. Some select models run free at first, then you are asked to set up billing.",
+    "link": "https://replicate.com",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://replicate.com/docs/topics/billing"
+  },
+  {
+    "id": "mureka-ai",
+    "name": "Mureka",
+    "company": "Mureka",
+    "categories": [
+      "music",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Pro; $8/month billed yearly at $96)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating original songs, background music, soundscapes and AI music videos from text prompts",
+    "watch_out": "Free plan: 4 songs a day on the free model; Pro: up to 500 songs a month with MP3 downloads only (WAV and stems need Premier, $30/month)",
+    "link": "https://www.mureka.ai/subscribe",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.mureka.ai/subscribe"
+  },
+  {
+    "id": "loudly",
+    "name": "Loudly",
+    "company": "Loudly",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Personal; $8/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "AI text-to-music with commercial licensing and distribution to Spotify, Apple Music and YouTube Music",
+    "watch_out": "Personal: 2,500 credits/month; free plan is non-commercial with 1 download per day",
+    "link": "https://www.loudly.com/music/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.loudly.com/music/pricing"
+  },
+  {
+    "id": "boomy",
+    "name": "Boomy",
+    "company": "Boomy Corporation",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$14.99/month (Creator list price; the page currently shows a 33% discount)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Making and releasing original AI songs with full commercial rights, even with no music experience",
+    "watch_out": "Free plan: 25 song saves, no downloads, no commercial use; Creator includes 25 WAV downloads per month",
+    "link": "https://boomy.com/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://boomy.com/pricing"
+  },
+  {
+    "id": "stable-audio",
+    "name": "Stable Audio",
+    "company": "Stability AI",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (Solo)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating royalty-free tracks with the Stable Audio web app and DAW plugin",
+    "watch_out": "Free gives 50 credits a month (about 12 full-mix tracks). The cheapest paid plan, Solo, is $12/month for 660 credits, and unused credits do not roll over.",
+    "link": "https://stableaudio.com/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://stableaudio.com/pricing"
+  },
+  {
+    "id": "iask-ai",
+    "name": "iAsk",
+    "company": "Ai Search Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "AI search with an AI writer, instant summarizer and document analysis",
+    "watch_out": "iAsk calls itself a free AI search engine. Its pricing page now just sends you to the home page, so we could not confirm what the Pro plan costs.",
+    "link": "https://iask.ai/",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://iask.ai/"
+  },
+  {
+    "id": "recraft-ai",
+    "name": "Recraft",
+    "company": "Recraft",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$12/month (Basic; $10/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating and editing images with multiple AI models (Flux, GPT Image, Nano Banana); video generation on Pro",
+    "watch_out": "Basic: 1,000 credits/month; free-plan images are public with no commercial use",
+    "link": "https://www.recraft.ai/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.recraft.ai/pricing"
+  },
+  {
+    "id": "v0",
+    "name": "v0",
+    "company": "Vercel",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$30/user/month (Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Generating complete web apps and UIs from text prompts, deployed to Vercel",
+    "watch_out": "Plus is priced per user; free plan limited to 7 messages per day",
+    "link": "https://v0.app/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://v0.app/pricing"
+  },
+  {
+    "id": "warp-dev",
+    "name": "Warp",
+    "company": "Warp",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$20/month (Build; $18/month billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "AI-assisted coding in a modern terminal with Warp Agent",
+    "watch_out": "Build: 1,500 credits ($20 of agent usage at API rates); you can add more usage as an add-on or with auto-reload",
+    "link": "https://www.warp.dev/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://www.warp.dev/pricing"
+  },
+  {
+    "id": "zed-editor",
+    "name": "Zed",
+    "company": "Zed Industries",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "$10/month (Pro)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "A fast code editor with AI edit predictions and token-based AI features",
+    "watch_out": "Pro includes $5 of tokens; usage beyond that bills at API list price +10%",
+    "link": "https://zed.dev/pricing",
+    "last_checked": "2026-11-08",
+    "watch_out_source": "https://zed.dev/pricing"
+  },
+  {
+    "categories": [
+      "search",
+      "chat"
+    ],
+    "company": "ItzCrazyKns",
+    "free_tier": true,
+    "good_for": "Running a private Perplexity-style AI answering engine entirely on your own hardware, with cited answers and local LLMs.",
+    "id": "vane",
+    "last_checked": "2026-11-08",
+    "link": "https://github.com/ItzCrazyKns/Vane",
+    "name": "Vane",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": true,
+    "skill_level": "hard",
+    "watch_out": "You install and run it yourself (the guide recommends Docker), then connect an AI model: Ollama on your own computer, or a key from an online provider like OpenAI, Claude or Groq.",
+    "watch_out_source": "https://github.com/ItzCrazyKns/Vane"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "LazyWeb Inc.",
+    "free_tier": true,
+    "good_for": "Ad-free conversational answers and visual search results with a privacy-first, no-tracking positioning.",
+    "id": "andi",
+    "last_checked": "2026-11-08",
+    "link": "https://andisearch.com",
+    "name": "Andi",
+    "open_weights": false,
+    "price_from": "Free (a separate Search API for developers is paid per query)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "AI answers can contain mistakes (its terms say so), so check the sources it shows.",
+    "watch_out_source": "https://andiai.com/legal/terms-of-service"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Allen Institute for AI",
+    "free_tier": true,
+    "good_for": "Free AI search across scientific papers, with short one-line summaries (TLDRs) on many papers and links to the papers they cite.",
+    "id": "semantic-scholar",
+    "last_checked": "2026-11-08",
+    "link": "https://www.semanticscholar.org/",
+    "name": "Semantic Scholar",
+    "open_weights": false,
+    "price_from": "Free",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "Academic literature only — it is not a general web search engine.",
+    "watch_out_source": "https://www.semanticscholar.org/"
+  },
+  {
+    "categories": [
+      "search"
+    ],
+    "company": "Consensus NLP, Inc.",
+    "free_tier": true,
+    "good_for": "Evidence-backed answers and AI summaries drawn directly from peer-reviewed papers, with unlimited Pro messages.",
+    "id": "consensus",
+    "last_checked": "2026-11-08",
+    "link": "https://consensus.app",
+    "name": "Consensus",
+    "open_weights": false,
+    "price_from": "$20/month (Pro; $12/month billed annually)",
+    "runs_on_your_computer": false,
+    "skill_level": "easy",
+    "watch_out": "$20/month is the monthly price ($12/month if you pay for a year). Pro includes 15 Deep reviews a month; the Free plan gets 10 Pro messages and up to 3 Deep reviews a month.",
+    "watch_out_source": "https://consensus.app/pricing/"
+  }
+]

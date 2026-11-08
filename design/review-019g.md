@@ -1,0 +1,51 @@
+# Review of ai-guide-019g (batch 19, the 20 oldest cards) — 2026-11-08
+
+Verdict: SHIP (after three fixes I applied to the patch: v0 price_from reverted to the plain price, vocal-remover and pieces watch_out trimmed so every sentence is on the cited page). Score: 8/10.
+Reviewer: Fable 5.1, fresh context. Files edited: data/providers-019g.json (backup data/providers-019g.json.bak-2026-11-08-review) and this file only.
+
+Why SHIP: the qodo rewrite matches the live pricing page number for number, the warp-dev and consensus shape changes are right and both prices show on the page, the 20-card diff vs providers.json carries only the fields the worker listed, all links answer (vocalremover.org 403s curl but renders in Chrome, as the worker said). Two points off: the worker left two watch_out sentences whose facts sit on a different page than the cited source (flagged, but not fixed), and pushed the v0 $90 question to the lead when Vercel's own docs page answers it.
+
+How I checked: curl with a Chrome UA (all 200) for www.qodo.ai/pricing/, v0.app/pricing, v0.app/docs/pricing, www.warp.dev/pricing, replicate.com/pricing and /docs/topics/billing, www.recraft.ai/pricing, pieces.app/pricing and pieces.app, goose-docs.ai, diffusionbee.com; api.github.com for aaif-goose/goose, block/goose (404, moved), divamgupta/diffusionbee-stable-diffusion-ui. Real Chrome via playwright-cli session ag019gr (profile ~/.config/pw-aiguide-recheck, no sign-in) for consensus.app/pricing/ (Annual default, then Monthly switch), www.recraft.ai/pricing (annual default, then Pay monthly), vocalremover.org/next/pricing and /, www.qodo.ai/pricing/ (plan picker: 2,000 / 4,000 / 16,000 credit radios). Session closed; `pgrep -f pw-aiguide-recheck` printed nothing (rc=1). Page texts under /tmp/ag019g/rv/.
+
+## 1. Spot-checks (free_tier, price_from, link)
+- qodo | OK | Pro Team "$30"; picker "~14 Reviews/Mo 2,000 credits" = $30, "~29 Reviews/Mo 4,000 credits" = $60 (read after clicking the radio), "~114 Reviews/Mo 16,000 credits" = $240; "$0.015/credit, pooled across the team"; "Free 14 Day Trial no credit card"; FAQ "We don't offer a permanent free tier" and "Qualified open source projects can apply ... for free access". free_tier false holds. Link 200.
+- v0 | OK (note removed, see 2a) | Pricing page: Free "$0 /month ... 7 message/day limit"; Plus "$30 <del>$90</del> /user/month ... $30 of included monthly credits per user"; Business "$100 /user/month". No promo text, no end date. Docs page v0.app/docs/pricing: "Plus : $30/user/month", comparison table "Price ... $30/user/month"; "Premium : $20/month ... is in the process of being sunsetted and is no longer available to new users". Link 200.
+- warp-dev | OK | Build "Monthly plan $20 /month", "Annual plan $18 /month"; "$20 of agent usage included each month at API rates"; Max $200 / $180. Link 200.
+- consensus | OK | Chrome, Annual (default): Pro "$12/mo $144 annually"; Monthly: Pro "$20/mo", Deep "$65/mo"; Free "10 Pro messages per month", "Up to 3 Deep reviews per month"; Pro "15 Deep reviews per month". Link 200.
+- replicate | OK | pricing page: flux-1.1-pro "$0.04 / output image", flux-dev "$0.025 / output image"; billing docs "You can run select models on Replicate for free, but after a bit you'll be asked to set up billing." Link 200.
+- recraft-ai | OK | Chrome, Pay monthly: Basic "$12 billed monthly 1,000 credits per month", Pro "$20", Teams "$22 per seat"; Pay annually: Basic "$10 billed annually $120"; Free "All images are public", "No commercial use". Link 200.
+- pieces | OK (watch_out trimmed, see 2c) | "Pro ... $18.99 per user / month · billed monthly Save 25% yearly"; Enterprise "$22.99"; "Is Pieces free to use? No."; "7-day free trial on any plan"; "Card required to start". free_tier false holds. Link 200.
+- vocal-remover | OK (watch_out trimmed, see 2c) | Chrome: Free "10 minutes / 8 minutes / 100Mb"; Month "US$12.95 ... 300 minutes / 25 minutes / 2Gb"; Year "US$99 ... 500 minutes / 25 minutes / 2Gb". Home page: "New version with better algorithms — currently available for subscribers only." Link renders in Chrome (403 to curl, same as the worker saw).
+- goose | OK | goose-docs.ai 200. GitHub aaif-goose/goose: Apache-2.0, archived false, pushed 2026-11-08, latest release v1.57.0 (2026-10-28); block/goose returns 404 on the API (redirect on the web). Card link is goose-docs.ai, not the repo, so nothing to change.
+- diffusionbee | OK | diffusionbee.com 200. GitHub divamgupta/diffusionbee-stable-diffusion-ui: AGPL-3.0, archived false, last push 2024-10-30. Quiet, but still free, still downloadable, still Mac-only. No card field to carry "quiet".
+- Not re-read by me (worker-verified only): tavily, mureka-ai, loudly, boomy, stable-audio, iask-ai, zed-editor, vane, andi, semantic-scholar — all unchanged cards.
+
+## 2. Rulings
+(a) v0 — $30 is the real price; REVERTED to "$30/user/month (Plus)". Vercel's own docs page (v0.app/docs/pricing) lists Plus at $30/user/month in both the plan list and the comparison table and never mentions $90; the pricing page has no promo wording, no end date, and the included credits ($30 a month) match the $30 charge. So the struck-through $90 is an anchor, not a list price, and the kling/hailuo promo rule (keep list price, note the discount) does not apply. The worker's "(the page shows $90 crossed out)" note would send a reader hunting for a $90 plan that no Vercel page sells. Premium at $20/month exists in the docs but is "no longer available to new users", so Plus stays the cheapest paid plan a reader can buy. Watch item stays open: if the $90 ever becomes the charged price, the card changes then.
+(b) qodo — KEEP every number. $30 = 2,000 credits = "~14 Reviews/Mo"; 4,000 credits = "~29 Reviews/Mo" and the price box reads $60 when that radio is picked; $0.015/credit; "Free 14 Day Trial no credit card"; no permanent free tier; open-source program free. Plain words, same voice as before.
+(c) vocal-remover and pieces — TRIMMED so every sentence is on the cited pricing page (the 018v rule). vocal-remover: the "newer, better version is for paying members" line is only on the home page, so it goes; the pricing page's own numbers replace it. pieces: the "every 2 seconds" line is only on the home page, so it goes; the pricing page's "Capture across your apps and websites" carries the same warning in its own words. Both watch_out_source values stay as they were (the pricing pages). If the lead would rather keep the stronger home-page facts, flip watch_out_source to the home page instead — but then the trial/card and 10-minute facts would have to go, since the home pages do not show them.
+(d) diffusionbee / goose — NO CHANGE. Nothing on either card is wrong. goose's repo moved to aaif-goose/goose, but the card links goose-docs.ai (200) and names no repo. diffusionbee's last release is 2024-08 but the app is live, free and Mac-only as the card says.
+
+## 3. Fixes applied to the patch (3 cards)
+- v0 | price_from | "$30/user/month (Plus; the page shows $90 crossed out)" -> "$30/user/month (Plus)" (back to the providers.json value; last_checked 2026-11-08 kept)
+- vocal-remover | watch_out | "The newer, better version is for paying members; free use is capped at 10 minutes of audio a day and 8-minute files" -> "Free use is capped at 10 minutes of audio a day and 8-minute files; a membership raises that to 300 minutes a day and 25-minute files" | https://vocalremover.org/next/pricing
+- pieces | watch_out | "No free plan (the 7-day trial needs a card); it captures what is on your screen every 2 seconds by default, so check its privacy settings" -> "No free plan (the 7-day trial needs a card); it builds its memory by capturing across your apps and websites, so check its privacy settings" | https://pieces.app/pricing
+- Backup: /Users/admin/agents/ai-guide-brain/site/data/providers-019g.json.bak-2026-11-08-review. File re-checked equal to json.dumps(indent=2, ensure_ascii=False)+"\n".
+
+## 4. price_from shape — all 20 OK
+No card in this batch leads with a yearly-billed price while a monthly plan exists. warp-dev, consensus, recraft-ai, loudly, mureka-ai are monthly-first with yearly in brackets; pieces is monthly-first with the 25% yearly note; boomy keeps the list price with the discount note (same rule as kling/hailuo); vocal-remover lists Free, then monthly, then yearly; tavily, replicate are usage-priced; the rest have one price or are Free.
+
+## 5. Silent-change check — OK
+Diff of all 20 cards vs providers.json after my edits: last_checked on 20 cards -> 2026-11-08, plus exactly qodo (price_from, watch_out), warp-dev (price_from), consensus (price_from), vocal-remover (watch_out, mine), pieces (watch_out, mine). v0 now differs in last_checked only. No id/name/categories/link/free_tier/open_weights/runs_on_your_computer/watch_out_source change. All 20 ids exist; none new.
+
+## 6. Watch_out sentences vs cited pages — all on page
+- qodo, warp-dev, consensus, replicate, recraft-ai, pieces, vocal-remover: read by me today, every sentence on the cited page (section 1).
+- goose: "connect your own AI model (API key or Claude/ChatGPT/Gemini subscription)" is on goose-docs.ai; "that model's costs are separate" is the plain reading the worker labelled; acceptable.
+- diffusionbee: Mac only / Apple silicon recommended / Intel slow — on diffusionbee.com.
+- Others: worker-verified, unchanged cards.
+
+## 7. Side effects the lead should know
+- schema.org Offer: no first-dollar figure changes (v0 stays $30, qodo stays $30). No filter-page movement (free_tier unchanged everywhere).
+- Ripples: none to fix. ai-that-remembers-what-i-worked-on's intro still says Pieces "captures your screen every 2 seconds by default" — that is still true on pieces.app today, so it stays; the card just no longer carries that line. The "Vocal Remover" hits in questions.json are all "Ultimate Vocal Remover", a different card. Worker's "Ripples: 0" confirmed for qodo/warp/v0/consensus.
+- Watch items to carry forward: v0 $90 strikethrough (no action unless it becomes the charged price); v0 Premium $20/month exists for old users only; Replicate "Minimax H3 Lite and Highspeed are 50% until end of year" banner (not a card fact); qodo "See additional plan options" page not opened.
+- Nothing else for the lead at merge beyond copying the 20 cards over.
