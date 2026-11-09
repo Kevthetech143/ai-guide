@@ -2327,7 +2327,7 @@
     "free_tier": true,
     "good_for": "Self-hosted autonomous deep-research agents that aggregate 20+ web sources into cited reports on your own machine.",
     "id": "gpt-researcher",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://github.com/assafelovic/gpt-researcher",
     "name": "GPT Researcher",
     "open_weights": false,
@@ -2346,7 +2346,7 @@
     "free_tier": false,
     "good_for": "AI singing voices from your melody and lyrics, voice cloning, and AI instruments that work alongside music-making software.",
     "id": "ace-studio",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://acestudio.ai/",
     "name": "ACE Studio",
     "open_weights": false,
@@ -2364,7 +2364,7 @@
     "free_tier": true,
     "good_for": "Natural-sounding text-to-speech and voice cloning from as little as 10 seconds of audio, in 30+ languages; the company also shares downloadable models you can run yourself.",
     "id": "fish-audio",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://fish.audio/plan/",
     "name": "Fish Audio",
     "open_weights": true,
@@ -2382,7 +2382,7 @@
     "free_tier": true,
     "good_for": "Production phone and web voice agents with SIP telephony, no-code builder, and 20 free concurrent calls.",
     "id": "retell-ai",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://www.retellai.com/pricing",
     "name": "Retell AI",
     "open_weights": false,
@@ -2400,7 +2400,7 @@
     "free_tier": true,
     "good_for": "Free, expressive text-to-speech you can run yourself, with emotion tags (like laughing or sighing) and voice cloning from a short sample.",
     "id": "orpheus-tts",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://github.com/canopyai/Orpheus-TTS",
     "name": "Orpheus TTS",
     "open_weights": true,
@@ -2418,7 +2418,7 @@
     "free_tier": false,
     "good_for": "Automated transcription in 54+ languages with in-browser editing, translation, and subtitle exports.",
     "id": "sonix",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://sonix.ai/pricing",
     "name": "Sonix",
     "open_weights": false,
@@ -2436,7 +2436,7 @@
     "free_tier": true,
     "good_for": "AI image upscaling on desktop (Linux, macOS, Windows); cloud plans add AI image generation.",
     "id": "upscayl",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://upscayl.org/pricing",
     "name": "Upscayl",
     "open_weights": false,
@@ -2454,7 +2454,7 @@
     "free_tier": true,
     "good_for": "Running open Stable Diffusion checkpoints locally: txt2img, img2img, inpainting, LoRAs, extensions.",
     "id": "automatic1111",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "name": "AUTOMATIC1111 Stable Diffusion WebUI",
     "open_weights": true,
@@ -2472,7 +2472,7 @@
     "free_tier": true,
     "good_for": "Simple, offline text-to-image on your own computer: type a description, fix parts of a picture, or add a style.",
     "id": "fooocus",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://github.com/lllyasviel/Fooocus",
     "name": "Fooocus",
     "open_weights": true,
@@ -2490,7 +2490,7 @@
     "free_tier": true,
     "good_for": "AI product photography: background removal/replacement, AI backgrounds, marketing assets.",
     "id": "photoroom",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://www.photoroom.com/pricing",
     "name": "Photoroom",
     "open_weights": false,
@@ -2508,7 +2508,7 @@
     "free_tier": true,
     "good_for": "Breeding and remixing character portraits/art with gene sliders (Splicer, Collage, Composer).",
     "id": "artbreeder",
-    "last_checked": "2026-10-27",
+    "last_checked": "2026-11-09",
     "link": "https://www.artbreeder.com/pricing",
     "name": "Artbreeder",
     "open_weights": false,
@@ -2551,7 +2551,7 @@
     "good_for": "Making simple background music for videos, games and podcasts: pick a scene, mood and style, and its AI makes a new tune you can use without paying extra each time",
     "watch_out": "The free plan only downloads preview music, which you may not publish or use to make money. To use tracks in your videos you need Individual ($7.99/month). The music is meant to go inside videos, games or podcasts, not to be sold or shared as songs on their own",
     "link": "https://ecrettmusic.com/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://ecrettmusic.com/terms"
   },
   {
@@ -2569,7 +2569,7 @@
     "good_for": "Using AI to pull a song apart into separate tracks (vocals, drums, bass, melody) and remix it, even with no music experience",
     "watch_out": "The free plan splits songs into the main parts and gives MP3 downloads only. Finer splits (like single drums), higher-quality WAV files and the add-ons for music software need Fadr Plus",
     "link": "https://fadr.com/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://fadr.com/"
   },
   {
@@ -2605,8 +2605,8 @@
     "good_for": "An AI helper that plans, writes and changes code for you, inside the VS Code code editor, in a command window, or in a new desktop app (still in testing)",
     "watch_out": "The app is free, but the AI it uses is not: you buy AI credits as you go, connect your own paid account from a company like OpenAI or Anthropic, or subscribe to ClinePass ($9.99/month). Made for people who write code",
     "link": "https://cline.bot/",
-    "last_checked": "2026-10-28",
-    "watch_out_source": "https://cline.bot/pricing"
+    "last_checked": "2026-11-09",
+    "watch_out_source": "https://cline.bot/cline-pass"
   },
   {
     "id": "openhands",
@@ -2661,7 +2661,7 @@
     "good_for": "An AI coding helper you add to VS Code or JetBrains, or run in the terminal. It can use free models, models on your own computer, or your own keys from other AI companies.",
     "watch_out": "The tool itself is free, but the AI models it talks to cost money unless you pick the free or local ones.",
     "link": "https://kilo.ai/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://kilo.ai/pricing"
   },
   {
@@ -2699,7 +2699,7 @@
     "good_for": "A downloadable AI coding editor and command-line tool from Amazon that works as a coding agent on your projects.",
     "watch_out": "The free plan gives 50 credits and only some AI models, with rate limits. On the paid plans, extra credits cost $0.04 each.",
     "link": "https://kiro.dev/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://kiro.dev/pricing/"
   },
   {
@@ -2715,9 +2715,9 @@
     "skill_level": "easy",
     "runs_on_your_computer": true,
     "good_for": "AI chat, code suggestions and a coding helper built into JetBrains code editors such as IntelliJ IDEA and PyCharm.",
-    "watch_out": "You need a JetBrains code editor installed to use it. The free plan has only 3 AI Credits per 30 days, and AI Pro has 10.",
+    "watch_out": "You need a JetBrains code editor installed, and the free plan only works in the paid (commercial) editors: not in IntelliJ IDEA or PyCharm without a paid subscription, and not in Android Studio. The free plan has only 3 AI Credits per 30 days, and AI Pro has 10.",
     "link": "https://www.jetbrains.com/ai-ides/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://www.jetbrains.com/store/ai/"
   },
   {
@@ -2754,7 +2754,7 @@
     "good_for": "Makes AI video, images and talking avatars from a prompt, in a web studio with an AI assistant.",
     "watch_out": "There is no free plan in the price table, and making videos uses paid credits. Basic gives 2,000 credits a month with slower generations; faster generation starts at $50/month on the Pro plan.",
     "link": "https://www.hedra.com/studio",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://www.hedra.com/pricing"
   },
   {
@@ -2791,7 +2791,7 @@
     "good_for": "Turns a script, blog post or slides into a video with a realistic AI voice, stock footage and music.",
     "watch_out": "The free plan makes 720p videos with a Fliki watermark and gives only 3 credits a month. Standard gives 180 credits a month.",
     "link": "https://fliki.ai/",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://fliki.ai/pricing"
   },
   {
@@ -2863,7 +2863,7 @@
     "good_for": "An open music model that makes full songs from a text description and lyrics on your own computer, with a simple web screen to use it.",
     "watch_out": "Setup is technical: you install it with Python, or use the ready-made download for Windows or Mac. It runs best with a strong graphics card and can be slow without one.",
     "link": "https://github.com/ace-step/ACE-Step-1.5",
-    "last_checked": "2026-10-28",
+    "last_checked": "2026-11-09",
     "watch_out_source": "https://github.com/ace-step/ACE-Step-1.5"
   },
   {
