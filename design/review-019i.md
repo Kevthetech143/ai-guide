@@ -1,0 +1,46 @@
+# Review of ai-guide-019i (batch 21, the 20 oldest cards) — 2026-11-10
+
+Verdict: SHIP. Score: 9/10. No edits made to the patch.
+Reviewer: Fable 5.1, fresh context. Files written: this file only. Patch left as the worker wrote it (/Users/admin/agents/ai-guide-brain/site/data/providers-019i.json).
+
+Why SHIP: every spot-checked card matches its live page number for number; the diff vs providers.json carries only last_checked on 20 cards plus the four fields the worker listed (scira price_from + watch_out, opencode watch_out + watch_out_source); every watch_out sentence I re-read is on its cited page; all 12 links I fetched answered 200 to curl with a Chrome UA. One point off: the onyx recheck note says "unverified whether the cloud plan is affected" when Onyx's own letter (linked from the banner the worker saw) answers it in one click.
+
+How I checked: curl with a Chrome UA (all 200) for scira.ai/pricing, opencode.ai/go, opencode.ai/docs/go/, onyx.app, onyx.app/pricing, onyx.app/blog/onyx-joins-zoom, paperguide.ai/pricing/, veed.io/pricing, topazlabs.com/topaz-photo, komo.ai/pricing, zencoder.ai/pricing, jammable.com/pricing, lumen5.com/pricing/. Real Chrome via playwright-cli session ag019ir (profile ~/.config/pw-aiguide-recheck, no sign-in) for veed (yearly default, then monthly), paperguide (yearly default, then Monthly), komo (annual default), lumen5 (yearly default, then Monthly). Session closed; `pgrep -f pw-aiguide-recheck` printed nothing (rc=1). Page copies under /tmp/ag019i/rv/.
+
+## 1. Spot-checks (free_tier, price_from, link)
+- scira | OK | "Free gets you 20 searches a month and every source."; Free "$0 forever ... 20 searches a month Basic AI models"; Pro "$15 per month ... Unlimited searches ... Sonnet 300/mo · Opus 60/mo ... (200/wk pool)". Also on page: "Pro is $9 a month with a school email, $15 otherwise" (student price, list $15 kept). Link 200.
+- opencode | OK | docs/go/: "Go $10/month"; "Beam Free (limited time, limited regions) ... Iceman Contributor Free (limited time)"; "Each model has the following usage limits: 5-hour — 20% of the monthly limit; weekly — 50%; and monthly — 100%." /go: "Plans start at $10 a month"; "Free models have a daily request limit"; "counted over five-hour, weekly and monthly windows, and allowances vary by model". Link 200.
+- onyx | OK | pricing: Business "$20 per user / month Annual Billing Start Free Trial"; Enterprise "Flexible pricing"; banner "Onyx is joining Zoom to provide the context layer for 'Conversation to Completion'. Read the letter". Home: "Self-Hosted ... Onyx runs entirely in your cloud"; "Open source, so the code is auditable end to end". cloud.onyx.app/auth/signup 200. Link 200. Ruling in 2a.
+- paperguide | OK | Chrome, Monthly: Plus "$19 Per seat/month"; Yearly default "$12 Per seat/month, billed annually"; Free "1,500 AI credits per month ... Limited Reference Manager, Limited AI Searches"; Plus "12,500 AI credits per month". Sale banner "Flash sale till 10 November 2026. Extra 50% discount on all plans with RESEARCH50" still up today; list price kept (018v rule). Link 200.
+- veed | OK | Chrome, monthly: Creator "$25 ... 500 Credits · ~125 AI Videos"; Pro "$45 ... 2,500 Credits"; Studio $79. Yearly default: Creator "$12 billed yearly ... 6,000 Credits". "Start for free". Card quotes the monthly view, "Paying yearly is cheaper" true. Link 200.
+- topaz-photo | OK | curl text has all three toggles: "Personal $39/mo Cancel anytime"; "Personal $199/yr Billed annually"; "Annual, Billed Monthly ... $25/mo *With annual commitment"; "Limited commercial use* *Personal and commercial use for orgs under $1M USD annual revenue." No free plan. Link 200.
+- lumen5 | OK | Chrome, Monthly: Basic "$29 USD per month" (yearly default "$19 USD per month, billed yearly"); Free "$0/forever ... Contains Lumen5 branded outro, Max 2-minute long videos, 5 videos per month". Link 200.
+- jammable | OK | Basic "$1.99 $8.99 first month, then $8.99 a month"; "Compare plans No plan Basic Pro Studio Browse and hear every voice ✓ ✓ ✓ ✓". Link 200.
+- zencoder | OK | Monthly: Pro "$45 /user/month" (yearly "$40 ... billed annually"); "7-day Pro trial (5,000 credits) Free trial ends after 7 days or 5,000 credits, whichever comes first."; "30,000 monthly credits"; "On-demand credit top-ups". Link 200.
+- komo | partly re-read | Chrome, annual default: Free "$0 ... 25 credits every day ... Komo Fast + budget models"; Pro "$17 /month when billed annually ... 2,000 monthly credits"; Max $170. The monthly $20 figure is worker-verified (Chrome, Monthly toggle); my toggle click landed on the wrong page and I did not reopen Chrome. Link 200.
+- Not re-read by me (worker-verified only): openhands, ultimate-vocal-remover, buzz, dia2, diffrhythm-2, draw-things, easy-diffusion, f5-tts, handy, kokoro-tts — all open-source/local, unchanged cards.
+
+## 2. Rulings
+(a) onyx — KEEP the card, no watch_out line needed now. Onyx is not shutting down; it is the opposite of the hume-ai / removebg shape. The official letter (onyx.app/blog/onyx-joins-zoom, Oct 21, 2026, by the co-founders) says: "Today we're announcing that Onyx is joining Zoom. We want to start with what matters most: nothing about how you use Onyx is changing. Same product, same team, same service." and "Onyx remains a standalone, open-source, app-agnostic product."; FAQ "Is Onyx still open-source? Yes, Onyx will remain open-source."; "If you are running Onyx in a self-hosted manner, then nothing changes for your data."; "What happens to my subscription? Your subscription remains the same." The pricing page still sells Business at $20 per user/month annual with "Start Free Trial", the site still shows "Try for Free", and cloud.onyx.app/auth/signup answers 200. GitHub onyx-dot-app/onyx is live (worker: v5.1.1 on 2026-11-09, MIT). So: still sold, still self-hostable, still taking signups. Nothing a reader pays or does changes, so under the 018v rule (watch_out = facts a reader must see) no line is required. Carry "Onyx joining Zoom" as a watch item; add a line only if pricing, the free CE or signups change.
+(b) scira and opencode rewrites — OK as written. scira: "The free plan allows only 20 searches a month, with basic AI models. Pro has unlimited searches, but some top models have monthly or weekly caps." Every clause on scira.ai/pricing (20 per month; "Basic models"; "Unlimited"; "Sonnet 300/mo · Opus 60/mo"; "200/wk pool"). Plain words, no jargon. opencode: "Some of the free models are listed as available for a limited time. The $10/month Go plan has usage limits every 5 hours, every week and every month, set per model." Every clause on opencode.ai/docs/go/ ("limited time"; "$10/month"; "5-hour ... weekly ... monthly"; "Each model's monthly limit"). The source move /go -> /docs/go/ is right: /go does not say "limited time". "Usage limits" is plainer than the old "request limits" and matches the page's own words.
+(c) scira ripple — ACCEPT the worker's replacement: "Several free plans cap how many searches you get, Scira's at just 20 a month, so whichever you use, click a source before you trust the answer." Only Scira is named; it is already on that page. meta_description names Scira without a number; no change.
+
+## 3. Fixes applied to the patch
+None.
+
+## 4. price_from shape — all 20 OK
+Monthly-first where a monthly plan exists: scira, paperguide, veed, topaz-photo, lumen5, zencoder, komo, jammable. onyx has no monthly plan ($20/user/month, annual billing only) so "billed annually" is the only shape. opencode is Free with Go $10/month. The open-source/local tools read Free / Free to run.
+
+## 5. Silent-change check — OK
+Diff of all 20 cards vs providers.json: last_checked on 20 cards -> 2026-11-10, plus exactly scira (price_from, watch_out) and opencode (watch_out, watch_out_source). No id/name/categories/link/free_tier/open_weights/runs_on_your_computer/good_for change. All 20 ids exist; none new. File is a JSON list of 20.
+
+## 6. Watch_out sentences vs cited pages
+- scira, opencode, onyx, paperguide, veed, topaz-photo, lumen5, jammable, zencoder: read by me today, every sentence on the cited page (section 1).
+- komo: free-plan and Pro clauses on the cited page; "$20/month" worker-verified.
+- The 10 open-source/local cards: worker-verified, unchanged.
+
+## 7. Side effects the lead should know
+- Ripples: one. ai-search-that-shows-its-sources | intro | "...Scira's at just 5 a month..." -> "...Scira's at just 20 a month..." (data/questions.json; lead applies). opencode appears in no question intro/meta_description/title.
+- schema.org Offer: no first-dollar figure changes (scira's first dollar stays "Free"; Pro $15 unchanged). No filter-page movement (free_tier unchanged everywhere).
+- Watch items to carry forward: onyx joining Zoom (letter says nothing changes; recheck pricing/CE next batch); paperguide RESEARCH50 flash sale banner still showing on its last day (11-10), list price kept; veed yearly view now shows 6,000 credits vs 500 monthly; scira student price $9/month; opencode /go and /docs/go/ describe the free-model limit differently (daily vs "limited time").
+- Nothing else for the lead at merge beyond copying the 20 cards over and the one questions.json ripple.

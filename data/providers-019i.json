@@ -1,0 +1,366 @@
+[
+  {
+    "id": "komo",
+    "name": "Komo",
+    "company": "Komo AI",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Komo Pro $20/month, or $17/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Asking questions and getting AI answers with links to the sources; paid plans add deep research and top AI models",
+    "watch_out": "The free plan gives 25 credits a day and only Komo's fast and budget AI models. Deep research, people search and top models like GPT, Claude and Gemini need Komo Pro ($20/month for 2,000 credits)",
+    "link": "https://komo.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://komo.ai/pricing"
+  },
+  {
+    "id": "lumen5",
+    "name": "Lumen5",
+    "company": "Lumen5 Technologies Ltd",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Basic plan $29/month, billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turns a blog post, link or script into a short social video with AI help. Built mainly for business use.",
+    "watch_out": "The free plan allows 5 videos a month, up to 2 minutes each, with a Lumen5 branded outro. The Basic plan removes the branding.",
+    "link": "https://lumen5.com/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://lumen5.com/pricing/"
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "company": "DanswerAI, Inc.",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (Onyx cloud $20 per user/month, billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "AI chat and search across a team's work files and apps (like Slack, Google Drive and Confluence), in Onyx's cloud or installed on your own server",
+    "watch_out": "Made for teams at work. The $20 per person price is only offered with yearly billing. The free version means installing it yourself on a computer or server you manage, which takes technical skill",
+    "link": "https://onyx.app/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://onyx.app/pricing"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "company": "Anomaly Innovations, Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (free models included; OpenCode Go from $10/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An open source AI coding helper for the terminal, a desktop app or your code editor. Connect almost any AI model, including ones on your own computer.",
+    "watch_out": "Some of the free models are listed as available for a limited time. The $10/month Go plan has usage limits every 5 hours, every week and every month, set per model.",
+    "link": "https://opencode.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://opencode.ai/docs/go/"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "company": "All Hands AI",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (open source; you bring your own AI key). Teams plan $500/month for up to 10 users; Enterprise is custom-priced",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Open-source AI helpers that write and fix software for you, either installed free on your own computer or used on the OpenHands website",
+    "watch_out": "Built for software developers. The free version (Agent Canvas) runs on your own computer, and you bring your own AI key, so you pay for the AI yourself. The paid Teams plan is $500 a month for up to 10 users.",
+    "link": "https://www.openhands.dev/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://www.openhands.dev/pricing"
+  },
+  {
+    "id": "paperguide",
+    "name": "Paperguide",
+    "company": "Keevs Health Inc",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (1,500 AI credits a month); Plus $19/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI research helper that finds papers, answers questions about them with citations and helps write literature reviews.",
+    "watch_out": "The free plan gives 1,500 AI credits a month, with limited AI searches and a limited reference manager. Plus gives 12,500 credits.",
+    "link": "https://paperguide.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://paperguide.ai/pricing/"
+  },
+  {
+    "id": "scira",
+    "name": "Scira",
+    "company": "Scira AI",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (20 searches a month); Pro $15/month",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "An AI search engine that answers with sources from the web, Reddit, X, YouTube and academic papers. The code is open source.",
+    "watch_out": "The free plan allows only 20 searches a month, with basic AI models. Pro has unlimited searches, but some top models have monthly or weekly caps.",
+    "link": "https://scira.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://scira.ai/pricing"
+  },
+  {
+    "categories": [
+      "image"
+    ],
+    "company": "Topaz Labs",
+    "free_tier": false,
+    "good_for": "AI photo enhancement: denoise, sharpen, upscale, face recovery.",
+    "id": "topaz-photo",
+    "last_checked": "2026-11-10",
+    "link": "https://www.topazlabs.com/topaz-photo",
+    "name": "Topaz Photo",
+    "open_weights": false,
+    "price_from": "$39/month (Personal, billed monthly), or $199/year",
+    "runs_on_your_computer": true,
+    "skill_level": "easy",
+    "watch_out": "Commercial use limited to orgs under $1M USD annual revenue.",
+    "watch_out_source": "https://www.topazlabs.com/topaz-photo"
+  },
+  {
+    "id": "ultimate-vocal-remover",
+    "name": "Ultimate Vocal Remover",
+    "company": "Anjok07 and aufr33",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free (donations welcome)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free desktop app for Windows, Mac and Linux that splits a song into vocals and instruments using AI models, for karaoke tracks and remixing.",
+    "watch_out": "Splitting runs on your own computer, so it can be slow without a good graphics card. You download the AI models you want to use.",
+    "link": "https://ultimatevocalremover.com/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/Anjok07/ultimatevocalremovergui"
+  },
+  {
+    "id": "veed",
+    "name": "VEED",
+    "company": "Veed Limited",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to start; Creator $25/month (billed monthly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A web video editor with AI subtitles, AI voices, avatars and video generation, so you can edit and polish clips in one place.",
+    "watch_out": "The Creator plan includes 500 credits a month for the AI tools. Pro costs $45/month for 2,500 credits. Paying yearly is cheaper.",
+    "link": "https://www.veed.io/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://www.veed.io/pricing"
+  },
+  {
+    "id": "zencoder",
+    "name": "Zencoder",
+    "company": "For Good AI Inc.",
+    "categories": [
+      "code",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$45/user/month (Pro plan, billed monthly; 7-day Pro trial, no free plan)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "An AI coding helper that plugs into popular code editors and works with models from OpenAI, Anthropic and Google, or your own keys.",
+    "watch_out": "There is no free plan, only a 7-day trial that also ends after 5,000 credits, whichever comes first. Pro includes 30,000 credits a month, and extra credits are sold as top-ups.",
+    "link": "https://zencoder.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://zencoder.ai/pricing"
+  },
+  {
+    "id": "buzz",
+    "name": "Buzz",
+    "company": "Chidi Williams and Buzz contributors",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that turns audio and video into text, and translates it, entirely on your own computer using OpenAI's Whisper. Nothing has to be uploaded.",
+    "watch_out": "Buzz now needs an Apple silicon Mac; version 1.4.5 is the last one that runs on Intel Macs. The Windows installer is not signed, so you will see a warning when you install it.",
+    "link": "https://github.com/chidiwilliams/buzz",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/chidiwilliams/buzz"
+  },
+  {
+    "id": "dia2",
+    "name": "Dia2",
+    "company": "Nari Labs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open model that turns a script with two speakers into natural-sounding spoken dialogue, and can start speaking before the whole text is in.",
+    "watch_out": "It only supports English and up to 2 minutes of audio at a time. Voices change from one try to the next unless you give it a voice sample. Setup needs a command line, and the guide is written for computers with an NVIDIA graphics card.",
+    "link": "https://github.com/nari-labs/dia2",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/nari-labs/dia2"
+  },
+  {
+    "id": "diffrhythm-2",
+    "name": "DiffRhythm 2",
+    "company": "ASLP Lab",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself (free online demo available)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open model that writes full-length songs with vocals that follow your lyrics. The model files are free to download and run on your own computer.",
+    "watch_out": "Running it yourself takes command-line steps and Python, so it suits technical users. You can try it free in your web browser on its Hugging Face demo page.",
+    "link": "https://github.com/ASLP-lab/DiffRhythm2",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/ASLP-lab/DiffRhythm2"
+  },
+  {
+    "id": "draw-things",
+    "name": "Draw Things",
+    "company": "Draw Things, Inc.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Draw Things+ $8.99/month for more cloud power)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free image-making app for iPhone, iPad and Mac that creates pictures from text on your own device, offline. It can also train your own custom styles on the device.",
+    "watch_out": "It is built for Apple devices. Cloud compute needs a free account, and higher cloud limits and custom style uploads need Draw Things+ at $8.99 a month.",
+    "link": "https://drawthings.ai/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://drawthings.ai/"
+  },
+  {
+    "id": "easy-diffusion",
+    "name": "Easy Diffusion",
+    "company": "cmdr2 and contributors",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A one-click installer that sets up Stable Diffusion on your own computer, with a friendly page for making pictures from text or from another image.",
+    "watch_out": "It needs at least 8 GB of memory and 25 GB of free disk space. It can use an NVIDIA, AMD or Apple graphics chip, or run more slowly without one. The license forbids sharing images that break laws or cause harm.",
+    "link": "https://easydiffusion.github.io/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/easydiffusion/easydiffusion"
+  },
+  {
+    "id": "f5-tts",
+    "name": "F5-TTS",
+    "company": "SWivid with the X-LANCE, SII and PCL labs",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open text-to-speech model that can copy the sound of a voice from a short sample recording. Runs on your own computer.",
+    "watch_out": "The code is MIT licensed but the voice model files are licensed for non-commercial use only. Only copy voices you have permission to use. Setup needs Python.",
+    "link": "https://github.com/SWivid/F5-TTS",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://github.com/SWivid/F5-TTS"
+  },
+  {
+    "id": "handy",
+    "name": "Handy",
+    "company": "CJ Pais and Handy contributors",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (donations welcome)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free dictation app: hold a shortcut key, speak, and your words are typed into whatever text box you are using. It works on your own computer without sending audio to the cloud.",
+    "watch_out": "It does one thing: turns your speech into text in the box you are typing in.",
+    "link": "https://handy.computer/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://handy.computer/"
+  },
+  {
+    "id": "jammable",
+    "name": "Jammable",
+    "company": "Jammable Limited",
+    "categories": [
+      "music",
+      "voice"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$8.99/month (no free plan)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make AI cover songs: pick a voice from a library of 60,000+ voices, add your track and it sings it in that voice. It also has a voice changer and text to speech.",
+    "watch_out": "There is no free plan; the cheapest plan is Basic at $8.99 a month, with the first month at $1.99. Many voices imitate real singers and characters, so check you are allowed to share what you make.",
+    "link": "https://www.jammable.com/",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://www.jammable.com/pricing"
+  },
+  {
+    "id": "kokoro-tts",
+    "name": "Kokoro",
+    "company": "hexgrad",
+    "categories": [
+      "voice"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A small, fast open text-to-speech model that reads text aloud in a natural voice. Light enough to run on an ordinary computer.",
+    "watch_out": "It is a model, not an app, so you need some Python skills or a tool built on top of it. Check the model page for which languages and voices it covers.",
+    "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "last_checked": "2026-11-10",
+    "watch_out_source": "https://huggingface.co/hexgrad/Kokoro-82M"
+  }
+]
