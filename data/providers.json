@@ -2899,7 +2899,7 @@
     "good_for": "A free tool from Deezer that splits a song into 2, 4 or 5 parts such as vocals, drums and bass, using ready-trained AI models.",
     "watch_out": "It is a Python command-line tool with no app window, so it suits people comfortable installing software.",
     "link": "https://github.com/deezer/spleeter",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/deezer/spleeter"
   },
   {
@@ -2953,7 +2953,7 @@
     "good_for": "Type a song name and it splits the song into vocals, drums, bass and everything else, plus an instrumental. Handy for making karaoke tracks.",
     "watch_out": "Splitting a song takes several minutes. You download the app and it runs on your own computer.",
     "link": "https://www.stemroller.com/",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/stemrollerapp/stemroller"
   },
   {
@@ -2988,10 +2988,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Speak instead of typing: press a key, talk, and your words are typed into any app. Works on Mac, Windows, iPhone and Android in 100+ languages.",
-    "watch_out": "The free plan is capped at 2,000 words a week on a computer and has limited weekly use on a phone. Pro removes the cap.",
+    "watch_out": "The free plan is capped at 2,000 words a week. Pro removes the cap.",
     "link": "https://wisprflow.ai/",
-    "last_checked": "2026-10-29",
-    "watch_out_source": "https://wisprflow.ai/pricing"
+    "last_checked": "2026-11-11",
+    "watch_out_source": "https://wisprflow.ai/"
   },
   {
     "id": "kokoro-tts",
@@ -3026,7 +3026,7 @@
     "good_for": "A fast text-to-speech engine that runs fully on your own computer, with many free downloadable voices. Good for reading text aloud without sending it to the cloud.",
     "watch_out": "You install it from the command line, so it suits technical users. The project says it is looking for new maintainers.",
     "link": "https://github.com/OHF-Voice/piper1-gpl",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/OHF-Voice/piper1-gpl"
   },
   {
@@ -3098,7 +3098,7 @@
     "good_for": "A free app that transcribes audio and video files into text on your own device, with subtitles export and speaker labels. Works on Mac, Windows and Linux.",
     "watch_out": "Transcription speed depends on your computer. Optional summaries use the Claude API or Ollama, which you set up separately.",
     "link": "https://github.com/thewh1teagle/vibe",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/thewh1teagle/vibe"
   },
   {
@@ -3134,7 +3134,7 @@
     "good_for": "An AI research helper that searches the web and academic papers, and writes answers with sources. Also has deep research reports and file uploads.",
     "watch_out": "The free plan shows ads in answers and allows 1 file upload a day. Its credits are limited and may run out quickly with just a few tasks.",
     "link": "https://liner.com/",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://liner.com/pricing"
   },
   {
@@ -3152,7 +3152,7 @@
     "good_for": "A search tool for scientific papers: you describe your research, it reads hundreds of papers and builds a report with citations you can trace back to the source.",
     "watch_out": "Pro costs $20 a month for academic users but $75 a month for industry users; paying yearly lowers the academic price to $16 a month. The free plan has standard usage limits; Pro raises them 10 times.",
     "link": "https://www.undermind.ai/",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://www.undermind.ai/#pricing"
   },
   {
@@ -3170,7 +3170,7 @@
     "good_for": "Remove backgrounds, erase objects, upscale photos and generate new backgrounds with AI, in a simple editor.",
     "watch_out": "On the free plan background removal and upscaling are limited. Pro includes 600 AI credits a month, and the stronger AI models spend those credits.",
     "link": "https://www.pixelcut.ai/",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://www.pixelcut.ai/pricing"
   },
   {
@@ -3207,7 +3207,7 @@
     "good_for": "A web page you run on your own computer for making AI images and video with models like Stable Diffusion and Flux. Gives you a lot of control.",
     "watch_out": "It is aimed at people comfortable installing software and picking models. Each model you download has its own license.",
     "link": "https://github.com/mcmonkeyprojects/SwarmUI",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/mcmonkeyprojects/SwarmUI"
   },
   {
@@ -3241,9 +3241,9 @@
     "skill_level": "hard",
     "runs_on_your_computer": true,
     "good_for": "A free plugin for the Krita painting app that adds AI image generation, inpainting and outpainting inside your drawing. Runs on your own hardware.",
-    "watch_out": "You need to install Krita first and then set up the plugin. Running it on your own computer needs a strong graphics card with at least 6 GB of graphics memory, or it gets very slow. The online service needs no graphics card, but you pay for tokens after the free ones run out.",
+    "watch_out": "You need to install Krita first and then set up the plugin. Running it on your own computer needs a strong graphics card with at least 6 GB of graphics memory, or it gets very slow. The maker also offers cloud generation so you can get started without a big hardware investment.",
     "link": "https://github.com/Acly/krita-ai-diffusion",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://github.com/Acly/krita-ai-diffusion"
   },
   {
@@ -3261,7 +3261,7 @@
     "good_for": "Type or paste a script and pick an AI voice to read it aloud, with video export. Voice generation and playback are free; you spend credits when you download.",
     "watch_out": "The free plan allows about 5 minutes of audio downloads in total and requires you to credit Typecast on what you download. Basic includes about 35 minutes of downloads each month.",
     "link": "https://typecast.ai/",
-    "last_checked": "2026-10-29",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://typecast.ai/pricing"
   },
   {
@@ -3315,7 +3315,7 @@
     "good_for": "An AI assistant built into the Brave browser. Ask it questions, or have it summarize the web page, document or PDF you are looking at.",
     "watch_out": "Leo only comes with the Brave browser. Leo Premium adds more models and higher rate limits than the free version.",
     "link": "https://brave.com/leo/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://brave.com/leo/"
   },
   {
@@ -3352,7 +3352,7 @@
     "good_for": "A downloadable app where AI agents build software for you. You describe what you want, and you can run several agents at once on different projects.",
     "watch_out": "The free Individual plan has basic weekly rate limits, so heavy users will hit the cap. Higher limits come with the paid Google AI Pro and Ultra plans.",
     "link": "https://antigravity.google/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://antigravity.google/pricing"
   },
   {
@@ -3389,7 +3389,7 @@
     "good_for": "Turn a vocal recording into a different singing voice, split a song into vocals and instruments, and make harmonies. It is aimed at music makers.",
     "watch_out": "The free plan gives 15 minutes of conversions, MP3 downloads only and personal use only, with no harmony maker, and you cannot save your conversions. Starter includes 1 hour of conversions a month.",
     "link": "https://audimee.com/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://audimee.com/pricing"
   },
   {
@@ -3441,9 +3441,9 @@
     "skill_level": "easy",
     "runs_on_your_computer": true,
     "good_for": "Drop in a recording of one instrument, or sing into your microphone, and get a MIDI file back that you can edit in music software. It is a free tool from Spotify.",
-    "watch_out": "The online tool takes a recording of a single instrument or your singing, and gives you a MIDI file to clean up, not finished sheet music. There is also a version for programmers that you install with pip.",
+    "watch_out": "The online tool takes a recording of a single instrument or your singing, and gives you a MIDI file to clean up, not finished sheet music. It is open source, so programmers can also get the code from its GitHub page.",
     "link": "https://basicpitch.spotify.com/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://basicpitch.spotify.com/"
   },
   {
@@ -3462,7 +3462,7 @@
     "good_for": "A free AI coding helper that runs in your terminal, the text window where you type commands. You choose which AI model powers it, and you can keep several work sessions for each project.",
     "watch_out": "It works only by typing in a terminal window, so it suits people comfortable with the command line. You need a model: the Hyper service from the same company (its free monthly allowance has ended, so you pay with a plan or prepaid credits starting at $5), or your own key from a provider like Anthropic, OpenAI or Gemini.",
     "link": "https://github.com/charmbracelet/crush",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://hyper.charm.land/faq"
   },
   {
@@ -3496,9 +3496,9 @@
     "skill_level": "medium",
     "runs_on_your_computer": true,
     "good_for": "Build a team of AI helpers for research, content and sales work by describing the job in plain English. They can run on a schedule. A free version you set up and run yourself is also available.",
-    "watch_out": "The cloud Pro plan needs a card to start the 7-day trial, then costs $50/month, and scheduled runs spend from a credit wallet with a cap you set for each helper. The free version you run yourself needs Docker setup and your own AI model keys.",
+    "watch_out": "The cloud Pro plan needs a card to start the 7-day trial, then costs $50/month, and scheduled runs spend from a credit wallet with a cap you set for each helper. The free version you run yourself is open source and needs your own AI model keys.",
     "link": "https://agpt.co/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://agpt.co/pricing/"
   },
   {
@@ -3534,7 +3534,7 @@
     "good_for": "A free desktop app that turns a plain-English description into a working web app on your own computer, using the AI model you choose. No sign-up is needed to download it.",
     "watch_out": "You bring your own AI access, such as an API key (a paid access code from an AI company), a ChatGPT subscription or a free local model. The free plan's built-in agent mode is limited to 20 messages a day; the fuller Pro Agent mode with its own AI credits comes with Pro at $20/month.",
     "link": "https://www.dyad.sh/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://www.dyad.sh/pro"
   },
   {
@@ -3552,7 +3552,7 @@
     "good_for": "Free web tools to remove backgrounds, erase unwanted objects, upscale pictures 2x, relight photos and remove text.",
     "watch_out": "The free plan allows 20 uses per 24 hours on background removal, upscaling, cleanup and relight, and 50 on text remover. Text-to-image, extending photos (Uncrop) and background replacement need Pro at $15/month, which also adds high-resolution output and 16x upscaling.",
     "link": "https://clipdrop.co/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://clipdrop.co/pricing"
   },
   {
@@ -3589,7 +3589,7 @@
     "good_for": "Turn text or pictures into short AI videos and images. The Basic plan includes character-to-video, talking avatars, 4K video upscaling and watermark-free results.",
     "watch_out": "Basic includes 600 credits a month, which the page says is about 85 videos or 150 images. Unlimited \"Relax\" generations on supported models start with the Standard plan at $42/month.",
     "link": "https://www.domoai.app/",
-    "last_checked": "2026-10-30",
+    "last_checked": "2026-11-11",
     "watch_out_source": "https://www.domoai.app/pricing"
   },
   {
