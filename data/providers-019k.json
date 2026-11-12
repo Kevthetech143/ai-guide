@@ -1,0 +1,366 @@
+[
+  {
+    "id": "lumo",
+    "name": "Lumo",
+    "company": "Proton AG",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Lumo Plus $12.99/month, or $9.99/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "A private AI chat assistant from Proton, the email and privacy company. You can try it without an account, and a free account lets you keep your chat history.",
+    "watch_out": "The free plan limits use of the Max model, messages and chat history, and image generations, and allows 1 project. Lumo Plus raises those limits.",
+    "link": "https://proton.me/lumo",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://proton.me/lumo"
+  },
+  {
+    "id": "magnific",
+    "name": "Magnific",
+    "company": "Magnific AI, S.L.U.",
+    "categories": [
+      "image",
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$20/month (Premium; $14.50/month billed annually)",
+    "skill_level": "medium",
+    "runs_on_your_computer": false,
+    "good_for": "One subscription for AI image, video, music and voice generation with many leading models, pro editing tools, a shared canvas for workflows called Spaces, and a stock library with a commercial AI license.",
+    "watch_out": "Monthly Premium includes 20,000 credits a month. Unlimited generations need Premium+ at $45/month ($33.75/month billed annually). Prices exclude VAT and local taxes.",
+    "link": "https://www.magnific.com/pricing",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://www.magnific.com/pricing"
+  },
+  {
+    "id": "morphic",
+    "name": "Morphic",
+    "company": "Shironel",
+    "categories": [
+      "search"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "A free AI search engine that gives a complete answer with its sources instead of a list of links. Use it on its website, or run your own copy, because the code is open source.",
+    "watch_out": "Running your own copy takes technical setup with Docker plus at least one AI provider key (OpenAI, Anthropic or Google, for example).",
+    "link": "https://chat.morphic.sh/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://github.com/miurla/morphic"
+  },
+  {
+    "id": "msty",
+    "name": "Msty Studio",
+    "company": "CloudStack, LLC",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Aurum $149/year, billed annually; lifetime license $349 one-time)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A desktop app for chatting with AI models, either ones that run on your own computer or online ones, with personas, saved knowledge and prompt tools in one workspace.",
+    "watch_out": "The free plan marks some features as limited, including persona chats, crew conversations and knowledge stacks. Msty Studio Web and the advanced features need the paid Aurum plan.",
+    "link": "https://msty.ai/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://msty.ai/pricing/"
+  },
+  {
+    "id": "musicgpt",
+    "name": "MusicGPT",
+    "company": "MusicGPT Ltd",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus $11.99/month, or $9.99/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Type a description and get a full song, or make sound effects and spoken audio.",
+    "watch_out": "The free plan gives 500 credits a month, and each download costs 50 credits. Plus includes 5,000 credits a month, 100 songs a month and unlimited free downloads; remix and edit come with Pro ($21.99/month).",
+    "link": "https://musicgpt.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://musicgpt.com/pricing"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "company": "Open WebUI, Inc.",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free to run yourself (Enterprise plans are by quote)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "A free chat app for AI that you install yourself and use in your web browser. It works with AI models on your own computer (through Ollama) or online ones, and adds document chat, web search, voice and image tools.",
+    "watch_out": "You install it yourself: with the desktop app, a typed command (pip) or Docker. Then you connect an AI model.",
+    "link": "https://openwebui.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://docs.openwebui.com/getting-started/quick-start/"
+  },
+  {
+    "id": "pixlr",
+    "name": "Pixlr",
+    "company": "Pixlr Pte. Ltd.",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$2.49/month (Plus; $1.99/month billed yearly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Edit photos and make AI images in your web browser. The Plus plan removes ads, allows unlimited saves and includes 80 AI credits each month.",
+    "watch_out": "Plus's 80 monthly credits cover about 80 fast AI images or about 16 higher-quality ones. Unlimited fast image generations (fair use applies) need the Ultra plan, which starts at $24.99/month.",
+    "link": "https://pixlr.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://pixlr.com/pricing/"
+  },
+  {
+    "id": "stability-matrix",
+    "name": "Stability Matrix",
+    "company": "Lykos, LLC",
+    "categories": [
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (optional supporter plans from $5/month)",
+    "skill_level": "medium",
+    "runs_on_your_computer": true,
+    "good_for": "A free app that installs and manages popular AI image tools such as ComfyUI, Fooocus and Forge with one click, and lets you browse and download models from CivitAI and Hugging Face.",
+    "watch_out": "It sets up other image tools rather than being one itself, and you download the image models separately. Paid supporter plans add cloud extras and early builds; the $5/month Supporter plan includes 4,000 credits.",
+    "link": "https://lykos.ai/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://lykos.ai/membership"
+  },
+  {
+    "id": "submagic",
+    "name": "Submagic",
+    "company": "TURBO STUDIO S.A.S.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$19/month ($12/month billed yearly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Upload a short video and it adds captions automatically, plus free extra clips and sound, and lets you cut the video by editing its text.",
+    "watch_out": "The $19/month Starter plan includes 45 credits (about 15 videos) a month and videos up to 2 minutes long. Automatic removal of silences and bad takes needs Pro ($39/month).",
+    "link": "https://www.submagic.co/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://www.submagic.co/pricing"
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "company": "ShengShu AI HK Limited",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Standard $10/month, or $8.25/month billed yearly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make short AI videos from text, from a photo, or from reference pictures of a character or object.",
+    "watch_out": "The free plan is limited, for example 10 saved references a month. Standard includes 800 credits a month, which the page says covers up to 200 videos.",
+    "link": "https://www.vidu.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://www.vidu.com/pricing"
+  },
+  {
+    "id": "yue",
+    "name": "YuE2",
+    "company": "Multimodal Art Projection (M-A-P)",
+    "categories": [
+      "music"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open music model that turns your lyrics and a style description into a full song with vocals and backing music. The model files are free to download and run on your own computer.",
+    "watch_out": "Running it yourself needs a Linux computer with an NVIDIA graphics card with 24 GB of memory. Companies need a separate commercial license for the model files.",
+    "link": "https://github.com/multimodal-art-projection/YuE",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://github.com/multimodal-art-projection/YuE"
+  },
+  {
+    "id": "base44",
+    "name": "Base44",
+    "company": "Wix.com Ltd.",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Starter $20/month, or $16/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Describe the app you want in plain language and Base44 builds it with a database, sign-in and a visual editor. The free plan allows up to 5 apps.",
+    "watch_out": "Free includes 25 message credits a month. Starter at $20/month gives 100 message credits and lets you connect your own domain.",
+    "link": "https://base44.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://base44.com/pricing"
+  },
+  {
+    "id": "bolt-diy",
+    "name": "bolt.diy",
+    "company": "StackBlitz, Inc. and bolt.diy contributors",
+    "categories": [
+      "code"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source AI coding workspace where you pick the AI model for each prompt, from 22+ providers, and build complete web apps in your browser.",
+    "watch_out": "You add your own AI provider keys (paid access codes from AI companies) or a local model. The README points to ready-made desktop installers on its releases page, but the newest release had none attached when we checked; otherwise it is a developer setup with Node.js and pnpm or Docker. One part it relies on (WebContainers) has separate commercial terms for large business use. The makers say they now only do bug fixes and upkeep, with no new features planned.",
+    "link": "https://github.com/stackblitz-labs/bolt.diy",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://github.com/stackblitz-labs/bolt.diy"
+  },
+  {
+    "id": "chatbox",
+    "name": "Chatbox AI",
+    "company": "Mediocre, LLC",
+    "categories": [
+      "chat"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Lite plan $3.99/month, or $3.50/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "One app on desktop, mobile and the web for chatting with GPT, Claude, Gemini, Grok, DeepSeek and more, either with your own API keys (paid access codes from the AI companies) or with Chatbox's own plans.",
+    "watch_out": "The free plan gives 10,000 compute points a day, standard models only, and Work Mode (the agent feature) as a trial only. The advanced models need the Pro plan at $19.99/month on monthly billing; Lite at $3.99/month gives a bigger point allowance.",
+    "link": "https://chatboxai.app/en",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://chatboxai.app/en/pricing"
+  },
+  {
+    "id": "d-id",
+    "name": "D-ID",
+    "company": "De-Identification Ltd. and De-Identification Inc.",
+    "categories": [
+      "video"
+    ],
+    "open_weights": false,
+    "free_tier": false,
+    "price_from": "$5.9/month (Lite; $4.7/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Make talking videos from a photo or one of 100+ stock avatars by typing a script. Lite includes 10 minutes of video a month and fast processing.",
+    "watch_out": "Lite videos carry a D-ID watermark, and the commercial use license starts on Pro at $29/month. A free 14-day trial gives 3 minutes of video.",
+    "link": "https://www.d-id.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://www.d-id.com/pricing/studio/"
+  },
+  {
+    "id": "google-flow",
+    "name": "Google Flow",
+    "company": "Google LLC",
+    "categories": [
+      "video",
+      "image"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (paid plans from $4.99/month via Google AI Plus)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Google's AI studio for making videos and images: text to video, frames to video and image generation with models such as Veo and Nano Banana, free to try with a Google account.",
+    "watch_out": "You must be 18 or older. The free plan gives 50 credits a day. 1080p video upscaling and higher limits start with Google AI Plus at $4.99/month; prices vary by market.",
+    "link": "https://flow.google.com/about",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://flow.google.com/about"
+  },
+  {
+    "id": "klangio",
+    "name": "Klangio",
+    "company": "Klangio GmbH",
+    "categories": [
+      "music"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Pro $19.99/month, or $8.33/month billed annually)",
+    "skill_level": "easy",
+    "runs_on_your_computer": false,
+    "good_for": "Turn recordings into sheet music: upload audio or a YouTube link and get notes, tabs or MIDI. The free plan transcribes demos of up to 30 seconds.",
+    "watch_out": "Pro allows 50 transcriptions a month of up to 15 minutes each, with PDF, MIDI, Guitar Pro and MusicXML downloads. The Ultimate plan ($29.99/month, or $12.50/month billed annually) adds the plugin for music software and every transcription mode.",
+    "link": "https://klang.io/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://klang.io/transcription-studio/"
+  },
+  {
+    "id": "lobehub",
+    "name": "LobeHub",
+    "company": "LobeHub LLC",
+    "categories": [
+      "chat",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free (Plus plan $20/month, or $18/month billed yearly)",
+    "skill_level": "easy",
+    "runs_on_your_computer": true,
+    "good_for": "Chat with many AI models and organise your own team of AI agents in one place. The free plan refreshes its credits every month, and there are desktop apps for Mac, Windows and Linux plus iPhone and Android apps.",
+    "watch_out": "The free plan covers standard models only, with 500,000 credits a month and 15 MB of file storage. Advanced models need a paid plan, starting with Plus at $20/month on monthly billing.",
+    "link": "https://lobehub.com/",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://lobehub.com/pricing"
+  },
+  {
+    "id": "local-deep-research",
+    "name": "Local Deep Research",
+    "company": "LearningCircuit and contributors",
+    "categories": [
+      "search",
+      "agents"
+    ],
+    "open_weights": false,
+    "free_tier": true,
+    "price_from": "Free",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "An open-source research assistant you run yourself: it searches the web and your own documents with the AI model you choose, then writes a report with citations.",
+    "watch_out": "Setup means installing Docker (a free tool that runs apps in sealed boxes) and pasting a command from the README, which also starts a local AI model and a private search tool. Web searches still go out to the internet, and if you connect a cloud AI model instead of a local one, your questions go to that provider.",
+    "link": "https://github.com/LearningCircuit/local-deep-research",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://github.com/LearningCircuit/local-deep-research"
+  },
+  {
+    "id": "ltx-2",
+    "name": "LTX-2",
+    "company": "Lightricks",
+    "categories": [
+      "video"
+    ],
+    "open_weights": true,
+    "free_tier": true,
+    "price_from": "Free to run yourself (hosted LTX Studio from $15/month)",
+    "skill_level": "hard",
+    "runs_on_your_computer": true,
+    "good_for": "Lightricks' downloadable AI video models (the newest is LTX-2.5) that make video with synchronized sound from text or pictures, and also work inside the free ComfyUI tool.",
+    "watch_out": "Setup is done from the command line and the model download is roughly 66 GiB. You must accept the model terms on Hugging Face to download it. The code is open source, but the models have their own license, so read its terms before business use.",
+    "link": "https://github.com/Lightricks/LTX-2",
+    "last_checked": "2026-11-12",
+    "watch_out_source": "https://github.com/Lightricks/LTX-2"
+  }
+]
