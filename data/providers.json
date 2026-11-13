@@ -16,7 +16,7 @@
     "watch_out": "The free plan gives unlimited plain chats but limits uploads, pictures and voice chats; the cheapest paid plan (Go) costs $8 a month and may include ads.",
     "watch_out_source": "https://chatgpt.com/pricing",
     "link": "https://chatgpt.com/pricing",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "claude",
@@ -35,7 +35,7 @@
     "watch_out": "The free plan runs out of messages fast on busy days; the Pro plan costs $20 a month when billed monthly.",
     "watch_out_source": "https://claude.com/pricing",
     "link": "https://claude.com/pricing",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "gemini",
@@ -424,7 +424,7 @@
     "free_tier": false,
     "good_for": "An AI coding helper that works in your terminal; it can read your whole project, make changes, and run tests.",
     "id": "claude-code",
-    "last_checked": "2026-11-02",
+    "last_checked": "2026-11-13",
     "link": "https://claude.com/pricing",
     "name": "Claude Code",
     "open_weights": false,
@@ -550,7 +550,7 @@
     "free_tier": true,
     "good_for": "Great for business-ready pictures that are safe to use commercially, since it is trained on licensed content.",
     "id": "adobe-firefly",
-    "last_checked": "2026-11-02",
+    "last_checked": "2026-11-13",
     "link": "https://www.adobe.com/products/firefly.html",
     "name": "Adobe Firefly",
     "open_weights": false,
@@ -558,7 +558,7 @@
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "The free plan gives limited free generations each day; the cheapest paid plan (Standard) costs $9.99 a month for 2,000 monthly credits.",
-    "watch_out_source": "https://www.adobe.com/products/firefly.html"
+    "watch_out_source": "https://www.adobe.com/products/firefly/plans.html"
   },
   {
     "categories": [
@@ -957,7 +957,7 @@
     "watch_out": "The paid Pro plan costs $19.99 a month and adds all premium templates, 1,200 monthly AI credits and 1 TB of storage. The free plan covers basic editing tools and free templates.",
     "watch_out_source": "https://www.capcut.com/pricing",
     "link": "https://www.capcut.com",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "perplexity-comet",
@@ -3623,10 +3623,10 @@
     "price_from": "Free (Pro $9.99/month)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
-    "good_for": "Swap any character into trending clips, or turn a phone video into motion for your own character, to make memes and short social videos. The free plan includes 5 videos a day.",
+    "good_for": "Swap any character into trending clips, or turn a phone video into motion for your own character, to make memes and short social videos. The free plan gives free credits that refresh every day.",
     "watch_out": "Free allows one video at a time and keeps your files for 7 days. Pro at $9.99/month adds 80 credits a month, no watermark and permanent storage; access to all models needs the Live plan at $19.99/month.",
     "link": "https://viggle.ai/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://viggle.ai/pricing"
   },
   {
@@ -3662,7 +3662,7 @@
     "good_for": "Find research papers related to ones you already like. The free plan has unlimited searches across 310+ million articles and unlimited collections you can share.",
     "watch_out": "Free allows up to 50 seed articles. Up to 300 seed articles, advanced search controls and multiple projects need ResearchRabbit+ at $12.50/month ($10/month on the annual plan).",
     "link": "https://www.researchrabbit.ai/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://www.researchrabbit.ai/pricing"
   },
   {
@@ -3680,7 +3680,7 @@
     "good_for": "Open-source AI video models from the Wan team that make video from a text prompt or a picture, which you can run on your own computer.",
     "watch_out": "The README says its main commands need a GPU with at least 80GB of video memory, while the smaller 5B model can run on a GPU with at least 24GB (such as an RTX 4090). Setup is done from the command line.",
     "link": "https://github.com/Wan-Video/Wan2.2",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://github.com/Wan-Video/Wan2.2"
   },
   {
@@ -3735,7 +3735,7 @@
     "good_for": "Generate logos, posters, illustrations, wallpapers and stock-style pictures from a text description. Starter also includes AI background removal and 4x upscaling.",
     "watch_out": "Starter includes 300 credits a month. Unlimited credits need the Ultra plan at $48/month.",
     "link": "https://stockimg.ai/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://stockimg.ai/pricing"
   },
   {
@@ -3753,7 +3753,7 @@
     "good_for": "Make AI images in your browser with unlimited generations on base models such as Stable Diffusion and Flux 2, plus add-on styles (LoRAs) and inpainting (redrawing part of a picture).",
     "watch_out": "Basic includes 500 Gems a month. Unlimited video generation and ControlNet (pose and layout control) need Pro at $30/month.",
     "link": "https://www.mage.space/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://www.mage.space/membership"
   },
   {
@@ -3771,7 +3771,7 @@
     "good_for": "A free music model you play like an instrument on your Mac: hold a note or chord and it generates a matching ensemble, or type a description to make a playable sound. It comes as standalone apps and a plugin for music software.",
     "watch_out": "Real-time playing needs an Apple Silicon Mac. The small model runs on any, including MacBook Air; the larger one needs an M3 Pro or M2 Max or better. Model files download on first launch (about 450MB small, 2.5GB base).",
     "link": "https://magenta.withgoogle.com/mrt2",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://magenta.withgoogle.com/mrt2"
   },
   {
@@ -3808,7 +3808,7 @@
     "good_for": "A free, open-source web interface for AI image and video generation on your own computer. It supports many models, which you pick from a list and it downloads automatically.",
     "watch_out": "Windows users can use the all-in-one installer and launcher; on other systems you install it from the terminal with git and a launch script. The README lists support for Nvidia, AMD, Intel Arc, Apple M1/M2 and CPU-only setups, so check its install guide for your hardware.",
     "link": "https://github.com/vladmandic/sdnext",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://github.com/vladmandic/sdnext"
   },
   {
@@ -3825,10 +3825,10 @@
     "price_from": "Free to run on your own computer",
     "skill_level": "medium",
     "runs_on_your_computer": true,
-    "good_for": "One free local app for AI video, image and music with models such as Wan 2.2, LTX-2, Qwen Image, Flux and ACE-Step, using a browser interface.",
+    "good_for": "One free local app for AI video, image and music with models such as Wan 2.2, LTX 2.5, Qwen Image, Flux 3 Klein and ACE-Step, using a browser interface.",
     "watch_out": "Its site says some models run on as little as 6 GB of video memory; others need more. The license lets you use it free but not sell WanGP itself or offer it as a paid hosted service.",
     "link": "https://wangp.ai/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://wangp.ai/"
   },
   {
@@ -3883,7 +3883,7 @@
     "good_for": "A workspace for making game, product and brand art with 500+ AI models. The free tier gives 50 credits a day with no credit card; Starter includes 1,500 credits a month and private generations.",
     "watch_out": "Training your own custom models, unlimited relaxed generations and the priority queue need Pro at $45/month.",
     "link": "https://www.scenario.com/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://www.scenario.com/pricing"
   },
   {
@@ -3919,7 +3919,7 @@
     "good_for": "Keeps your screen, audio and meetings on your own computer so you can search what you saw or heard, and share chosen context with AI tools such as Claude.",
     "watch_out": "It records your screen and audio, so think about what is on screen. The free plan searches recent work only; searching your full history needs Basic at $25/month.",
     "link": "https://screenpipe.com/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://screenpipe.com/pricing"
   },
   {
@@ -3937,7 +3937,7 @@
     "good_for": "Describe what you want and get an app, an AI agent or an automated workflow in one workspace. The free plan lets you clone community apps and has desktop and mobile apps.",
     "watch_out": "The free plan covers 2 people, 3 live apps and 1 AI agent. Starter ($6/month, billed yearly) gives unlimited apps and 3 agents; unlimited agents and automations need the Pro plan at $20/month on monthly billing.",
     "link": "https://www.taskade.com/",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-13",
     "watch_out_source": "https://www.taskade.com/pricing"
   },
   {
@@ -4011,7 +4011,7 @@
     "watch_out": "The free plan gives a one-time bonus of 1,000 Sparks (the browser's task credits), about 4 tasks, and 2 scheduled tasks. Plus at $19/month on monthly billing gives 2,000 Sparks a month, about 8 tasks. Actual use varies with how complex the task is.",
     "watch_out_source": "https://fellou.ai/pricing",
     "link": "https://fellou.ai/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "wondercraft",
@@ -4102,7 +4102,7 @@
     "watch_out": "The free plan has limited AI usage and uploads (20MB or 120 pages per upload). Deep Search for multi-step research needs the Max 5x plan at $100/month on monthly billing.",
     "watch_out_source": "https://anara.com/pricing",
     "link": "https://anara.com/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "brave-search",
@@ -4120,7 +4120,7 @@
     "watch_out": "Free searches show private ads. Search Premium, the paid ad-free option, is only available in the Brave browser.",
     "watch_out_source": "https://search.brave.com/help/premium",
     "link": "https://search.brave.com/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "ecosia",
@@ -4136,10 +4136,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "A search engine that uses all its profits for climate action and has an AI Chat tab next to web results. Ecosia says its small AI models give accurate answers from reliable sources and that your chats are never used to train AI models.",
-    "watch_out": "You can try AI Chat without signing in, but the free plan's full features need a free Ecosia account and have daily limits on file uploads and Think longer mode. Unlimited AI Chat messages need the Starter plan at $7.99/month.",
+    "watch_out": "The free plan asks you to create an Ecosia account and has daily limits on file uploads and Think longer mode. Unlimited AI Chat messages need the Starter plan at $7.99/month.",
     "watch_out_source": "https://www.ecosia.org/pricing",
     "link": "https://www.ecosia.org/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-13"
   },
   {
     "id": "qwant",
