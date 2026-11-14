@@ -53,7 +53,7 @@
     "watch_out": "The free version has usage limits, and the cheapest paid plan (Google AI Plus) costs $4.99 a month.",
     "watch_out_source": "https://gemini.google/subscriptions/",
     "link": "https://gemini.google/subscriptions/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "grok",
@@ -71,7 +71,7 @@
     "watch_out": "The free plan has limited use; the cheapest paid plan (Plus) costs $8 a month, and the Premium plan costs $30 a month.",
     "watch_out_source": "https://x.ai/pricing",
     "link": "https://x.ai/grok",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "perplexity",
@@ -90,7 +90,7 @@
     "watch_out": "The free plan is only good for limited daily use; the cheapest paid plan (Pro) costs $17 a month when you pay for a year.",
     "watch_out_source": "https://www.perplexity.ai/hub/pricing",
     "link": "https://www.perplexity.ai/pro",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "llama",
@@ -107,7 +107,7 @@
     "good_for": "Free, powerful AI you can download and run on your own computer or through Meta's own apps.",
     "watch_out": "You have to set it up yourself or use someone else's app to talk to it.",
     "link": "https://dev.meta.ai/llama/",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://dev.meta.ai/llama/"
   },
   {
@@ -125,7 +125,7 @@
     "good_for": "A fast, free chatbot made in Europe that answers questions, searches the web, and even makes images.",
     "watch_out": "The free plan has limited messages and web searches, and the paid Pro plan costs $14.99 a month.",
     "link": "https://mistral.ai/pricing/",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://mistral.ai/pricing/"
   },
   {
@@ -143,7 +143,7 @@
     "good_for": "A free AI chat assistant that is strong in many languages and can also generate images.",
     "watch_out": "Running its biggest versions on your own computer needs serious hardware.",
     "link": "https://qwen.ai/",
-    "last_checked": "2026-11-03"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "midjourney",
@@ -160,7 +160,7 @@
     "good_for": "Beautiful AI pictures and art that look great, made by typing a simple description.",
     "watch_out": "There is no free plan and your pictures are public unless you pay more.",
     "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
   },
   {
@@ -178,7 +178,7 @@
     "good_for": "Free AI picture-making that runs on your own computer with no subscription and no picture limits.",
     "watch_out": "You have to install it yourself and your computer needs a good graphics card.",
     "link": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5"
   },
   {
@@ -196,7 +196,7 @@
     "good_for": "It makes very detailed pictures from a short written description, like posters, art, or product mockups.",
     "watch_out": "Setting it up on your own computer takes some technical steps and a strong graphics card.",
     "link": "https://bfl.ai",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
   },
   {
@@ -208,13 +208,13 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "$5/month (billed annually; $6 monthly)",
+    "price_from": "$6/month ($5/month billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "It turns your written words into natural-sounding spoken audio, great for videos, podcasts, or audiobooks.",
     "watch_out": "The free plan is small, so you will hit the monthly limit quickly if you make lots of audio.",
     "link": "https://elevenlabs.io/pricing",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://elevenlabs.io/pricing"
   },
   {
@@ -226,13 +226,13 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "$8/month (billed annually; $10 monthly)",
+    "price_from": "$10/month ($8/month billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "It turns a few words about a style or theme into a full song with music and singing.",
     "watch_out": "Songs made on the free plan cannot be used for business or sold.",
     "link": "https://suno.com/pricing",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://suno.com/pricing"
   },
   {
@@ -244,13 +244,13 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "$12/month (billed annually; $15 monthly)",
+    "price_from": "$15/month ($12/month billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "It turns your words or photos into short video clips for ads, social posts, or creative projects.",
     "watch_out": "You spend credits for each second of video, so longer videos use them up fast.",
     "link": "https://runway.com/pricing",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-14",
     "watch_out_source": "https://runway.com/pricing"
   },
   {
@@ -995,7 +995,7 @@
     "watch_out": "It is made by a Chinese company, so think carefully about what personal details you share.",
     "watch_out_source": "https://www.kimi.com/user/agreement/modelUse",
     "link": "https://www.kimi.com",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "categories": [
@@ -3990,10 +3990,10 @@
     "skill_level": "medium",
     "runs_on_your_computer": false,
     "good_for": "Build and run your own AI agents, with 200+ AI models available through MindStudio so you do not need your own API keys.",
-    "watch_out": "The free plan allows one agent and 1,000 runs a month. Unlimited agents and runs need the Individual plan at $20/month on monthly billing, and both plans add usage charges on top.",
+    "watch_out": "The free plan allows one agent and 1,000 runs a month. Unlimited agents and runs need the Individual plan at $20/month on monthly billing, and both plans add usage charges on top. The pricing page now puts a newer product called Remy first ($99/month after a 30-day free trial) and calls the plans above its older \"legacy MindStudio plans\".",
     "watch_out_source": "https://www.mindstudio.ai/pricing",
     "link": "https://www.mindstudio.ai/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "fellou",
@@ -4030,7 +4030,7 @@
     "watch_out": "The free plan gives 150 credits, limited access to the AI models and exports up to 720p. No watermark and full commercial rights start with Creator at $25/month on monthly billing, which includes 1,000 credits.",
     "watch_out_source": "https://www.wondercraft.ai/pricing",
     "link": "https://www.wondercraft.ai/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "hermes-agent",
@@ -4045,10 +4045,10 @@
     "skill_level": "medium",
     "runs_on_your_computer": true,
     "good_for": "An open-source personal AI agent you install on a Mac, Windows or Linux computer and talk to from Telegram, Discord, Slack, WhatsApp, Signal or email. It remembers your projects, runs scheduled tasks and can browse the web.",
-    "watch_out": "The free Nous Portal plan includes free AI models only and $0 of monthly credits. Access to 200+ models and hosted tools starts with the Plus plan at $20/month.",
+    "watch_out": "The free Nous Portal plan is pay-as-you-go and includes free AI models only, with no hosted tools. Access to 200+ models and hosted tools starts with the Plus plan at $20/month.",
     "watch_out_source": "https://hermes-agent.nousresearch.com/",
     "link": "https://hermes-agent.nousresearch.com/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "rork",
@@ -4066,7 +4066,7 @@
     "watch_out": "The free plan is design-only, with 35 design credits a month and at most 5 a day. Build mode, which turns designs into working iPhone, Android and web apps, plus private projects and 100 credits a month, needs Rork Pro at $20/month; Rork Max for iOS, iPad and Apple Watch apps costs $200/month.",
     "watch_out_source": "https://rork.com/pricing",
     "link": "https://rork.com/pricing",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "openclaw",
@@ -4084,7 +4084,7 @@
     "watch_out": "You bring the AI model it uses (hosted, subscription-backed or local), and any model charges are separate. It acts for you on your own computer, so connect only the accounts you are happy for it to use.",
     "watch_out_source": "https://openclaw.ai/",
     "link": "https://openclaw.ai/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "anara",
@@ -4157,7 +4157,7 @@
     "watch_out": "Qwant says it is free. The Flash Answer only appears for certain factual searches, not every search, and may not be switched on in every region or language yet. Qwant says the AI can be wrong, so check the sources it cites.",
     "watch_out_source": "https://help.qwant.com/hc/en-us/articles/48074769704593-Why-isn-t-the-AI-answer-showing-up-in-my-search",
     "link": "https://www.qwant.com/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   },
   {
     "id": "reddit-ai-search",
@@ -4175,6 +4175,6 @@
     "watch_out": "Logged-out users can ask 10 questions a week and logged-in users 50 a day; Reddit Premium at $5.99/month allows 100 a day. It only draws on Reddit posts and comments, which Reddit says are not checked, so double-check anything important. It works in English anywhere, and in Spanish, Portuguese, Italian, French and German.",
     "watch_out_source": "https://support.reddithelp.com/hc/en-us/articles/32026729424916-Reddit-s-AI-search",
     "link": "https://www.reddit.com/answers/",
-    "last_checked": "2026-11-02"
+    "last_checked": "2026-11-14"
   }
 ]
