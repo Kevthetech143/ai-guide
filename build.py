@@ -56,7 +56,7 @@ LEGEND_HTML = ('<p class="legend">Badges, in plain words: '
                '<strong>Company-made</strong> &mdash; a company runs it for you. '
                '<strong>Free</strong> &mdash; you can use the main features without paying. '
                '<strong>Paid</strong> &mdash; you need to pay, usually a monthly plan. '
-               '<strong>Runs on your computer</strong> &mdash; it runs on your own device, nothing sent to the cloud. '
+               '<strong>Runs on your computer</strong> &mdash; it runs on your own device. Some, like coding helpers, still send what you type to an online AI. '
                '<strong>Easy / Medium / Hard</strong> &mdash; how tricky it is to set up and use.</p>')
 
 
@@ -534,7 +534,7 @@ def build():
         '<a class="biglink" href="paid/"><span class="biglink-label">Paid ones<span class="hint">need a subscription</span></span></a>\n'
         '<a class="biglink" href="../all/"><span class="biglink-label">No preference &mdash; show everything<span class="hint">the full list, free and paid</span></span></a>\n'
         "<h2>3. Runs on my computer?</h2>\n"
-        '<a class="biglink" href="local/"><span class="biglink-label">Runs on my computer<span class="hint">private, nothing sent to the cloud</span></span></a>\n'
+        '<a class="biglink" href="local/"><span class="biglink-label">Runs on my computer<span class="hint">runs on your own device</span></span></a>\n'
         '<a class="biglink" href="../all/"><span class="biglink-label">Either is fine &mdash; show everything<span class="hint">the full list</span></span></a>\n'
     ))
     write(os.path.join(DIST, "start", "index.html"),
@@ -556,7 +556,7 @@ def build():
     start_write("local/index.html", "AIs that run on your computer - AI Guide",
                 "Plain-language list of AIs that run on your own computer.",
                 "<h1>Runs on your computer</h1>\n"
-                '<p class="subtitle">Private: nothing you type is sent to the cloud.</p>\n',
+                '<p class="subtitle">These run on your own device. Some, like coding helpers, still send what you type to an online AI.</p>\n',
                 local_ps, "../../p/", "../..", "../../index.html")
 
     for c in categories:

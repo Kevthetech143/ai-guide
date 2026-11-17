@@ -82,9 +82,9 @@
     "filter": {
       "runs_on_your_computer": true
     },
-    "how_picked": "we listed AIs that run on your own computer, so nothing you type is sent to the cloud.",
+    "how_picked": "we listed AIs that run on your own computer. Some, like coding helpers, still send what you type to an online AI.",
     "intro": "Yes — Llama, Mistral, Stable Diffusion, and LM Studio run entirely on your own machine. Nothing you type leaves your home as long as you stick to models on your own machine, but they need a reasonably powerful computer and a bit of setup.",
-    "meta_description": "Which AIs run on your own computer? Llama, Stable Diffusion and more keep your data private. Plain-English guide.",
+    "meta_description": "Which AIs run on your own computer? Llama, Stable Diffusion and more, with costs and official links. Plain-English guide.",
     "seo_title": "AI that runs on my own computer - AI Guide",
     "slug": "ai-that-runs-on-my-own-computer",
     "title": "Is there an AI that runs on my own computer?"
