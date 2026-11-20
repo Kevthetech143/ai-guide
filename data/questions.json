@@ -498,7 +498,7 @@
       "skill_level": "easy"
     },
     "how_picked": "We listed music AIs that have a free tier and are rated easy to use, so you can make a song today without paying.",
-    "intro": "Suno and Udio turn a short description into a full song with singing. Mubert and Soundful make background music for videos, streams, and podcasts. Every tool here has a free tier, so you can try one before you pay.",
+    "intro": "Suno and Udio turn a short description into a full song with singing. Mubert makes background music for videos, podcasts, and apps. Every tool here has a free tier, so you can try one before you pay.",
     "meta_description": "Free AI music makers in plain language: Suno, Udio, Mubert and more turn a short description into a song. Costs and official links.",
     "seo_title": "Free AI music maker - AI Guide",
     "slug": "free-ai-music-maker",
@@ -885,7 +885,6 @@
     "filter": {
       "ids": [
         "mubert",
-        "soundful",
         "soundraw",
         "ecrett-music",
         "stable-audio",
@@ -894,8 +893,8 @@
       ]
     },
     "how_picked": "We hand-picked music tools whose own descriptions say they make background or royalty-free music.",
-    "intro": "Mubert and Soundful make royalty-free background music for videos. Ecrett Music lets you pick a scene, mood, and style. Check the free plans first: Mubert's adds an audible watermark and asks for credit, and Ecrett Music's free plan only downloads previews you may not publish.",
-    "meta_description": "Make royalty-free background music for videos with AI: Mubert, Soundful, Soundraw and more, with plain-English notes.",
+    "intro": "Mubert makes royalty-free background music for videos. Ecrett Music lets you pick a scene, mood, and style. Check the free plans first: Mubert's adds an audible watermark and asks for credit, and Ecrett Music's free plan only downloads previews you may not publish.",
+    "meta_description": "Make royalty-free background music for videos with AI: Mubert, Soundraw and more, with plain-English notes.",
     "seo_title": "AI background music for videos - AI Guide",
     "slug": "ai-background-music-for-my-videos",
     "title": "Can AI make background music for my videos?"
@@ -977,7 +976,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they write marketing copy.",
-    "intro": "Copy.ai writes marketing copy, emails, and social posts in your brand voice. Jasper writes on-brand marketing content but is built for teams rather than casual use. Rytr is a budget pick for writing emails and short posts in your own voice, and ChatSonic is Writesonic's marketing chat assistant.",
+    "intro": "Copy.ai writes marketing copy, emails, and social posts in your brand voice. Jasper writes on-brand marketing content and is priced per seat, with a 7-day free trial. Rytr is a budget pick for writing emails and short posts in your own voice, and ChatSonic is Writesonic's marketing chat assistant.",
     "meta_description": "AI that writes marketing copy and emails: Copy.ai, Jasper, Rytr and ChatSonic, with plain-English notes and links.",
     "seo_title": "AI that writes marketing copy - AI Guide",
     "slug": "ai-for-writing-marketing-copy",
