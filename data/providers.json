@@ -1763,7 +1763,7 @@
     "free_tier": true,
     "good_for": "It turns a genre, mood, and length you pick into an original royalty-free track - the AI is trained only on music their own producers write and record, and every download comes with a worldwide, perpetual license.",
     "id": "soundraw",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://soundraw.io/#pricing-section",
     "name": "Soundraw",
     "open_weights": false,
@@ -1781,7 +1781,7 @@
     "free_tier": true,
     "good_for": "It splits any song into vocals, drums, bass, and other stems in seconds, and cleans up noisy recordings - with desktop, phone, and DAW apps.",
     "id": "lalal-ai",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://www.lalal.ai/pricing/",
     "name": "LALAL.AI",
     "open_weights": false,
@@ -1799,7 +1799,7 @@
     "free_tier": true,
     "good_for": "Chat with an AI co-producer to make full songs with vocals, then publish and share them - the free plan tops up credits daily.",
     "id": "flow-music",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://www.flowmusic.app/pricing",
     "name": "Flow Music",
     "open_weights": false,
@@ -1817,7 +1817,7 @@
     "free_tier": true,
     "good_for": "Meta's open music-generation model you can download and run on your own computer - describe a style and it composes a matching track.",
     "id": "musicgen",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://huggingface.co/facebook/musicgen-small",
     "name": "MusicGen",
     "open_weights": true,
@@ -1835,7 +1835,7 @@
     "free_tier": true,
     "good_for": "A search engine built for AI apps and agents - it returns clean webpage text and highlights instead of ad-filled results pages.",
     "id": "exa",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://exa.ai/pricing",
     "name": "Exa",
     "open_weights": false,
@@ -1853,15 +1853,15 @@
     "free_tier": true,
     "good_for": "An open-source AI coding assistant that runs on your own servers or computer - code completion, in-editor chat, and answers grounded in your codebase, all kept private.",
     "id": "tabby",
-    "last_checked": "2026-11-07",
-    "link": "https://www.tabbyml.com/pricing",
+    "last_checked": "2026-11-21",
+    "link": "https://github.com/TabbyML/tabby",
     "name": "Tabby",
     "open_weights": true,
-    "price_from": "$19/month per seat (Team; Community free)",
+    "price_from": "Free",
     "runs_on_your_computer": true,
     "skill_level": "medium",
-    "watch_out": "The paid Team plan is priced per person ($19 a seat), and the free Community plan covers up to 5 users.",
-    "watch_out_source": "https://www.tabbyml.com/pricing"
+    "watch_out": "You install and run it yourself on your own computer or server, and it works best with a graphics card (it supports regular consumer GPUs). The newest release came out in January 2026.",
+    "watch_out_source": "https://github.com/TabbyML/tabby"
   },
   {
     "categories": [
@@ -1871,7 +1871,7 @@
     "free_tier": true,
     "good_for": "A free desktop app that downloads open AI models and chats with them entirely on your computer - nothing you type ever leaves your machine.",
     "id": "gpt4all",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://www.nomic.ai/gpt4all",
     "name": "GPT4All",
     "open_weights": true,
@@ -1889,7 +1889,7 @@
     "free_tier": true,
     "good_for": "A free, open-source desktop app that runs AI chat models on your computer - like ChatGPT, but your conversations stay private on your machine.",
     "id": "jan",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://www.jan.ai/",
     "name": "Jan",
     "open_weights": true,
@@ -1908,7 +1908,7 @@
     "free_tier": true,
     "good_for": "A free, open-source desktop app that turns your own documents into a private AI assistant - chat with your files and get meeting summaries, all on your device with no accounts or API keys.",
     "id": "anythingllm",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://anythingllm.com/",
     "name": "AnythingLLM",
     "open_weights": true,
@@ -1926,7 +1926,7 @@
     "free_tier": true,
     "good_for": "The open standard for serious AI image and video work - connect models and processing steps as visible nodes on a canvas for total control over every step.",
     "id": "comfyui",
-    "last_checked": "2026-11-07",
+    "last_checked": "2026-11-21",
     "link": "https://comfy.org/",
     "name": "ComfyUI",
     "open_weights": true,
@@ -1944,7 +1944,7 @@
     "free_tier": true,
     "good_for": "The easiest way to run Stable Diffusion on a Mac - text-to-image, generative fill, upscaling, and video tools in one free app that works fully offline.",
     "id": "diffusionbee",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "link": "https://diffusionbee.com/",
     "name": "DiffusionBee",
     "open_weights": true,
@@ -1967,9 +1967,9 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Splitting a song into karaoke (no vocals) and acapella (isolated vocals) tracks; also key, BPM, pitch and cutter tools",
-    "watch_out": "Free use is capped at 10 minutes of audio a day and 8-minute files; a membership raises that to 300 minutes a day and 25-minute files",
+    "watch_out": "Free use is capped at 10 minutes of audio a day and 8-minute files; a membership raises that to 300 minutes a day (500 on the yearly plan) and 25-minute files",
     "link": "https://vocalremover.org",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://vocalremover.org/next/pricing"
   },
   {
@@ -1987,7 +1987,7 @@
     "good_for": "Search API built for AI agents — fast results with source citations",
     "watch_out": "API only, no consumer search page; usage-based pricing needs monitoring",
     "link": "https://www.tavily.com/",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://www.tavily.com/pricing"
   },
   {
@@ -2004,10 +2004,10 @@
     "skill_level": "medium",
     "runs_on_your_computer": true,
     "good_for": "A free, open-source AI assistant on your own computer (desktop app or command line) that does tasks for you - coding, research, writing and automation",
-    "watch_out": "You connect your own AI model (an API key or an existing Claude, ChatGPT or Gemini subscription), and that model's costs are separate",
+    "watch_out": "You connect your own AI model - a local model on your computer, an API key, or an existing Claude or ChatGPT subscription - and that model's costs are separate from goose",
     "link": "https://goose-docs.ai",
-    "last_checked": "2026-11-08",
-    "watch_out_source": "https://goose-docs.ai"
+    "last_checked": "2026-11-21",
+    "watch_out_source": "https://goose-docs.ai/docs/getting-started/providers"
   },
   {
     "id": "qodo",
@@ -2025,7 +2025,7 @@
     "good_for": "Agentic AI code review on pull requests — rules system, pre-PR checks, analytics",
     "watch_out": "$30/month buys 2,000 credits (about 14 reviews a month); about 29 reviews costs $60/month. 14-day free trial, no card needed; free only for open-source projects",
     "link": "https://www.qodo.ai",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://www.qodo.ai/pricing/"
   },
   {
@@ -2043,7 +2043,7 @@
     "good_for": "An app that quietly remembers what you work on across your computer so you can ask AI about it later - recaps, meeting prep, finding past work",
     "watch_out": "No free plan (the 7-day trial needs a card); it builds its memory by capturing across your apps and websites, so check its privacy settings",
     "link": "https://pieces.app",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://pieces.app/pricing"
   },
   {
@@ -2062,7 +2062,7 @@
     "good_for": "Trying thousands of AI models (images, video, speech, music, chat) from one account, in a browser playground or through code",
     "watch_out": "Built for developers and billed per use, so running models costs money. Some select models run free at first, then you are asked to set up billing.",
     "link": "https://replicate.com",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://replicate.com/docs/topics/billing"
   },
   {
@@ -2081,7 +2081,7 @@
     "good_for": "Generating original songs, background music, soundscapes and AI music videos from text prompts",
     "watch_out": "Free plan: 4 songs a day on the free model; Pro: up to 500 songs a month with MP3 downloads only (WAV and stems need Premier, $30/month)",
     "link": "https://www.mureka.ai/subscribe",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://www.mureka.ai/subscribe"
   },
   {
@@ -2099,7 +2099,7 @@
     "good_for": "AI text-to-music with commercial licensing and distribution to Spotify, Apple Music and YouTube Music",
     "watch_out": "Personal: 2,500 credits/month; free plan is non-commercial with 1 download per day",
     "link": "https://www.loudly.com/music/pricing",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://www.loudly.com/music/pricing"
   },
   {
@@ -2117,7 +2117,7 @@
     "good_for": "Making and releasing original AI songs with full commercial rights, even with no music experience",
     "watch_out": "Free plan: 25 song saves, no downloads, no commercial use; Creator includes 25 WAV downloads per month",
     "link": "https://boomy.com/pricing",
-    "last_checked": "2026-11-08",
+    "last_checked": "2026-11-21",
     "watch_out_source": "https://boomy.com/pricing"
   },
   {
