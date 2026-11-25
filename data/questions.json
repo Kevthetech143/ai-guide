@@ -1032,7 +1032,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they add captions or subtitles, or export subtitles from speech.",
-    "intro": "Submagic, CapCut AI, Kapwing, VEED, and Wisecut are video tools that add captions or subtitles for you. Sonix and Vibe turn the speech in a video into text and export subtitles, and Whisper can too but needs command-line steps. Submagic and Sonix have no free plan, and the free plans elsewhere have limits: Kapwing's free exports carry a watermark, and Wisecut's free plan only exports at 480p.",
+    "intro": "Submagic, CapCut AI, Kapwing, VEED, and Wisecut are video tools that add captions or subtitles for you. Sonix and Vibe turn the speech in a video into text and export subtitles, and Whisper can too but needs command-line steps. Sonix has no free plan, and the free plans elsewhere have limits: Submagic's and Kapwing's free exports carry a watermark, and Wisecut's free plan only exports at 480p.",
     "meta_description": "Add captions and subtitles to a video with AI: Submagic, CapCut AI, Kapwing, VEED and more, with plain-English notes and links.",
     "seo_title": "AI that adds subtitles to videos - AI Guide",
     "slug": "ai-that-adds-subtitles-to-videos",
@@ -1146,7 +1146,7 @@
       ]
     },
     "how_picked": "We hand-picked tools whose own descriptions say they edit videos or do editing jobs for you, such as cutting silences or adding captions.",
-    "intro": "CapCut AI, VEED and Kapwing are video editors with AI helpers built in, like captions, subtitles, voices and background removal, and Descript lets you edit a podcast or video by editing its written transcript, like a document. Wisecut cuts silences and adds subtitles on its own, and Submagic adds captions automatically. Kapwing's free exports carry a watermark, and Submagic has no free plan.",
+    "intro": "CapCut AI, VEED and Kapwing are video editors with AI helpers built in, like captions, subtitles, voices and background removal, and Descript lets you edit a podcast or video by editing its written transcript, like a document. Wisecut cuts silences and adds subtitles on its own, and Submagic adds captions automatically. Kapwing's and Submagic's free exports carry a watermark.",
     "meta_description": "AI that helps you edit videos: CapCut AI, VEED, Kapwing, Descript, Wisecut and Submagic, with plain-English notes and links.",
     "seo_title": "AI for editing videos - AI Guide",
     "slug": "ai-for-editing-videos",
