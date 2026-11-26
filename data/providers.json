@@ -16,7 +16,7 @@
     "watch_out": "The free plan gives unlimited plain chats but limits uploads, pictures and voice chats; the cheapest paid plan (Go) costs $8 a month and may include ads.",
     "watch_out_source": "https://chatgpt.com/pricing",
     "link": "https://chatgpt.com/pricing",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "claude",
@@ -32,10 +32,10 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Great for writing help, summarizing long documents, answering coding questions, and thinking ideas through carefully.",
-    "watch_out": "The free plan runs out of messages fast on busy days; the Pro plan costs $20 a month when billed monthly.",
+    "watch_out": "The free plan has limited usage every 5 hours and every week; the Pro plan costs $20 a month when billed monthly ($17 a month billed annually).",
     "watch_out_source": "https://claude.com/pricing",
     "link": "https://claude.com/pricing",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "gemini",
@@ -424,7 +424,7 @@
     "free_tier": false,
     "good_for": "An AI coding helper that works in your terminal; it can read your whole project, make changes, and run tests.",
     "id": "claude-code",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-26",
     "link": "https://claude.com/pricing",
     "name": "Claude Code",
     "open_weights": false,
@@ -551,7 +551,7 @@
     "free_tier": true,
     "good_for": "Great for business-ready pictures that are safe to use commercially, since it is trained on licensed content.",
     "id": "adobe-firefly",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-26",
     "link": "https://www.adobe.com/products/firefly.html",
     "name": "Adobe Firefly",
     "open_weights": false,
@@ -958,7 +958,7 @@
     "watch_out": "The paid Pro plan costs $19.99 a month and adds all premium templates, 1,200 monthly AI credits and 1 TB of storage. The free plan covers basic editing tools and free templates.",
     "watch_out_source": "https://www.capcut.com/pricing",
     "link": "https://www.capcut.com",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "perplexity-comet",
@@ -3589,9 +3589,9 @@
     "skill_level": "medium",
     "runs_on_your_computer": false,
     "good_for": "One subscription for AI image, video, music and voice generation with many leading models, pro editing tools, a shared canvas for workflows called Spaces, and a stock library with a commercial AI license.",
-    "watch_out": "Monthly Premium includes 20,000 credits a month. Unlimited generations need Premium+ at $45/month ($33.75/month billed annually). Prices exclude VAT and local taxes.",
+    "watch_out": "Monthly Premium includes 20,000 credits a month. Plus at $45/month ($33.75/month billed annually) gives 45,000 credits a month and adds Relax mode, which makes pictures and videos on selected models without using credits, though it can be slower. Prices exclude VAT and local taxes.",
     "link": "https://www.magnific.com/pricing",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://www.magnific.com/pricing"
   },
   {
@@ -3627,7 +3627,7 @@
     "good_for": "Make talking videos from a photo or one of 100+ stock avatars by typing a script. Lite includes 10 minutes of video a month and fast processing.",
     "watch_out": "Lite videos carry a D-ID watermark, and the commercial use license starts on Pro at $29/month. A free 14-day trial gives 3 minutes of video.",
     "link": "https://www.d-id.com/",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://www.d-id.com/pricing/studio/"
   },
   {
@@ -3681,7 +3681,7 @@
     "good_for": "Lightricks' downloadable AI video models (the newest is LTX-2.5) that make video with synchronized sound from text or pictures, and also work inside the free ComfyUI tool.",
     "watch_out": "Setup is done from the command line and the model download is roughly 66 GiB. You must accept the model terms on Hugging Face to download it. The code is open source, but the models have their own license, so read its terms before business use.",
     "link": "https://github.com/Lightricks/LTX-2",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://github.com/Lightricks/LTX-2"
   },
   {
@@ -3700,7 +3700,7 @@
     "good_for": "An open-source research assistant you run yourself: it searches the web and your own documents with the AI model you choose, then writes a report with citations.",
     "watch_out": "Setup means installing Docker (a free tool that runs apps in sealed boxes) and pasting a command from the README, which also starts a local AI model and a private search tool. Web searches still go out to the internet, and if you connect a cloud AI model instead of a local one, your questions go to that provider.",
     "link": "https://github.com/LearningCircuit/local-deep-research",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://github.com/LearningCircuit/local-deep-research"
   },
   {
@@ -3754,7 +3754,7 @@
     "good_for": "A free music model you play like an instrument on your Mac: hold a note or chord and it generates a matching ensemble, or type a description to make a playable sound. It comes as standalone apps and a plugin for music software.",
     "watch_out": "Real-time playing needs an Apple Silicon Mac. The small model runs on any, including MacBook Air; the larger one needs an M3 Pro or M2 Max or better. Model files download on first launch (about 450MB small, 2.5GB base).",
     "link": "https://magenta.withgoogle.com/mrt2",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://magenta.withgoogle.com/mrt2"
   },
   {
@@ -3770,9 +3770,9 @@
     "skill_level": "hard",
     "runs_on_your_computer": true,
     "good_for": "An open-source AI coding workspace where you pick the AI model for each prompt, from 22+ providers, and build complete web apps in your browser.",
-    "watch_out": "You add your own AI provider keys (paid access codes from AI companies) or a local model. The README points to ready-made desktop installers on its releases page, but the newest release had none attached when we checked; otherwise it is a developer setup with Node.js and pnpm or Docker. One part it relies on (WebContainers) has separate commercial terms for large business use. The makers say they now only do bug fixes and upkeep, with no new features planned.",
+    "watch_out": "You add your own AI provider keys (paid access codes from AI companies) or a local model. Ready-made desktop installers for Windows, Mac (Apple Silicon only) and Linux are on the releases page; otherwise it is a developer setup with Node.js and pnpm or Docker. One part it relies on (WebContainers) has separate commercial terms for large business use. The makers say they now only do bug fixes and upkeep, with no new features planned.",
     "link": "https://github.com/stackblitz-labs/bolt.diy",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://github.com/stackblitz-labs/bolt.diy"
   },
   {
@@ -3829,7 +3829,7 @@
     "good_for": "Turn recordings into sheet music: upload audio or a YouTube link and get notes, tabs or MIDI. The free plan transcribes demos of up to 30 seconds.",
     "watch_out": "Pro allows 50 transcriptions a month of up to 15 minutes each, with PDF, MIDI, Guitar Pro and MusicXML downloads. The Ultimate plan ($29.99/month, or $12.50/month billed annually) adds the plugin for music software and every transcription mode.",
     "link": "https://klang.io/",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://klang.io/transcription-studio/"
   },
   {
@@ -3848,7 +3848,7 @@
     "good_for": "Google's AI studio for making videos and images: text to video, frames to video and image generation with models such as Veo and Nano Banana, free to try with a Google account.",
     "watch_out": "You must be 18 or older. The free plan gives 50 credits a day. 1080p video upscaling and higher limits start with Google AI Plus at $4.99/month; prices vary by market.",
     "link": "https://flow.google.com/about",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://flow.google.com/about"
   },
   {
@@ -3884,7 +3884,7 @@
     "good_for": "Describe the app you want in plain language and Base44 builds it with a database, sign-in and a visual editor. The free plan allows up to 5 apps.",
     "watch_out": "Free includes 25 message credits a month. Starter at $20/month gives 100 message credits and lets you connect your own domain.",
     "link": "https://base44.com/",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://base44.com/pricing"
   },
   {
@@ -3938,7 +3938,7 @@
     "good_for": "One app on desktop, mobile and the web for chatting with GPT, Claude, Gemini, Grok, DeepSeek and more, either with your own API keys (paid access codes from the AI companies) or with Chatbox's own plans.",
     "watch_out": "The free plan gives 10,000 compute points a day, standard models only, and Work Mode (the agent feature) as a trial only. The advanced models need the Pro plan at $19.99/month on monthly billing; Lite at $3.99/month gives a bigger point allowance.",
     "link": "https://chatboxai.app/en",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://chatboxai.app/en/pricing"
   },
   {
@@ -3954,10 +3954,10 @@
     "price_from": "Free (Plus plan $20/month, or $18/month billed yearly)",
     "skill_level": "easy",
     "runs_on_your_computer": true,
-    "good_for": "Chat with many AI models and organise your own team of AI agents in one place. The free plan refreshes its credits every month, and there are desktop apps for Mac, Windows and Linux plus iPhone and Android apps.",
-    "watch_out": "The free plan covers standard models only, with 500,000 credits a month and 15 MB of file storage. Advanced models need a paid plan, starting with Plus at $20/month on monthly billing.",
+    "good_for": "Chat with many AI models and organise your own team of AI agents in one place. The free plan gives one-time trial credits, and there are desktop apps for Mac, Windows and Linux plus iPhone and Android apps.",
+    "watch_out": "The free plan covers standard models only, with one-time trial credits (about 50 agent tasks) and 15 MB of file storage. Advanced models need a paid plan, starting with Plus at $20/month on monthly billing.",
     "link": "https://lobehub.com/",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-26",
     "watch_out_source": "https://lobehub.com/pricing"
   },
   {
@@ -3994,7 +3994,7 @@
     "watch_out": "The free plan gives a one-time bonus of 1,000 Sparks (the browser's task credits), about 4 tasks, and 2 scheduled tasks. Plus at $19/month on monthly billing gives 2,000 Sparks a month, about 8 tasks. Actual use varies with how complex the task is.",
     "watch_out_source": "https://fellou.ai/pricing",
     "link": "https://fellou.ai/",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "wondercraft",
@@ -4085,7 +4085,7 @@
     "watch_out": "The free plan has limited AI usage and uploads (20MB or 120 pages per upload). Deep Search for multi-step research needs the Max 5x plan at $100/month on monthly billing.",
     "watch_out_source": "https://anara.com/pricing",
     "link": "https://anara.com/",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "brave-search",
@@ -4103,7 +4103,7 @@
     "watch_out": "Free searches show private ads. Search Premium, the paid ad-free option, is only available in the Brave browser.",
     "watch_out_source": "https://search.brave.com/help/premium",
     "link": "https://search.brave.com/",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "ecosia",
@@ -4122,7 +4122,7 @@
     "watch_out": "The free plan asks you to create an Ecosia account and has daily limits on file uploads and Think longer mode. Unlimited AI Chat messages need the Starter plan at $7.99/month.",
     "watch_out_source": "https://www.ecosia.org/pricing",
     "link": "https://www.ecosia.org/",
-    "last_checked": "2026-11-13"
+    "last_checked": "2026-11-26"
   },
   {
     "id": "qwant",
