@@ -53,7 +53,7 @@
     "watch_out": "The free version has usage limits, and the cheapest paid plan (Google AI Plus) costs $4.99 a month.",
     "watch_out_source": "https://gemini.google/subscriptions/",
     "link": "https://gemini.google/subscriptions/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-27"
   },
   {
     "id": "grok",
@@ -71,7 +71,7 @@
     "watch_out": "The free plan has limited use; the cheapest paid plan (Plus) costs $8 a month, and the Premium plan costs $30 a month.",
     "watch_out_source": "https://x.ai/pricing",
     "link": "https://x.ai/grok",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-27"
   },
   {
     "id": "perplexity",
@@ -90,7 +90,7 @@
     "watch_out": "The free plan is only good for limited daily use; the cheapest paid plan (Pro) costs $17 a month when you pay for a year.",
     "watch_out_source": "https://www.perplexity.ai/hub/pricing",
     "link": "https://www.perplexity.ai/pro",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-27"
   },
   {
     "id": "llama",
@@ -107,7 +107,7 @@
     "good_for": "Free, powerful AI you can download and run on your own computer or through Meta's own apps.",
     "watch_out": "You have to set it up yourself or use someone else's app to talk to it.",
     "link": "https://dev.meta.ai/llama/",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://dev.meta.ai/llama/"
   },
   {
@@ -125,7 +125,7 @@
     "good_for": "A fast, free chatbot made in Europe that answers questions, searches the web, and even makes images.",
     "watch_out": "The free plan has limited messages and web searches, and the paid Pro plan costs $14.99 a month.",
     "link": "https://mistral.ai/pricing/",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://mistral.ai/pricing/"
   },
   {
@@ -143,7 +143,7 @@
     "good_for": "A free AI chat assistant that is strong in many languages and can also generate images.",
     "watch_out": "Running its biggest versions on your own computer needs serious hardware.",
     "link": "https://qwen.ai/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-27"
   },
   {
     "id": "midjourney",
@@ -154,13 +154,13 @@
     ],
     "open_weights": false,
     "free_tier": false,
-    "price_from": "$10/month",
+    "price_from": "$10/month ($8/month billed annually)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Beautiful AI pictures and art that look great, made by typing a simple description.",
     "watch_out": "There is no free plan and your pictures are public unless you pay more.",
     "link": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans"
   },
   {
@@ -178,7 +178,7 @@
     "good_for": "Free AI picture-making that runs on your own computer with no subscription and no picture limits.",
     "watch_out": "You have to install it yourself and your computer needs a good graphics card.",
     "link": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://stability.ai/news-updates/introducing-stable-diffusion-3-5"
   },
   {
@@ -196,7 +196,7 @@
     "good_for": "It makes very detailed pictures from a short written description, like posters, art, or product mockups.",
     "watch_out": "Setting it up on your own computer takes some technical steps and a strong graphics card.",
     "link": "https://bfl.ai",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B"
   },
   {
@@ -214,7 +214,7 @@
     "good_for": "It turns your written words into natural-sounding spoken audio, great for videos, podcasts, or audiobooks.",
     "watch_out": "The free plan is small, so you will hit the monthly limit quickly if you make lots of audio.",
     "link": "https://elevenlabs.io/pricing",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://elevenlabs.io/pricing"
   },
   {
@@ -3609,7 +3609,7 @@
     "good_for": "Swap any character into trending clips, or turn a phone video into motion for your own character, to make memes and short social videos. The free plan gives free credits that refresh every day.",
     "watch_out": "Free allows one video at a time and keeps your files for 7 days. Pro at $9.99/month adds 80 credits a month, no watermark and permanent storage; access to all models needs the Live plan at $19.99/month.",
     "link": "https://viggle.ai/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://viggle.ai/pricing"
   },
   {
@@ -3643,9 +3643,9 @@
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Find research papers related to ones you already like. The free plan has unlimited searches across 310+ million articles and unlimited collections you can share.",
-    "watch_out": "Free allows up to 50 seed articles. Up to 300 seed articles, advanced search controls and multiple projects need ResearchRabbit+ at $12.50/month ($10/month on the annual plan).",
+    "watch_out": "Free allows up to 50 seed articles. Even more seeds, filters, projects, alerts and Zotero sync need ResearchRabbit+ at $12.50/month ($10/month on the annual plan).",
     "link": "https://www.researchrabbit.ai/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://www.researchrabbit.ai/pricing"
   },
   {
@@ -3663,7 +3663,7 @@
     "good_for": "Open-source AI video models from the Wan team that make video from a text prompt or a picture, which you can run on your own computer.",
     "watch_out": "The README says its main commands need a GPU with at least 80GB of video memory, while the smaller 5B model can run on a GPU with at least 24GB (such as an RTX 4090). Setup is done from the command line.",
     "link": "https://github.com/Wan-Video/Wan2.2",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://github.com/Wan-Video/Wan2.2"
   },
   {
@@ -3718,7 +3718,7 @@
     "good_for": "Generate logos, posters, illustrations, wallpapers and stock-style pictures from a text description. Starter also includes AI background removal and 4x upscaling.",
     "watch_out": "Starter includes 300 credits a month. Unlimited credits need the Ultra plan at $48/month.",
     "link": "https://stockimg.ai/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://stockimg.ai/pricing"
   },
   {
@@ -3736,7 +3736,7 @@
     "good_for": "Make AI images in your browser with unlimited generations on base models such as Stable Diffusion and Flux 2, plus add-on styles (LoRAs) and inpainting (redrawing part of a picture).",
     "watch_out": "Basic includes 500 Gems a month. Unlimited video generation and ControlNet (pose and layout control) need Pro at $30/month.",
     "link": "https://www.mage.space/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://www.mage.space/membership"
   },
   {
@@ -3791,7 +3791,7 @@
     "good_for": "A free, open-source web interface for AI image and video generation on your own computer. It supports many models, which you pick from a list and it downloads automatically.",
     "watch_out": "Windows users can use the all-in-one installer and launcher; on other systems you install it from the terminal with git and a launch script. The README lists support for Nvidia, AMD, Intel Arc, Apple M1/M2 and CPU-only setups, so check its install guide for your hardware.",
     "link": "https://github.com/vladmandic/sdnext",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://github.com/vladmandic/sdnext"
   },
   {
@@ -3811,7 +3811,7 @@
     "good_for": "One free local app for AI video, image and music with models such as Wan 2.2, LTX 2.5, Qwen Image, Flux 3 Klein and ACE-Step, using a browser interface.",
     "watch_out": "Its site says some models run on as little as 6 GB of video memory; others need more. The license lets you use it free but not sell WanGP itself or offer it as a paid hosted service.",
     "link": "https://wangp.ai/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://wangp.ai/"
   },
   {
@@ -3866,7 +3866,7 @@
     "good_for": "A workspace for making game, product and brand art with 500+ AI models. The free tier gives 50 credits a day with no credit card; Starter includes 1,500 credits a month and private generations.",
     "watch_out": "Training your own custom models, unlimited relaxed generations and the priority queue need Pro at $45/month.",
     "link": "https://www.scenario.com/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://www.scenario.com/pricing"
   },
   {
@@ -3902,7 +3902,7 @@
     "good_for": "Keeps your screen, audio and meetings on your own computer so you can search what you saw or heard, and share chosen context with AI tools such as Claude.",
     "watch_out": "It records your screen and audio, so think about what is on screen. The free plan searches recent work only; searching your full history needs Basic at $25/month.",
     "link": "https://screenpipe.com/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://screenpipe.com/pricing"
   },
   {
@@ -3920,7 +3920,7 @@
     "good_for": "Describe what you want and get an app, an AI agent or an automated workflow in one workspace. The free plan lets you clone community apps and has desktop and mobile apps.",
     "watch_out": "The free plan covers 2 people, 3 live apps and 1 AI agent. Starter ($6/month, billed yearly) gives unlimited apps and 3 agents; unlimited agents and automations need the Pro plan at $20/month on monthly billing.",
     "link": "https://www.taskade.com/",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-27",
     "watch_out_source": "https://www.taskade.com/pricing"
   },
   {
