@@ -232,7 +232,7 @@
     "good_for": "It turns a few words about a style or theme into a full song with music and singing.",
     "watch_out": "Songs made on the free plan cannot be used for business or sold.",
     "link": "https://suno.com/pricing",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-28",
     "watch_out_source": "https://suno.com/pricing"
   },
   {
@@ -250,7 +250,7 @@
     "good_for": "It turns your words or photos into short video clips for ads, social posts, or creative projects.",
     "watch_out": "You spend credits for each second of video, so longer videos use them up fast.",
     "link": "https://runway.com/pricing",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-28",
     "watch_out_source": "https://runway.com/pricing"
   },
   {
@@ -269,7 +269,7 @@
     "good_for": "It is an app where an AI assistant helps you write, fix, and explain code right in your editor.",
     "watch_out": "The free plan has limited AI use; the $8 Plus plan only works with Grok models, and other companies' models are billed extra on the Premium plan ($30 a month).",
     "link": "https://cursor.com/pricing",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "watch_out_source": "https://cursor.com/pricing"
   },
   {
@@ -280,7 +280,7 @@
     "free_tier": true,
     "good_for": "It turns spoken audio into written text, great for transcribing meetings, lectures, or video subtitles. It understands dozens of languages.",
     "id": "whisper",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://github.com/openai/whisper",
     "name": "Whisper",
     "open_weights": true,
@@ -298,7 +298,7 @@
     "free_tier": true,
     "good_for": "Google's top video maker; it turns words or photos into sharp, cinematic video clips, even with matching sound.",
     "id": "veo",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://flow.google.com/about",
     "name": "Veo",
     "open_weights": false,
@@ -316,7 +316,7 @@
     "free_tier": false,
     "good_for": "It turns your words or photos into short, fun video clips with playful effects like melting or exploding objects.",
     "id": "pika",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://pika.art",
     "name": "Pika",
     "open_weights": false,
@@ -334,11 +334,11 @@
     "free_tier": true,
     "good_for": "It turns words or photos into smooth, realistic-looking video clips, and the free Basic plan lets you try it.",
     "id": "kling",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://kling.ai/app/membership/membership-plan",
     "name": "Kling",
     "open_weights": false,
-    "price_from": "$10/month (Standard list price; the page currently shows a 12% discount, $8.80 a month, plus 30% off the first month)",
+    "price_from": "$10/month",
     "runs_on_your_computer": false,
     "skill_level": "easy",
     "watch_out": "The free Basic plan has a watermark and no commercial use; paid plans start at $10 a month.",
@@ -388,7 +388,7 @@
     "free_tier": true,
     "good_for": "An AI software engineer that can plan, write, and test code for whole projects on its own in the cloud.",
     "id": "devin",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://devin.ai",
     "name": "Devin",
     "open_weights": false,
@@ -406,7 +406,7 @@
     "free_tier": true,
     "good_for": "It suggests code as you type right inside your editor, and it can explain code and help fix bugs.",
     "id": "github-copilot",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://github.com/features/copilot",
     "name": "GitHub Copilot",
     "open_weights": false,
@@ -461,7 +461,7 @@
     "free_tier": true,
     "good_for": "A smarter way to Google: it gives full AI answers with links, and you can ask follow-up questions.",
     "id": "google-ai-mode",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://www.google.com/aimode",
     "name": "Google AI Mode",
     "open_weights": false,
@@ -497,7 +497,7 @@
     "free_tier": true,
     "good_for": "A free AI chat assistant that is strong at math, coding, and careful step-by-step thinking.",
     "id": "deepseek",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://chat.deepseek.com/",
     "name": "DeepSeek",
     "open_weights": true,
@@ -515,15 +515,15 @@
     "free_tier": true,
     "good_for": "Great for making logos, posters, and designs that include words — it spells text inside pictures better than most other tools.",
     "id": "ideogram",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-28",
     "link": "https://ideogram.ai",
     "name": "Ideogram",
     "open_weights": true,
     "price_from": "$20/month ($15/month billed annually)",
     "runs_on_your_computer": false,
     "skill_level": "easy",
-    "watch_out": "Pictures you make are public by default, and only the paid Plus and Pro plans can keep them private; Plus costs $20 a month, or $15 a month if you pay for a year. Free accounts get weekly credits, but the amount can change.",
-    "watch_out_source": "https://ideogram.ai/pricing"
+    "watch_out": "Everything you make on the free plan is public. Paid plans and pay-as-you-go credits keep new pictures private until you publish them. Free accounts only get weekly credits if they sign in with Google, Apple or Microsoft, and the amount can change.",
+    "watch_out_source": "https://ideogram.ai/features/faq/"
   },
   {
     "categories": [
@@ -996,7 +996,7 @@
     "watch_out": "It is made by a Chinese company, so think carefully about what personal details you share.",
     "watch_out_source": "https://www.kimi.com/user/agreement/modelUse",
     "link": "https://www.kimi.com",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "categories": [
@@ -3968,15 +3968,15 @@
       "agents"
     ],
     "open_weights": false,
-    "free_tier": true,
-    "price_from": "Free (Individual plan $20/month plus usage)",
+    "free_tier": false,
+    "price_from": "$20/month ($16/month billed annually), plus usage",
     "skill_level": "medium",
     "runs_on_your_computer": false,
     "good_for": "Build and run your own AI agents, with 200+ AI models available through MindStudio so you do not need your own API keys.",
-    "watch_out": "The free plan allows one agent and 1,000 runs a month. Unlimited agents and runs need the Individual plan at $20/month on monthly billing, and both plans add usage charges on top. The pricing page now puts a newer product called Remy first ($99/month after a 30-day free trial) and calls the plans above its older \"legacy MindStudio plans\".",
+    "watch_out": "The pricing page no longer lists a free plan. The Individual plan has unlimited agents and runs for $20/month on monthly billing ($16/month if you pay yearly), and AI model usage is charged on top. The page now puts a newer product called Remy first ($99/month after a 30-day free trial) and calls the Individual plan one of its \"legacy MindStudio plans\".",
     "watch_out_source": "https://www.mindstudio.ai/pricing",
     "link": "https://www.mindstudio.ai/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "fellou",
@@ -4013,7 +4013,7 @@
     "watch_out": "The free plan gives 150 credits, limited access to the AI models and exports up to 720p. No watermark and full commercial rights start with Creator at $25/month on monthly billing, which includes 1,000 credits.",
     "watch_out_source": "https://www.wondercraft.ai/pricing",
     "link": "https://www.wondercraft.ai/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "hermes-agent",
@@ -4031,7 +4031,7 @@
     "watch_out": "The free Nous Portal plan is pay-as-you-go and includes free AI models only, with no hosted tools. Access to 200+ models and hosted tools starts with the Plus plan at $20/month.",
     "watch_out_source": "https://hermes-agent.nousresearch.com/",
     "link": "https://hermes-agent.nousresearch.com/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "rork",
@@ -4042,14 +4042,14 @@
     ],
     "open_weights": false,
     "free_tier": true,
-    "price_from": "Free (Rork Pro plan $20/month)",
+    "price_from": "Free (paid plans from $20/month)",
     "skill_level": "easy",
     "runs_on_your_computer": false,
     "good_for": "Describe the app you want and Rork designs it for you by chat. The free plan lets you explore app designs; turning a design into a working iPhone, Android or web app needs a paid plan.",
-    "watch_out": "The free plan is design-only, with 35 design credits a month and at most 5 a day. Build mode, which turns designs into working iPhone, Android and web apps, plus private projects and 100 credits a month, needs Rork Pro at $20/month; Rork Max for iOS, iPad and Apple Watch apps costs $200/month.",
+    "watch_out": "The free plan is design-only, with 35 design credits a month and at most 5 a day. Build mode, which turns designs into working apps, needs a paid plan: $20/month gives 100 credits a month and 1 free hour of simulators and Xcode builds, and $200/month gives 1,000 credits and 10 free hours.",
     "watch_out_source": "https://rork.com/pricing",
     "link": "https://rork.com/pricing",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "openclaw",
@@ -4067,7 +4067,7 @@
     "watch_out": "You bring the AI model it uses (hosted, subscription-backed or local), and any model charges are separate. It acts for you on your own computer, so connect only the accounts you are happy for it to use.",
     "watch_out_source": "https://openclaw.ai/",
     "link": "https://openclaw.ai/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "anara",
@@ -4140,7 +4140,7 @@
     "watch_out": "Qwant says it is free. The Flash Answer only appears for certain factual searches, not every search, and may not be switched on in every region or language yet. Qwant says the AI can be wrong, so check the sources it cites.",
     "watch_out_source": "https://help.qwant.com/hc/en-us/articles/48074769704593-Why-isn-t-the-AI-answer-showing-up-in-my-search",
     "link": "https://www.qwant.com/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   },
   {
     "id": "reddit-ai-search",
@@ -4158,6 +4158,6 @@
     "watch_out": "Logged-out users can ask 10 questions a week and logged-in users 50 a day; Reddit Premium at $5.99/month allows 100 a day. It only draws on Reddit posts and comments, which Reddit says are not checked, so double-check anything important. It works in English anywhere, and in Spanish, Portuguese, Italian, French and German.",
     "watch_out_source": "https://support.reddithelp.com/hc/en-us/articles/32026729424916-Reddit-s-AI-search",
     "link": "https://www.reddit.com/answers/",
-    "last_checked": "2026-11-14"
+    "last_checked": "2026-11-28"
   }
 ]
